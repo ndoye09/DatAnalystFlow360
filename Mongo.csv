@@ -1,0 +1,1201 @@
+patient_id,nom_patient,age,sexe,poids_kg,taille_cm,imc,frequence_cardiaque_bpm,pression_systolique,pression_diastolique,oxygene_sanguin_pct,niveau_stress,activite,pathologie,medication,fumeur,niveau_activite_physique,region,temperature_corporelle_c,timestamp
+PAT0001,Seynabou Toure,85,Femme,78.8,199.3,19.8,84,136,74,95.9,5,Repos,Hypertension artérielle,Hydroxyurée,Non,Actif,Kaolack,37.6,2025-10-21 21:20:18
+PAT0002,Awa Toure,25,Femme,93.7,157.8,37.6,77,125,66,93.7,2,Marche rapide,Malaria,Aucun,Non,Actif,Kaolack,37.5,2025-10-21 21:19:36
+PAT0003,Diarra Thiam,77,Femme,77.9,170.2,26.9,63,138,94,94.9,6,Travail physique,Aucune,Amlodipine,Non,Sédentaire,Dakar,36.8,2025-10-21 21:22:00
+PAT0004,Bouna Camara,41,Homme,64.4,198.0,16.4,64,110,62,92.4,1,Marche rapide,Aucune,Artemether,Occasionnel,Sédentaire,Kaolack,37.6,2025-10-21 21:17:47
+PAT0005,Bouna Lo,37,Homme,94.2,189.0,26.4,87,139,65,89.1,6,Repos,Hypertension artérielle,Hydroxyurée,Oui,Actif,Kaolack,36.2,2025-10-21 21:21:35
+PAT0006,Awa Faye,24,Femme,58.2,158.7,23.1,80,125,88,94.3,4,Exercice léger,Anémie falciforme,Insuline,Occasionnel,Actif,Fatick,36.7,2025-10-21 21:32:17
+PAT0007,Diarra Faye,54,Femme,80.2,147.6,36.8,104,131,63,92.9,2,Travail physique,Bronchite,Salbutamol,Non,Sédentaire,Ziguinchor,36.1,2025-10-21 21:19:52
+PAT0008,Sidy Dieng,64,Homme,52.1,195.1,13.7,99,115,83,98.3,0,Travail physique,Aucune,Aucun,Oui,Actif,Thiès,36.7,2025-10-21 21:19:46
+PAT0009,Samba Faye,63,Homme,78.1,156.7,31.8,68,122,83,92.0,2,Repos,Aucune,Insuline,Oui,Actif,Saint-Louis,38.0,2025-10-21 21:22:23
+PAT0010,Kine Dieng,58,Femme,69.6,172.3,23.4,88,124,71,96.5,8,Sommeil,Malaria,Aucun,Oui,Sédentaire,Fatick,37.8,2025-10-21 21:24:12
+PAT0011,Maimouna Sall,67,Femme,96.2,173.9,31.8,98,137,93,88.5,7,Marche rapide,Hypertension artérielle,Aucun,Non,Très actif,Kaolack,36.9,2025-10-21 21:27:47
+PAT0012,Awa Faye,40,Femme,87.3,168.4,30.8,96,126,82,98.1,4,Sommeil,Anémie falciforme,Aucun,Oui,Actif,Dakar,36.9,2025-10-21 21:32:52
+PAT0013,Modou Mbaye,62,Homme,59.4,197.8,15.2,82,110,75,92.3,8,Repos,Diabète de type 2,Aucun,Non,Très actif,Ziguinchor,38.1,2025-10-21 21:19:07
+PAT0014,Kine Ka,78,Femme,66.3,188.0,18.8,72,116,88,91.4,2,Repos,Diabète de type 2,Insuline,Oui,Très actif,Fatick,36.1,2025-10-21 21:30:03
+PAT0015,Omar Cisse,69,Homme,49.3,177.4,15.7,94,148,91,98.4,6,Sommeil,Aucune,Hydroxyurée,Oui,Actif,Ziguinchor,36.9,2025-10-21 21:31:54
+PAT0016,Abdoulaye Dieng,67,Homme,103.8,189.5,28.9,70,147,71,94.8,1,Repos,Insuffisance rénale,Aucun,Non,Actif,Saint-Louis,37.3,2025-10-21 21:31:39
+PAT0017,Modou Dieng,48,Homme,64.6,177.7,20.5,57,118,80,93.4,5,Exercice léger,Aucune,Artemether,Oui,Actif,Thiès,38.1,2025-10-21 21:35:11
+PAT0018,Omar Lo,35,Homme,53.6,203.6,12.9,106,107,61,92.4,7,Sommeil,Malaria,Insuline,Non,Actif,Fatick,36.0,2025-10-21 21:22:18
+PAT0019,Sidy Ka,60,Homme,78.8,193.0,21.2,60,135,84,92.2,5,Marche rapide,Insuffisance rénale,Paracétamol,Occasionnel,Sédentaire,Kaolack,37.9,2025-10-21 21:17:41
+PAT0020,Abdoulaye Dieng,51,Homme,56.0,173.3,18.6,101,111,67,92.1,0,Marche rapide,Bronchite,Aucun,Occasionnel,Sédentaire,Kaolack,36.1,2025-10-21 21:28:45
+PAT0021,Bineta Lo,51,Femme,100.5,145.7,47.3,100,114,82,97.9,0,Marche rapide,Hypertension artérielle,Aucun,Oui,Sédentaire,Kaolack,38.1,2025-10-21 21:24:00
+PAT0022,Bineta Mbaye,70,Femme,109.9,159.1,43.4,88,124,77,92.9,8,Marche rapide,Aucune,Aucun,Oui,Actif,Fatick,36.5,2025-10-21 21:23:22
+PAT0023,Lamine Lo,80,Homme,77.0,200.1,19.2,86,143,89,89.0,5,Marche rapide,Insuffisance rénale,Hydroxyurée,Oui,Très actif,Ziguinchor,36.1,2025-10-21 21:18:15
+PAT0024,Lamine Toure,82,Homme,72.5,167.6,25.8,97,148,82,95.4,3,Exercice léger,Anémie falciforme,Amlodipine,Occasionnel,Actif,Fatick,37.9,2025-10-21 21:28:38
+PAT0025,Mame Mbaye,34,Femme,66.6,158.1,26.6,58,123,87,90.1,2,Repos,Hypertension artérielle,Artemether,Oui,Sédentaire,Fatick,37.2,2025-10-21 21:27:17
+PAT0026,Lamine Toure,81,Homme,105.4,191.5,28.7,71,133,94,88.5,5,Repos,Aucune,Paracétamol,Oui,Sédentaire,Ziguinchor,37.9,2025-10-21 21:26:09
+PAT0027,Malick Cisse,31,Homme,93.0,152.8,39.8,99,133,88,92.5,7,Sommeil,Diabète de type 2,Insuline,Oui,Sédentaire,Dakar,37.9,2025-10-21 21:26:23
+PAT0028,Mame Camara,52,Femme,77.9,173.5,25.9,91,108,63,95.5,1,Marche rapide,Insuffisance rénale,Amlodipine,Oui,Sédentaire,Thiès,37.3,2025-10-21 21:27:23
+PAT0029,Seynabou Thiam,57,Femme,82.9,148.0,37.8,106,102,88,93.5,3,Marche rapide,Aucune,Paracétamol,Oui,Actif,Kaolack,37.4,2025-10-21 21:33:50
+PAT0030,Awa Toure,71,Femme,46.0,153.3,19.6,91,148,87,97.3,0,Marche rapide,Insuffisance rénale,Insuline,Occasionnel,Sédentaire,Kaolack,36.9,2025-10-21 21:26:35
+PAT0031,Mame Toure,64,Femme,103.5,148.3,47.1,74,115,85,94.0,2,Travail physique,Malaria,Hydroxyurée,Non,Très actif,Dakar,38.3,2025-10-21 21:21:33
+PAT0032,Malick Sall,31,Homme,96.1,152.6,41.3,107,135,76,88.2,2,Sommeil,Insuffisance rénale,Artemether,Occasionnel,Très actif,Fatick,37.8,2025-10-21 21:30:50
+PAT0033,Mame Toure,66,Femme,81.4,184.8,23.8,64,135,87,96.0,3,Exercice léger,Aucune,Aucun,Occasionnel,Très actif,Ziguinchor,37.0,2025-10-21 21:19:19
+PAT0034,Samba Thiam,16,Homme,86.9,154.8,36.3,86,124,84,91.9,1,Exercice léger,Anémie falciforme,Insuline,Oui,Sédentaire,Ziguinchor,38.2,2025-10-21 21:20:06
+PAT0035,Ndeye Fatou Lo,62,Femme,109.1,200.2,27.2,73,142,78,91.5,4,Travail physique,Anémie falciforme,Salbutamol,Occasionnel,Actif,Saint-Louis,36.2,2025-10-21 21:29:18
+PAT0036,Seynabou Camara,57,Femme,89.3,152.9,38.2,60,138,86,91.3,6,Repos,Anémie falciforme,Paracétamol,Oui,Très actif,Thiès,37.3,2025-10-21 21:26:42
+PAT0037,Moussa Dieng,60,Homme,84.1,160.1,32.8,73,140,78,94.4,8,Marche rapide,Hypertension artérielle,Hydroxyurée,Oui,Actif,Thiès,38.1,2025-10-21 21:26:52
+PAT0038,Awa Toure,63,Femme,105.3,171.7,35.7,66,139,93,90.9,1,Sommeil,Malaria,Artemether,Non,Actif,Thiès,37.9,2025-10-21 21:18:04
+PAT0039,Diarra Toure,56,Femme,67.8,187.8,19.2,94,134,82,90.5,6,Repos,Hypertension artérielle,Aucun,Non,Sédentaire,Kaolack,37.9,2025-10-21 21:34:44
+PAT0040,Ndeye Fatou Cisse,78,Femme,95.1,168.9,33.3,90,148,83,93.2,3,Sommeil,Anémie falciforme,Aucun,Oui,Très actif,Ziguinchor,36.9,2025-10-21 21:27:50
+PAT0041,Sidy Cisse,21,Homme,97.9,150.8,43.1,85,101,70,91.8,1,Marche rapide,Malaria,Amlodipine,Non,Très actif,Kaolack,36.9,2025-10-21 21:19:11
+PAT0042,Awa Sall,65,Femme,56.7,157.6,22.8,79,115,93,92.2,6,Exercice léger,Insuffisance rénale,Paracétamol,Occasionnel,Sédentaire,Fatick,36.9,2025-10-21 21:27:11
+PAT0043,Omar Thiam,24,Homme,109.0,183.2,32.5,60,105,85,94.0,2,Sommeil,Anémie falciforme,Insuline,Occasionnel,Très actif,Ziguinchor,36.6,2025-10-21 21:34:39
+PAT0044,Lamine Faye,15,Homme,87.0,170.3,30.0,101,118,88,93.9,4,Repos,Bronchite,Insuline,Non,Actif,Dakar,37.4,2025-10-21 21:27:00
+PAT0045,Modou Sall,37,Homme,71.0,193.6,18.9,81,103,64,98.4,0,Repos,Insuffisance rénale,Insuline,Occasionnel,Très actif,Saint-Louis,37.5,2025-10-21 21:27:38
+PAT0046,Malick Sall,57,Homme,99.3,175.6,32.2,106,119,82,92.9,1,Exercice léger,Aucune,Amlodipine,Oui,Sédentaire,Saint-Louis,37.0,2025-10-21 21:34:43
+PAT0047,Bouna Thiam,54,Homme,98.3,188.4,27.7,110,125,78,90.4,7,Exercice léger,Anémie falciforme,Salbutamol,Oui,Actif,Thiès,36.3,2025-10-21 21:32:37
+PAT0048,Samba Dieng,60,Homme,61.3,164.3,22.7,86,129,66,89.7,8,Repos,Anémie falciforme,Paracétamol,Non,Actif,Saint-Louis,38.2,2025-10-21 21:27:05
+PAT0049,Maimouna Faye,62,Femme,97.0,147.6,44.5,79,119,80,96.1,5,Travail physique,Bronchite,Artemether,Occasionnel,Actif,Thiès,37.8,2025-10-21 21:22:15
+PAT0050,Moussa Toure,28,Homme,78.1,148.7,35.3,105,113,84,91.0,4,Repos,Hypertension artérielle,Amlodipine,Oui,Sédentaire,Thiès,37.8,2025-10-21 21:30:37
+PAT0051,Awa Cisse,50,Femme,69.5,169.1,24.3,84,116,66,98.9,3,Repos,Insuffisance rénale,Amlodipine,Occasionnel,Actif,Thiès,37.4,2025-10-21 21:18:38
+PAT0052,Seynabou Faye,16,Femme,62.8,202.7,15.3,98,104,84,96.8,2,Exercice léger,Diabète de type 2,Amlodipine,Occasionnel,Très actif,Fatick,37.3,2025-10-21 21:19:51
+PAT0053,Mame Sall,39,Femme,59.5,178.5,18.7,67,145,82,90.5,6,Travail physique,Bronchite,Insuline,Non,Sédentaire,Ziguinchor,36.9,2025-10-21 21:26:26
+PAT0054,Diarra Faye,43,Femme,85.4,203.0,20.7,80,121,89,90.9,8,Sommeil,Aucune,Amlodipine,Non,Actif,Saint-Louis,36.3,2025-10-21 21:19:47
+PAT0055,Pape Ka,84,Homme,99.7,145.2,47.3,70,136,82,92.3,0,Repos,Diabète de type 2,Salbutamol,Occasionnel,Sédentaire,Dakar,36.1,2025-10-21 21:30:41
+PAT0056,Sidy Cisse,64,Homme,81.6,185.7,23.7,88,114,94,97.6,1,Marche rapide,Malaria,Salbutamol,Oui,Sédentaire,Saint-Louis,36.5,2025-10-21 21:26:05
+PAT0057,Omar Cisse,68,Homme,61.3,154.9,25.5,76,143,89,90.5,1,Travail physique,Anémie falciforme,Amlodipine,Occasionnel,Très actif,Fatick,36.1,2025-10-21 21:29:19
+PAT0058,Bouna Dieng,72,Homme,105.9,178.6,33.2,62,125,77,95.2,6,Exercice léger,Malaria,Hydroxyurée,Oui,Actif,Saint-Louis,36.5,2025-10-21 21:26:07
+PAT0059,Ndeye Fatou Faye,74,Femme,60.6,203.3,14.7,73,160,91,88.9,8,Repos,Anémie falciforme,Insuline,Occasionnel,Actif,Ziguinchor,38.4,2025-10-21 21:19:37
+PAT0060,Sidy Camara,50,Homme,87.8,182.3,26.4,83,143,71,93.3,4,Travail physique,Aucune,Aucun,Oui,Sédentaire,Thiès,37.7,2025-10-21 21:29:02
+PAT0061,Rokhaya Dieng,60,Femme,85.3,189.2,23.8,100,108,82,93.2,0,Marche rapide,Anémie falciforme,Hydroxyurée,Oui,Sédentaire,Kaolack,36.1,2025-10-21 21:19:35
+PAT0062,Abdoulaye Thiam,53,Homme,88.2,184.7,25.9,76,128,73,94.9,2,Repos,Insuffisance rénale,Salbutamol,Non,Actif,Saint-Louis,37.9,2025-10-21 21:29:10
+PAT0063,Lamine Sall,85,Homme,71.3,184.0,21.1,99,117,82,95.8,6,Marche rapide,Insuffisance rénale,Artemether,Occasionnel,Actif,Saint-Louis,38.0,2025-10-21 21:25:44
+PAT0064,Sidy Dieng,28,Homme,82.8,145.5,39.1,56,118,71,92.0,8,Travail physique,Hypertension artérielle,Aucun,Non,Actif,Ziguinchor,37.2,2025-10-21 21:25:52
+PAT0065,Maimouna Sall,23,Femme,95.6,165.9,34.7,69,107,88,94.0,4,Repos,Bronchite,Salbutamol,Oui,Sédentaire,Ziguinchor,36.7,2025-10-21 21:31:37
+PAT0066,Bouna Lo,53,Homme,49.7,190.5,13.7,81,131,78,91.5,6,Marche rapide,Bronchite,Aucun,Non,Très actif,Kaolack,36.3,2025-10-21 21:28:37
+PAT0067,Abdoulaye Camara,17,Homme,93.6,173.6,31.1,96,126,60,94.7,4,Exercice léger,Bronchite,Salbutamol,Occasionnel,Actif,Saint-Louis,37.4,2025-10-21 21:30:41
+PAT0068,Seynabou Cisse,62,Femme,82.2,174.5,27.0,65,158,84,97.2,4,Marche rapide,Malaria,Aucun,Occasionnel,Actif,Ziguinchor,37.2,2025-10-21 21:25:44
+PAT0069,Bineta Lo,22,Femme,84.4,194.8,22.2,72,117,76,92.3,1,Travail physique,Insuffisance rénale,Insuline,Occasionnel,Très actif,Ziguinchor,37.8,2025-10-21 21:26:46
+PAT0070,Diarra Cisse,20,Femme,101.3,181.9,30.6,94,144,76,94.4,2,Travail physique,Malaria,Salbutamol,Oui,Actif,Fatick,36.2,2025-10-21 21:26:23
+PAT0071,Sidy Lo,63,Homme,48.3,200.9,12.0,87,147,93,95.5,0,Exercice léger,Malaria,Hydroxyurée,Occasionnel,Actif,Ziguinchor,37.8,2025-10-21 21:34:48
+PAT0072,Modou Faye,81,Homme,82.4,196.6,21.3,88,119,73,92.2,2,Sommeil,Aucune,Salbutamol,Occasionnel,Actif,Thiès,38.1,2025-10-21 21:29:20
+PAT0073,Fama Faye,73,Femme,79.2,192.4,21.4,81,155,88,88.2,7,Exercice léger,Hypertension artérielle,Aucun,Non,Sédentaire,Kaolack,36.2,2025-10-21 21:35:08
+PAT0074,Kine Faye,79,Femme,95.4,159.6,37.5,61,125,72,95.9,7,Exercice léger,Insuffisance rénale,Salbutamol,Occasionnel,Très actif,Saint-Louis,37.6,2025-10-21 21:31:45
+PAT0075,Moussa Sall,78,Homme,78.0,163.7,29.1,79,118,71,97.0,6,Repos,Malaria,Paracétamol,Non,Très actif,Ziguinchor,37.2,2025-10-21 21:24:16
+PAT0076,Modou Camara,52,Homme,58.7,173.0,19.6,56,116,78,93.2,6,Marche rapide,Bronchite,Hydroxyurée,Occasionnel,Sédentaire,Saint-Louis,36.4,2025-10-21 21:27:52
+PAT0077,Bouna Thiam,60,Homme,88.7,180.3,27.3,60,135,74,93.9,4,Travail physique,Anémie falciforme,Paracétamol,Oui,Très actif,Dakar,36.3,2025-10-21 21:20:22
+PAT0078,Pape Cisse,82,Homme,68.6,162.1,26.1,93,143,79,92.9,7,Repos,Malaria,Insuline,Oui,Sédentaire,Thiès,38.1,2025-10-21 21:21:59
+PAT0079,Malick Cisse,60,Homme,50.2,198.1,12.8,99,109,65,97.6,4,Exercice léger,Aucune,Paracétamol,Occasionnel,Actif,Saint-Louis,36.3,2025-10-21 21:35:17
+PAT0080,Diarra Toure,36,Femme,109.0,166.6,39.3,71,113,79,88.2,5,Marche rapide,Aucune,Hydroxyurée,Oui,Sédentaire,Saint-Louis,37.3,2025-10-21 21:26:15
+PAT0081,Mame Sall,50,Femme,71.7,154.3,30.1,110,123,70,98.7,6,Marche rapide,Insuffisance rénale,Salbutamol,Non,Sédentaire,Saint-Louis,37.4,2025-10-21 21:20:27
+PAT0082,Lamine Thiam,52,Homme,58.9,181.2,17.9,79,139,85,91.3,5,Marche rapide,Diabète de type 2,Hydroxyurée,Oui,Actif,Kaolack,38.1,2025-10-21 21:24:35
+PAT0083,Maimouna Sall,46,Femme,73.0,199.3,18.4,56,145,73,91.6,6,Repos,Malaria,Artemether,Non,Très actif,Dakar,37.4,2025-10-21 21:19:53
+PAT0084,Fama Cisse,41,Femme,62.2,147.7,28.5,110,145,83,91.8,6,Repos,Aucune,Artemether,Oui,Très actif,Ziguinchor,37.0,2025-10-21 21:19:41
+PAT0085,Mame Faye,66,Femme,81.2,187.4,23.1,89,134,88,97.3,2,Exercice léger,Bronchite,Hydroxyurée,Non,Très actif,Fatick,36.7,2025-10-21 21:26:16
+PAT0086,Malick Lo,39,Homme,96.7,197.4,24.8,59,133,75,88.3,1,Exercice léger,Malaria,Hydroxyurée,Oui,Sédentaire,Thiès,36.5,2025-10-21 21:31:00
+PAT0087,Abdoulaye Cisse,49,Homme,52.0,180.3,16.0,65,126,72,96.8,0,Repos,Malaria,Paracétamol,Oui,Très actif,Fatick,37.8,2025-10-21 21:30:40
+PAT0088,Lamine Mbaye,68,Homme,102.9,194.7,27.1,88,140,71,96.2,1,Exercice léger,Diabète de type 2,Artemether,Oui,Sédentaire,Ziguinchor,36.3,2025-10-21 21:21:05
+PAT0089,Diarra Dieng,47,Femme,107.1,187.5,30.5,90,136,62,98.1,5,Travail physique,Aucune,Artemether,Non,Très actif,Saint-Louis,37.0,2025-10-21 21:30:39
+PAT0090,Sidy Toure,55,Homme,78.1,202.2,19.1,66,134,63,96.6,5,Repos,Insuffisance rénale,Paracétamol,Non,Actif,Saint-Louis,36.3,2025-10-21 21:19:55
+PAT0091,Modou Camara,60,Homme,85.3,162.8,32.2,99,137,64,90.6,2,Travail physique,Hypertension artérielle,Paracétamol,Non,Sédentaire,Fatick,37.8,2025-10-21 21:32:56
+PAT0092,Diarra Mbaye,85,Femme,65.3,159.5,25.7,62,148,91,93.8,8,Marche rapide,Bronchite,Artemether,Oui,Très actif,Saint-Louis,36.9,2025-10-21 21:28:45
+PAT0093,Fama Ka,53,Femme,56.0,183.8,16.6,96,145,70,92.7,7,Repos,Bronchite,Hydroxyurée,Oui,Très actif,Ziguinchor,38.2,2025-10-21 21:28:49
+PAT0094,Samba Lo,54,Homme,81.1,184.2,23.9,60,140,62,89.3,4,Exercice léger,Aucune,Hydroxyurée,Oui,Très actif,Ziguinchor,37.2,2025-10-21 21:34:41
+PAT0095,Omar Camara,85,Homme,61.0,184.5,17.9,66,160,88,94.9,4,Exercice léger,Aucune,Artemether,Non,Actif,Kaolack,36.7,2025-10-21 21:18:49
+PAT0096,Awa Lo,18,Femme,104.6,183.0,31.2,64,111,82,98.0,5,Exercice léger,Anémie falciforme,Amlodipine,Occasionnel,Sédentaire,Dakar,37.8,2025-10-21 21:25:18
+PAT0097,Pape Toure,79,Homme,105.5,183.3,31.4,98,116,94,91.9,4,Travail physique,Diabète de type 2,Paracétamol,Oui,Très actif,Fatick,38.5,2025-10-21 21:30:51
+PAT0098,Bouna Camara,37,Homme,76.5,150.0,34.0,110,144,86,91.2,3,Sommeil,Diabète de type 2,Aucun,Non,Très actif,Saint-Louis,37.8,2025-10-21 21:35:32
+PAT0099,Pape Camara,46,Homme,78.4,152.5,33.7,59,143,81,94.3,7,Exercice léger,Anémie falciforme,Artemether,Oui,Actif,Ziguinchor,38.3,2025-10-21 21:33:55
+PAT0100,Mame Faye,52,Femme,103.0,151.4,44.9,62,106,79,89.3,7,Marche rapide,Insuffisance rénale,Artemether,Occasionnel,Actif,Ziguinchor,37.8,2025-10-21 21:21:10
+PAT0101,Kine Camara,39,Femme,91.3,194.4,24.2,101,121,68,91.6,5,Travail physique,Aucune,Artemether,Oui,Sédentaire,Saint-Louis,38.2,2025-10-21 21:28:48
+PAT0102,Pape Mbaye,63,Homme,105.8,196.1,27.5,94,110,76,94.2,7,Travail physique,Diabète de type 2,Paracétamol,Occasionnel,Sédentaire,Dakar,37.1,2025-10-21 21:35:25
+PAT0103,Diarra Mbaye,38,Femme,105.0,180.9,32.1,100,100,66,95.5,1,Marche rapide,Diabète de type 2,Artemether,Occasionnel,Très actif,Fatick,37.2,2025-10-21 21:26:52
+PAT0104,Malick Thiam,73,Homme,99.3,155.5,41.1,82,153,90,88.1,5,Repos,Anémie falciforme,Aucun,Occasionnel,Actif,Thiès,36.5,2025-10-21 21:18:00
+PAT0105,Bineta Mbaye,33,Femme,58.7,175.9,19.0,73,143,79,92.0,5,Repos,Diabète de type 2,Hydroxyurée,Occasionnel,Sédentaire,Thiès,36.2,2025-10-21 21:21:07
+PAT0106,Kine Thiam,71,Femme,81.1,156.8,33.0,74,156,92,92.3,2,Sommeil,Insuffisance rénale,Artemether,Occasionnel,Sédentaire,Dakar,36.3,2025-10-21 21:34:05
+PAT0107,Maimouna Camara,46,Femme,98.6,188.9,27.6,97,144,73,98.5,3,Exercice léger,Malaria,Paracétamol,Non,Très actif,Saint-Louis,36.7,2025-10-21 21:26:15
+PAT0108,Omar Camara,47,Homme,99.4,182.3,29.9,66,129,66,96.2,8,Marche rapide,Anémie falciforme,Paracétamol,Occasionnel,Très actif,Fatick,37.4,2025-10-21 21:22:31
+PAT0109,Modou Mbaye,63,Homme,59.9,190.7,16.5,90,124,82,92.7,2,Repos,Aucune,Amlodipine,Occasionnel,Actif,Dakar,36.5,2025-10-21 21:29:11
+PAT0110,Samba Thiam,69,Homme,108.0,202.7,26.3,70,113,71,98.7,8,Exercice léger,Anémie falciforme,Paracétamol,Non,Sédentaire,Saint-Louis,36.9,2025-10-21 21:31:01
+PAT0111,Mame Mbaye,27,Femme,98.9,155.8,40.7,104,132,78,92.1,2,Travail physique,Anémie falciforme,Paracétamol,Oui,Sédentaire,Ziguinchor,37.5,2025-10-21 21:26:02
+PAT0112,Samba Thiam,84,Homme,89.7,184.5,26.4,84,113,93,98.0,2,Travail physique,Bronchite,Aucun,Oui,Très actif,Thiès,37.7,2025-10-21 21:23:34
+PAT0113,Modou Cisse,53,Homme,100.3,146.0,47.1,99,135,71,89.8,0,Travail physique,Insuffisance rénale,Amlodipine,Oui,Actif,Saint-Louis,36.5,2025-10-21 21:24:34
+PAT0114,Maimouna Mbaye,85,Femme,62.7,188.8,17.6,79,120,76,94.8,4,Repos,Hypertension artérielle,Artemether,Non,Sédentaire,Dakar,36.5,2025-10-21 21:27:40
+PAT0115,Lamine Cisse,68,Homme,57.1,199.6,14.3,80,112,87,91.0,1,Sommeil,Anémie falciforme,Artemether,Non,Très actif,Kaolack,36.9,2025-10-21 21:32:38
+PAT0116,Omar Thiam,42,Homme,96.9,196.1,25.2,90,111,78,94.1,1,Marche rapide,Diabète de type 2,Hydroxyurée,Occasionnel,Sédentaire,Fatick,37.2,2025-10-21 21:28:16
+PAT0117,Bineta Cisse,15,Femme,68.1,145.5,32.2,64,112,79,94.4,4,Exercice léger,Bronchite,Salbutamol,Non,Actif,Ziguinchor,36.6,2025-10-21 21:31:38
+PAT0118,Lamine Sall,33,Homme,98.6,200.4,24.6,94,126,83,88.4,4,Travail physique,Malaria,Paracétamol,Oui,Actif,Ziguinchor,37.5,2025-10-21 21:25:49
+PAT0119,Moussa Faye,76,Homme,86.3,145.9,40.5,62,160,82,88.3,1,Marche rapide,Aucune,Insuline,Non,Actif,Fatick,36.2,2025-10-21 21:19:40
+PAT0120,Maimouna Faye,26,Femme,78.9,195.8,20.6,106,142,85,90.2,5,Repos,Aucune,Amlodipine,Occasionnel,Très actif,Ziguinchor,38.2,2025-10-21 21:22:33
+PAT0121,Malick Sall,20,Homme,73.3,166.7,26.4,90,110,73,92.9,1,Exercice léger,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Dakar,37.3,2025-10-21 21:33:37
+PAT0122,Lamine Cisse,43,Homme,101.1,171.1,34.5,83,135,60,88.2,2,Travail physique,Insuffisance rénale,Amlodipine,Non,Actif,Thiès,36.4,2025-10-21 21:29:17
+PAT0123,Pape Toure,39,Homme,48.3,168.9,16.9,68,120,64,95.5,2,Marche rapide,Hypertension artérielle,Salbutamol,Oui,Actif,Ziguinchor,37.8,2025-10-21 21:17:40
+PAT0124,Omar Faye,19,Homme,96.5,146.8,44.8,60,145,68,93.1,0,Sommeil,Malaria,Hydroxyurée,Non,Actif,Kaolack,37.5,2025-10-21 21:29:24
+PAT0125,Abdoulaye Thiam,33,Homme,94.9,160.7,36.7,57,107,66,89.6,6,Exercice léger,Anémie falciforme,Artemether,Oui,Très actif,Fatick,36.1,2025-10-21 21:27:04
+PAT0126,Maimouna Mbaye,65,Femme,101.4,191.9,27.5,83,158,83,89.5,6,Sommeil,Aucune,Salbutamol,Occasionnel,Sédentaire,Thiès,38.2,2025-10-21 21:21:54
+PAT0127,Rokhaya Faye,44,Femme,61.1,192.4,16.5,103,129,70,98.7,4,Travail physique,Aucune,Insuline,Occasionnel,Sédentaire,Dakar,37.2,2025-10-21 21:22:22
+PAT0128,Bouna Dieng,17,Homme,51.8,176.7,16.6,70,109,60,92.3,7,Sommeil,Malaria,Artemether,Non,Très actif,Saint-Louis,38.0,2025-10-21 21:18:26
+PAT0129,Samba Lo,22,Homme,80.6,170.5,27.7,61,133,68,95.9,2,Sommeil,Aucune,Hydroxyurée,Oui,Sédentaire,Dakar,36.5,2025-10-21 21:26:24
+PAT0130,Lamine Camara,45,Homme,63.0,148.4,28.6,97,107,90,94.6,5,Exercice léger,Aucune,Amlodipine,Non,Actif,Fatick,37.8,2025-10-21 21:27:21
+PAT0131,Awa Faye,34,Femme,70.6,157.5,28.5,58,123,63,97.3,1,Marche rapide,Aucune,Insuline,Non,Actif,Thiès,38.4,2025-10-21 21:19:27
+PAT0132,Sidy Dieng,59,Homme,69.4,159.3,27.3,104,104,73,90.8,3,Travail physique,Insuffisance rénale,Aucun,Non,Sédentaire,Fatick,37.7,2025-10-21 21:18:12
+PAT0133,Bineta Ka,32,Femme,91.5,174.7,30.0,87,124,79,90.8,2,Sommeil,Aucune,Salbutamol,Non,Sédentaire,Fatick,36.5,2025-10-21 21:26:53
+PAT0134,Sidy Lo,79,Homme,75.9,151.1,33.2,93,111,71,91.7,6,Sommeil,Anémie falciforme,Amlodipine,Oui,Sédentaire,Kaolack,37.4,2025-10-21 21:23:01
+PAT0135,Malick Toure,81,Homme,78.7,181.3,23.9,74,124,94,95.4,6,Marche rapide,Insuffisance rénale,Artemether,Non,Actif,Fatick,37.3,2025-10-21 21:30:08
+PAT0136,Diarra Sall,58,Femme,106.1,172.0,35.9,70,135,90,96.0,7,Exercice léger,Aucune,Insuline,Occasionnel,Très actif,Kaolack,37.1,2025-10-21 21:30:29
+PAT0137,Modou Cisse,56,Homme,102.4,150.2,45.4,104,100,71,88.7,5,Repos,Aucune,Paracétamol,Non,Très actif,Fatick,38.0,2025-10-21 21:26:58
+PAT0138,Awa Thiam,20,Femme,63.1,155.8,26.0,56,123,88,94.5,2,Repos,Hypertension artérielle,Aucun,Oui,Très actif,Thiès,37.3,2025-10-21 21:23:59
+PAT0139,Bineta Thiam,75,Femme,59.2,164.8,21.8,64,160,78,97.7,2,Travail physique,Hypertension artérielle,Salbutamol,Non,Actif,Dakar,36.5,2025-10-21 21:21:13
+PAT0140,Pape Sall,20,Homme,84.6,186.6,24.3,104,132,66,96.2,6,Exercice léger,Anémie falciforme,Aucun,Oui,Très actif,Ziguinchor,38.2,2025-10-21 21:32:30
+PAT0141,Rokhaya Thiam,68,Femme,105.1,169.7,36.5,75,148,84,98.1,1,Travail physique,Malaria,Insuline,Occasionnel,Sédentaire,Dakar,36.1,2025-10-21 21:24:04
+PAT0142,Bineta Mbaye,20,Femme,103.6,157.4,41.8,92,119,80,94.7,3,Repos,Anémie falciforme,Salbutamol,Occasionnel,Sédentaire,Ziguinchor,36.0,2025-10-21 21:25:25
+PAT0143,Lamine Ka,53,Homme,53.8,167.2,19.2,107,108,78,96.8,2,Sommeil,Hypertension artérielle,Paracétamol,Oui,Sédentaire,Saint-Louis,37.8,2025-10-21 21:25:39
+PAT0144,Omar Ka,42,Homme,46.5,167.8,16.5,80,106,78,98.0,8,Repos,Bronchite,Salbutamol,Non,Très actif,Ziguinchor,37.6,2025-10-21 21:23:09
+PAT0145,Bineta Thiam,44,Femme,93.0,193.9,24.7,105,119,63,93.3,3,Sommeil,Diabète de type 2,Paracétamol,Oui,Très actif,Dakar,36.4,2025-10-21 21:25:29
+PAT0146,Kine Toure,39,Femme,94.7,194.1,25.1,79,120,79,92.8,3,Exercice léger,Insuffisance rénale,Hydroxyurée,Oui,Très actif,Dakar,38.0,2025-10-21 21:25:45
+PAT0147,Lamine Ka,74,Homme,72.1,181.8,21.8,98,119,70,90.7,5,Travail physique,Bronchite,Salbutamol,Occasionnel,Sédentaire,Fatick,38.4,2025-10-21 21:27:39
+PAT0148,Malick Thiam,79,Homme,79.2,168.4,27.9,81,134,93,92.6,8,Sommeil,Diabète de type 2,Hydroxyurée,Oui,Actif,Dakar,37.9,2025-10-21 21:22:27
+PAT0149,Kine Cisse,77,Femme,97.7,180.6,30.0,61,151,76,90.0,0,Repos,Anémie falciforme,Insuline,Non,Très actif,Dakar,37.3,2025-10-21 21:22:17
+PAT0150,Mame Lo,47,Femme,47.5,148.2,21.6,56,133,66,91.5,4,Repos,Malaria,Salbutamol,Occasionnel,Sédentaire,Fatick,36.9,2025-10-21 21:32:46
+PAT0151,Kine Sall,53,Femme,70.7,193.8,18.8,81,140,79,95.3,0,Travail physique,Bronchite,Salbutamol,Non,Sédentaire,Dakar,37.6,2025-10-21 21:28:09
+PAT0152,Abdoulaye Ka,73,Homme,94.0,202.7,22.9,92,153,94,90.7,2,Marche rapide,Hypertension artérielle,Hydroxyurée,Oui,Très actif,Ziguinchor,37.2,2025-10-21 21:25:31
+PAT0153,Diarra Mbaye,33,Femme,105.3,185.0,30.8,83,113,61,89.0,1,Repos,Bronchite,Salbutamol,Oui,Très actif,Ziguinchor,37.1,2025-10-21 21:33:54
+PAT0154,Kine Faye,85,Femme,58.3,170.9,20.0,87,156,76,96.2,6,Sommeil,Diabète de type 2,Hydroxyurée,Oui,Sédentaire,Dakar,36.8,2025-10-21 21:30:56
+PAT0155,Bouna Thiam,76,Homme,63.1,183.2,18.8,85,138,79,96.7,3,Repos,Malaria,Hydroxyurée,Non,Très actif,Fatick,36.3,2025-10-21 21:23:27
+PAT0156,Abdoulaye Mbaye,28,Homme,45.0,171.2,15.4,102,128,73,97.3,1,Repos,Bronchite,Hydroxyurée,Oui,Sédentaire,Ziguinchor,37.4,2025-10-21 21:29:17
+PAT0157,Diarra Lo,70,Femme,73.8,163.9,27.5,79,112,71,93.1,0,Sommeil,Aucune,Amlodipine,Occasionnel,Très actif,Fatick,37.1,2025-10-21 21:35:14
+PAT0158,Malick Faye,57,Homme,106.5,187.0,30.5,102,111,76,91.2,0,Marche rapide,Anémie falciforme,Salbutamol,Occasionnel,Actif,Kaolack,36.8,2025-10-21 21:25:07
+PAT0159,Abdoulaye Lo,72,Homme,45.1,192.9,12.1,81,157,83,98.7,5,Repos,Anémie falciforme,Hydroxyurée,Occasionnel,Actif,Kaolack,36.5,2025-10-21 21:35:18
+PAT0160,Mame Sall,67,Femme,101.7,157.5,41.0,82,145,85,94.3,0,Exercice léger,Aucune,Salbutamol,Oui,Sédentaire,Saint-Louis,38.4,2025-10-21 21:25:26
+PAT0161,Fama Mbaye,43,Femme,81.1,179.6,25.1,99,104,74,97.1,0,Sommeil,Anémie falciforme,Salbutamol,Non,Actif,Kaolack,37.1,2025-10-21 21:34:56
+PAT0162,Seynabou Ka,21,Femme,90.4,197.5,23.2,56,136,76,94.3,1,Marche rapide,Anémie falciforme,Hydroxyurée,Occasionnel,Actif,Fatick,36.8,2025-10-21 21:32:56
+PAT0163,Sidy Cisse,43,Homme,78.9,178.5,24.8,95,128,87,96.7,6,Marche rapide,Malaria,Amlodipine,Oui,Actif,Ziguinchor,36.4,2025-10-21 21:19:24
+PAT0164,Diarra Mbaye,40,Femme,101.7,189.9,28.2,55,132,77,97.6,4,Sommeil,Anémie falciforme,Paracétamol,Occasionnel,Sédentaire,Thiès,37.9,2025-10-21 21:18:26
+PAT0165,Mame Dieng,32,Femme,60.6,185.3,17.6,89,108,70,98.2,6,Repos,Hypertension artérielle,Salbutamol,Non,Sédentaire,Kaolack,37.4,2025-10-21 21:31:49
+PAT0166,Lamine Camara,76,Homme,83.4,158.8,33.1,81,147,87,92.9,2,Marche rapide,Malaria,Paracétamol,Oui,Actif,Dakar,36.2,2025-10-21 21:29:05
+PAT0167,Lamine Toure,18,Homme,57.6,173.7,19.1,89,132,70,90.3,2,Marche rapide,Insuffisance rénale,Insuline,Occasionnel,Très actif,Fatick,37.1,2025-10-21 21:26:56
+PAT0168,Diarra Camara,42,Femme,87.7,200.1,21.9,110,120,71,94.0,8,Exercice léger,Hypertension artérielle,Paracétamol,Non,Sédentaire,Ziguinchor,37.7,2025-10-21 21:21:28
+PAT0169,Fama Cisse,51,Femme,81.5,147.8,37.3,81,102,78,97.6,5,Marche rapide,Bronchite,Amlodipine,Non,Sédentaire,Ziguinchor,38.0,2025-10-21 21:23:41
+PAT0170,Samba Faye,48,Homme,86.1,191.1,23.6,59,136,63,90.7,6,Repos,Anémie falciforme,Insuline,Oui,Actif,Kaolack,37.9,2025-10-21 21:35:01
+PAT0171,Samba Mbaye,30,Homme,52.2,168.5,18.4,63,105,65,94.6,3,Exercice léger,Anémie falciforme,Paracétamol,Oui,Sédentaire,Fatick,37.2,2025-10-21 21:29:49
+PAT0172,Kine Faye,16,Femme,62.5,160.8,24.2,71,102,85,93.1,0,Sommeil,Insuffisance rénale,Amlodipine,Oui,Sédentaire,Kaolack,38.4,2025-10-21 21:27:03
+PAT0173,Bineta Thiam,31,Femme,82.9,199.8,20.8,68,137,84,92.1,0,Marche rapide,Bronchite,Artemether,Occasionnel,Sédentaire,Saint-Louis,36.3,2025-10-21 21:27:10
+PAT0174,Maimouna Camara,43,Femme,58.4,156.9,23.7,90,126,89,90.9,8,Travail physique,Malaria,Hydroxyurée,Occasionnel,Très actif,Ziguinchor,36.8,2025-10-21 21:24:53
+PAT0175,Malick Faye,69,Homme,57.7,184.3,17.0,60,111,77,93.9,5,Sommeil,Aucune,Insuline,Non,Actif,Thiès,36.4,2025-10-21 21:23:45
+PAT0176,Moussa Thiam,45,Homme,100.7,165.6,36.7,72,145,88,88.5,2,Repos,Insuffisance rénale,Paracétamol,Occasionnel,Très actif,Dakar,37.7,2025-10-21 21:24:35
+PAT0177,Rokhaya Dieng,47,Femme,46.0,168.0,16.3,80,134,80,91.8,2,Sommeil,Anémie falciforme,Paracétamol,Oui,Très actif,Saint-Louis,37.5,2025-10-21 21:30:45
+PAT0178,Rokhaya Ka,16,Femme,98.8,161.9,37.7,73,136,86,95.7,8,Sommeil,Diabète de type 2,Paracétamol,Occasionnel,Actif,Ziguinchor,36.0,2025-10-21 21:25:35
+PAT0179,Diarra Thiam,72,Femme,47.8,150.1,21.2,65,139,92,95.4,6,Marche rapide,Malaria,Salbutamol,Oui,Actif,Fatick,37.0,2025-10-21 21:23:35
+PAT0180,Maimouna Dieng,78,Femme,84.8,185.3,24.7,60,112,91,89.3,3,Repos,Anémie falciforme,Paracétamol,Occasionnel,Actif,Fatick,38.1,2025-10-21 21:21:26
+PAT0181,Fama Sall,66,Femme,51.0,153.7,21.6,63,137,92,93.4,7,Exercice léger,Anémie falciforme,Insuline,Non,Actif,Thiès,37.1,2025-10-21 21:21:35
+PAT0182,Sidy Ka,36,Homme,97.1,183.3,28.9,79,109,79,96.1,4,Marche rapide,Bronchite,Amlodipine,Non,Très actif,Fatick,37.0,2025-10-21 21:25:11
+PAT0183,Maimouna Faye,56,Femme,89.2,201.6,21.9,83,129,82,92.5,0,Marche rapide,Aucune,Amlodipine,Non,Actif,Dakar,38.0,2025-10-21 21:28:37
+PAT0184,Fama Cisse,23,Femme,64.3,200.9,15.9,63,126,71,96.2,4,Exercice léger,Diabète de type 2,Insuline,Oui,Sédentaire,Fatick,38.4,2025-10-21 21:23:23
+PAT0185,Bineta Faye,82,Femme,94.5,182.8,28.3,90,117,82,95.5,5,Repos,Diabète de type 2,Artemether,Occasionnel,Très actif,Thiès,37.5,2025-10-21 21:27:48
+PAT0186,Pape Ka,71,Homme,48.7,154.6,20.4,77,145,83,98.6,6,Travail physique,Aucune,Paracétamol,Occasionnel,Actif,Saint-Louis,36.6,2025-10-21 21:28:39
+PAT0187,Ndeye Fatou Mbaye,30,Femme,73.1,161.4,28.1,102,109,69,93.4,7,Exercice léger,Bronchite,Artemether,Occasionnel,Très actif,Thiès,37.5,2025-10-21 21:18:44
+PAT0188,Mame Mbaye,28,Femme,92.5,194.8,24.4,59,138,88,95.1,6,Sommeil,Insuffisance rénale,Hydroxyurée,Non,Actif,Saint-Louis,37.3,2025-10-21 21:22:27
+PAT0189,Bouna Thiam,17,Homme,58.5,177.5,18.6,76,128,64,92.1,8,Exercice léger,Insuffisance rénale,Insuline,Occasionnel,Sédentaire,Thiès,37.2,2025-10-21 21:35:18
+PAT0190,Omar Ka,28,Homme,97.0,192.6,26.1,78,142,85,95.4,5,Sommeil,Insuffisance rénale,Amlodipine,Non,Très actif,Kaolack,37.2,2025-10-21 21:33:56
+PAT0191,Bineta Cisse,78,Femme,51.4,203.7,12.4,60,155,86,94.3,3,Repos,Aucune,Paracétamol,Non,Sédentaire,Dakar,37.7,2025-10-21 21:32:39
+PAT0192,Bineta Mbaye,30,Femme,49.0,159.9,19.2,102,121,83,94.6,4,Marche rapide,Hypertension artérielle,Hydroxyurée,Oui,Sédentaire,Ziguinchor,38.0,2025-10-21 21:31:59
+PAT0193,Sidy Toure,26,Homme,61.3,203.9,14.7,101,140,90,89.3,1,Exercice léger,Bronchite,Aucun,Non,Très actif,Kaolack,37.7,2025-10-21 21:30:42
+PAT0194,Fama Faye,45,Femme,68.4,160.7,26.5,71,130,63,94.4,3,Repos,Aucune,Salbutamol,Non,Sédentaire,Saint-Louis,37.2,2025-10-21 21:35:16
+PAT0195,Ndeye Fatou Camara,33,Femme,101.3,201.1,25.0,83,109,74,88.2,7,Sommeil,Insuffisance rénale,Aucun,Oui,Actif,Ziguinchor,36.2,2025-10-21 21:29:58
+PAT0196,Bineta Lo,34,Femme,54.6,147.4,25.1,58,118,77,94.2,2,Travail physique,Insuffisance rénale,Salbutamol,Oui,Sédentaire,Thiès,36.3,2025-10-21 21:20:49
+PAT0197,Abdoulaye Mbaye,59,Homme,88.1,155.9,36.2,106,123,80,93.0,0,Exercice léger,Bronchite,Hydroxyurée,Oui,Très actif,Dakar,38.1,2025-10-21 21:34:52
+PAT0198,Diarra Toure,26,Femme,105.6,149.5,47.2,110,110,70,90.6,8,Repos,Malaria,Amlodipine,Non,Très actif,Ziguinchor,37.4,2025-10-21 21:31:59
+PAT0199,Bineta Toure,38,Femme,96.6,170.4,33.3,103,117,90,92.5,6,Exercice léger,Malaria,Insuline,Non,Sédentaire,Ziguinchor,37.0,2025-10-21 21:23:51
+PAT0200,Lamine Cisse,43,Homme,45.8,201.4,11.3,85,110,79,91.9,3,Repos,Insuffisance rénale,Hydroxyurée,Oui,Très actif,Kaolack,37.0,2025-10-21 21:35:05
+PAT0201,Modou Thiam,35,Homme,51.0,175.9,16.5,108,103,78,89.8,3,Travail physique,Bronchite,Salbutamol,Occasionnel,Actif,Ziguinchor,38.2,2025-10-21 21:28:00
+PAT0202,Bouna Dieng,82,Homme,76.0,195.6,19.9,74,152,90,91.6,6,Travail physique,Insuffisance rénale,Artemether,Non,Actif,Thiès,36.9,2025-10-21 21:33:30
+PAT0203,Omar Camara,70,Homme,99.9,167.0,35.8,90,116,92,98.8,5,Exercice léger,Aucune,Salbutamol,Non,Très actif,Ziguinchor,37.3,2025-10-21 21:23:17
+PAT0204,Moussa Cisse,56,Homme,95.0,183.8,28.1,102,134,70,89.5,6,Exercice léger,Diabète de type 2,Amlodipine,Non,Sédentaire,Dakar,38.0,2025-10-21 21:31:08
+PAT0205,Awa Faye,33,Femme,54.6,154.1,23.0,110,105,84,94.9,4,Travail physique,Malaria,Artemether,Oui,Très actif,Thiès,36.2,2025-10-21 21:21:55
+PAT0206,Diarra Sall,82,Femme,58.1,195.8,15.2,88,136,79,98.9,0,Repos,Anémie falciforme,Salbutamol,Non,Très actif,Fatick,37.1,2025-10-21 21:28:51
+PAT0207,Pape Toure,65,Homme,72.0,153.7,30.5,99,153,88,93.3,6,Exercice léger,Malaria,Insuline,Oui,Très actif,Thiès,37.6,2025-10-21 21:22:36
+PAT0208,Fama Sall,62,Femme,46.5,171.5,15.8,75,121,70,89.0,2,Repos,Anémie falciforme,Aucun,Non,Très actif,Dakar,36.7,2025-10-21 21:21:28
+PAT0209,Fama Toure,64,Femme,70.0,162.1,26.6,76,116,86,92.5,4,Travail physique,Aucune,Aucun,Non,Sédentaire,Fatick,36.6,2025-10-21 21:17:47
+PAT0210,Maimouna Sall,67,Femme,81.3,196.0,21.2,83,156,76,90.6,8,Sommeil,Hypertension artérielle,Amlodipine,Oui,Sédentaire,Fatick,38.1,2025-10-21 21:29:31
+PAT0211,Omar Mbaye,84,Homme,108.6,194.7,28.6,79,141,95,93.4,6,Sommeil,Malaria,Paracétamol,Non,Sédentaire,Ziguinchor,37.9,2025-10-21 21:35:07
+PAT0212,Modou Faye,50,Homme,86.2,203.1,20.9,83,122,89,97.3,6,Marche rapide,Hypertension artérielle,Hydroxyurée,Non,Sédentaire,Thiès,36.7,2025-10-21 21:20:45
+PAT0213,Awa Thiam,15,Femme,85.2,163.0,32.1,92,103,83,89.5,4,Sommeil,Hypertension artérielle,Hydroxyurée,Occasionnel,Actif,Ziguinchor,37.7,2025-10-21 21:26:43
+PAT0214,Modou Dieng,40,Homme,70.5,198.8,17.8,90,129,66,89.3,1,Marche rapide,Hypertension artérielle,Hydroxyurée,Occasionnel,Actif,Thiès,36.9,2025-10-21 21:19:11
+PAT0215,Bineta Ka,78,Femme,74.7,163.6,27.9,81,110,93,89.8,0,Repos,Bronchite,Amlodipine,Occasionnel,Sédentaire,Ziguinchor,36.2,2025-10-21 21:25:49
+PAT0216,Awa Sall,35,Femme,62.4,167.0,22.4,76,126,70,91.3,0,Marche rapide,Diabète de type 2,Artemether,Oui,Sédentaire,Thiès,37.6,2025-10-21 21:32:00
+PAT0217,Maimouna Mbaye,58,Femme,77.2,196.3,20.0,75,126,60,92.2,6,Marche rapide,Aucune,Artemether,Oui,Très actif,Dakar,36.0,2025-10-21 21:34:58
+PAT0218,Abdoulaye Lo,64,Homme,66.4,156.6,27.1,61,153,84,93.1,1,Sommeil,Aucune,Paracétamol,Non,Très actif,Ziguinchor,36.6,2025-10-21 21:23:42
+PAT0219,Modou Mbaye,19,Homme,103.6,156.7,42.2,74,117,90,90.4,1,Travail physique,Anémie falciforme,Hydroxyurée,Occasionnel,Actif,Kaolack,36.9,2025-10-21 21:21:04
+PAT0220,Kine Cisse,70,Femme,67.1,174.8,22.0,79,118,88,91.8,0,Marche rapide,Diabète de type 2,Insuline,Oui,Très actif,Ziguinchor,37.8,2025-10-21 21:28:02
+PAT0221,Lamine Camara,49,Homme,56.4,197.1,14.5,57,123,60,91.1,1,Sommeil,Malaria,Insuline,Occasionnel,Actif,Saint-Louis,38.0,2025-10-21 21:30:16
+PAT0222,Pape Camara,59,Homme,89.6,187.3,25.5,103,111,85,93.4,0,Travail physique,Hypertension artérielle,Artemether,Occasionnel,Actif,Saint-Louis,37.0,2025-10-21 21:22:07
+PAT0223,Mame Cisse,39,Femme,56.0,187.4,15.9,85,120,86,96.3,2,Sommeil,Anémie falciforme,Artemether,Oui,Sédentaire,Fatick,38.1,2025-10-21 21:21:52
+PAT0224,Pape Dieng,32,Homme,59.9,155.1,24.9,87,128,67,89.3,4,Sommeil,Insuffisance rénale,Hydroxyurée,Non,Sédentaire,Saint-Louis,38.0,2025-10-21 21:26:44
+PAT0225,Sidy Toure,15,Homme,64.3,178.6,20.2,96,137,68,89.1,4,Exercice léger,Insuffisance rénale,Insuline,Non,Actif,Saint-Louis,36.7,2025-10-21 21:29:12
+PAT0226,Samba Lo,33,Homme,85.2,202.0,20.9,70,106,74,93.2,0,Travail physique,Insuffisance rénale,Amlodipine,Occasionnel,Très actif,Saint-Louis,38.1,2025-10-21 21:20:43
+PAT0227,Awa Dieng,46,Femme,100.1,157.8,40.2,67,136,74,92.5,6,Travail physique,Aucune,Paracétamol,Non,Très actif,Fatick,36.4,2025-10-21 21:25:33
+PAT0228,Fama Dieng,66,Femme,63.7,188.8,17.9,84,142,77,93.5,3,Travail physique,Bronchite,Aucun,Oui,Sédentaire,Kaolack,36.8,2025-10-21 21:22:30
+PAT0229,Omar Dieng,52,Homme,70.2,163.2,26.4,68,111,78,91.0,2,Exercice léger,Bronchite,Aucun,Occasionnel,Actif,Kaolack,37.7,2025-10-21 21:35:17
+PAT0230,Modou Dieng,78,Homme,96.9,174.7,31.7,83,147,81,91.4,3,Marche rapide,Anémie falciforme,Artemether,Non,Très actif,Saint-Louis,37.9,2025-10-21 21:32:18
+PAT0231,Pape Lo,48,Homme,92.5,199.6,23.2,100,129,81,98.7,2,Marche rapide,Malaria,Salbutamol,Oui,Actif,Dakar,37.5,2025-10-21 21:18:33
+PAT0232,Samba Lo,36,Homme,66.6,182.6,20.0,57,112,78,98.1,2,Travail physique,Diabète de type 2,Salbutamol,Occasionnel,Très actif,Ziguinchor,38.2,2025-10-21 21:34:27
+PAT0233,Abdoulaye Camara,41,Homme,79.4,167.4,28.3,91,129,83,89.8,0,Travail physique,Malaria,Aucun,Non,Sédentaire,Saint-Louis,36.9,2025-10-21 21:35:37
+PAT0234,Diarra Toure,63,Femme,68.1,168.1,24.1,98,147,90,91.7,1,Sommeil,Anémie falciforme,Aucun,Oui,Actif,Fatick,37.6,2025-10-21 21:33:24
+PAT0235,Fama Lo,22,Femme,83.2,169.1,29.1,62,119,62,96.3,6,Exercice léger,Bronchite,Salbutamol,Oui,Très actif,Kaolack,38.2,2025-10-21 21:30:23
+PAT0236,Moussa Camara,15,Homme,57.0,180.7,17.5,89,123,71,92.0,6,Travail physique,Aucune,Aucun,Occasionnel,Très actif,Dakar,36.9,2025-10-21 21:21:25
+PAT0237,Bouna Dieng,23,Homme,53.7,186.0,15.5,102,144,85,90.6,1,Marche rapide,Malaria,Insuline,Occasionnel,Actif,Ziguinchor,36.6,2025-10-21 21:31:00
+PAT0238,Lamine Lo,84,Homme,100.6,162.1,38.3,76,145,71,94.1,4,Exercice léger,Hypertension artérielle,Insuline,Non,Actif,Ziguinchor,37.3,2025-10-21 21:23:52
+PAT0239,Malick Toure,75,Homme,69.6,204.1,16.7,76,122,86,90.9,0,Marche rapide,Malaria,Paracétamol,Oui,Actif,Ziguinchor,36.2,2025-10-21 21:29:46
+PAT0240,Moussa Toure,81,Homme,50.8,168.0,18.0,91,110,93,92.4,3,Exercice léger,Bronchite,Amlodipine,Non,Très actif,Kaolack,36.4,2025-10-21 21:19:53
+PAT0241,Malick Ka,73,Homme,67.6,176.3,21.7,73,151,72,93.1,4,Travail physique,Hypertension artérielle,Aucun,Occasionnel,Très actif,Kaolack,36.9,2025-10-21 21:23:02
+PAT0242,Mame Lo,76,Femme,100.0,169.5,34.8,83,141,79,93.8,8,Travail physique,Malaria,Aucun,Non,Actif,Ziguinchor,37.0,2025-10-21 21:18:19
+PAT0243,Seynabou Thiam,31,Femme,45.9,192.8,12.3,77,144,71,90.3,0,Repos,Hypertension artérielle,Hydroxyurée,Oui,Très actif,Thiès,38.5,2025-10-21 21:31:17
+PAT0244,Bouna Lo,81,Homme,69.6,161.1,26.8,98,153,85,98.8,5,Exercice léger,Anémie falciforme,Insuline,Oui,Actif,Fatick,36.4,2025-10-21 21:35:07
+PAT0245,Modou Ka,78,Homme,52.7,183.5,15.7,100,121,75,96.8,8,Exercice léger,Bronchite,Aucun,Oui,Actif,Ziguinchor,38.2,2025-10-21 21:19:55
+PAT0246,Abdoulaye Sall,79,Homme,51.8,174.1,17.1,63,155,89,97.0,7,Marche rapide,Bronchite,Paracétamol,Non,Actif,Saint-Louis,37.2,2025-10-21 21:27:10
+PAT0247,Omar Sall,62,Homme,78.7,186.3,22.7,84,151,71,89.2,7,Travail physique,Bronchite,Salbutamol,Occasionnel,Très actif,Fatick,36.2,2025-10-21 21:21:43
+PAT0248,Malick Ka,40,Homme,94.6,169.2,33.0,94,141,68,92.8,3,Repos,Malaria,Hydroxyurée,Oui,Très actif,Thiès,37.5,2025-10-21 21:19:51
+PAT0249,Sidy Dieng,56,Homme,83.4,189.4,23.2,87,107,61,90.4,8,Marche rapide,Diabète de type 2,Hydroxyurée,Oui,Très actif,Kaolack,37.6,2025-10-21 21:29:56
+PAT0250,Diarra Faye,64,Femme,99.4,157.0,40.3,66,118,91,95.2,1,Repos,Insuffisance rénale,Insuline,Occasionnel,Très actif,Thiès,37.8,2025-10-21 21:23:37
+PAT0251,Kine Thiam,40,Femme,86.9,192.1,23.5,76,102,76,97.9,0,Marche rapide,Bronchite,Artemether,Non,Sédentaire,Thiès,37.6,2025-10-21 21:18:34
+PAT0252,Maimouna Lo,70,Femme,85.7,204.2,20.6,70,150,83,94.2,8,Exercice léger,Anémie falciforme,Paracétamol,Oui,Actif,Saint-Louis,38.4,2025-10-21 21:23:47
+PAT0253,Modou Mbaye,77,Homme,85.1,156.8,34.6,94,135,84,91.5,0,Marche rapide,Aucune,Amlodipine,Non,Actif,Kaolack,37.2,2025-10-21 21:22:18
+PAT0254,Awa Faye,54,Femme,48.4,148.6,21.9,62,122,65,95.4,0,Sommeil,Diabète de type 2,Paracétamol,Non,Actif,Thiès,36.6,2025-10-21 21:18:50
+PAT0255,Mame Lo,53,Femme,94.7,171.0,32.4,104,121,88,91.5,3,Marche rapide,Diabète de type 2,Aucun,Occasionnel,Actif,Kaolack,38.5,2025-10-21 21:31:25
+PAT0256,Samba Sall,57,Homme,87.0,197.2,22.4,63,113,72,98.4,0,Marche rapide,Hypertension artérielle,Artemether,Non,Sédentaire,Saint-Louis,37.6,2025-10-21 21:33:50
+PAT0257,Diarra Dieng,37,Femme,59.0,197.4,15.1,105,100,77,95.3,6,Repos,Malaria,Insuline,Occasionnel,Sédentaire,Thiès,38.3,2025-10-21 21:21:13
+PAT0258,Modou Cisse,36,Homme,108.8,181.4,33.1,78,144,72,92.1,3,Exercice léger,Malaria,Paracétamol,Occasionnel,Très actif,Kaolack,37.8,2025-10-21 21:30:04
+PAT0259,Mame Cisse,36,Femme,51.3,188.9,14.4,81,104,65,95.8,2,Exercice léger,Diabète de type 2,Paracétamol,Occasionnel,Actif,Saint-Louis,37.5,2025-10-21 21:31:53
+PAT0260,Pape Toure,78,Homme,76.5,190.0,21.2,86,115,76,88.1,8,Sommeil,Malaria,Insuline,Non,Actif,Dakar,36.6,2025-10-21 21:20:50
+PAT0261,Pape Cisse,85,Homme,102.2,163.2,38.4,100,114,80,92.3,3,Repos,Malaria,Amlodipine,Non,Très actif,Fatick,37.7,2025-10-21 21:22:39
+PAT0262,Abdoulaye Faye,71,Homme,98.3,188.4,27.7,66,155,70,92.8,6,Sommeil,Diabète de type 2,Aucun,Oui,Actif,Ziguinchor,37.7,2025-10-21 21:32:23
+PAT0263,Sidy Ka,81,Homme,82.3,189.3,23.0,80,117,84,88.3,0,Sommeil,Anémie falciforme,Salbutamol,Non,Très actif,Dakar,37.4,2025-10-21 21:23:15
+PAT0264,Samba Mbaye,19,Homme,70.3,165.0,25.8,102,110,80,94.1,6,Repos,Hypertension artérielle,Artemether,Occasionnel,Sédentaire,Kaolack,38.1,2025-10-21 21:27:53
+PAT0265,Sidy Sall,66,Homme,71.6,182.5,21.5,65,137,91,90.8,7,Exercice léger,Bronchite,Paracétamol,Occasionnel,Actif,Fatick,37.0,2025-10-21 21:33:17
+PAT0266,Seynabou Ka,35,Femme,84.2,181.8,25.5,95,114,88,93.3,2,Exercice léger,Diabète de type 2,Hydroxyurée,Oui,Actif,Thiès,36.7,2025-10-21 21:32:36
+PAT0267,Bouna Lo,33,Homme,86.6,183.7,25.7,78,105,81,94.9,5,Sommeil,Aucune,Artemether,Non,Sédentaire,Ziguinchor,36.8,2025-10-21 21:22:22
+PAT0268,Lamine Thiam,21,Homme,71.7,165.1,26.3,85,115,85,95.0,3,Travail physique,Bronchite,Hydroxyurée,Occasionnel,Actif,Thiès,36.6,2025-10-21 21:29:25
+PAT0269,Awa Toure,71,Femme,95.4,195.1,25.1,95,134,81,89.6,3,Travail physique,Malaria,Artemether,Oui,Sédentaire,Thiès,36.1,2025-10-21 21:22:22
+PAT0270,Lamine Thiam,30,Homme,63.2,200.3,15.8,107,116,88,91.9,6,Exercice léger,Hypertension artérielle,Paracétamol,Occasionnel,Très actif,Ziguinchor,36.9,2025-10-21 21:23:19
+PAT0271,Awa Lo,38,Femme,70.0,153.2,29.8,56,136,89,98.6,5,Travail physique,Aucune,Artemether,Non,Sédentaire,Saint-Louis,38.2,2025-10-21 21:25:30
+PAT0272,Fama Sall,55,Femme,100.2,149.7,44.7,102,117,78,97.7,7,Repos,Malaria,Amlodipine,Occasionnel,Actif,Dakar,37.1,2025-10-21 21:35:01
+PAT0273,Abdoulaye Camara,45,Homme,88.5,184.8,25.9,78,113,75,89.8,1,Exercice léger,Anémie falciforme,Aucun,Oui,Actif,Thiès,36.5,2025-10-21 21:22:11
+PAT0274,Mame Camara,73,Femme,84.2,158.7,33.4,61,135,94,91.0,5,Travail physique,Insuffisance rénale,Salbutamol,Non,Très actif,Ziguinchor,36.2,2025-10-21 21:31:40
+PAT0275,Omar Ka,62,Homme,96.7,155.9,39.8,86,147,79,95.5,2,Marche rapide,Malaria,Hydroxyurée,Non,Très actif,Thiès,38.2,2025-10-21 21:28:37
+PAT0276,Bouna Lo,27,Homme,102.4,185.2,29.9,58,107,85,90.7,1,Exercice léger,Malaria,Insuline,Oui,Sédentaire,Saint-Louis,37.6,2025-10-21 21:18:00
+PAT0277,Fama Sall,33,Femme,53.8,167.4,19.2,101,114,85,92.8,0,Travail physique,Malaria,Amlodipine,Non,Très actif,Fatick,38.4,2025-10-21 21:21:23
+PAT0278,Rokhaya Ka,53,Femme,68.6,155.7,28.3,91,131,87,92.7,5,Repos,Insuffisance rénale,Hydroxyurée,Oui,Actif,Fatick,37.0,2025-10-21 21:18:20
+PAT0279,Kine Camara,52,Femme,97.9,187.9,27.7,93,112,79,95.5,1,Marche rapide,Anémie falciforme,Amlodipine,Oui,Actif,Saint-Louis,36.1,2025-10-21 21:18:47
+PAT0280,Ndeye Fatou Faye,29,Femme,106.4,160.3,41.4,73,109,79,89.4,1,Repos,Hypertension artérielle,Aucun,Non,Très actif,Fatick,37.3,2025-10-21 21:22:51
+PAT0281,Sidy Thiam,15,Homme,48.2,151.5,21.0,69,120,68,97.0,7,Repos,Aucune,Insuline,Non,Sédentaire,Dakar,37.8,2025-10-21 21:21:45
+PAT0282,Mame Lo,38,Femme,53.1,187.0,15.2,69,141,90,90.8,4,Exercice léger,Hypertension artérielle,Artemether,Occasionnel,Actif,Fatick,38.5,2025-10-21 21:19:34
+PAT0283,Seynabou Faye,19,Femme,94.9,153.5,40.3,76,101,78,88.9,0,Repos,Insuffisance rénale,Insuline,Oui,Très actif,Fatick,37.4,2025-10-21 21:32:38
+PAT0284,Pape Sall,76,Homme,56.6,167.1,20.3,73,127,71,94.1,6,Travail physique,Malaria,Artemether,Non,Actif,Ziguinchor,36.5,2025-10-21 21:31:37
+PAT0285,Kine Dieng,52,Femme,59.8,195.1,15.7,85,129,61,91.5,5,Marche rapide,Insuffisance rénale,Hydroxyurée,Non,Très actif,Dakar,37.8,2025-10-21 21:29:39
+PAT0286,Modou Thiam,63,Homme,82.0,204.7,19.6,68,129,86,94.0,7,Travail physique,Aucune,Hydroxyurée,Oui,Actif,Kaolack,36.7,2025-10-21 21:23:54
+PAT0287,Malick Mbaye,70,Homme,102.1,187.4,29.1,100,147,91,88.5,6,Sommeil,Anémie falciforme,Salbutamol,Occasionnel,Sédentaire,Thiès,38.2,2025-10-21 21:32:21
+PAT0288,Seynabou Mbaye,84,Femme,66.8,175.2,21.8,90,147,71,94.2,4,Marche rapide,Diabète de type 2,Salbutamol,Oui,Sédentaire,Thiès,36.6,2025-10-21 21:23:36
+PAT0289,Abdoulaye Sall,50,Homme,90.8,159.3,35.8,104,100,75,99.0,8,Exercice léger,Diabète de type 2,Paracétamol,Occasionnel,Actif,Thiès,36.7,2025-10-21 21:24:34
+PAT0290,Ndeye Fatou Cisse,75,Femme,68.8,178.9,21.5,61,142,72,96.1,5,Repos,Anémie falciforme,Aucun,Oui,Sédentaire,Ziguinchor,38.0,2025-10-21 21:21:39
+PAT0291,Diarra Dieng,57,Femme,55.1,182.1,16.6,84,113,83,90.5,2,Repos,Anémie falciforme,Aucun,Oui,Sédentaire,Ziguinchor,37.2,2025-10-21 21:27:16
+PAT0292,Samba Dieng,39,Homme,54.4,187.8,15.4,109,116,82,89.8,8,Travail physique,Aucune,Hydroxyurée,Oui,Très actif,Fatick,38.2,2025-10-21 21:20:30
+PAT0293,Lamine Thiam,38,Homme,59.0,190.8,16.2,73,141,80,91.5,4,Travail physique,Diabète de type 2,Salbutamol,Oui,Actif,Kaolack,36.5,2025-10-21 21:23:56
+PAT0294,Samba Camara,77,Homme,68.7,191.6,18.7,62,110,83,98.8,8,Travail physique,Malaria,Amlodipine,Non,Très actif,Thiès,37.3,2025-10-21 21:26:46
+PAT0295,Diarra Camara,82,Femme,107.2,201.1,26.5,64,152,73,89.7,4,Marche rapide,Aucune,Insuline,Non,Très actif,Thiès,38.5,2025-10-21 21:22:15
+PAT0296,Samba Faye,23,Homme,80.5,165.1,29.5,83,121,79,90.8,6,Marche rapide,Malaria,Hydroxyurée,Occasionnel,Actif,Thiès,38.0,2025-10-21 21:22:17
+PAT0297,Diarra Camara,20,Femme,77.0,189.4,21.5,110,114,67,94.4,2,Travail physique,Aucune,Insuline,Oui,Actif,Fatick,37.5,2025-10-21 21:22:04
+PAT0298,Moussa Camara,68,Homme,54.6,195.2,14.3,68,138,94,93.3,2,Repos,Malaria,Insuline,Non,Actif,Fatick,36.7,2025-10-21 21:28:24
+PAT0299,Maimouna Sall,16,Femme,54.6,172.7,18.3,99,110,84,95.7,4,Marche rapide,Hypertension artérielle,Aucun,Occasionnel,Actif,Kaolack,36.4,2025-10-21 21:32:06
+PAT0300,Modou Toure,40,Homme,48.0,161.6,18.4,85,144,83,97.8,3,Travail physique,Diabète de type 2,Amlodipine,Occasionnel,Actif,Saint-Louis,38.1,2025-10-21 21:34:58
+PAT0301,Malick Cisse,57,Homme,57.5,192.3,15.5,73,100,64,98.0,2,Marche rapide,Aucune,Insuline,Non,Actif,Kaolack,37.7,2025-10-21 21:24:09
+PAT0302,Ndeye Fatou Lo,22,Femme,70.6,149.5,31.6,105,130,90,88.3,4,Travail physique,Aucune,Hydroxyurée,Oui,Sédentaire,Kaolack,38.4,2025-10-21 21:32:40
+PAT0303,Maimouna Sall,35,Femme,56.6,160.7,21.9,73,125,89,96.2,1,Sommeil,Aucune,Aucun,Occasionnel,Sédentaire,Ziguinchor,37.7,2025-10-21 21:35:31
+PAT0304,Kine Toure,73,Femme,80.6,186.7,23.1,95,129,83,92.0,7,Sommeil,Bronchite,Insuline,Non,Actif,Fatick,38.5,2025-10-21 21:19:18
+PAT0305,Omar Mbaye,44,Homme,68.6,204.6,16.4,102,112,89,91.3,6,Travail physique,Bronchite,Artemether,Non,Très actif,Saint-Louis,38.2,2025-10-21 21:35:03
+PAT0306,Bouna Cisse,38,Homme,77.8,167.9,27.6,75,135,77,88.1,8,Travail physique,Bronchite,Aucun,Oui,Actif,Fatick,36.6,2025-10-21 21:21:34
+PAT0307,Diarra Toure,24,Femme,87.5,196.1,22.8,70,115,79,90.3,8,Repos,Aucune,Hydroxyurée,Non,Sédentaire,Dakar,38.1,2025-10-21 21:18:23
+PAT0308,Moussa Sall,69,Homme,74.9,175.3,24.4,67,111,71,92.4,3,Travail physique,Aucune,Artemether,Oui,Sédentaire,Fatick,36.9,2025-10-21 21:28:18
+PAT0309,Malick Mbaye,67,Homme,55.2,172.3,18.6,80,151,88,95.9,0,Sommeil,Malaria,Salbutamol,Oui,Actif,Dakar,36.2,2025-10-21 21:20:21
+PAT0310,Abdoulaye Toure,22,Homme,92.8,171.2,31.7,109,107,65,95.9,5,Travail physique,Hypertension artérielle,Hydroxyurée,Oui,Actif,Thiès,36.6,2025-10-21 21:18:55
+PAT0311,Pape Dieng,37,Homme,84.8,191.0,23.2,105,143,87,90.9,8,Exercice léger,Aucune,Aucun,Occasionnel,Très actif,Saint-Louis,36.4,2025-10-21 21:32:30
+PAT0312,Moussa Cisse,33,Homme,91.8,150.3,40.6,72,137,75,88.6,3,Repos,Insuffisance rénale,Salbutamol,Occasionnel,Actif,Kaolack,37.6,2025-10-21 21:27:33
+PAT0313,Sidy Thiam,77,Homme,102.7,166.3,37.1,84,156,78,98.7,2,Repos,Bronchite,Hydroxyurée,Non,Actif,Thiès,37.9,2025-10-21 21:26:11
+PAT0314,Seynabou Camara,57,Femme,104.2,165.2,38.2,67,103,66,88.2,5,Travail physique,Malaria,Artemether,Oui,Très actif,Ziguinchor,38.3,2025-10-21 21:24:53
+PAT0315,Diarra Dieng,74,Femme,45.6,154.6,19.1,92,133,76,90.6,8,Repos,Bronchite,Salbutamol,Occasionnel,Actif,Ziguinchor,37.3,2025-10-21 21:21:02
+PAT0316,Samba Cisse,75,Homme,82.2,173.1,27.4,94,131,81,90.8,3,Exercice léger,Hypertension artérielle,Artemether,Non,Sédentaire,Ziguinchor,36.8,2025-10-21 21:30:44
+PAT0317,Mame Sall,64,Femme,49.8,172.8,16.7,71,114,71,98.7,6,Travail physique,Aucune,Paracétamol,Non,Actif,Fatick,37.6,2025-10-21 21:32:00
+PAT0318,Omar Thiam,67,Homme,56.6,163.6,21.1,64,142,94,98.3,7,Sommeil,Hypertension artérielle,Paracétamol,Non,Sédentaire,Dakar,37.9,2025-10-21 21:31:11
+PAT0319,Samba Dieng,40,Homme,46.4,182.0,14.0,76,100,64,91.2,5,Repos,Hypertension artérielle,Insuline,Non,Sédentaire,Ziguinchor,38.3,2025-10-21 21:20:28
+PAT0320,Maimouna Cisse,68,Femme,52.2,199.1,13.2,70,143,85,88.4,1,Repos,Aucune,Aucun,Oui,Très actif,Kaolack,36.8,2025-10-21 21:34:01
+PAT0321,Seynabou Toure,38,Femme,58.8,152.5,25.3,90,142,67,93.5,0,Repos,Diabète de type 2,Artemether,Non,Très actif,Fatick,37.2,2025-10-21 21:31:11
+PAT0322,Diarra Faye,40,Femme,75.3,177.8,23.8,107,132,69,88.6,1,Exercice léger,Diabète de type 2,Paracétamol,Non,Très actif,Dakar,38.3,2025-10-21 21:24:35
+PAT0323,Fama Cisse,56,Femme,73.2,164.0,27.2,55,124,73,91.5,0,Exercice léger,Hypertension artérielle,Insuline,Oui,Actif,Dakar,36.4,2025-10-21 21:18:44
+PAT0324,Maimouna Dieng,75,Femme,45.8,178.6,14.4,77,113,95,91.0,8,Sommeil,Hypertension artérielle,Amlodipine,Occasionnel,Sédentaire,Dakar,36.3,2025-10-21 21:29:10
+PAT0325,Pape Mbaye,17,Homme,95.2,189.5,26.5,104,124,83,96.2,4,Travail physique,Anémie falciforme,Insuline,Non,Très actif,Thiès,36.0,2025-10-21 21:32:11
+PAT0326,Bineta Camara,51,Femme,75.9,204.5,18.1,57,118,60,89.1,6,Repos,Malaria,Paracétamol,Non,Sédentaire,Saint-Louis,36.4,2025-10-21 21:21:03
+PAT0327,Ndeye Fatou Camara,55,Femme,45.2,151.9,19.6,82,122,80,89.5,5,Sommeil,Diabète de type 2,Paracétamol,Non,Actif,Thiès,37.0,2025-10-21 21:22:56
+PAT0328,Kine Faye,35,Femme,86.9,201.0,21.5,106,114,66,94.1,3,Sommeil,Insuffisance rénale,Paracétamol,Oui,Actif,Kaolack,37.4,2025-10-21 21:35:18
+PAT0329,Sidy Camara,30,Homme,96.7,155.3,40.1,85,129,66,94.7,5,Travail physique,Anémie falciforme,Salbutamol,Non,Actif,Fatick,38.4,2025-10-21 21:33:06
+PAT0330,Omar Lo,46,Homme,71.3,172.0,24.1,95,137,86,96.0,6,Marche rapide,Aucune,Insuline,Oui,Sédentaire,Dakar,36.9,2025-10-21 21:21:02
+PAT0331,Bineta Thiam,31,Femme,108.2,199.0,27.3,103,110,66,95.6,0,Exercice léger,Hypertension artérielle,Artemether,Non,Sédentaire,Dakar,36.4,2025-10-21 21:34:58
+PAT0332,Kine Faye,84,Femme,108.1,201.5,26.6,89,147,93,96.9,7,Travail physique,Bronchite,Insuline,Non,Actif,Thiès,37.0,2025-10-21 21:27:06
+PAT0333,Omar Sall,15,Homme,48.6,175.8,15.7,59,111,63,98.8,2,Sommeil,Diabète de type 2,Insuline,Non,Sédentaire,Saint-Louis,36.5,2025-10-21 21:29:16
+PAT0334,Maimouna Faye,63,Femme,100.3,190.6,27.6,97,135,81,98.6,7,Travail physique,Hypertension artérielle,Salbutamol,Oui,Très actif,Dakar,37.6,2025-10-21 21:35:18
+PAT0335,Awa Sall,43,Femme,57.6,147.5,26.5,109,114,62,92.8,2,Repos,Malaria,Amlodipine,Non,Très actif,Ziguinchor,37.4,2025-10-21 21:23:42
+PAT0336,Abdoulaye Sall,79,Homme,48.8,155.4,20.2,65,116,81,94.2,3,Repos,Anémie falciforme,Paracétamol,Occasionnel,Sédentaire,Dakar,37.0,2025-10-21 21:29:03
+PAT0337,Sidy Cisse,73,Homme,52.9,147.2,24.4,76,112,84,98.8,6,Repos,Anémie falciforme,Hydroxyurée,Occasionnel,Très actif,Kaolack,37.4,2025-10-21 21:33:21
+PAT0338,Sidy Mbaye,28,Homme,67.4,146.3,31.5,84,126,84,96.9,0,Sommeil,Anémie falciforme,Salbutamol,Non,Très actif,Saint-Louis,37.0,2025-10-21 21:21:07
+PAT0339,Omar Lo,22,Homme,71.4,201.8,17.5,73,144,83,90.9,0,Travail physique,Anémie falciforme,Paracétamol,Oui,Très actif,Saint-Louis,36.9,2025-10-21 21:35:30
+PAT0340,Abdoulaye Ka,43,Homme,48.3,170.1,16.7,63,103,84,94.9,6,Exercice léger,Bronchite,Insuline,Oui,Très actif,Kaolack,36.9,2025-10-21 21:32:12
+PAT0341,Omar Sall,20,Homme,63.2,170.1,21.8,94,143,67,88.6,3,Travail physique,Hypertension artérielle,Insuline,Occasionnel,Actif,Thiès,37.6,2025-10-21 21:25:39
+PAT0342,Sidy Lo,42,Homme,48.0,170.1,16.6,60,114,85,93.4,1,Exercice léger,Insuffisance rénale,Hydroxyurée,Occasionnel,Très actif,Kaolack,36.4,2025-10-21 21:18:19
+PAT0343,Pape Lo,48,Homme,67.7,151.8,29.4,85,113,85,88.2,7,Repos,Diabète de type 2,Paracétamol,Oui,Sédentaire,Fatick,38.2,2025-10-21 21:22:00
+PAT0344,Bouna Mbaye,16,Homme,78.8,182.2,23.7,107,117,89,98.6,3,Repos,Malaria,Salbutamol,Oui,Très actif,Ziguinchor,37.9,2025-10-21 21:23:44
+PAT0345,Fama Sall,52,Femme,76.1,163.2,28.6,99,110,69,96.4,8,Exercice léger,Hypertension artérielle,Artemether,Occasionnel,Sédentaire,Thiès,36.2,2025-10-21 21:33:51
+PAT0346,Bouna Lo,45,Homme,60.0,201.9,14.7,70,113,64,95.5,5,Repos,Insuffisance rénale,Hydroxyurée,Oui,Actif,Saint-Louis,38.3,2025-10-21 21:26:46
+PAT0347,Lamine Camara,84,Homme,70.2,162.3,26.7,96,128,90,95.6,2,Travail physique,Aucune,Aucun,Oui,Actif,Saint-Louis,37.8,2025-10-21 21:23:40
+PAT0348,Pape Camara,39,Homme,81.2,155.4,33.6,64,120,66,91.7,3,Exercice léger,Hypertension artérielle,Hydroxyurée,Oui,Très actif,Kaolack,37.8,2025-10-21 21:21:07
+PAT0349,Fama Camara,21,Femme,86.7,155.6,35.8,76,121,70,90.5,6,Sommeil,Hypertension artérielle,Insuline,Occasionnel,Sédentaire,Saint-Louis,37.7,2025-10-21 21:34:42
+PAT0350,Bouna Camara,18,Homme,95.2,189.6,26.5,107,138,60,91.3,5,Marche rapide,Aucune,Aucun,Occasionnel,Actif,Saint-Louis,37.8,2025-10-21 21:31:53
+PAT0351,Mame Dieng,37,Femme,95.8,194.5,25.3,72,141,76,96.9,2,Repos,Hypertension artérielle,Amlodipine,Non,Sédentaire,Fatick,36.2,2025-10-21 21:35:28
+PAT0352,Awa Sall,54,Femme,72.4,184.8,21.2,88,121,77,91.9,5,Exercice léger,Insuffisance rénale,Artemether,Oui,Actif,Fatick,36.6,2025-10-21 21:28:11
+PAT0353,Awa Toure,56,Femme,101.9,181.8,30.8,82,133,79,94.6,1,Travail physique,Malaria,Salbutamol,Oui,Sédentaire,Saint-Louis,38.0,2025-10-21 21:34:26
+PAT0354,Malick Sall,47,Homme,100.0,185.2,29.2,60,135,70,95.7,5,Marche rapide,Anémie falciforme,Artemether,Occasionnel,Sédentaire,Saint-Louis,38.0,2025-10-21 21:31:29
+PAT0355,Abdoulaye Dieng,74,Homme,85.1,170.0,29.4,65,155,80,92.4,2,Marche rapide,Bronchite,Paracétamol,Oui,Très actif,Kaolack,36.9,2025-10-21 21:19:15
+PAT0356,Abdoulaye Cisse,28,Homme,80.0,186.4,23.0,83,108,76,90.6,6,Exercice léger,Insuffisance rénale,Salbutamol,Oui,Actif,Fatick,37.7,2025-10-21 21:34:18
+PAT0357,Bouna Faye,54,Homme,109.2,158.7,43.4,63,129,69,90.3,3,Travail physique,Insuffisance rénale,Amlodipine,Occasionnel,Sédentaire,Ziguinchor,36.5,2025-10-21 21:35:26
+PAT0358,Bouna Sall,33,Homme,55.2,150.7,24.3,93,103,84,90.2,6,Marche rapide,Anémie falciforme,Artemether,Oui,Sédentaire,Fatick,37.2,2025-10-21 21:20:46
+PAT0359,Fama Ka,79,Femme,62.9,180.2,19.4,94,139,86,92.7,7,Travail physique,Insuffisance rénale,Artemether,Non,Actif,Ziguinchor,36.2,2025-10-21 21:31:05
+PAT0360,Sidy Sall,79,Homme,49.0,162.6,18.5,75,155,87,94.8,3,Marche rapide,Malaria,Paracétamol,Oui,Actif,Fatick,38.2,2025-10-21 21:22:22
+PAT0361,Bouna Camara,46,Homme,67.7,185.4,19.7,55,114,73,92.9,4,Marche rapide,Aucune,Amlodipine,Occasionnel,Sédentaire,Ziguinchor,36.6,2025-10-21 21:35:07
+PAT0362,Abdoulaye Cisse,47,Homme,80.1,181.3,24.4,61,107,66,96.6,6,Travail physique,Hypertension artérielle,Aucun,Occasionnel,Sédentaire,Thiès,37.4,2025-10-21 21:31:48
+PAT0363,Modou Thiam,20,Homme,48.9,187.1,14.0,109,139,82,89.1,3,Travail physique,Diabète de type 2,Paracétamol,Occasionnel,Actif,Saint-Louis,36.6,2025-10-21 21:28:48
+PAT0364,Modou Toure,80,Homme,58.2,146.0,27.3,76,137,93,97.6,4,Exercice léger,Insuffisance rénale,Amlodipine,Non,Actif,Fatick,37.0,2025-10-21 21:25:17
+PAT0365,Rokhaya Ka,28,Femme,96.8,150.7,42.6,97,136,79,92.3,7,Marche rapide,Diabète de type 2,Amlodipine,Oui,Sédentaire,Dakar,36.3,2025-10-21 21:28:34
+PAT0366,Rokhaya Sall,75,Femme,73.6,148.0,33.6,72,154,77,89.4,2,Repos,Aucune,Artemether,Non,Actif,Thiès,37.5,2025-10-21 21:19:12
+PAT0367,Lamine Camara,69,Homme,78.9,153.7,33.4,66,128,94,91.0,3,Exercice léger,Bronchite,Salbutamol,Oui,Sédentaire,Thiès,37.3,2025-10-21 21:21:01
+PAT0368,Bouna Camara,50,Homme,66.8,171.9,22.6,108,107,74,95.4,3,Sommeil,Anémie falciforme,Salbutamol,Occasionnel,Actif,Kaolack,37.1,2025-10-21 21:27:38
+PAT0369,Mame Mbaye,58,Femme,106.3,145.4,50.3,79,132,68,97.4,4,Exercice léger,Bronchite,Artemether,Occasionnel,Sédentaire,Thiès,36.2,2025-10-21 21:22:50
+PAT0370,Bouna Ka,49,Homme,45.1,180.7,13.8,109,113,63,94.9,3,Repos,Anémie falciforme,Amlodipine,Occasionnel,Actif,Ziguinchor,37.3,2025-10-21 21:27:31
+PAT0371,Moussa Dieng,83,Homme,86.8,149.7,38.7,76,147,73,90.0,4,Repos,Diabète de type 2,Artemether,Non,Très actif,Thiès,36.2,2025-10-21 21:34:02
+PAT0372,Omar Faye,75,Homme,62.8,149.6,28.1,75,140,84,92.9,2,Exercice léger,Hypertension artérielle,Salbutamol,Non,Sédentaire,Thiès,36.7,2025-10-21 21:30:48
+PAT0373,Fama Faye,82,Femme,74.8,199.2,18.9,67,148,95,89.2,7,Sommeil,Bronchite,Artemether,Occasionnel,Très actif,Ziguinchor,37.1,2025-10-21 21:29:06
+PAT0374,Omar Dieng,36,Homme,94.2,149.6,42.1,109,141,86,88.5,8,Travail physique,Malaria,Insuline,Non,Très actif,Saint-Louis,37.8,2025-10-21 21:28:13
+PAT0375,Malick Camara,40,Homme,103.0,166.3,37.2,80,108,69,93.4,1,Sommeil,Anémie falciforme,Aucun,Oui,Actif,Kaolack,38.0,2025-10-21 21:29:42
+PAT0376,Sidy Cisse,82,Homme,63.1,162.8,23.8,78,131,91,97.3,7,Repos,Bronchite,Aucun,Non,Sédentaire,Ziguinchor,37.4,2025-10-21 21:25:54
+PAT0377,Malick Dieng,28,Homme,53.7,158.4,21.4,85,114,78,90.8,5,Exercice léger,Hypertension artérielle,Aucun,Non,Sédentaire,Fatick,38.3,2025-10-21 21:21:19
+PAT0378,Moussa Mbaye,38,Homme,87.4,161.5,33.5,66,139,62,95.2,4,Travail physique,Bronchite,Paracétamol,Non,Actif,Saint-Louis,36.3,2025-10-21 21:22:55
+PAT0379,Pape Faye,52,Homme,99.4,195.0,26.1,58,126,63,97.9,7,Sommeil,Anémie falciforme,Salbutamol,Oui,Très actif,Ziguinchor,38.5,2025-10-21 21:32:02
+PAT0380,Diarra Toure,28,Femme,77.6,164.3,28.7,101,103,66,88.8,2,Marche rapide,Aucune,Aucun,Oui,Actif,Fatick,38.2,2025-10-21 21:32:36
+PAT0381,Pape Thiam,66,Homme,95.6,149.1,43.0,98,154,91,95.4,5,Sommeil,Hypertension artérielle,Salbutamol,Occasionnel,Sédentaire,Thiès,36.6,2025-10-21 21:31:24
+PAT0382,Maimouna Faye,75,Femme,84.1,186.9,24.1,60,137,88,93.1,6,Exercice léger,Anémie falciforme,Amlodipine,Occasionnel,Actif,Thiès,37.9,2025-10-21 21:28:14
+PAT0383,Moussa Sall,42,Homme,68.1,155.0,28.3,100,115,66,90.5,1,Marche rapide,Diabète de type 2,Insuline,Non,Sédentaire,Kaolack,37.6,2025-10-21 21:21:24
+PAT0384,Diarra Lo,30,Femme,52.4,169.2,18.3,98,125,85,98.4,4,Travail physique,Insuffisance rénale,Paracétamol,Occasionnel,Très actif,Kaolack,36.5,2025-10-21 21:26:36
+PAT0385,Lamine Cisse,31,Homme,78.2,182.6,23.5,88,128,75,95.0,5,Repos,Hypertension artérielle,Insuline,Oui,Très actif,Saint-Louis,37.3,2025-10-21 21:30:47
+PAT0386,Mame Ka,83,Femme,52.6,150.7,23.2,61,151,89,96.9,4,Repos,Diabète de type 2,Amlodipine,Oui,Actif,Kaolack,37.9,2025-10-21 21:26:28
+PAT0387,Mame Faye,79,Femme,92.1,186.1,26.6,60,113,70,93.5,1,Travail physique,Insuffisance rénale,Hydroxyurée,Occasionnel,Très actif,Ziguinchor,38.2,2025-10-21 21:26:31
+PAT0388,Diarra Ka,37,Femme,47.9,188.8,13.4,66,145,77,89.8,3,Marche rapide,Insuffisance rénale,Salbutamol,Non,Très actif,Saint-Louis,37.2,2025-10-21 21:20:31
+PAT0389,Rokhaya Lo,49,Femme,78.5,203.8,18.9,88,102,82,92.3,8,Sommeil,Insuffisance rénale,Amlodipine,Occasionnel,Très actif,Dakar,37.6,2025-10-21 21:34:14
+PAT0390,Pape Camara,84,Homme,51.4,149.6,23.0,88,139,87,94.6,5,Repos,Malaria,Amlodipine,Oui,Très actif,Kaolack,36.4,2025-10-21 21:31:28
+PAT0391,Ndeye Fatou Faye,29,Femme,68.7,151.7,29.9,109,114,85,93.3,3,Exercice léger,Insuffisance rénale,Paracétamol,Occasionnel,Sédentaire,Saint-Louis,36.1,2025-10-21 21:33:17
+PAT0392,Ndeye Fatou Sall,79,Femme,51.0,202.2,12.5,100,135,89,96.3,5,Sommeil,Hypertension artérielle,Amlodipine,Non,Très actif,Thiès,36.8,2025-10-21 21:25:18
+PAT0393,Maimouna Sall,31,Femme,59.6,150.5,26.3,84,123,86,93.5,7,Sommeil,Malaria,Salbutamol,Oui,Sédentaire,Thiès,36.2,2025-10-21 21:33:29
+PAT0394,Mame Mbaye,46,Femme,59.4,145.2,28.2,60,118,78,94.1,3,Repos,Diabète de type 2,Insuline,Oui,Très actif,Fatick,37.9,2025-10-21 21:25:42
+PAT0395,Abdoulaye Cisse,81,Homme,62.6,197.0,16.1,79,126,71,92.0,2,Travail physique,Diabète de type 2,Amlodipine,Occasionnel,Très actif,Ziguinchor,36.0,2025-10-21 21:31:48
+PAT0396,Awa Camara,82,Femme,47.4,174.5,15.6,99,129,93,92.1,1,Travail physique,Diabète de type 2,Salbutamol,Occasionnel,Sédentaire,Ziguinchor,36.9,2025-10-21 21:31:13
+PAT0397,Lamine Ka,85,Homme,70.7,190.6,19.5,68,137,73,89.7,2,Sommeil,Bronchite,Aucun,Occasionnel,Actif,Thiès,36.6,2025-10-21 21:26:52
+PAT0398,Malick Lo,85,Homme,98.1,168.7,34.5,67,125,93,98.5,8,Marche rapide,Hypertension artérielle,Insuline,Non,Actif,Dakar,36.4,2025-10-21 21:32:49
+PAT0399,Rokhaya Dieng,30,Femme,99.1,166.6,35.7,59,140,79,97.9,5,Repos,Diabète de type 2,Paracétamol,Non,Actif,Saint-Louis,38.4,2025-10-21 21:20:21
+PAT0400,Sidy Faye,30,Homme,108.5,152.1,46.9,88,121,76,92.9,7,Travail physique,Malaria,Insuline,Oui,Sédentaire,Saint-Louis,36.5,2025-10-21 21:24:40
+PAT0401,Kine Cisse,53,Femme,100.7,155.2,41.8,108,126,60,91.3,3,Travail physique,Aucune,Hydroxyurée,Non,Actif,Thiès,37.2,2025-10-21 21:28:55
+PAT0402,Bouna Ka,75,Homme,63.4,190.7,17.4,89,126,86,88.6,6,Exercice léger,Hypertension artérielle,Insuline,Occasionnel,Très actif,Kaolack,38.0,2025-10-21 21:30:29
+PAT0403,Fama Ka,71,Femme,84.1,166.1,30.5,66,154,95,92.1,0,Repos,Aucune,Insuline,Occasionnel,Actif,Ziguinchor,37.6,2025-10-21 21:32:55
+PAT0404,Modou Thiam,35,Homme,104.7,145.3,49.6,103,143,90,90.1,1,Repos,Bronchite,Artemether,Non,Très actif,Thiès,37.8,2025-10-21 21:29:42
+PAT0405,Rokhaya Camara,26,Femme,78.4,204.7,18.7,103,101,63,97.0,0,Marche rapide,Insuffisance rénale,Artemether,Non,Actif,Ziguinchor,36.6,2025-10-21 21:21:57
+PAT0406,Modou Thiam,56,Homme,46.0,149.1,20.7,85,136,84,91.0,7,Sommeil,Diabète de type 2,Artemether,Occasionnel,Actif,Kaolack,38.3,2025-10-21 21:23:44
+PAT0407,Moussa Mbaye,37,Homme,93.1,170.5,32.0,62,109,81,92.9,6,Exercice léger,Bronchite,Hydroxyurée,Oui,Actif,Ziguinchor,38.0,2025-10-21 21:17:54
+PAT0408,Omar Cisse,74,Homme,55.6,161.3,21.4,93,138,85,93.5,6,Sommeil,Diabète de type 2,Paracétamol,Occasionnel,Sédentaire,Dakar,38.0,2025-10-21 21:26:57
+PAT0409,Seynabou Toure,24,Femme,65.9,202.4,16.1,81,122,84,94.1,6,Sommeil,Malaria,Paracétamol,Oui,Sédentaire,Thiès,36.0,2025-10-21 21:27:04
+PAT0410,Malick Ka,65,Homme,63.7,185.2,18.6,85,122,89,93.9,6,Exercice léger,Diabète de type 2,Insuline,Oui,Très actif,Saint-Louis,36.1,2025-10-21 21:35:37
+PAT0411,Diarra Camara,56,Femme,74.4,191.4,20.3,96,136,60,91.1,8,Travail physique,Insuffisance rénale,Salbutamol,Occasionnel,Sédentaire,Kaolack,38.2,2025-10-21 21:35:08
+PAT0412,Fama Mbaye,64,Femme,78.5,185.3,22.9,90,117,93,89.2,2,Marche rapide,Diabète de type 2,Insuline,Non,Très actif,Thiès,36.4,2025-10-21 21:21:00
+PAT0413,Moussa Camara,35,Homme,105.4,149.9,46.9,68,101,76,95.9,0,Marche rapide,Malaria,Salbutamol,Occasionnel,Actif,Saint-Louis,36.8,2025-10-21 21:19:29
+PAT0414,Fama Faye,22,Femme,72.4,180.9,22.1,88,117,66,89.9,4,Repos,Bronchite,Insuline,Non,Actif,Dakar,38.3,2025-10-21 21:32:13
+PAT0415,Kine Toure,70,Femme,95.2,161.6,36.5,63,127,86,91.0,7,Travail physique,Anémie falciforme,Hydroxyurée,Non,Sédentaire,Thiès,38.2,2025-10-21 21:34:43
+PAT0416,Fama Mbaye,47,Femme,95.9,185.7,27.8,78,115,80,94.0,2,Marche rapide,Malaria,Aucun,Non,Sédentaire,Saint-Louis,37.8,2025-10-21 21:24:17
+PAT0417,Moussa Toure,22,Homme,73.4,175.0,24.0,92,128,62,93.6,6,Exercice léger,Malaria,Artemether,Occasionnel,Actif,Kaolack,37.9,2025-10-21 21:24:45
+PAT0418,Diarra Ka,60,Femme,73.0,188.4,20.6,106,125,60,98.2,1,Sommeil,Diabète de type 2,Hydroxyurée,Non,Très actif,Ziguinchor,38.1,2025-10-21 21:21:43
+PAT0419,Abdoulaye Thiam,77,Homme,101.8,180.4,31.3,82,152,88,97.1,8,Repos,Anémie falciforme,Aucun,Oui,Actif,Saint-Louis,38.4,2025-10-21 21:17:58
+PAT0420,Seynabou Dieng,66,Femme,88.2,148.4,40.0,81,147,87,90.1,3,Marche rapide,Malaria,Amlodipine,Oui,Sédentaire,Fatick,37.6,2025-10-21 21:21:58
+PAT0421,Kine Sall,20,Femme,52.7,152.7,22.6,55,135,81,97.5,0,Sommeil,Insuffisance rénale,Artemether,Oui,Très actif,Dakar,36.2,2025-10-21 21:23:03
+PAT0422,Diarra Cisse,45,Femme,106.8,146.6,49.7,83,128,87,92.4,4,Repos,Aucune,Paracétamol,Non,Très actif,Ziguinchor,38.5,2025-10-21 21:26:42
+PAT0423,Modou Mbaye,58,Homme,48.4,200.4,12.1,63,106,70,88.1,1,Travail physique,Anémie falciforme,Insuline,Occasionnel,Sédentaire,Ziguinchor,36.9,2025-10-21 21:25:08
+PAT0424,Lamine Faye,52,Homme,71.5,198.1,18.2,65,123,76,88.7,8,Repos,Anémie falciforme,Artemether,Occasionnel,Actif,Kaolack,37.7,2025-10-21 21:31:57
+PAT0425,Samba Sall,65,Homme,103.0,182.2,31.0,90,137,82,96.0,0,Repos,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Kaolack,37.1,2025-10-21 21:29:38
+PAT0426,Kine Sall,26,Femme,66.7,203.1,16.2,92,142,79,89.6,6,Sommeil,Hypertension artérielle,Aucun,Non,Très actif,Saint-Louis,37.1,2025-10-21 21:35:23
+PAT0427,Awa Toure,52,Femme,52.2,200.0,13.1,80,127,69,95.5,2,Repos,Diabète de type 2,Amlodipine,Occasionnel,Très actif,Kaolack,36.7,2025-10-21 21:31:12
+PAT0428,Fama Dieng,26,Femme,45.4,152.7,19.5,88,141,75,94.0,3,Repos,Aucune,Aucun,Oui,Très actif,Dakar,37.1,2025-10-21 21:25:54
+PAT0429,Awa Lo,32,Femme,84.3,184.4,24.8,110,132,81,89.2,0,Sommeil,Aucune,Amlodipine,Non,Sédentaire,Dakar,37.8,2025-10-21 21:29:53
+PAT0430,Awa Sall,40,Femme,102.9,188.6,28.9,59,102,88,96.9,0,Travail physique,Anémie falciforme,Amlodipine,Oui,Très actif,Fatick,37.4,2025-10-21 21:33:06
+PAT0431,Bineta Sall,69,Femme,71.6,147.2,33.0,98,142,74,94.2,0,Marche rapide,Bronchite,Hydroxyurée,Oui,Sédentaire,Saint-Louis,36.5,2025-10-21 21:24:05
+PAT0432,Modou Dieng,38,Homme,104.6,193.5,27.9,59,112,65,94.5,5,Sommeil,Malaria,Amlodipine,Occasionnel,Sédentaire,Thiès,36.9,2025-10-21 21:31:54
+PAT0433,Malick Sall,71,Homme,106.5,163.7,39.7,90,121,95,92.9,6,Marche rapide,Aucune,Artemether,Non,Sédentaire,Ziguinchor,37.5,2025-10-21 21:24:49
+PAT0434,Bineta Sall,73,Femme,72.6,159.4,28.6,63,135,90,97.5,7,Repos,Bronchite,Amlodipine,Non,Très actif,Fatick,36.9,2025-10-21 21:27:30
+PAT0435,Abdoulaye Camara,52,Homme,88.5,158.3,35.3,73,113,71,99.0,8,Marche rapide,Bronchite,Salbutamol,Occasionnel,Sédentaire,Ziguinchor,36.8,2025-10-21 21:31:09
+PAT0436,Bouna Sall,53,Homme,65.3,170.1,22.6,65,122,87,93.5,2,Sommeil,Diabète de type 2,Paracétamol,Non,Actif,Thiès,36.3,2025-10-21 21:22:07
+PAT0437,Seynabou Sall,72,Femme,83.9,193.7,22.4,74,127,91,92.0,5,Sommeil,Bronchite,Amlodipine,Oui,Actif,Thiès,37.9,2025-10-21 21:24:06
+PAT0438,Abdoulaye Lo,65,Homme,86.4,195.3,22.7,90,158,77,93.1,6,Marche rapide,Malaria,Paracétamol,Oui,Actif,Ziguinchor,37.6,2025-10-21 21:34:21
+PAT0439,Awa Toure,31,Femme,77.9,172.1,26.3,78,144,63,88.2,1,Marche rapide,Malaria,Salbutamol,Oui,Actif,Ziguinchor,36.4,2025-10-21 21:31:11
+PAT0440,Maimouna Lo,22,Femme,76.8,193.4,20.5,89,100,75,95.1,5,Repos,Bronchite,Aucun,Oui,Très actif,Fatick,37.0,2025-10-21 21:32:39
+PAT0441,Moussa Dieng,38,Homme,80.6,179.5,25.0,64,106,65,93.2,6,Sommeil,Insuffisance rénale,Paracétamol,Non,Actif,Dakar,36.1,2025-10-21 21:33:26
+PAT0442,Abdoulaye Camara,22,Homme,80.6,146.9,37.4,84,128,65,98.7,3,Sommeil,Insuffisance rénale,Insuline,Occasionnel,Actif,Saint-Louis,36.6,2025-10-21 21:22:30
+PAT0443,Seynabou Camara,15,Femme,103.6,175.8,33.5,73,101,75,94.3,1,Repos,Aucune,Paracétamol,Non,Actif,Kaolack,37.8,2025-10-21 21:29:28
+PAT0444,Diarra Lo,33,Femme,48.5,177.7,15.4,102,125,82,90.7,4,Travail physique,Hypertension artérielle,Amlodipine,Oui,Sédentaire,Fatick,37.2,2025-10-21 21:33:20
+PAT0445,Ndeye Fatou Mbaye,64,Femme,74.2,193.3,19.9,75,160,75,95.1,3,Exercice léger,Aucune,Amlodipine,Oui,Très actif,Fatick,37.9,2025-10-21 21:34:04
+PAT0446,Sidy Sall,17,Homme,75.5,190.0,20.9,103,128,89,91.6,3,Exercice léger,Hypertension artérielle,Salbutamol,Occasionnel,Sédentaire,Saint-Louis,38.0,2025-10-21 21:21:32
+PAT0447,Kine Ka,65,Femme,50.4,180.2,15.5,60,156,89,90.0,6,Sommeil,Aucune,Amlodipine,Occasionnel,Actif,Thiès,37.9,2025-10-21 21:21:38
+PAT0448,Modou Sall,80,Homme,84.2,156.3,34.5,100,141,79,98.5,3,Marche rapide,Diabète de type 2,Artemether,Non,Sédentaire,Ziguinchor,37.5,2025-10-21 21:31:12
+PAT0449,Bineta Camara,60,Femme,103.9,169.7,36.1,100,141,84,93.9,2,Exercice léger,Hypertension artérielle,Insuline,Occasionnel,Très actif,Ziguinchor,37.6,2025-10-21 21:23:28
+PAT0450,Awa Cisse,85,Femme,88.7,196.7,22.9,62,128,83,98.6,0,Repos,Aucune,Amlodipine,Oui,Sédentaire,Saint-Louis,36.7,2025-10-21 21:31:18
+PAT0451,Bineta Toure,39,Femme,70.2,153.3,29.9,103,136,76,90.0,2,Marche rapide,Anémie falciforme,Hydroxyurée,Oui,Très actif,Ziguinchor,36.9,2025-10-21 21:31:11
+PAT0452,Lamine Ka,81,Homme,61.0,147.5,28.0,93,141,83,89.0,1,Repos,Anémie falciforme,Amlodipine,Occasionnel,Actif,Kaolack,38.3,2025-10-21 21:18:30
+PAT0453,Samba Dieng,18,Homme,71.9,147.7,33.0,93,125,61,88.8,1,Travail physique,Hypertension artérielle,Paracétamol,Oui,Sédentaire,Ziguinchor,36.5,2025-10-21 21:32:53
+PAT0454,Modou Toure,78,Homme,88.3,153.8,37.3,83,115,90,95.9,3,Exercice léger,Anémie falciforme,Aucun,Oui,Très actif,Fatick,37.8,2025-10-21 21:22:43
+PAT0455,Bineta Lo,30,Femme,101.0,199.9,25.3,106,115,73,89.5,2,Marche rapide,Diabète de type 2,Insuline,Occasionnel,Sédentaire,Fatick,37.8,2025-10-21 21:31:50
+PAT0456,Modou Toure,55,Homme,55.3,149.9,24.6,82,135,66,96.8,6,Sommeil,Anémie falciforme,Hydroxyurée,Occasionnel,Actif,Dakar,37.4,2025-10-21 21:22:08
+PAT0457,Bouna Dieng,60,Homme,70.6,168.2,25.0,80,120,74,90.8,8,Repos,Malaria,Paracétamol,Non,Sédentaire,Kaolack,38.4,2025-10-21 21:27:36
+PAT0458,Seynabou Dieng,73,Femme,76.1,150.8,33.5,79,158,90,98.9,7,Sommeil,Aucune,Insuline,Non,Très actif,Saint-Louis,37.3,2025-10-21 21:18:59
+PAT0459,Modou Cisse,49,Homme,73.0,191.7,19.9,59,125,84,91.9,0,Travail physique,Insuffisance rénale,Paracétamol,Occasionnel,Actif,Thiès,37.2,2025-10-21 21:20:34
+PAT0460,Awa Thiam,47,Femme,48.2,176.2,15.5,91,108,79,95.9,8,Repos,Hypertension artérielle,Aucun,Occasionnel,Sédentaire,Saint-Louis,38.4,2025-10-21 21:23:12
+PAT0461,Maimouna Cisse,37,Femme,67.0,180.0,20.7,101,119,90,92.6,5,Repos,Malaria,Paracétamol,Non,Actif,Dakar,36.7,2025-10-21 21:21:44
+PAT0462,Awa Toure,66,Femme,64.4,202.4,15.7,60,129,94,89.4,4,Travail physique,Insuffisance rénale,Hydroxyurée,Occasionnel,Actif,Dakar,36.7,2025-10-21 21:29:39
+PAT0463,Diarra Faye,46,Femme,65.0,179.7,20.1,96,103,81,90.7,2,Exercice léger,Insuffisance rénale,Artemether,Oui,Très actif,Saint-Louis,37.4,2025-10-21 21:24:27
+PAT0464,Pape Lo,58,Homme,93.1,156.8,37.9,80,113,81,98.5,1,Exercice léger,Insuffisance rénale,Amlodipine,Oui,Très actif,Saint-Louis,38.4,2025-10-21 21:21:20
+PAT0465,Awa Mbaye,80,Femme,54.9,176.0,17.7,89,110,70,92.7,7,Marche rapide,Insuffisance rénale,Insuline,Occasionnel,Très actif,Ziguinchor,38.2,2025-10-21 21:30:41
+PAT0466,Moussa Mbaye,19,Homme,61.7,158.5,24.6,102,109,80,88.4,1,Sommeil,Bronchite,Amlodipine,Occasionnel,Très actif,Dakar,36.1,2025-10-21 21:18:34
+PAT0467,Sidy Dieng,36,Homme,58.1,163.5,21.7,84,142,87,90.8,4,Exercice léger,Hypertension artérielle,Insuline,Non,Très actif,Saint-Louis,36.2,2025-10-21 21:28:56
+PAT0468,Mame Toure,47,Femme,109.4,191.9,29.7,63,130,81,90.8,5,Repos,Malaria,Artemether,Occasionnel,Sédentaire,Dakar,38.0,2025-10-21 21:22:21
+PAT0469,Moussa Ka,40,Homme,51.4,168.4,18.1,107,100,85,91.0,3,Marche rapide,Diabète de type 2,Artemether,Non,Sédentaire,Ziguinchor,36.4,2025-10-21 21:22:18
+PAT0470,Fama Dieng,47,Femme,93.6,169.0,32.8,58,103,61,93.6,5,Travail physique,Aucune,Amlodipine,Occasionnel,Très actif,Dakar,36.5,2025-10-21 21:22:07
+PAT0471,Rokhaya Cisse,37,Femme,88.4,173.8,29.3,67,136,81,91.5,0,Exercice léger,Insuffisance rénale,Insuline,Oui,Sédentaire,Thiès,38.3,2025-10-21 21:29:32
+PAT0472,Maimouna Cisse,21,Femme,105.3,179.4,32.7,66,138,72,90.6,3,Repos,Aucune,Artemether,Non,Sédentaire,Fatick,37.9,2025-10-21 21:18:56
+PAT0473,Kine Toure,71,Femme,53.5,164.2,19.8,79,114,86,98.5,5,Marche rapide,Insuffisance rénale,Aucun,Oui,Actif,Kaolack,37.2,2025-10-21 21:22:43
+PAT0474,Maimouna Mbaye,18,Femme,78.3,178.0,24.7,80,129,79,96.2,1,Marche rapide,Diabète de type 2,Amlodipine,Non,Actif,Saint-Louis,37.1,2025-10-21 21:24:58
+PAT0475,Fama Toure,37,Femme,71.3,184.5,20.9,59,107,76,94.2,2,Sommeil,Diabète de type 2,Insuline,Non,Sédentaire,Ziguinchor,37.6,2025-10-21 21:20:59
+PAT0476,Ndeye Fatou Toure,78,Femme,73.3,178.3,23.1,65,129,77,98.9,3,Marche rapide,Malaria,Insuline,Oui,Actif,Thiès,36.8,2025-10-21 21:21:33
+PAT0477,Lamine Lo,73,Homme,81.5,180.6,25.0,87,123,80,95.1,2,Repos,Aucune,Insuline,Oui,Très actif,Fatick,38.3,2025-10-21 21:19:10
+PAT0478,Fama Cisse,85,Femme,49.8,191.8,13.5,66,160,76,89.5,7,Exercice léger,Aucune,Salbutamol,Oui,Très actif,Fatick,38.3,2025-10-21 21:20:57
+PAT0479,Bouna Ka,27,Homme,81.6,199.8,20.4,59,132,82,96.3,5,Exercice léger,Aucune,Amlodipine,Oui,Sédentaire,Ziguinchor,37.1,2025-10-21 21:29:07
+PAT0480,Abdoulaye Dieng,21,Homme,79.7,151.0,35.0,80,106,87,94.8,4,Exercice léger,Insuffisance rénale,Amlodipine,Occasionnel,Sédentaire,Saint-Louis,36.5,2025-10-21 21:25:36
+PAT0481,Lamine Mbaye,67,Homme,84.0,146.2,39.3,67,118,78,98.0,5,Sommeil,Anémie falciforme,Artemether,Non,Actif,Kaolack,38.4,2025-10-21 21:34:44
+PAT0482,Rokhaya Sall,54,Femme,60.8,192.0,16.5,56,122,68,89.2,7,Travail physique,Bronchite,Hydroxyurée,Non,Sédentaire,Fatick,36.9,2025-10-21 21:24:50
+PAT0483,Abdoulaye Dieng,59,Homme,105.4,176.2,33.9,55,107,74,91.1,4,Travail physique,Bronchite,Paracétamol,Occasionnel,Sédentaire,Dakar,37.6,2025-10-21 21:24:30
+PAT0484,Abdoulaye Mbaye,72,Homme,83.1,197.3,21.3,63,135,75,89.7,1,Marche rapide,Anémie falciforme,Insuline,Non,Sédentaire,Saint-Louis,37.6,2025-10-21 21:33:13
+PAT0485,Kine Faye,69,Femme,81.1,159.3,32.0,81,135,95,92.0,5,Travail physique,Bronchite,Aucun,Occasionnel,Sédentaire,Ziguinchor,36.3,2025-10-21 21:25:14
+PAT0486,Diarra Cisse,55,Femme,101.5,198.1,25.9,85,145,70,91.3,8,Sommeil,Bronchite,Amlodipine,Occasionnel,Très actif,Fatick,36.8,2025-10-21 21:22:23
+PAT0487,Lamine Dieng,36,Homme,51.3,175.6,16.6,91,134,83,89.3,1,Sommeil,Bronchite,Insuline,Oui,Très actif,Thiès,38.5,2025-10-21 21:31:24
+PAT0488,Mame Toure,15,Femme,46.6,195.6,12.2,93,123,64,89.7,0,Repos,Insuffisance rénale,Amlodipine,Oui,Sédentaire,Thiès,37.5,2025-10-21 21:27:59
+PAT0489,Diarra Sall,62,Femme,104.4,186.6,30.0,87,116,85,89.1,3,Marche rapide,Bronchite,Insuline,Oui,Actif,Dakar,36.2,2025-10-21 21:31:24
+PAT0490,Moussa Cisse,34,Homme,98.6,184.2,29.1,78,144,63,89.1,2,Exercice léger,Bronchite,Aucun,Occasionnel,Très actif,Dakar,38.0,2025-10-21 21:31:20
+PAT0491,Sidy Lo,65,Homme,83.6,164.3,31.0,71,117,88,92.0,7,Marche rapide,Diabète de type 2,Artemether,Occasionnel,Très actif,Ziguinchor,36.1,2025-10-21 21:22:09
+PAT0492,Diarra Lo,50,Femme,96.2,156.0,39.5,106,140,74,92.6,4,Exercice léger,Aucune,Amlodipine,Oui,Très actif,Fatick,36.3,2025-10-21 21:28:50
+PAT0493,Samba Camara,18,Homme,70.7,200.3,17.6,78,144,70,97.2,0,Travail physique,Bronchite,Salbutamol,Oui,Sédentaire,Thiès,36.7,2025-10-21 21:23:25
+PAT0494,Moussa Camara,42,Homme,77.8,198.8,19.7,83,111,69,96.5,7,Travail physique,Diabète de type 2,Artemether,Oui,Sédentaire,Ziguinchor,36.3,2025-10-21 21:18:38
+PAT0495,Malick Cisse,58,Homme,69.1,187.6,19.6,77,102,88,88.8,6,Travail physique,Bronchite,Salbutamol,Non,Très actif,Fatick,36.8,2025-10-21 21:24:50
+PAT0496,Lamine Sall,54,Homme,104.6,150.6,46.1,95,131,90,96.9,3,Exercice léger,Hypertension artérielle,Aucun,Oui,Très actif,Thiès,36.4,2025-10-21 21:24:54
+PAT0497,Abdoulaye Mbaye,49,Homme,76.4,181.7,23.1,81,126,84,93.3,5,Sommeil,Malaria,Amlodipine,Non,Très actif,Dakar,36.9,2025-10-21 21:19:02
+PAT0498,Kine Toure,75,Femme,90.2,171.1,30.8,100,145,93,94.4,6,Marche rapide,Hypertension artérielle,Salbutamol,Occasionnel,Actif,Kaolack,36.8,2025-10-21 21:32:11
+PAT0499,Pape Dieng,83,Homme,102.3,166.4,36.9,73,159,77,95.8,2,Travail physique,Hypertension artérielle,Hydroxyurée,Occasionnel,Actif,Kaolack,36.9,2025-10-21 21:26:54
+PAT0500,Kine Thiam,33,Femme,80.5,179.5,25.0,67,113,69,98.5,4,Travail physique,Bronchite,Artemether,Oui,Sédentaire,Saint-Louis,37.8,2025-10-21 21:22:28
+PAT0501,Bineta Lo,31,Femme,98.6,176.3,31.7,58,105,78,95.3,6,Sommeil,Anémie falciforme,Artemether,Non,Sédentaire,Thiès,37.6,2025-10-21 21:19:10
+PAT0502,Abdoulaye Cisse,51,Homme,47.8,186.2,13.8,103,126,87,88.4,0,Exercice léger,Anémie falciforme,Aucun,Occasionnel,Actif,Thiès,38.3,2025-10-21 21:17:48
+PAT0503,Lamine Sall,41,Homme,80.9,189.9,22.4,110,104,77,97.9,5,Marche rapide,Bronchite,Insuline,Oui,Très actif,Saint-Louis,37.2,2025-10-21 21:26:04
+PAT0504,Fama Ka,80,Femme,85.3,169.8,29.6,60,151,71,91.7,8,Repos,Insuffisance rénale,Hydroxyurée,Non,Sédentaire,Dakar,37.9,2025-10-21 21:25:40
+PAT0505,Mame Dieng,48,Femme,59.3,150.3,26.3,83,138,63,91.1,4,Marche rapide,Insuffisance rénale,Aucun,Non,Très actif,Ziguinchor,37.6,2025-10-21 21:22:33
+PAT0506,Modou Sall,63,Homme,60.0,185.4,17.5,71,131,89,93.0,0,Repos,Aucune,Salbutamol,Occasionnel,Actif,Dakar,36.2,2025-10-21 21:21:39
+PAT0507,Pape Sall,84,Homme,105.9,160.4,41.2,100,123,85,98.2,3,Marche rapide,Bronchite,Artemether,Non,Sédentaire,Thiès,38.3,2025-10-21 21:35:30
+PAT0508,Fama Dieng,66,Femme,50.4,147.1,23.3,95,129,90,95.0,0,Repos,Hypertension artérielle,Paracétamol,Oui,Sédentaire,Ziguinchor,37.4,2025-10-21 21:34:50
+PAT0509,Lamine Dieng,83,Homme,90.6,165.1,33.2,73,113,80,98.8,2,Travail physique,Insuffisance rénale,Hydroxyurée,Oui,Actif,Saint-Louis,38.4,2025-10-21 21:25:07
+PAT0510,Seynabou Mbaye,80,Femme,90.2,181.9,27.3,76,129,87,90.9,4,Travail physique,Bronchite,Paracétamol,Non,Sédentaire,Fatick,36.7,2025-10-21 21:22:35
+PAT0511,Sidy Cisse,25,Homme,81.8,151.0,35.9,65,144,71,93.1,7,Exercice léger,Aucune,Aucun,Oui,Actif,Thiès,37.5,2025-10-21 21:33:01
+PAT0512,Modou Sall,20,Homme,70.0,149.2,31.4,110,114,80,95.0,2,Marche rapide,Anémie falciforme,Salbutamol,Oui,Actif,Thiès,36.5,2025-10-21 21:20:30
+PAT0513,Fama Thiam,76,Femme,61.4,156.6,25.0,67,147,94,93.5,1,Exercice léger,Hypertension artérielle,Artemether,Non,Très actif,Saint-Louis,38.4,2025-10-21 21:21:26
+PAT0514,Modou Faye,42,Homme,85.4,179.9,26.4,72,110,75,98.8,6,Marche rapide,Bronchite,Paracétamol,Non,Très actif,Kaolack,38.4,2025-10-21 21:23:35
+PAT0515,Bineta Dieng,76,Femme,106.6,168.2,37.7,65,122,91,94.3,3,Exercice léger,Hypertension artérielle,Hydroxyurée,Non,Très actif,Saint-Louis,36.9,2025-10-21 21:22:35
+PAT0516,Bouna Lo,53,Homme,97.4,149.7,43.5,58,116,82,88.6,0,Repos,Insuffisance rénale,Paracétamol,Oui,Actif,Thiès,38.0,2025-10-21 21:18:05
+PAT0517,Fama Toure,43,Femme,75.2,149.2,33.8,78,112,67,89.0,6,Exercice léger,Aucune,Insuline,Non,Sédentaire,Thiès,36.1,2025-10-21 21:27:16
+PAT0518,Lamine Toure,68,Homme,66.2,192.2,17.9,96,139,70,97.9,6,Travail physique,Insuffisance rénale,Amlodipine,Occasionnel,Sédentaire,Ziguinchor,38.3,2025-10-21 21:30:09
+PAT0519,Ndeye Fatou Toure,17,Femme,54.3,155.6,22.4,107,120,71,88.7,7,Sommeil,Aucune,Insuline,Occasionnel,Très actif,Fatick,36.1,2025-10-21 21:24:16
+PAT0520,Fama Cisse,28,Femme,61.5,192.6,16.6,59,131,82,89.2,5,Repos,Hypertension artérielle,Amlodipine,Oui,Très actif,Ziguinchor,37.8,2025-10-21 21:26:07
+PAT0521,Mame Thiam,47,Femme,68.8,182.8,20.6,85,124,83,90.8,1,Sommeil,Aucune,Insuline,Non,Très actif,Dakar,37.0,2025-10-21 21:29:59
+PAT0522,Kine Sall,55,Femme,93.4,156.2,38.3,98,125,70,94.3,6,Marche rapide,Hypertension artérielle,Paracétamol,Oui,Actif,Saint-Louis,36.9,2025-10-21 21:29:41
+PAT0523,Awa Cisse,34,Femme,109.9,161.1,42.3,90,125,83,94.9,3,Sommeil,Bronchite,Aucun,Occasionnel,Actif,Ziguinchor,37.0,2025-10-21 21:31:30
+PAT0524,Modou Sall,56,Homme,107.7,148.1,49.1,110,114,69,88.3,0,Sommeil,Malaria,Insuline,Non,Sédentaire,Fatick,37.8,2025-10-21 21:26:44
+PAT0525,Awa Toure,21,Femme,85.5,196.6,22.1,67,123,89,91.5,1,Marche rapide,Hypertension artérielle,Paracétamol,Non,Très actif,Saint-Louis,36.0,2025-10-21 21:30:28
+PAT0526,Malick Ka,65,Homme,69.6,156.5,28.4,87,131,80,98.1,6,Marche rapide,Malaria,Paracétamol,Oui,Très actif,Kaolack,38.2,2025-10-21 21:31:42
+PAT0527,Moussa Camara,59,Homme,45.1,187.9,12.8,92,121,71,98.2,4,Sommeil,Diabète de type 2,Aucun,Non,Très actif,Saint-Louis,36.8,2025-10-21 21:21:57
+PAT0528,Bineta Faye,85,Femme,65.3,165.1,24.0,70,149,78,90.9,2,Travail physique,Anémie falciforme,Paracétamol,Non,Sédentaire,Ziguinchor,38.1,2025-10-21 21:25:26
+PAT0529,Omar Camara,45,Homme,56.1,162.5,21.2,102,138,71,93.5,8,Repos,Malaria,Aucun,Non,Très actif,Ziguinchor,36.8,2025-10-21 21:22:23
+PAT0530,Abdoulaye Lo,47,Homme,105.9,177.0,33.8,72,137,75,88.6,5,Marche rapide,Insuffisance rénale,Insuline,Occasionnel,Très actif,Kaolack,36.1,2025-10-21 21:23:35
+PAT0531,Kine Ka,59,Femme,94.3,151.2,41.2,65,112,68,88.9,8,Repos,Insuffisance rénale,Paracétamol,Occasionnel,Très actif,Thiès,38.2,2025-10-21 21:21:42
+PAT0532,Lamine Ka,80,Homme,96.1,176.9,30.7,93,155,95,93.2,0,Exercice léger,Hypertension artérielle,Salbutamol,Non,Très actif,Kaolack,38.2,2025-10-21 21:35:10
+PAT0533,Bineta Dieng,19,Femme,90.0,174.3,29.6,57,130,90,97.1,0,Exercice léger,Anémie falciforme,Insuline,Non,Très actif,Thiès,37.6,2025-10-21 21:24:03
+PAT0534,Ndeye Fatou Mbaye,65,Femme,68.7,157.2,27.8,96,155,95,97.4,0,Sommeil,Malaria,Salbutamol,Oui,Sédentaire,Fatick,38.2,2025-10-21 21:30:56
+PAT0535,Abdoulaye Camara,74,Homme,104.2,166.4,37.6,73,159,85,93.7,8,Sommeil,Bronchite,Amlodipine,Occasionnel,Sédentaire,Saint-Louis,36.6,2025-10-21 21:18:43
+PAT0536,Bineta Camara,47,Femme,73.9,172.7,24.8,96,106,73,89.6,8,Marche rapide,Bronchite,Amlodipine,Non,Sédentaire,Ziguinchor,38.5,2025-10-21 21:21:20
+PAT0537,Sidy Sall,24,Homme,61.8,155.9,25.4,89,116,65,91.2,2,Repos,Hypertension artérielle,Amlodipine,Non,Sédentaire,Kaolack,36.5,2025-10-21 21:33:33
+PAT0538,Bouna Ka,69,Homme,74.6,154.3,31.3,95,132,91,94.3,7,Travail physique,Hypertension artérielle,Hydroxyurée,Non,Très actif,Fatick,37.7,2025-10-21 21:34:44
+PAT0539,Seynabou Faye,39,Femme,101.9,157.7,41.0,58,111,79,89.0,7,Sommeil,Anémie falciforme,Insuline,Oui,Actif,Dakar,37.2,2025-10-21 21:31:13
+PAT0540,Omar Ka,43,Homme,93.9,176.3,30.2,90,144,90,90.8,5,Repos,Hypertension artérielle,Salbutamol,Oui,Actif,Fatick,37.0,2025-10-21 21:27:40
+PAT0541,Maimouna Cisse,27,Femme,55.1,184.5,16.2,61,110,86,98.5,3,Sommeil,Bronchite,Hydroxyurée,Occasionnel,Très actif,Thiès,36.4,2025-10-21 21:30:19
+PAT0542,Samba Dieng,58,Homme,99.3,178.9,31.0,69,103,87,89.4,2,Sommeil,Malaria,Amlodipine,Oui,Sédentaire,Kaolack,37.5,2025-10-21 21:35:22
+PAT0543,Modou Dieng,35,Homme,49.5,188.4,13.9,101,102,82,96.6,6,Travail physique,Malaria,Salbutamol,Occasionnel,Actif,Thiès,36.1,2025-10-21 21:35:02
+PAT0544,Kine Thiam,56,Femme,96.4,198.5,24.5,77,100,85,88.4,3,Travail physique,Anémie falciforme,Aucun,Non,Sédentaire,Thiès,37.4,2025-10-21 21:23:22
+PAT0545,Awa Lo,78,Femme,76.9,178.9,24.0,62,134,90,89.5,6,Travail physique,Aucune,Paracétamol,Oui,Actif,Thiès,36.7,2025-10-21 21:34:34
+PAT0546,Ndeye Fatou Sall,73,Femme,63.1,157.9,25.3,90,115,77,89.4,2,Sommeil,Bronchite,Salbutamol,Oui,Actif,Thiès,36.7,2025-10-21 21:29:30
+PAT0547,Sidy Dieng,38,Homme,82.7,187.4,23.5,110,140,63,88.3,5,Sommeil,Insuffisance rénale,Paracétamol,Oui,Très actif,Dakar,37.2,2025-10-21 21:24:38
+PAT0548,Seynabou Ka,85,Femme,93.5,177.9,29.5,77,158,83,90.0,1,Repos,Malaria,Hydroxyurée,Non,Actif,Kaolack,37.2,2025-10-21 21:31:29
+PAT0549,Awa Dieng,73,Femme,60.3,150.6,26.6,99,160,78,88.2,0,Repos,Aucune,Artemether,Non,Sédentaire,Thiès,36.1,2025-10-21 21:31:09
+PAT0550,Sidy Ka,32,Homme,106.2,188.2,30.0,75,103,79,89.9,5,Sommeil,Malaria,Artemether,Non,Actif,Dakar,36.6,2025-10-21 21:26:15
+PAT0551,Rokhaya Mbaye,25,Femme,76.8,181.6,23.3,76,125,78,90.9,2,Travail physique,Bronchite,Aucun,Non,Très actif,Kaolack,37.1,2025-10-21 21:23:31
+PAT0552,Samba Ka,22,Homme,96.8,200.2,24.2,107,125,68,93.1,0,Exercice léger,Anémie falciforme,Insuline,Occasionnel,Actif,Thiès,37.1,2025-10-21 21:19:45
+PAT0553,Fama Cisse,84,Femme,66.1,183.0,19.7,66,133,94,88.7,5,Travail physique,Anémie falciforme,Salbutamol,Oui,Actif,Fatick,36.5,2025-10-21 21:18:50
+PAT0554,Maimouna Sall,35,Femme,95.5,194.0,25.4,109,114,65,93.5,0,Exercice léger,Bronchite,Aucun,Occasionnel,Très actif,Dakar,37.9,2025-10-21 21:27:20
+PAT0555,Maimouna Ka,59,Femme,60.3,149.8,26.9,67,111,68,90.4,8,Travail physique,Aucune,Amlodipine,Occasionnel,Sédentaire,Dakar,37.6,2025-10-21 21:20:55
+PAT0556,Seynabou Camara,68,Femme,56.2,172.2,19.0,87,133,71,89.6,8,Travail physique,Aucune,Paracétamol,Oui,Sédentaire,Kaolack,36.3,2025-10-21 21:28:32
+PAT0557,Fama Faye,35,Femme,75.9,167.6,27.0,86,125,68,94.4,5,Exercice léger,Hypertension artérielle,Paracétamol,Oui,Très actif,Saint-Louis,37.0,2025-10-21 21:33:06
+PAT0558,Rokhaya Ka,81,Femme,71.1,176.8,22.7,62,123,84,90.8,0,Sommeil,Bronchite,Paracétamol,Oui,Sédentaire,Thiès,37.6,2025-10-21 21:19:49
+PAT0559,Diarra Faye,62,Femme,75.3,204.8,18.0,90,134,92,93.6,2,Exercice léger,Bronchite,Artemether,Oui,Sédentaire,Ziguinchor,37.4,2025-10-21 21:20:41
+PAT0560,Kine Sall,74,Femme,57.4,182.1,17.3,79,115,94,91.8,3,Repos,Anémie falciforme,Amlodipine,Occasionnel,Actif,Kaolack,37.2,2025-10-21 21:23:30
+PAT0561,Pape Faye,30,Homme,80.7,165.4,29.5,81,121,60,90.2,4,Sommeil,Diabète de type 2,Paracétamol,Occasionnel,Très actif,Ziguinchor,38.3,2025-10-21 21:17:54
+PAT0562,Moussa Toure,76,Homme,86.2,200.3,21.5,89,151,93,98.9,8,Marche rapide,Anémie falciforme,Salbutamol,Non,Très actif,Dakar,36.6,2025-10-21 21:21:27
+PAT0563,Awa Toure,37,Femme,81.7,150.3,36.2,61,142,77,93.2,3,Sommeil,Hypertension artérielle,Paracétamol,Oui,Sédentaire,Dakar,37.9,2025-10-21 21:27:01
+PAT0564,Omar Toure,71,Homme,71.2,192.8,19.2,87,125,89,90.9,8,Marche rapide,Bronchite,Amlodipine,Non,Très actif,Kaolack,36.2,2025-10-21 21:24:39
+PAT0565,Ndeye Fatou Lo,49,Femme,101.6,181.5,30.8,100,100,79,91.7,1,Sommeil,Hypertension artérielle,Hydroxyurée,Non,Très actif,Thiès,37.0,2025-10-21 21:26:50
+PAT0566,Lamine Mbaye,28,Homme,80.9,197.1,20.8,109,126,86,94.8,2,Marche rapide,Malaria,Amlodipine,Occasionnel,Sédentaire,Fatick,37.6,2025-10-21 21:31:39
+PAT0567,Awa Camara,49,Femme,82.9,155.2,34.4,61,106,75,90.4,1,Exercice léger,Hypertension artérielle,Salbutamol,Non,Sédentaire,Ziguinchor,36.8,2025-10-21 21:19:31
+PAT0568,Samba Lo,31,Homme,69.6,150.7,30.6,102,110,64,92.6,8,Sommeil,Insuffisance rénale,Artemether,Oui,Très actif,Dakar,36.4,2025-10-21 21:32:09
+PAT0569,Sidy Camara,76,Homme,67.4,162.4,25.6,88,143,83,91.0,5,Marche rapide,Anémie falciforme,Paracétamol,Occasionnel,Sédentaire,Saint-Louis,37.6,2025-10-21 21:31:31
+PAT0570,Abdoulaye Lo,84,Homme,62.2,165.1,22.8,89,122,78,91.6,5,Repos,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Ziguinchor,38.0,2025-10-21 21:18:11
+PAT0571,Fama Faye,72,Femme,83.3,178.4,26.2,81,148,86,89.6,0,Repos,Bronchite,Salbutamol,Oui,Sédentaire,Dakar,37.0,2025-10-21 21:31:41
+PAT0572,Mame Dieng,85,Femme,77.6,188.5,21.8,84,153,80,96.1,4,Repos,Insuffisance rénale,Aucun,Oui,Très actif,Kaolack,36.7,2025-10-21 21:18:31
+PAT0573,Kine Camara,75,Femme,74.6,168.2,26.4,61,123,74,94.0,0,Travail physique,Anémie falciforme,Insuline,Non,Sédentaire,Fatick,37.2,2025-10-21 21:29:59
+PAT0574,Samba Faye,25,Homme,78.3,204.2,18.8,104,104,84,89.6,0,Travail physique,Malaria,Artemether,Non,Actif,Ziguinchor,36.9,2025-10-21 21:20:51
+PAT0575,Bouna Lo,44,Homme,67.3,197.3,17.3,77,102,69,93.7,4,Marche rapide,Anémie falciforme,Amlodipine,Non,Actif,Saint-Louis,37.5,2025-10-21 21:20:41
+PAT0576,Maimouna Faye,26,Femme,103.1,167.2,36.9,95,140,69,88.6,7,Marche rapide,Bronchite,Insuline,Non,Sédentaire,Thiès,37.0,2025-10-21 21:24:04
+PAT0577,Sidy Thiam,32,Homme,58.1,175.0,19.0,73,108,76,98.3,1,Repos,Diabète de type 2,Salbutamol,Occasionnel,Sédentaire,Kaolack,36.4,2025-10-21 21:31:19
+PAT0578,Malick Cisse,64,Homme,67.7,193.4,18.1,76,155,87,92.0,3,Marche rapide,Diabète de type 2,Insuline,Non,Actif,Kaolack,38.2,2025-10-21 21:23:27
+PAT0579,Bouna Mbaye,56,Homme,93.2,185.0,27.2,64,135,77,96.2,1,Repos,Aucune,Artemether,Oui,Très actif,Thiès,37.0,2025-10-21 21:30:17
+PAT0580,Diarra Lo,79,Femme,80.8,203.6,19.5,79,124,75,88.9,5,Marche rapide,Aucune,Aucun,Occasionnel,Sédentaire,Ziguinchor,36.4,2025-10-21 21:33:06
+PAT0581,Abdoulaye Ka,72,Homme,51.9,145.9,24.4,78,119,75,91.0,8,Travail physique,Diabète de type 2,Amlodipine,Non,Très actif,Dakar,36.2,2025-10-21 21:33:27
+PAT0582,Diarra Camara,56,Femme,84.4,187.3,24.1,110,132,66,93.3,4,Repos,Bronchite,Insuline,Occasionnel,Actif,Thiès,38.4,2025-10-21 21:25:19
+PAT0583,Awa Dieng,63,Femme,59.7,202.7,14.5,61,118,92,90.8,2,Travail physique,Hypertension artérielle,Paracétamol,Oui,Très actif,Ziguinchor,38.0,2025-10-21 21:34:32
+PAT0584,Omar Cisse,30,Homme,80.9,152.7,34.7,71,108,86,89.1,0,Marche rapide,Malaria,Insuline,Non,Très actif,Dakar,37.6,2025-10-21 21:27:57
+PAT0585,Pape Thiam,27,Homme,93.7,175.8,30.3,81,106,88,90.0,6,Exercice léger,Anémie falciforme,Artemether,Occasionnel,Actif,Thiès,36.5,2025-10-21 21:30:49
+PAT0586,Samba Cisse,32,Homme,85.1,150.8,37.4,109,101,61,88.0,7,Repos,Insuffisance rénale,Hydroxyurée,Occasionnel,Sédentaire,Thiès,37.9,2025-10-21 21:28:04
+PAT0587,Lamine Sall,52,Homme,99.9,204.5,23.9,102,103,74,92.2,6,Repos,Malaria,Salbutamol,Non,Très actif,Ziguinchor,38.3,2025-10-21 21:31:50
+PAT0588,Omar Lo,57,Homme,90.6,157.8,36.4,105,123,69,97.8,0,Repos,Malaria,Artemether,Occasionnel,Très actif,Ziguinchor,37.2,2025-10-21 21:30:21
+PAT0589,Abdoulaye Dieng,31,Homme,94.4,204.2,22.6,63,139,83,94.7,3,Travail physique,Diabète de type 2,Salbutamol,Occasionnel,Sédentaire,Dakar,37.1,2025-10-21 21:33:22
+PAT0590,Abdoulaye Camara,50,Homme,85.9,196.6,22.2,85,126,83,90.3,4,Marche rapide,Hypertension artérielle,Hydroxyurée,Non,Très actif,Ziguinchor,38.1,2025-10-21 21:22:22
+PAT0591,Kine Ka,17,Femme,106.3,158.0,42.6,99,124,72,96.9,7,Marche rapide,Anémie falciforme,Amlodipine,Oui,Actif,Fatick,36.4,2025-10-21 21:27:40
+PAT0592,Fama Thiam,44,Femme,75.9,146.6,35.3,84,109,73,96.1,8,Travail physique,Insuffisance rénale,Artemether,Non,Actif,Kaolack,37.2,2025-10-21 21:30:08
+PAT0593,Diarra Sall,38,Femme,92.9,167.8,33.0,98,116,70,95.3,4,Sommeil,Diabète de type 2,Insuline,Non,Actif,Kaolack,38.0,2025-10-21 21:24:44
+PAT0594,Diarra Dieng,52,Femme,96.3,154.0,40.6,70,127,70,98.6,8,Exercice léger,Anémie falciforme,Hydroxyurée,Oui,Sédentaire,Ziguinchor,38.5,2025-10-21 21:30:19
+PAT0595,Lamine Ka,74,Homme,78.7,200.6,19.6,93,138,88,97.5,2,Marche rapide,Bronchite,Artemether,Non,Sédentaire,Saint-Louis,38.4,2025-10-21 21:26:27
+PAT0596,Sidy Mbaye,23,Homme,84.7,160.8,32.8,110,134,83,92.3,0,Travail physique,Diabète de type 2,Amlodipine,Occasionnel,Actif,Dakar,38.3,2025-10-21 21:21:23
+PAT0597,Lamine Cisse,82,Homme,86.2,156.7,35.1,80,125,86,93.8,1,Marche rapide,Malaria,Aucun,Oui,Actif,Fatick,38.2,2025-10-21 21:31:25
+PAT0598,Bineta Faye,69,Femme,87.3,160.2,34.0,84,158,95,92.1,4,Sommeil,Hypertension artérielle,Hydroxyurée,Oui,Très actif,Dakar,38.4,2025-10-21 21:30:41
+PAT0599,Abdoulaye Ka,35,Homme,96.9,200.2,24.2,73,128,86,88.2,3,Marche rapide,Insuffisance rénale,Hydroxyurée,Oui,Très actif,Saint-Louis,37.6,2025-10-21 21:18:12
+PAT0600,Bouna Lo,53,Homme,78.7,194.9,20.7,63,107,86,96.8,7,Marche rapide,Malaria,Aucun,Non,Très actif,Fatick,37.6,2025-10-21 21:24:16
+PAT0601,Mame Thiam,54,Femme,47.1,168.6,16.6,60,109,78,88.8,8,Marche rapide,Insuffisance rénale,Salbutamol,Occasionnel,Sédentaire,Ziguinchor,38.5,2025-10-21 21:35:12
+PAT0602,Seynabou Dieng,24,Femme,88.8,173.8,29.4,65,133,63,90.0,1,Marche rapide,Malaria,Paracétamol,Non,Actif,Ziguinchor,37.9,2025-10-21 21:35:18
+PAT0603,Lamine Toure,52,Homme,74.8,197.4,19.2,77,106,77,92.3,7,Marche rapide,Anémie falciforme,Insuline,Oui,Très actif,Kaolack,37.7,2025-10-21 21:19:44
+PAT0604,Ndeye Fatou Thiam,20,Femme,66.4,182.3,20.0,81,141,90,93.8,6,Sommeil,Hypertension artérielle,Aucun,Occasionnel,Actif,Fatick,37.0,2025-10-21 21:33:42
+PAT0605,Bouna Ka,27,Homme,103.1,188.2,29.1,93,126,90,92.0,3,Travail physique,Malaria,Salbutamol,Oui,Actif,Saint-Louis,38.4,2025-10-21 21:28:17
+PAT0606,Pape Sall,21,Homme,67.1,155.5,27.7,63,112,82,95.3,3,Repos,Bronchite,Paracétamol,Occasionnel,Sédentaire,Ziguinchor,37.6,2025-10-21 21:19:17
+PAT0607,Samba Lo,47,Homme,52.8,155.1,21.9,62,122,83,94.7,6,Repos,Bronchite,Salbutamol,Occasionnel,Actif,Dakar,38.4,2025-10-21 21:30:59
+PAT0608,Samba Thiam,24,Homme,68.8,146.6,32.0,97,143,78,93.0,0,Travail physique,Hypertension artérielle,Artemether,Oui,Très actif,Saint-Louis,38.4,2025-10-21 21:30:07
+PAT0609,Fama Camara,25,Femme,75.6,182.7,22.6,108,122,85,98.2,7,Exercice léger,Anémie falciforme,Aucun,Oui,Actif,Fatick,38.3,2025-10-21 21:24:14
+PAT0610,Bineta Toure,69,Femme,52.2,191.6,14.2,86,139,74,95.7,6,Travail physique,Hypertension artérielle,Amlodipine,Oui,Très actif,Ziguinchor,38.1,2025-10-21 21:18:26
+PAT0611,Bineta Dieng,24,Femme,64.9,159.8,25.4,77,103,79,93.4,3,Marche rapide,Anémie falciforme,Insuline,Oui,Sédentaire,Thiès,36.5,2025-10-21 21:19:50
+PAT0612,Maimouna Faye,41,Femme,82.9,159.7,32.5,75,114,74,88.4,8,Marche rapide,Bronchite,Artemether,Occasionnel,Sédentaire,Dakar,36.9,2025-10-21 21:20:15
+PAT0613,Mame Thiam,67,Femme,47.0,156.5,19.2,94,136,91,96.4,3,Travail physique,Hypertension artérielle,Paracétamol,Oui,Très actif,Thiès,38.4,2025-10-21 21:33:57
+PAT0614,Malick Thiam,16,Homme,76.0,179.3,23.6,95,143,66,96.3,0,Marche rapide,Aucune,Amlodipine,Oui,Actif,Ziguinchor,37.3,2025-10-21 21:25:19
+PAT0615,Malick Faye,23,Homme,65.6,172.7,22.0,104,136,86,92.1,7,Exercice léger,Anémie falciforme,Paracétamol,Occasionnel,Sédentaire,Kaolack,38.4,2025-10-21 21:33:45
+PAT0616,Rokhaya Dieng,85,Femme,106.7,181.6,32.4,81,133,94,89.5,0,Marche rapide,Diabète de type 2,Salbutamol,Non,Sédentaire,Dakar,36.6,2025-10-21 21:30:29
+PAT0617,Kine Thiam,85,Femme,100.3,171.8,34.0,79,135,73,97.8,4,Exercice léger,Aucune,Salbutamol,Non,Actif,Thiès,37.8,2025-10-21 21:29:04
+PAT0618,Malick Mbaye,60,Homme,108.9,193.1,29.2,99,123,88,92.9,1,Marche rapide,Insuffisance rénale,Amlodipine,Oui,Sédentaire,Fatick,38.3,2025-10-21 21:21:34
+PAT0619,Ndeye Fatou Ka,48,Femme,70.0,189.1,19.6,57,139,89,96.2,7,Travail physique,Anémie falciforme,Insuline,Occasionnel,Sédentaire,Thiès,36.2,2025-10-21 21:27:07
+PAT0620,Lamine Ka,80,Homme,91.4,203.5,22.1,65,138,93,95.5,8,Marche rapide,Aucune,Amlodipine,Occasionnel,Sédentaire,Fatick,36.4,2025-10-21 21:22:08
+PAT0621,Diarra Cisse,83,Femme,50.0,147.0,23.1,95,126,70,97.3,0,Sommeil,Diabète de type 2,Salbutamol,Occasionnel,Sédentaire,Saint-Louis,37.7,2025-10-21 21:31:46
+PAT0622,Sidy Thiam,23,Homme,91.7,146.7,42.6,77,121,61,88.1,7,Marche rapide,Bronchite,Paracétamol,Oui,Très actif,Thiès,36.1,2025-10-21 21:20:13
+PAT0623,Malick Lo,42,Homme,76.4,178.0,24.1,108,142,61,90.9,2,Repos,Diabète de type 2,Aucun,Oui,Très actif,Fatick,37.0,2025-10-21 21:35:30
+PAT0624,Awa Mbaye,75,Femme,79.3,189.8,22.0,94,155,90,90.3,5,Sommeil,Bronchite,Amlodipine,Occasionnel,Très actif,Ziguinchor,36.6,2025-10-21 21:27:30
+PAT0625,Kine Lo,37,Femme,109.7,175.1,35.8,76,114,83,92.4,1,Repos,Malaria,Insuline,Occasionnel,Sédentaire,Saint-Louis,37.3,2025-10-21 21:20:32
+PAT0626,Omar Toure,27,Homme,106.5,202.7,25.9,106,135,79,98.0,4,Sommeil,Aucune,Insuline,Non,Sédentaire,Saint-Louis,37.5,2025-10-21 21:27:43
+PAT0627,Sidy Mbaye,47,Homme,86.2,164.3,31.9,87,135,69,94.4,7,Exercice léger,Malaria,Aucun,Non,Sédentaire,Ziguinchor,36.6,2025-10-21 21:29:37
+PAT0628,Pape Camara,69,Homme,102.1,170.8,35.0,97,160,91,88.9,6,Repos,Hypertension artérielle,Salbutamol,Occasionnel,Sédentaire,Ziguinchor,37.4,2025-10-21 21:22:47
+PAT0629,Samba Faye,33,Homme,64.3,175.8,20.8,88,143,69,97.5,0,Marche rapide,Aucune,Aucun,Occasionnel,Sédentaire,Saint-Louis,37.0,2025-10-21 21:22:33
+PAT0630,Abdoulaye Sall,46,Homme,96.2,181.5,29.2,59,112,68,91.3,2,Marche rapide,Insuffisance rénale,Paracétamol,Oui,Très actif,Kaolack,36.1,2025-10-21 21:31:14
+PAT0631,Fama Faye,35,Femme,78.0,154.1,32.8,80,107,64,94.7,6,Exercice léger,Bronchite,Insuline,Non,Sédentaire,Dakar,37.0,2025-10-21 21:26:49
+PAT0632,Samba Camara,66,Homme,62.4,200.3,15.6,99,134,85,94.2,7,Marche rapide,Anémie falciforme,Paracétamol,Oui,Sédentaire,Ziguinchor,37.4,2025-10-21 21:27:08
+PAT0633,Abdoulaye Thiam,56,Homme,57.7,178.1,18.2,70,133,69,95.0,8,Travail physique,Aucune,Artemether,Non,Actif,Ziguinchor,38.0,2025-10-21 21:26:05
+PAT0634,Lamine Toure,49,Homme,81.6,150.2,36.2,65,138,87,89.8,8,Travail physique,Anémie falciforme,Salbutamol,Oui,Actif,Saint-Louis,37.7,2025-10-21 21:26:05
+PAT0635,Lamine Sall,82,Homme,51.2,168.2,18.1,77,114,70,88.1,5,Sommeil,Malaria,Salbutamol,Non,Actif,Kaolack,37.5,2025-10-21 21:25:11
+PAT0636,Seynabou Dieng,70,Femme,109.1,169.3,38.1,100,140,91,92.2,5,Sommeil,Insuffisance rénale,Artemether,Occasionnel,Sédentaire,Dakar,36.5,2025-10-21 21:32:36
+PAT0637,Maimouna Dieng,37,Femme,74.6,202.7,18.2,76,131,83,90.4,8,Sommeil,Bronchite,Amlodipine,Occasionnel,Actif,Fatick,38.5,2025-10-21 21:21:01
+PAT0638,Samba Dieng,68,Homme,76.4,166.3,27.6,76,156,95,91.3,8,Repos,Insuffisance rénale,Hydroxyurée,Non,Très actif,Ziguinchor,37.8,2025-10-21 21:27:50
+PAT0639,Bineta Lo,70,Femme,98.0,199.7,24.6,88,122,93,93.9,5,Repos,Malaria,Paracétamol,Oui,Sédentaire,Thiès,36.5,2025-10-21 21:27:43
+PAT0640,Ndeye Fatou Dieng,70,Femme,77.1,163.1,29.0,96,147,71,89.1,4,Exercice léger,Malaria,Amlodipine,Oui,Sédentaire,Ziguinchor,37.0,2025-10-21 21:21:15
+PAT0641,Mame Toure,63,Femme,96.3,168.4,34.0,99,158,88,89.5,1,Exercice léger,Malaria,Artemether,Occasionnel,Très actif,Saint-Louis,37.1,2025-10-21 21:26:14
+PAT0642,Maimouna Sall,71,Femme,83.3,184.6,24.4,78,141,92,92.1,2,Exercice léger,Bronchite,Paracétamol,Occasionnel,Sédentaire,Ziguinchor,36.7,2025-10-21 21:28:18
+PAT0643,Seynabou Toure,73,Femme,90.8,155.0,37.8,61,147,73,92.1,3,Travail physique,Diabète de type 2,Aucun,Oui,Sédentaire,Saint-Louis,37.2,2025-10-21 21:33:15
+PAT0644,Malick Sall,18,Homme,78.2,166.4,28.2,73,129,62,88.9,0,Exercice léger,Hypertension artérielle,Artemether,Occasionnel,Sédentaire,Fatick,38.5,2025-10-21 21:19:51
+PAT0645,Mame Camara,54,Femme,62.6,191.4,17.1,69,106,81,94.8,2,Sommeil,Malaria,Aucun,Oui,Très actif,Kaolack,36.9,2025-10-21 21:34:11
+PAT0646,Pape Cisse,26,Homme,71.9,195.6,18.8,64,140,65,90.9,3,Exercice léger,Anémie falciforme,Hydroxyurée,Oui,Actif,Kaolack,37.2,2025-10-21 21:26:55
+PAT0647,Bineta Sall,22,Femme,51.4,161.6,19.7,101,134,89,92.6,4,Marche rapide,Malaria,Artemether,Non,Sédentaire,Ziguinchor,37.6,2025-10-21 21:19:20
+PAT0648,Rokhaya Mbaye,22,Femme,102.6,171.9,34.7,69,124,73,93.6,1,Marche rapide,Insuffisance rénale,Paracétamol,Oui,Actif,Ziguinchor,37.6,2025-10-21 21:23:58
+PAT0649,Kine Sall,85,Femme,92.9,182.0,28.0,93,150,83,99.0,1,Exercice léger,Diabète de type 2,Insuline,Occasionnel,Sédentaire,Fatick,36.7,2025-10-21 21:30:40
+PAT0650,Sidy Camara,49,Homme,71.6,164.1,26.6,85,119,85,98.6,8,Exercice léger,Bronchite,Aucun,Occasionnel,Actif,Fatick,37.5,2025-10-21 21:29:59
+PAT0651,Sidy Faye,45,Homme,78.6,156.4,32.1,97,112,62,88.8,1,Sommeil,Insuffisance rénale,Aucun,Oui,Sédentaire,Fatick,37.4,2025-10-21 21:28:02
+PAT0652,Omar Toure,79,Homme,88.9,182.8,26.6,100,128,87,93.3,1,Marche rapide,Bronchite,Amlodipine,Oui,Très actif,Fatick,37.4,2025-10-21 21:18:49
+PAT0653,Sidy Ka,50,Homme,73.0,157.9,29.3,62,119,72,92.9,8,Sommeil,Hypertension artérielle,Amlodipine,Non,Très actif,Kaolack,36.3,2025-10-21 21:31:46
+PAT0654,Awa Faye,74,Femme,82.4,183.7,24.4,100,142,74,94.0,3,Marche rapide,Insuffisance rénale,Insuline,Occasionnel,Actif,Ziguinchor,36.0,2025-10-21 21:31:32
+PAT0655,Kine Lo,77,Femme,48.4,191.8,13.2,87,123,86,89.7,5,Repos,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Dakar,36.6,2025-10-21 21:24:48
+PAT0656,Malick Mbaye,80,Homme,106.4,201.5,26.2,67,134,73,95.7,3,Sommeil,Aucune,Amlodipine,Non,Actif,Saint-Louis,36.0,2025-10-21 21:23:30
+PAT0657,Omar Lo,19,Homme,63.2,166.9,22.7,99,141,76,89.2,3,Repos,Hypertension artérielle,Insuline,Occasionnel,Très actif,Fatick,37.2,2025-10-21 21:27:43
+PAT0658,Pape Mbaye,63,Homme,106.2,146.4,49.5,68,125,83,94.9,1,Sommeil,Anémie falciforme,Insuline,Oui,Très actif,Ziguinchor,36.5,2025-10-21 21:34:24
+PAT0659,Kine Thiam,25,Femme,70.3,197.7,18.0,74,122,61,95.1,8,Marche rapide,Diabète de type 2,Insuline,Oui,Très actif,Kaolack,37.3,2025-10-21 21:27:56
+PAT0660,Malick Toure,18,Homme,53.3,178.5,16.7,55,140,70,90.6,4,Sommeil,Insuffisance rénale,Hydroxyurée,Non,Sédentaire,Fatick,37.2,2025-10-21 21:29:45
+PAT0661,Seynabou Mbaye,56,Femme,79.1,155.8,32.6,58,101,65,98.0,1,Exercice léger,Anémie falciforme,Salbutamol,Occasionnel,Sédentaire,Ziguinchor,37.9,2025-10-21 21:18:36
+PAT0662,Seynabou Toure,51,Femme,89.5,157.4,36.1,60,133,88,93.5,4,Sommeil,Hypertension artérielle,Hydroxyurée,Oui,Sédentaire,Kaolack,37.9,2025-10-21 21:19:20
+PAT0663,Bineta Faye,18,Femme,82.1,156.4,33.6,86,120,85,92.0,8,Exercice léger,Insuffisance rénale,Salbutamol,Occasionnel,Actif,Kaolack,36.4,2025-10-21 21:24:21
+PAT0664,Rokhaya Toure,39,Femme,82.6,153.0,35.3,64,144,89,88.9,3,Repos,Diabète de type 2,Salbutamol,Occasionnel,Très actif,Fatick,38.1,2025-10-21 21:24:47
+PAT0665,Malick Sall,33,Homme,96.4,187.7,27.4,103,126,87,89.7,0,Repos,Insuffisance rénale,Insuline,Oui,Actif,Saint-Louis,38.1,2025-10-21 21:25:10
+PAT0666,Lamine Ka,43,Homme,95.1,168.0,33.7,108,120,80,94.0,4,Sommeil,Bronchite,Amlodipine,Non,Actif,Saint-Louis,36.8,2025-10-21 21:21:25
+PAT0667,Modou Camara,81,Homme,73.6,174.2,24.3,61,134,94,94.8,1,Repos,Malaria,Artemether,Non,Sédentaire,Fatick,36.6,2025-10-21 21:26:11
+PAT0668,Abdoulaye Ka,28,Homme,45.8,166.2,16.6,103,123,74,97.0,3,Marche rapide,Bronchite,Paracétamol,Occasionnel,Très actif,Ziguinchor,37.1,2025-10-21 21:22:21
+PAT0669,Rokhaya Dieng,82,Femme,96.6,163.4,36.2,86,113,92,91.3,1,Exercice léger,Diabète de type 2,Artemether,Non,Très actif,Dakar,36.1,2025-10-21 21:23:55
+PAT0670,Samba Mbaye,17,Homme,47.0,193.2,12.6,101,112,83,94.4,2,Marche rapide,Hypertension artérielle,Paracétamol,Non,Sédentaire,Thiès,36.1,2025-10-21 21:29:32
+PAT0671,Omar Camara,54,Homme,58.7,173.1,19.6,62,125,85,90.3,7,Repos,Bronchite,Aucun,Occasionnel,Très actif,Thiès,36.2,2025-10-21 21:28:33
+PAT0672,Fama Camara,37,Femme,74.7,153.1,31.9,81,126,65,96.2,1,Sommeil,Bronchite,Hydroxyurée,Occasionnel,Sédentaire,Saint-Louis,36.4,2025-10-21 21:21:09
+PAT0673,Pape Sall,68,Homme,89.6,159.7,35.1,92,134,86,89.5,7,Marche rapide,Bronchite,Salbutamol,Non,Très actif,Fatick,37.7,2025-10-21 21:27:35
+PAT0674,Mame Ka,25,Femme,109.7,157.9,44.0,66,112,71,89.9,2,Sommeil,Anémie falciforme,Artemether,Occasionnel,Actif,Ziguinchor,36.5,2025-10-21 21:24:51
+PAT0675,Sidy Thiam,17,Homme,89.9,165.1,33.0,77,141,64,98.4,1,Sommeil,Insuffisance rénale,Amlodipine,Occasionnel,Très actif,Saint-Louis,36.5,2025-10-21 21:22:34
+PAT0676,Sidy Camara,53,Homme,59.6,145.4,28.2,75,124,61,90.5,8,Marche rapide,Insuffisance rénale,Amlodipine,Non,Très actif,Kaolack,37.2,2025-10-21 21:28:37
+PAT0677,Malick Dieng,41,Homme,101.3,163.7,37.8,101,124,62,91.2,1,Repos,Insuffisance rénale,Artemether,Oui,Très actif,Dakar,36.4,2025-10-21 21:27:41
+PAT0678,Maimouna Sall,50,Femme,52.3,203.8,12.6,83,143,74,98.0,8,Repos,Aucune,Paracétamol,Occasionnel,Actif,Dakar,36.5,2025-10-21 21:31:47
+PAT0679,Mame Toure,36,Femme,105.8,168.2,37.4,66,109,75,89.4,0,Marche rapide,Diabète de type 2,Artemether,Non,Actif,Dakar,37.6,2025-10-21 21:19:02
+PAT0680,Moussa Ka,76,Homme,74.6,191.5,20.3,62,137,85,95.8,3,Marche rapide,Diabète de type 2,Paracétamol,Non,Très actif,Dakar,37.8,2025-10-21 21:18:26
+PAT0681,Samba Lo,30,Homme,64.8,159.8,25.4,72,100,60,89.4,4,Sommeil,Insuffisance rénale,Insuline,Oui,Très actif,Fatick,38.0,2025-10-21 21:27:50
+PAT0682,Modou Dieng,74,Homme,64.8,155.0,27.0,62,117,82,94.7,3,Exercice léger,Malaria,Hydroxyurée,Occasionnel,Sédentaire,Ziguinchor,37.8,2025-10-21 21:29:32
+PAT0683,Mame Mbaye,58,Femme,61.7,175.1,20.1,66,128,88,89.0,6,Sommeil,Aucune,Aucun,Occasionnel,Sédentaire,Ziguinchor,37.4,2025-10-21 21:25:34
+PAT0684,Fama Dieng,67,Femme,71.8,191.0,19.7,73,136,72,91.3,4,Marche rapide,Anémie falciforme,Paracétamol,Non,Sédentaire,Kaolack,36.6,2025-10-21 21:32:23
+PAT0685,Abdoulaye Cisse,83,Homme,67.1,174.3,22.1,69,110,82,91.3,7,Repos,Bronchite,Aucun,Occasionnel,Très actif,Fatick,36.6,2025-10-21 21:22:37
+PAT0686,Moussa Dieng,70,Homme,88.3,153.8,37.3,80,127,95,88.5,2,Travail physique,Malaria,Aucun,Oui,Actif,Thiès,37.9,2025-10-21 21:26:50
+PAT0687,Samba Cisse,30,Homme,59.4,201.1,14.7,77,121,85,93.5,0,Travail physique,Anémie falciforme,Salbutamol,Oui,Très actif,Kaolack,37.7,2025-10-21 21:22:03
+PAT0688,Bouna Camara,81,Homme,107.5,152.3,46.3,75,134,85,91.5,5,Exercice léger,Anémie falciforme,Salbutamol,Occasionnel,Sédentaire,Dakar,38.4,2025-10-21 21:29:37
+PAT0689,Seynabou Sall,61,Femme,53.9,150.3,23.9,62,118,84,88.3,6,Travail physique,Insuffisance rénale,Artemether,Oui,Sédentaire,Ziguinchor,37.7,2025-10-21 21:23:25
+PAT0690,Rokhaya Ka,50,Femme,75.7,202.1,18.5,88,145,87,96.1,8,Sommeil,Anémie falciforme,Artemether,Non,Très actif,Saint-Louis,37.5,2025-10-21 21:24:03
+PAT0691,Modou Mbaye,15,Homme,45.7,186.2,13.2,57,142,79,97.9,1,Exercice léger,Insuffisance rénale,Salbutamol,Non,Actif,Kaolack,38.4,2025-10-21 21:18:11
+PAT0692,Samba Sall,48,Homme,77.2,168.0,27.4,63,116,72,92.3,1,Exercice léger,Hypertension artérielle,Insuline,Occasionnel,Très actif,Fatick,36.4,2025-10-21 21:20:00
+PAT0693,Kine Mbaye,22,Femme,107.6,200.4,26.8,83,145,60,95.6,7,Marche rapide,Malaria,Artemether,Occasionnel,Très actif,Fatick,36.6,2025-10-21 21:18:43
+PAT0694,Omar Sall,52,Homme,88.1,198.2,22.4,56,105,76,88.0,5,Travail physique,Malaria,Salbutamol,Occasionnel,Actif,Fatick,36.2,2025-10-21 21:22:48
+PAT0695,Seynabou Camara,58,Femme,75.2,152.9,32.2,63,110,61,90.7,1,Exercice léger,Anémie falciforme,Artemether,Oui,Sédentaire,Dakar,36.9,2025-10-21 21:28:45
+PAT0696,Diarra Faye,60,Femme,53.4,195.7,13.9,89,112,71,95.5,1,Marche rapide,Hypertension artérielle,Aucun,Oui,Actif,Fatick,36.2,2025-10-21 21:34:12
+PAT0697,Samba Dieng,21,Homme,52.2,200.8,12.9,100,122,88,96.7,8,Exercice léger,Hypertension artérielle,Salbutamol,Oui,Très actif,Dakar,37.0,2025-10-21 21:29:43
+PAT0698,Pape Ka,77,Homme,85.1,150.5,37.6,97,111,78,95.9,6,Sommeil,Bronchite,Salbutamol,Occasionnel,Actif,Kaolack,36.1,2025-10-21 21:32:29
+PAT0699,Pape Cisse,43,Homme,97.9,187.4,27.9,58,118,67,98.0,4,Travail physique,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Kaolack,38.4,2025-10-21 21:28:52
+PAT0700,Samba Ka,62,Homme,93.0,172.7,31.2,67,137,86,93.4,4,Repos,Malaria,Hydroxyurée,Non,Sédentaire,Thiès,38.3,2025-10-21 21:18:41
+PAT0701,Bouna Mbaye,36,Homme,75.0,179.6,23.3,109,142,88,88.4,5,Repos,Malaria,Insuline,Non,Sédentaire,Thiès,36.0,2025-10-21 21:19:14
+PAT0702,Bouna Thiam,56,Homme,50.2,184.6,14.7,72,107,63,89.3,5,Travail physique,Malaria,Artemether,Oui,Très actif,Kaolack,37.1,2025-10-21 21:35:15
+PAT0703,Bouna Sall,75,Homme,58.8,152.0,25.5,87,138,94,97.9,2,Exercice léger,Insuffisance rénale,Artemether,Occasionnel,Très actif,Ziguinchor,38.4,2025-10-21 21:22:30
+PAT0704,Sidy Thiam,25,Homme,61.2,168.5,21.6,75,130,88,92.4,8,Exercice léger,Insuffisance rénale,Salbutamol,Non,Sédentaire,Saint-Louis,38.3,2025-10-21 21:22:27
+PAT0705,Mame Mbaye,72,Femme,109.9,183.2,32.7,93,110,91,95.7,6,Repos,Malaria,Salbutamol,Non,Très actif,Fatick,36.1,2025-10-21 21:34:11
+PAT0706,Bineta Ka,52,Femme,54.7,163.7,20.4,70,114,65,97.8,1,Travail physique,Insuffisance rénale,Aucun,Oui,Actif,Kaolack,36.1,2025-10-21 21:31:59
+PAT0707,Seynabou Ka,63,Femme,75.7,202.6,18.4,62,141,90,90.4,7,Sommeil,Hypertension artérielle,Insuline,Occasionnel,Sédentaire,Fatick,37.5,2025-10-21 21:31:22
+PAT0708,Diarra Camara,63,Femme,75.3,171.0,25.8,85,114,79,97.6,2,Exercice léger,Malaria,Paracétamol,Oui,Sédentaire,Ziguinchor,37.2,2025-10-21 21:24:26
+PAT0709,Modou Thiam,42,Homme,65.6,175.6,21.3,62,129,60,89.8,6,Travail physique,Hypertension artérielle,Salbutamol,Occasionnel,Actif,Kaolack,36.2,2025-10-21 21:24:28
+PAT0710,Pape Cisse,54,Homme,95.3,179.2,29.7,109,124,67,94.1,8,Travail physique,Aucune,Paracétamol,Oui,Sédentaire,Saint-Louis,36.5,2025-10-21 21:33:17
+PAT0711,Samba Lo,76,Homme,52.7,197.6,13.5,60,134,84,89.2,0,Exercice léger,Hypertension artérielle,Amlodipine,Occasionnel,Actif,Saint-Louis,37.6,2025-10-21 21:25:12
+PAT0712,Samba Thiam,23,Homme,95.7,202.4,23.4,110,126,73,93.3,4,Marche rapide,Insuffisance rénale,Artemether,Non,Très actif,Dakar,38.3,2025-10-21 21:29:09
+PAT0713,Ndeye Fatou Dieng,45,Femme,79.6,163.9,29.6,103,104,89,97.3,2,Repos,Malaria,Aucun,Oui,Sédentaire,Kaolack,37.7,2025-10-21 21:32:29
+PAT0714,Mame Ka,84,Femme,57.5,188.6,16.2,95,140,76,96.9,8,Exercice léger,Anémie falciforme,Paracétamol,Oui,Sédentaire,Fatick,36.2,2025-10-21 21:19:48
+PAT0715,Bouna Lo,35,Homme,96.2,203.0,23.3,91,122,76,94.7,1,Travail physique,Bronchite,Artemether,Oui,Très actif,Dakar,37.8,2025-10-21 21:29:47
+PAT0716,Diarra Thiam,53,Femme,96.7,146.3,45.2,75,115,80,88.1,0,Exercice léger,Insuffisance rénale,Artemether,Non,Très actif,Dakar,37.4,2025-10-21 21:31:38
+PAT0717,Diarra Dieng,83,Femme,106.5,164.2,39.5,86,129,77,94.2,2,Exercice léger,Bronchite,Paracétamol,Non,Très actif,Thiès,36.5,2025-10-21 21:32:33
+PAT0718,Abdoulaye Sall,85,Homme,64.2,163.2,24.1,100,143,89,89.7,2,Repos,Anémie falciforme,Salbutamol,Occasionnel,Très actif,Ziguinchor,36.8,2025-10-21 21:28:55
+PAT0719,Moussa Sall,70,Homme,54.5,194.1,14.5,87,122,77,91.5,0,Marche rapide,Diabète de type 2,Amlodipine,Occasionnel,Actif,Ziguinchor,37.0,2025-10-21 21:25:37
+PAT0720,Bouna Sall,22,Homme,91.0,178.5,28.6,84,142,61,89.2,2,Travail physique,Diabète de type 2,Paracétamol,Non,Très actif,Thiès,38.3,2025-10-21 21:30:08
+PAT0721,Mame Mbaye,30,Femme,98.8,180.8,30.2,105,126,67,92.6,4,Exercice léger,Aucune,Artemether,Non,Actif,Thiès,37.9,2025-10-21 21:35:33
+PAT0722,Maimouna Faye,75,Femme,69.6,158.4,27.7,82,159,83,88.0,0,Repos,Aucune,Hydroxyurée,Non,Très actif,Dakar,36.0,2025-10-21 21:23:30
+PAT0723,Awa Mbaye,18,Femme,50.5,161.3,19.4,59,132,79,88.8,2,Repos,Insuffisance rénale,Insuline,Occasionnel,Sédentaire,Kaolack,36.8,2025-10-21 21:33:25
+PAT0724,Modou Thiam,51,Homme,89.6,145.8,42.1,98,133,72,98.9,6,Sommeil,Diabète de type 2,Aucun,Non,Sédentaire,Ziguinchor,36.4,2025-10-21 21:32:13
+PAT0725,Samba Ka,23,Homme,91.3,185.4,26.6,87,129,84,96.4,0,Exercice léger,Insuffisance rénale,Amlodipine,Occasionnel,Très actif,Kaolack,38.2,2025-10-21 21:31:44
+PAT0726,Rokhaya Mbaye,36,Femme,58.8,169.7,20.4,66,105,66,95.4,5,Exercice léger,Diabète de type 2,Artemether,Oui,Très actif,Kaolack,37.0,2025-10-21 21:20:54
+PAT0727,Fama Thiam,44,Femme,71.8,191.4,19.6,86,129,76,89.9,2,Travail physique,Malaria,Insuline,Occasionnel,Très actif,Saint-Louis,36.2,2025-10-21 21:26:14
+PAT0728,Mame Sall,77,Femme,66.0,186.2,19.0,61,127,73,95.6,0,Repos,Bronchite,Insuline,Occasionnel,Actif,Dakar,38.2,2025-10-21 21:29:27
+PAT0729,Bineta Dieng,82,Femme,106.1,158.6,42.2,67,142,78,94.2,0,Travail physique,Aucune,Insuline,Oui,Sédentaire,Fatick,37.5,2025-10-21 21:20:44
+PAT0730,Bineta Dieng,39,Femme,95.7,171.0,32.7,79,103,61,91.4,7,Repos,Diabète de type 2,Salbutamol,Oui,Actif,Fatick,36.5,2025-10-21 21:19:38
+PAT0731,Mame Camara,80,Femme,99.9,161.1,38.5,86,159,80,88.6,0,Sommeil,Malaria,Hydroxyurée,Non,Sédentaire,Ziguinchor,37.4,2025-10-21 21:19:51
+PAT0732,Rokhaya Faye,54,Femme,55.8,158.2,22.3,61,119,63,96.4,3,Travail physique,Insuffisance rénale,Salbutamol,Oui,Actif,Ziguinchor,36.7,2025-10-21 21:33:48
+PAT0733,Maimouna Toure,51,Femme,49.4,179.9,15.3,105,125,61,98.7,4,Travail physique,Anémie falciforme,Hydroxyurée,Occasionnel,Sédentaire,Thiès,36.6,2025-10-21 21:20:57
+PAT0734,Ndeye Fatou Thiam,84,Femme,91.4,149.3,41.0,72,121,92,98.2,4,Marche rapide,Anémie falciforme,Paracétamol,Oui,Très actif,Thiès,36.5,2025-10-21 21:31:30
+PAT0735,Omar Thiam,18,Homme,87.3,177.7,27.6,74,105,72,97.5,1,Travail physique,Malaria,Salbutamol,Oui,Très actif,Fatick,37.9,2025-10-21 21:33:48
+PAT0736,Bouna Toure,56,Homme,55.7,191.0,15.3,61,116,66,90.9,4,Repos,Anémie falciforme,Artemether,Non,Très actif,Saint-Louis,37.0,2025-10-21 21:24:51
+PAT0737,Maimouna Ka,60,Femme,89.7,202.3,21.9,94,100,66,93.2,5,Sommeil,Hypertension artérielle,Paracétamol,Non,Actif,Kaolack,37.4,2025-10-21 21:25:00
+PAT0738,Ndeye Fatou Thiam,51,Femme,45.8,169.4,16.0,89,114,62,96.7,8,Marche rapide,Diabète de type 2,Paracétamol,Oui,Actif,Kaolack,36.2,2025-10-21 21:33:12
+PAT0739,Fama Lo,60,Femme,104.3,188.0,29.5,99,104,82,91.6,2,Repos,Diabète de type 2,Amlodipine,Non,Actif,Thiès,37.2,2025-10-21 21:27:19
+PAT0740,Maimouna Mbaye,52,Femme,56.0,164.6,20.7,65,138,69,92.5,6,Exercice léger,Bronchite,Hydroxyurée,Non,Actif,Ziguinchor,37.7,2025-10-21 21:29:01
+PAT0741,Moussa Cisse,44,Homme,59.9,185.4,17.4,75,114,81,91.1,6,Sommeil,Bronchite,Artemether,Oui,Sédentaire,Saint-Louis,37.4,2025-10-21 21:22:16
+PAT0742,Maimouna Cisse,29,Femme,75.3,147.3,34.7,82,109,86,96.3,6,Repos,Malaria,Artemether,Occasionnel,Sédentaire,Saint-Louis,38.5,2025-10-21 21:29:37
+PAT0743,Mame Thiam,22,Femme,94.4,204.1,22.7,68,134,88,98.8,5,Travail physique,Anémie falciforme,Artemether,Non,Actif,Fatick,36.5,2025-10-21 21:27:19
+PAT0744,Lamine Camara,39,Homme,79.2,160.6,30.7,73,117,87,98.8,1,Repos,Bronchite,Aucun,Oui,Actif,Kaolack,36.4,2025-10-21 21:26:39
+PAT0745,Seynabou Thiam,46,Femme,105.0,163.0,39.5,70,118,75,93.7,4,Repos,Insuffisance rénale,Hydroxyurée,Oui,Très actif,Saint-Louis,37.9,2025-10-21 21:20:04
+PAT0746,Kine Ka,78,Femme,58.5,165.0,21.5,87,123,90,95.1,4,Sommeil,Hypertension artérielle,Hydroxyurée,Oui,Actif,Thiès,38.5,2025-10-21 21:32:08
+PAT0747,Bouna Ka,34,Homme,69.4,183.8,20.5,92,103,67,91.1,4,Travail physique,Aucune,Paracétamol,Non,Sédentaire,Thiès,36.3,2025-10-21 21:28:38
+PAT0748,Bouna Thiam,16,Homme,47.1,153.7,19.9,74,111,67,90.5,7,Sommeil,Anémie falciforme,Aucun,Oui,Très actif,Thiès,36.8,2025-10-21 21:19:43
+PAT0749,Modou Faye,76,Homme,81.5,156.2,33.4,91,111,90,94.7,1,Exercice léger,Diabète de type 2,Aucun,Non,Sédentaire,Fatick,36.6,2025-10-21 21:22:24
+PAT0750,Mame Sall,18,Femme,89.6,172.1,30.3,108,101,73,97.7,6,Exercice léger,Malaria,Insuline,Non,Sédentaire,Ziguinchor,37.4,2025-10-21 21:28:12
+PAT0751,Bouna Thiam,58,Homme,89.4,185.1,26.1,73,104,89,94.8,7,Travail physique,Diabète de type 2,Paracétamol,Non,Très actif,Dakar,38.1,2025-10-21 21:26:41
+PAT0752,Awa Toure,65,Femme,53.8,191.9,14.6,89,132,76,92.7,5,Marche rapide,Bronchite,Amlodipine,Oui,Très actif,Dakar,36.9,2025-10-21 21:20:56
+PAT0753,Malick Ka,38,Homme,86.8,185.5,25.2,78,140,79,90.9,5,Exercice léger,Malaria,Insuline,Oui,Actif,Kaolack,38.0,2025-10-21 21:20:11
+PAT0754,Ndeye Fatou Dieng,81,Femme,89.7,197.2,23.1,65,151,93,97.1,8,Repos,Anémie falciforme,Salbutamol,Occasionnel,Très actif,Thiès,37.6,2025-10-21 21:32:20
+PAT0755,Omar Toure,70,Homme,67.7,154.8,28.3,90,115,78,88.2,5,Travail physique,Insuffisance rénale,Salbutamol,Non,Très actif,Kaolack,38.3,2025-10-21 21:20:32
+PAT0756,Seynabou Sall,52,Femme,70.5,180.4,21.7,104,139,70,94.5,3,Travail physique,Insuffisance rénale,Amlodipine,Oui,Très actif,Fatick,38.3,2025-10-21 21:35:25
+PAT0757,Awa Sall,28,Femme,59.0,165.9,21.4,107,135,76,91.4,6,Exercice léger,Bronchite,Artemether,Oui,Sédentaire,Kaolack,37.4,2025-10-21 21:28:28
+PAT0758,Mame Camara,57,Femme,72.0,156.5,29.4,84,131,84,89.8,7,Exercice léger,Diabète de type 2,Artemether,Occasionnel,Sédentaire,Fatick,37.7,2025-10-21 21:20:16
+PAT0759,Diarra Toure,61,Femme,80.1,148.5,36.3,66,156,91,98.2,5,Marche rapide,Diabète de type 2,Paracétamol,Oui,Très actif,Saint-Louis,36.6,2025-10-21 21:19:49
+PAT0760,Maimouna Lo,41,Femme,63.6,150.3,28.2,56,133,66,92.4,3,Travail physique,Malaria,Paracétamol,Oui,Sédentaire,Fatick,37.7,2025-10-21 21:23:29
+PAT0761,Awa Cisse,28,Femme,88.3,146.6,41.1,100,112,73,98.8,4,Exercice léger,Hypertension artérielle,Salbutamol,Occasionnel,Sédentaire,Thiès,36.4,2025-10-21 21:33:18
+PAT0762,Modou Camara,85,Homme,103.7,157.3,41.9,79,138,81,96.1,6,Marche rapide,Anémie falciforme,Insuline,Non,Actif,Ziguinchor,37.2,2025-10-21 21:29:16
+PAT0763,Modou Camara,74,Homme,51.5,165.5,18.8,63,129,70,95.6,2,Travail physique,Diabète de type 2,Hydroxyurée,Occasionnel,Actif,Saint-Louis,36.1,2025-10-21 21:24:59
+PAT0764,Kine Toure,43,Femme,103.1,194.6,27.2,109,141,68,97.4,4,Repos,Anémie falciforme,Hydroxyurée,Occasionnel,Très actif,Kaolack,37.2,2025-10-21 21:27:33
+PAT0765,Malick Sall,58,Homme,60.0,197.6,15.4,75,122,81,94.2,3,Travail physique,Bronchite,Paracétamol,Non,Actif,Dakar,36.8,2025-10-21 21:25:47
+PAT0766,Malick Ka,21,Homme,99.8,175.3,32.5,75,109,68,96.3,4,Travail physique,Hypertension artérielle,Paracétamol,Non,Sédentaire,Kaolack,38.1,2025-10-21 21:25:41
+PAT0767,Seynabou Sall,28,Femme,87.4,202.1,21.4,75,117,81,98.5,5,Sommeil,Insuffisance rénale,Salbutamol,Non,Très actif,Ziguinchor,37.2,2025-10-21 21:34:41
+PAT0768,Pape Lo,82,Homme,45.3,152.7,19.4,74,133,75,89.8,0,Travail physique,Insuffisance rénale,Amlodipine,Non,Très actif,Fatick,37.4,2025-10-21 21:23:54
+PAT0769,Seynabou Toure,34,Femme,83.6,176.3,26.9,79,136,80,94.5,3,Repos,Diabète de type 2,Paracétamol,Oui,Très actif,Kaolack,38.0,2025-10-21 21:20:34
+PAT0770,Malick Lo,49,Homme,82.3,158.2,32.9,85,128,61,93.0,1,Travail physique,Diabète de type 2,Salbutamol,Non,Sédentaire,Kaolack,36.8,2025-10-21 21:19:58
+PAT0771,Lamine Camara,68,Homme,107.7,172.2,36.3,62,122,73,95.2,1,Marche rapide,Anémie falciforme,Insuline,Oui,Très actif,Ziguinchor,37.8,2025-10-21 21:33:46
+PAT0772,Seynabou Thiam,53,Femme,49.3,152.0,21.3,76,108,89,92.5,7,Exercice léger,Hypertension artérielle,Amlodipine,Non,Très actif,Ziguinchor,36.5,2025-10-21 21:26:21
+PAT0773,Diarra Camara,46,Femme,66.3,201.3,16.4,58,101,78,89.9,2,Exercice léger,Anémie falciforme,Artemether,Occasionnel,Sédentaire,Ziguinchor,37.0,2025-10-21 21:22:11
+PAT0774,Modou Lo,61,Homme,48.2,181.2,14.7,77,151,70,97.1,8,Sommeil,Insuffisance rénale,Amlodipine,Occasionnel,Actif,Fatick,38.3,2025-10-21 21:24:07
+PAT0775,Moussa Toure,49,Homme,98.0,146.2,45.8,57,133,67,97.5,4,Marche rapide,Insuffisance rénale,Artemether,Occasionnel,Actif,Dakar,36.0,2025-10-21 21:24:46
+PAT0776,Kine Thiam,62,Femme,105.5,146.3,49.3,82,148,80,93.3,2,Marche rapide,Hypertension artérielle,Hydroxyurée,Non,Sédentaire,Ziguinchor,38.3,2025-10-21 21:18:23
+PAT0777,Pape Thiam,39,Homme,49.8,189.5,13.9,105,101,83,89.1,4,Marche rapide,Insuffisance rénale,Hydroxyurée,Oui,Très actif,Saint-Louis,37.8,2025-10-21 21:25:05
+PAT0778,Bineta Dieng,32,Femme,50.2,172.5,16.9,100,112,75,96.1,3,Sommeil,Aucune,Insuline,Oui,Actif,Saint-Louis,38.3,2025-10-21 21:25:10
+PAT0779,Lamine Toure,36,Homme,76.7,160.5,29.8,96,134,87,91.5,3,Marche rapide,Insuffisance rénale,Artemether,Occasionnel,Très actif,Dakar,38.4,2025-10-21 21:26:41
+PAT0780,Moussa Sall,60,Homme,78.8,146.4,36.8,78,102,63,91.4,4,Marche rapide,Diabète de type 2,Insuline,Occasionnel,Sédentaire,Fatick,38.4,2025-10-21 21:25:45
+PAT0781,Ndeye Fatou Camara,83,Femme,65.6,148.3,29.8,67,128,92,96.5,3,Repos,Bronchite,Aucun,Occasionnel,Très actif,Kaolack,36.9,2025-10-21 21:33:23
+PAT0782,Samba Cisse,48,Homme,82.0,151.5,35.7,75,122,88,97.8,5,Exercice léger,Insuffisance rénale,Amlodipine,Occasionnel,Sédentaire,Thiès,38.0,2025-10-21 21:24:54
+PAT0783,Fama Mbaye,79,Femme,61.2,186.3,17.6,63,114,89,88.1,0,Exercice léger,Anémie falciforme,Artemether,Non,Actif,Fatick,36.7,2025-10-21 21:29:40
+PAT0784,Pape Sall,48,Homme,51.0,182.8,15.3,59,104,78,92.3,0,Repos,Diabète de type 2,Hydroxyurée,Oui,Sédentaire,Thiès,38.4,2025-10-21 21:30:19
+PAT0785,Sidy Sall,80,Homme,61.0,179.9,18.8,92,145,82,96.8,6,Travail physique,Anémie falciforme,Paracétamol,Occasionnel,Actif,Thiès,37.6,2025-10-21 21:18:54
+PAT0786,Lamine Toure,50,Homme,88.9,181.8,26.9,82,108,87,98.6,7,Repos,Anémie falciforme,Hydroxyurée,Non,Sédentaire,Fatick,38.2,2025-10-21 21:35:06
+PAT0787,Modou Lo,47,Homme,75.2,182.6,22.6,85,101,89,92.7,1,Exercice léger,Aucune,Paracétamol,Non,Très actif,Thiès,36.7,2025-10-21 21:22:35
+PAT0788,Awa Sall,30,Femme,102.9,201.3,25.4,77,132,78,95.1,0,Repos,Malaria,Hydroxyurée,Oui,Actif,Kaolack,37.0,2025-10-21 21:32:47
+PAT0789,Moussa Thiam,28,Homme,86.3,180.0,26.6,70,110,69,89.3,8,Marche rapide,Anémie falciforme,Insuline,Non,Actif,Fatick,38.0,2025-10-21 21:30:25
+PAT0790,Omar Mbaye,20,Homme,68.5,176.6,22.0,93,133,85,89.1,6,Repos,Diabète de type 2,Artemether,Oui,Très actif,Dakar,36.1,2025-10-21 21:35:22
+PAT0791,Seynabou Dieng,76,Femme,105.8,178.0,33.4,94,116,87,88.4,6,Marche rapide,Hypertension artérielle,Hydroxyurée,Occasionnel,Sédentaire,Kaolack,37.1,2025-10-21 21:19:10
+PAT0792,Samba Ka,27,Homme,68.1,180.8,20.8,75,143,83,95.8,3,Repos,Malaria,Aucun,Oui,Sédentaire,Fatick,36.5,2025-10-21 21:27:20
+PAT0793,Lamine Dieng,66,Homme,56.0,164.5,20.7,64,130,88,91.8,4,Marche rapide,Bronchite,Amlodipine,Occasionnel,Très actif,Dakar,37.0,2025-10-21 21:25:17
+PAT0794,Rokhaya Ka,28,Femme,82.6,145.9,38.8,95,129,65,96.8,2,Marche rapide,Malaria,Insuline,Occasionnel,Sédentaire,Kaolack,36.1,2025-10-21 21:19:16
+PAT0795,Ndeye Fatou Lo,23,Femme,107.1,156.5,43.7,69,133,78,92.8,8,Sommeil,Hypertension artérielle,Aucun,Occasionnel,Sédentaire,Saint-Louis,38.3,2025-10-21 21:27:36
+PAT0796,Bouna Toure,81,Homme,102.2,169.6,35.5,76,129,82,92.6,8,Exercice léger,Malaria,Artemether,Oui,Sédentaire,Kaolack,37.1,2025-10-21 21:21:45
+PAT0797,Diarra Sall,24,Femme,63.1,190.1,17.5,79,119,84,90.3,6,Repos,Insuffisance rénale,Hydroxyurée,Non,Sédentaire,Dakar,37.2,2025-10-21 21:19:44
+PAT0798,Kine Dieng,54,Femme,94.7,199.7,23.7,89,112,72,90.6,3,Marche rapide,Insuffisance rénale,Insuline,Oui,Sédentaire,Dakar,37.5,2025-10-21 21:23:30
+PAT0799,Awa Faye,82,Femme,72.2,193.3,19.3,68,134,92,95.9,0,Repos,Insuffisance rénale,Hydroxyurée,Oui,Actif,Dakar,36.6,2025-10-21 21:23:00
+PAT0800,Diarra Lo,79,Femme,78.6,155.8,32.4,70,139,84,94.0,6,Travail physique,Hypertension artérielle,Aucun,Non,Sédentaire,Thiès,37.0,2025-10-21 21:27:44
+PAT0801,Omar Toure,42,Homme,104.8,164.0,39.0,58,126,62,92.7,7,Exercice léger,Anémie falciforme,Hydroxyurée,Oui,Très actif,Fatick,37.6,2025-10-21 21:18:05
+PAT0802,Samba Dieng,70,Homme,85.9,178.0,27.1,88,120,95,98.3,5,Marche rapide,Anémie falciforme,Amlodipine,Non,Très actif,Dakar,36.6,2025-10-21 21:20:46
+PAT0803,Bineta Ka,76,Femme,76.5,189.1,21.4,81,160,83,93.2,6,Travail physique,Hypertension artérielle,Paracétamol,Non,Sédentaire,Fatick,37.0,2025-10-21 21:18:05
+PAT0804,Rokhaya Lo,50,Femme,77.3,193.5,20.6,93,100,78,89.1,7,Repos,Insuffisance rénale,Hydroxyurée,Occasionnel,Actif,Saint-Louis,36.5,2025-10-21 21:31:03
+PAT0805,Rokhaya Toure,41,Femme,107.3,171.1,36.7,86,119,83,91.9,3,Travail physique,Insuffisance rénale,Paracétamol,Non,Très actif,Fatick,36.9,2025-10-21 21:33:47
+PAT0806,Diarra Toure,31,Femme,107.7,198.7,27.3,65,106,86,98.2,2,Travail physique,Aucune,Insuline,Oui,Sédentaire,Dakar,36.7,2025-10-21 21:21:50
+PAT0807,Ndeye Fatou Mbaye,66,Femme,72.6,149.7,32.4,68,121,95,94.8,3,Repos,Hypertension artérielle,Aucun,Oui,Très actif,Kaolack,36.2,2025-10-21 21:35:25
+PAT0808,Malick Toure,32,Homme,52.9,147.7,24.2,100,129,64,98.1,4,Travail physique,Malaria,Hydroxyurée,Non,Actif,Ziguinchor,37.5,2025-10-21 21:17:48
+PAT0809,Maimouna Dieng,36,Femme,76.3,165.0,28.0,98,145,73,88.3,2,Repos,Insuffisance rénale,Salbutamol,Oui,Actif,Ziguinchor,36.1,2025-10-21 21:21:39
+PAT0810,Awa Thiam,81,Femme,58.6,200.5,14.6,98,125,82,97.7,1,Repos,Hypertension artérielle,Insuline,Non,Actif,Ziguinchor,38.3,2025-10-21 21:21:54
+PAT0811,Moussa Ka,72,Homme,50.1,166.3,18.1,77,119,90,88.8,1,Repos,Diabète de type 2,Salbutamol,Occasionnel,Sédentaire,Dakar,38.2,2025-10-21 21:35:32
+PAT0812,Moussa Camara,81,Homme,94.3,181.3,28.7,80,156,95,89.8,0,Travail physique,Aucune,Artemether,Occasionnel,Très actif,Kaolack,38.0,2025-10-21 21:34:06
+PAT0813,Fama Ka,31,Femme,75.4,202.8,18.3,83,131,75,95.2,8,Repos,Anémie falciforme,Insuline,Non,Sédentaire,Thiès,38.1,2025-10-21 21:23:28
+PAT0814,Modou Cisse,34,Homme,55.6,193.1,14.9,88,125,75,92.1,8,Travail physique,Insuffisance rénale,Paracétamol,Non,Sédentaire,Kaolack,38.0,2025-10-21 21:34:43
+PAT0815,Diarra Toure,74,Femme,89.0,158.2,35.6,96,118,91,91.6,2,Repos,Bronchite,Salbutamol,Oui,Sédentaire,Saint-Louis,37.0,2025-10-21 21:34:46
+PAT0816,Modou Cisse,69,Homme,103.4,181.4,31.4,73,123,91,94.4,5,Marche rapide,Malaria,Paracétamol,Occasionnel,Actif,Ziguinchor,36.0,2025-10-21 21:28:43
+PAT0817,Seynabou Dieng,81,Femme,59.0,202.1,14.4,89,155,80,90.5,6,Marche rapide,Insuffisance rénale,Hydroxyurée,Non,Sédentaire,Dakar,37.3,2025-10-21 21:35:31
+PAT0818,Moussa Sall,15,Homme,85.9,191.4,23.4,109,140,82,98.7,4,Repos,Anémie falciforme,Salbutamol,Oui,Très actif,Fatick,36.1,2025-10-21 21:22:17
+PAT0819,Malick Dieng,70,Homme,83.1,150.7,36.6,92,143,84,98.1,3,Sommeil,Diabète de type 2,Artemether,Non,Très actif,Kaolack,37.3,2025-10-21 21:34:02
+PAT0820,Abdoulaye Thiam,52,Homme,68.8,150.9,30.2,66,130,90,91.6,8,Sommeil,Insuffisance rénale,Insuline,Oui,Sédentaire,Thiès,36.6,2025-10-21 21:32:12
+PAT0821,Samba Ka,39,Homme,93.4,188.6,26.3,90,122,88,93.1,7,Repos,Anémie falciforme,Insuline,Non,Actif,Thiès,37.2,2025-10-21 21:20:42
+PAT0822,Samba Cisse,34,Homme,59.1,185.3,17.2,61,134,66,98.2,8,Exercice léger,Diabète de type 2,Paracétamol,Oui,Actif,Ziguinchor,36.8,2025-10-21 21:23:07
+PAT0823,Lamine Sall,79,Homme,98.9,162.7,37.4,95,131,89,94.5,8,Exercice léger,Insuffisance rénale,Artemether,Occasionnel,Actif,Dakar,38.3,2025-10-21 21:26:38
+PAT0824,Seynabou Sall,61,Femme,109.7,150.9,48.2,89,146,91,95.4,6,Travail physique,Diabète de type 2,Paracétamol,Oui,Sédentaire,Thiès,37.8,2025-10-21 21:24:15
+PAT0825,Mame Dieng,46,Femme,92.9,159.4,36.6,75,126,61,89.9,3,Marche rapide,Malaria,Paracétamol,Non,Actif,Saint-Louis,37.0,2025-10-21 21:21:37
+PAT0826,Bouna Toure,39,Homme,108.2,177.8,34.2,76,104,76,89.2,0,Exercice léger,Diabète de type 2,Insuline,Non,Sédentaire,Ziguinchor,37.6,2025-10-21 21:22:41
+PAT0827,Bineta Toure,48,Femme,58.0,155.0,24.1,91,138,71,90.4,3,Marche rapide,Bronchite,Paracétamol,Non,Très actif,Fatick,37.4,2025-10-21 21:32:04
+PAT0828,Sidy Lo,21,Homme,56.4,155.8,23.2,90,142,63,98.0,3,Exercice léger,Insuffisance rénale,Aucun,Occasionnel,Très actif,Ziguinchor,36.4,2025-10-21 21:35:20
+PAT0829,Modou Mbaye,67,Homme,69.1,161.3,26.6,60,158,79,95.5,2,Travail physique,Bronchite,Amlodipine,Oui,Très actif,Fatick,36.1,2025-10-21 21:18:57
+PAT0830,Maimouna Cisse,66,Femme,75.3,169.1,26.3,69,125,72,88.0,2,Travail physique,Insuffisance rénale,Aucun,Occasionnel,Sédentaire,Saint-Louis,37.1,2025-10-21 21:20:52
+PAT0831,Bouna Toure,69,Homme,84.2,153.8,35.6,63,143,72,95.1,5,Exercice léger,Hypertension artérielle,Artemether,Oui,Sédentaire,Kaolack,36.0,2025-10-21 21:29:21
+PAT0832,Omar Toure,41,Homme,107.0,162.5,40.5,98,126,86,98.1,0,Marche rapide,Hypertension artérielle,Paracétamol,Oui,Très actif,Kaolack,36.9,2025-10-21 21:17:39
+PAT0833,Omar Sall,56,Homme,75.6,167.3,27.0,102,105,77,92.4,8,Marche rapide,Hypertension artérielle,Paracétamol,Occasionnel,Sédentaire,Ziguinchor,37.2,2025-10-21 21:34:16
+PAT0834,Rokhaya Ka,67,Femme,45.1,150.6,19.9,66,137,80,92.0,0,Travail physique,Insuffisance rénale,Artemether,Occasionnel,Actif,Dakar,37.7,2025-10-21 21:18:34
+PAT0835,Lamine Mbaye,56,Homme,79.9,156.6,32.6,109,126,76,95.5,7,Marche rapide,Insuffisance rénale,Aucun,Non,Sédentaire,Dakar,36.3,2025-10-21 21:22:27
+PAT0836,Lamine Dieng,52,Homme,78.3,204.7,18.7,108,136,84,92.7,2,Travail physique,Diabète de type 2,Hydroxyurée,Oui,Actif,Thiès,37.2,2025-10-21 21:22:08
+PAT0837,Maimouna Faye,24,Femme,103.4,167.7,36.8,104,114,67,92.0,0,Marche rapide,Malaria,Salbutamol,Occasionnel,Très actif,Saint-Louis,37.9,2025-10-21 21:20:08
+PAT0838,Abdoulaye Ka,31,Homme,53.4,195.1,14.0,88,106,78,90.3,8,Marche rapide,Diabète de type 2,Hydroxyurée,Occasionnel,Sédentaire,Thiès,38.1,2025-10-21 21:35:12
+PAT0839,Omar Dieng,72,Homme,48.8,176.6,15.6,91,113,94,98.9,8,Travail physique,Anémie falciforme,Amlodipine,Occasionnel,Actif,Saint-Louis,36.8,2025-10-21 21:25:34
+PAT0840,Lamine Dieng,56,Homme,45.2,176.7,14.5,71,109,67,97.4,1,Travail physique,Aucune,Insuline,Non,Sédentaire,Fatick,38.0,2025-10-21 21:29:58
+PAT0841,Samba Cisse,78,Homme,45.3,177.8,14.3,97,155,82,93.1,7,Sommeil,Anémie falciforme,Paracétamol,Non,Actif,Fatick,37.7,2025-10-21 21:26:59
+PAT0842,Fama Dieng,52,Femme,71.3,195.1,18.7,65,102,81,89.2,6,Sommeil,Diabète de type 2,Aucun,Occasionnel,Très actif,Kaolack,38.1,2025-10-21 21:32:54
+PAT0843,Bineta Toure,77,Femme,71.9,181.4,21.9,67,117,91,89.2,8,Marche rapide,Anémie falciforme,Aucun,Non,Actif,Thiès,36.6,2025-10-21 21:22:34
+PAT0844,Ndeye Fatou Dieng,31,Femme,90.3,202.1,22.1,93,132,72,90.9,5,Sommeil,Malaria,Artemether,Occasionnel,Sédentaire,Thiès,37.7,2025-10-21 21:17:55
+PAT0845,Abdoulaye Lo,54,Homme,96.0,199.5,24.1,74,100,74,96.2,3,Marche rapide,Aucune,Insuline,Occasionnel,Actif,Thiès,36.7,2025-10-21 21:21:46
+PAT0846,Awa Faye,37,Femme,92.2,161.3,35.4,85,136,69,96.1,7,Travail physique,Hypertension artérielle,Hydroxyurée,Non,Très actif,Kaolack,38.2,2025-10-21 21:31:09
+PAT0847,Mame Thiam,44,Femme,109.0,180.2,33.6,56,103,79,91.5,8,Marche rapide,Anémie falciforme,Hydroxyurée,Non,Très actif,Dakar,37.3,2025-10-21 21:26:09
+PAT0848,Mame Mbaye,60,Femme,51.1,197.6,13.1,83,122,86,88.7,0,Travail physique,Aucune,Amlodipine,Non,Actif,Fatick,37.1,2025-10-21 21:20:34
+PAT0849,Awa Ka,36,Femme,72.3,200.5,18.0,69,109,64,97.8,4,Travail physique,Malaria,Hydroxyurée,Occasionnel,Actif,Saint-Louis,36.7,2025-10-21 21:30:21
+PAT0850,Modou Mbaye,27,Homme,106.3,147.3,49.0,68,118,67,94.6,1,Sommeil,Bronchite,Insuline,Oui,Actif,Kaolack,36.8,2025-10-21 21:24:05
+PAT0851,Malick Mbaye,33,Homme,102.3,180.9,31.3,107,116,64,92.1,2,Repos,Bronchite,Paracétamol,Occasionnel,Très actif,Dakar,37.9,2025-10-21 21:21:51
+PAT0852,Abdoulaye Toure,65,Homme,81.1,201.8,19.9,70,155,94,92.7,1,Travail physique,Bronchite,Hydroxyurée,Non,Très actif,Dakar,36.7,2025-10-21 21:33:40
+PAT0853,Maimouna Lo,73,Femme,57.8,148.0,26.4,76,159,89,96.8,7,Sommeil,Insuffisance rénale,Insuline,Occasionnel,Sédentaire,Fatick,37.3,2025-10-21 21:19:23
+PAT0854,Seynabou Faye,38,Femme,66.3,192.9,17.8,73,100,76,92.8,6,Marche rapide,Diabète de type 2,Hydroxyurée,Oui,Très actif,Saint-Louis,38.1,2025-10-21 21:23:21
+PAT0855,Seynabou Ka,40,Femme,59.0,166.5,21.3,97,134,80,95.1,7,Travail physique,Aucune,Insuline,Non,Très actif,Dakar,37.9,2025-10-21 21:20:35
+PAT0856,Kine Faye,19,Femme,47.9,204.3,11.5,67,135,68,90.6,8,Sommeil,Bronchite,Insuline,Occasionnel,Sédentaire,Thiès,37.7,2025-10-21 21:27:57
+PAT0857,Samba Sall,53,Homme,77.8,155.7,32.1,67,134,62,91.2,6,Exercice léger,Hypertension artérielle,Paracétamol,Non,Actif,Ziguinchor,38.2,2025-10-21 21:18:20
+PAT0858,Sidy Thiam,25,Homme,78.8,203.0,19.1,68,142,87,97.3,4,Sommeil,Diabète de type 2,Amlodipine,Occasionnel,Très actif,Saint-Louis,37.0,2025-10-21 21:33:03
+PAT0859,Bouna Ka,48,Homme,62.8,148.6,28.4,70,118,65,88.1,3,Sommeil,Insuffisance rénale,Amlodipine,Occasionnel,Sédentaire,Fatick,37.5,2025-10-21 21:30:52
+PAT0860,Sidy Dieng,58,Homme,97.5,197.2,25.1,60,142,74,92.4,8,Marche rapide,Anémie falciforme,Paracétamol,Non,Actif,Fatick,37.3,2025-10-21 21:27:39
+PAT0861,Awa Camara,63,Femme,91.7,187.3,26.1,89,149,91,89.6,7,Exercice léger,Anémie falciforme,Artemether,Oui,Sédentaire,Saint-Louis,36.7,2025-10-21 21:35:16
+PAT0862,Kine Lo,78,Femme,48.0,173.3,16.0,65,127,74,89.7,4,Marche rapide,Hypertension artérielle,Aucun,Oui,Très actif,Fatick,38.2,2025-10-21 21:26:31
+PAT0863,Fama Lo,43,Femme,64.8,187.9,18.4,73,104,67,90.1,1,Sommeil,Malaria,Insuline,Occasionnel,Sédentaire,Saint-Louis,37.0,2025-10-21 21:29:26
+PAT0864,Lamine Cisse,68,Homme,52.4,168.2,18.5,86,123,84,97.2,6,Exercice léger,Anémie falciforme,Insuline,Occasionnel,Actif,Dakar,38.0,2025-10-21 21:18:49
+PAT0865,Maimouna Lo,38,Femme,102.2,164.2,37.9,84,124,64,88.8,1,Marche rapide,Aucune,Paracétamol,Occasionnel,Sédentaire,Fatick,36.7,2025-10-21 21:22:55
+PAT0866,Abdoulaye Dieng,16,Homme,94.8,169.2,33.1,78,107,82,89.5,4,Sommeil,Hypertension artérielle,Paracétamol,Oui,Très actif,Saint-Louis,38.2,2025-10-21 21:24:34
+PAT0867,Malick Faye,33,Homme,97.8,196.8,25.3,70,113,68,96.9,4,Travail physique,Insuffisance rénale,Paracétamol,Non,Actif,Kaolack,37.8,2025-10-21 21:34:42
+PAT0868,Bineta Toure,17,Femme,64.3,146.0,30.2,85,130,81,95.8,4,Sommeil,Malaria,Amlodipine,Occasionnel,Très actif,Thiès,37.3,2025-10-21 21:32:59
+PAT0869,Maimouna Lo,25,Femme,84.4,178.1,26.6,55,134,70,88.8,4,Repos,Hypertension artérielle,Amlodipine,Oui,Actif,Fatick,38.4,2025-10-21 21:22:43
+PAT0870,Maimouna Dieng,45,Femme,56.1,194.4,14.8,66,129,81,94.7,7,Travail physique,Anémie falciforme,Amlodipine,Non,Très actif,Kaolack,37.1,2025-10-21 21:28:18
+PAT0871,Kine Camara,20,Femme,94.0,145.3,44.5,63,124,67,91.4,0,Repos,Anémie falciforme,Aucun,Occasionnel,Actif,Dakar,36.6,2025-10-21 21:25:06
+PAT0872,Lamine Ka,15,Homme,100.5,151.0,44.1,72,143,89,95.2,3,Marche rapide,Diabète de type 2,Amlodipine,Occasionnel,Actif,Dakar,37.2,2025-10-21 21:34:53
+PAT0873,Lamine Cisse,83,Homme,75.7,158.2,30.2,82,140,70,91.4,6,Sommeil,Hypertension artérielle,Aucun,Occasionnel,Très actif,Thiès,37.2,2025-10-21 21:28:36
+PAT0874,Abdoulaye Dieng,39,Homme,84.5,204.9,20.1,83,145,65,91.2,8,Sommeil,Malaria,Insuline,Non,Actif,Fatick,37.1,2025-10-21 21:27:13
+PAT0875,Kine Lo,29,Femme,64.5,170.2,22.3,73,143,71,92.2,3,Travail physique,Aucune,Salbutamol,Oui,Très actif,Dakar,38.5,2025-10-21 21:28:41
+PAT0876,Bouna Sall,19,Homme,108.3,200.3,27.0,100,123,66,90.3,3,Sommeil,Malaria,Amlodipine,Occasionnel,Sédentaire,Fatick,37.2,2025-10-21 21:18:00
+PAT0877,Diarra Thiam,83,Femme,67.0,166.8,24.1,71,158,79,97.2,3,Exercice léger,Hypertension artérielle,Paracétamol,Non,Très actif,Ziguinchor,36.0,2025-10-21 21:32:36
+PAT0878,Awa Cisse,49,Femme,102.5,188.7,28.8,64,139,68,97.1,0,Travail physique,Diabète de type 2,Salbutamol,Non,Actif,Thiès,36.4,2025-10-21 21:34:29
+PAT0879,Abdoulaye Camara,83,Homme,82.6,170.9,28.3,66,154,71,98.1,6,Exercice léger,Anémie falciforme,Hydroxyurée,Oui,Actif,Saint-Louis,38.5,2025-10-21 21:19:28
+PAT0880,Fama Faye,85,Femme,99.8,189.9,27.7,61,119,91,98.9,4,Marche rapide,Aucune,Aucun,Occasionnel,Très actif,Ziguinchor,37.6,2025-10-21 21:35:24
+PAT0881,Lamine Thiam,53,Homme,82.5,201.4,20.3,95,144,82,96.0,6,Sommeil,Aucune,Aucun,Occasionnel,Sédentaire,Dakar,38.0,2025-10-21 21:27:56
+PAT0882,Bouna Cisse,61,Homme,74.1,145.8,34.9,100,143,93,91.5,4,Travail physique,Bronchite,Hydroxyurée,Oui,Actif,Ziguinchor,37.2,2025-10-21 21:19:12
+PAT0883,Lamine Mbaye,73,Homme,104.7,198.7,26.5,87,151,83,97.3,3,Marche rapide,Hypertension artérielle,Insuline,Oui,Sédentaire,Saint-Louis,36.5,2025-10-21 21:26:49
+PAT0884,Kine Lo,50,Femme,46.6,174.8,15.3,91,115,70,91.0,4,Marche rapide,Insuffisance rénale,Insuline,Occasionnel,Très actif,Thiès,36.8,2025-10-21 21:26:52
+PAT0885,Sidy Faye,40,Homme,95.5,166.4,34.5,102,122,65,92.7,6,Repos,Anémie falciforme,Salbutamol,Occasionnel,Actif,Dakar,36.5,2025-10-21 21:19:12
+PAT0886,Sidy Sall,61,Homme,75.6,172.8,25.3,96,150,78,97.1,2,Travail physique,Insuffisance rénale,Insuline,Oui,Actif,Kaolack,36.2,2025-10-21 21:20:02
+PAT0887,Samba Dieng,32,Homme,105.2,146.4,49.1,96,104,78,97.0,8,Travail physique,Malaria,Paracétamol,Occasionnel,Actif,Saint-Louis,37.8,2025-10-21 21:25:35
+PAT0888,Awa Sall,32,Femme,93.3,166.2,33.8,82,117,61,98.9,5,Sommeil,Insuffisance rénale,Paracétamol,Oui,Très actif,Ziguinchor,36.0,2025-10-21 21:25:35
+PAT0889,Abdoulaye Lo,21,Homme,77.3,196.8,20.0,84,111,87,93.2,4,Sommeil,Anémie falciforme,Aucun,Occasionnel,Actif,Fatick,36.6,2025-10-21 21:30:19
+PAT0890,Abdoulaye Cisse,84,Homme,98.1,161.2,37.8,89,119,72,90.5,6,Repos,Anémie falciforme,Hydroxyurée,Non,Très actif,Dakar,36.2,2025-10-21 21:31:20
+PAT0891,Mame Toure,17,Femme,108.9,155.3,45.2,70,110,74,88.8,7,Repos,Malaria,Insuline,Occasionnel,Très actif,Ziguinchor,37.6,2025-10-21 21:22:11
+PAT0892,Seynabou Ka,24,Femme,60.3,147.9,27.6,101,109,87,97.7,5,Repos,Bronchite,Insuline,Oui,Sédentaire,Kaolack,36.3,2025-10-21 21:34:49
+PAT0893,Bineta Faye,82,Femme,92.4,186.1,26.7,63,122,94,95.4,3,Sommeil,Aucune,Hydroxyurée,Non,Très actif,Kaolack,37.6,2025-10-21 21:20:02
+PAT0894,Ndeye Fatou Sall,69,Femme,69.2,185.9,20.0,79,151,94,90.7,6,Exercice léger,Malaria,Insuline,Oui,Actif,Dakar,38.4,2025-10-21 21:27:05
+PAT0895,Omar Ka,70,Homme,97.5,165.4,35.6,70,112,75,90.1,3,Exercice léger,Insuffisance rénale,Hydroxyurée,Oui,Sédentaire,Ziguinchor,38.1,2025-10-21 21:26:19
+PAT0896,Diarra Cisse,17,Femme,77.9,165.0,28.6,88,130,71,93.8,2,Sommeil,Hypertension artérielle,Hydroxyurée,Occasionnel,Très actif,Dakar,37.6,2025-10-21 21:31:26
+PAT0897,Bineta Camara,20,Femme,68.0,196.1,17.7,94,112,85,93.4,3,Exercice léger,Malaria,Insuline,Occasionnel,Très actif,Thiès,37.9,2025-10-21 21:17:41
+PAT0898,Omar Camara,46,Homme,84.8,183.0,25.3,86,115,84,92.7,5,Exercice léger,Aucune,Aucun,Non,Actif,Thiès,37.4,2025-10-21 21:25:15
+PAT0899,Maimouna Mbaye,75,Femme,96.2,156.6,39.2,72,139,86,89.8,1,Travail physique,Anémie falciforme,Salbutamol,Non,Actif,Dakar,36.3,2025-10-21 21:22:18
+PAT0900,Seynabou Ka,22,Femme,52.1,189.6,14.5,57,130,70,98.1,8,Repos,Hypertension artérielle,Hydroxyurée,Oui,Sédentaire,Fatick,37.9,2025-10-21 21:22:31
+PAT0901,Mame Sall,21,Femme,63.6,147.1,29.4,83,131,80,88.8,4,Sommeil,Anémie falciforme,Insuline,Occasionnel,Actif,Thiès,36.6,2025-10-21 21:20:17
+PAT0902,Kine Faye,79,Femme,79.2,203.2,19.2,72,111,79,95.8,8,Sommeil,Insuffisance rénale,Aucun,Occasionnel,Très actif,Saint-Louis,36.9,2025-10-21 21:22:58
+PAT0903,Ndeye Fatou Camara,70,Femme,57.7,181.3,17.6,76,157,88,95.9,4,Exercice léger,Diabète de type 2,Artemether,Oui,Très actif,Thiès,37.4,2025-10-21 21:32:22
+PAT0904,Omar Cisse,78,Homme,89.2,190.4,24.6,90,144,89,92.2,4,Sommeil,Aucune,Aucun,Non,Actif,Fatick,38.5,2025-10-21 21:20:21
+PAT0905,Bineta Mbaye,31,Femme,81.8,150.9,35.9,75,118,63,94.5,7,Repos,Bronchite,Insuline,Occasionnel,Très actif,Thiès,38.2,2025-10-21 21:34:29
+PAT0906,Bineta Mbaye,37,Femme,98.3,186.2,28.4,97,133,89,90.4,8,Marche rapide,Malaria,Salbutamol,Occasionnel,Actif,Saint-Louis,38.1,2025-10-21 21:33:15
+PAT0907,Lamine Toure,32,Homme,83.6,182.0,25.2,65,115,83,97.5,7,Repos,Hypertension artérielle,Paracétamol,Oui,Actif,Kaolack,37.6,2025-10-21 21:19:16
+PAT0908,Fama Cisse,80,Femme,55.5,166.9,19.9,65,158,80,95.0,4,Sommeil,Bronchite,Artemether,Non,Actif,Thiès,36.6,2025-10-21 21:28:24
+PAT0909,Awa Dieng,38,Femme,54.0,182.1,16.3,110,120,62,95.2,7,Repos,Hypertension artérielle,Amlodipine,Non,Très actif,Thiès,38.1,2025-10-21 21:30:53
+PAT0910,Kine Camara,39,Femme,74.4,165.6,27.1,94,127,69,94.6,6,Sommeil,Anémie falciforme,Paracétamol,Oui,Sédentaire,Kaolack,37.2,2025-10-21 21:22:17
+PAT0911,Awa Camara,49,Femme,50.2,160.7,19.4,103,104,79,89.6,7,Sommeil,Malaria,Aucun,Non,Sédentaire,Thiès,37.0,2025-10-21 21:23:19
+PAT0912,Diarra Mbaye,20,Femme,57.6,202.2,14.1,63,105,87,91.2,7,Sommeil,Bronchite,Insuline,Occasionnel,Sédentaire,Thiès,38.2,2025-10-21 21:32:03
+PAT0913,Diarra Dieng,15,Femme,74.9,167.2,26.8,97,133,77,89.2,0,Repos,Bronchite,Insuline,Oui,Sédentaire,Saint-Louis,38.1,2025-10-21 21:23:40
+PAT0914,Bineta Thiam,42,Femme,54.4,154.7,22.7,55,115,76,89.1,3,Marche rapide,Diabète de type 2,Paracétamol,Occasionnel,Très actif,Fatick,38.1,2025-10-21 21:17:40
+PAT0915,Modou Faye,46,Homme,51.3,195.1,13.5,97,144,80,88.4,1,Repos,Bronchite,Artemether,Oui,Sédentaire,Saint-Louis,37.2,2025-10-21 21:22:43
+PAT0916,Rokhaya Lo,48,Femme,46.7,181.3,14.2,108,137,90,97.3,7,Marche rapide,Aucune,Paracétamol,Non,Très actif,Fatick,36.2,2025-10-21 21:27:15
+PAT0917,Moussa Thiam,83,Homme,95.7,159.6,37.6,72,154,70,97.9,6,Travail physique,Malaria,Salbutamol,Non,Actif,Saint-Louis,36.8,2025-10-21 21:32:25
+PAT0918,Bouna Toure,38,Homme,100.7,177.0,32.1,70,126,68,94.4,4,Repos,Insuffisance rénale,Salbutamol,Oui,Sédentaire,Saint-Louis,36.7,2025-10-21 21:22:00
+PAT0919,Omar Camara,66,Homme,46.2,163.9,17.2,80,150,73,93.7,2,Marche rapide,Anémie falciforme,Aucun,Oui,Actif,Dakar,36.9,2025-10-21 21:33:22
+PAT0920,Rokhaya Dieng,64,Femme,77.9,163.1,29.3,66,120,90,89.5,1,Sommeil,Malaria,Hydroxyurée,Oui,Très actif,Dakar,38.1,2025-10-21 21:33:58
+PAT0921,Sidy Lo,66,Homme,82.8,161.9,31.6,95,148,81,88.0,2,Exercice léger,Hypertension artérielle,Insuline,Oui,Très actif,Dakar,37.2,2025-10-21 21:31:05
+PAT0922,Awa Thiam,75,Femme,54.4,188.2,15.4,79,146,95,96.7,7,Exercice léger,Malaria,Artemether,Non,Sédentaire,Fatick,36.7,2025-10-21 21:33:10
+PAT0923,Bineta Faye,44,Femme,90.8,160.0,35.5,93,121,89,95.3,1,Sommeil,Bronchite,Hydroxyurée,Non,Sédentaire,Kaolack,37.9,2025-10-21 21:32:35
+PAT0924,Ndeye Fatou Faye,65,Femme,61.7,151.7,26.8,80,119,87,93.6,5,Repos,Malaria,Hydroxyurée,Occasionnel,Très actif,Ziguinchor,36.9,2025-10-21 21:17:54
+PAT0925,Seynabou Dieng,81,Femme,50.2,147.9,22.9,88,112,71,88.9,1,Marche rapide,Aucune,Hydroxyurée,Occasionnel,Très actif,Dakar,36.5,2025-10-21 21:21:31
+PAT0926,Lamine Cisse,46,Homme,70.0,160.0,27.3,77,128,74,94.4,2,Exercice léger,Hypertension artérielle,Insuline,Non,Actif,Saint-Louis,37.3,2025-10-21 21:30:05
+PAT0927,Awa Mbaye,43,Femme,98.6,179.6,30.6,65,125,72,89.2,2,Repos,Bronchite,Aucun,Oui,Sédentaire,Ziguinchor,36.1,2025-10-21 21:33:34
+PAT0928,Awa Sall,84,Femme,109.0,181.5,33.1,99,139,85,98.8,1,Exercice léger,Bronchite,Aucun,Non,Très actif,Thiès,36.8,2025-10-21 21:31:23
+PAT0929,Mame Lo,37,Femme,63.9,160.9,24.7,70,107,70,92.4,5,Sommeil,Aucune,Insuline,Non,Actif,Thiès,38.2,2025-10-21 21:23:25
+PAT0930,Abdoulaye Thiam,35,Homme,45.0,175.8,14.6,100,104,68,98.8,3,Sommeil,Insuffisance rénale,Insuline,Occasionnel,Très actif,Kaolack,38.4,2025-10-21 21:32:05
+PAT0931,Bineta Thiam,41,Femme,55.2,150.4,24.4,110,142,89,91.6,3,Marche rapide,Hypertension artérielle,Aucun,Occasionnel,Très actif,Saint-Louis,36.2,2025-10-21 21:28:14
+PAT0932,Samba Faye,40,Homme,56.6,167.3,20.2,107,121,64,96.1,2,Exercice léger,Malaria,Paracétamol,Occasionnel,Actif,Kaolack,36.2,2025-10-21 21:22:18
+PAT0933,Omar Ka,37,Homme,50.3,178.6,15.8,98,125,60,94.5,1,Marche rapide,Anémie falciforme,Salbutamol,Oui,Sédentaire,Ziguinchor,36.6,2025-10-21 21:21:22
+PAT0934,Bineta Mbaye,77,Femme,63.6,156.5,26.0,79,141,72,92.9,3,Repos,Malaria,Salbutamol,Non,Très actif,Kaolack,37.9,2025-10-21 21:20:41
+PAT0935,Maimouna Camara,83,Femme,59.0,200.1,14.7,66,156,95,97.9,5,Repos,Insuffisance rénale,Salbutamol,Occasionnel,Sédentaire,Fatick,37.5,2025-10-21 21:31:43
+PAT0936,Modou Sall,57,Homme,50.6,178.8,15.8,63,100,86,93.8,3,Marche rapide,Aucune,Amlodipine,Occasionnel,Sédentaire,Saint-Louis,36.5,2025-10-21 21:18:39
+PAT0937,Seynabou Camara,84,Femme,49.2,175.6,16.0,86,142,83,91.9,7,Marche rapide,Diabète de type 2,Amlodipine,Oui,Très actif,Dakar,36.7,2025-10-21 21:30:55
+PAT0938,Modou Mbaye,31,Homme,85.5,166.4,30.9,73,126,78,93.5,8,Marche rapide,Anémie falciforme,Salbutamol,Oui,Actif,Kaolack,36.1,2025-10-21 21:31:33
+PAT0939,Bineta Dieng,71,Femme,67.6,197.7,17.3,100,144,91,96.8,3,Exercice léger,Malaria,Salbutamol,Oui,Très actif,Thiès,37.5,2025-10-21 21:22:50
+PAT0940,Modou Dieng,19,Homme,103.7,201.3,25.6,69,127,90,97.6,7,Travail physique,Hypertension artérielle,Paracétamol,Non,Sédentaire,Dakar,38.2,2025-10-21 21:35:24
+PAT0941,Kine Cisse,67,Femme,77.0,171.2,26.3,86,152,75,96.0,8,Sommeil,Malaria,Aucun,Occasionnel,Sédentaire,Ziguinchor,37.0,2025-10-21 21:33:14
+PAT0942,Fama Lo,63,Femme,89.2,202.2,21.8,70,121,78,93.6,1,Travail physique,Bronchite,Hydroxyurée,Occasionnel,Très actif,Ziguinchor,37.9,2025-10-21 21:27:17
+PAT0943,Bouna Dieng,65,Homme,93.2,178.5,29.3,60,158,79,93.0,5,Repos,Bronchite,Amlodipine,Occasionnel,Sédentaire,Kaolack,38.2,2025-10-21 21:26:52
+PAT0944,Diarra Dieng,18,Femme,64.6,147.4,29.7,106,127,81,93.1,8,Exercice léger,Malaria,Salbutamol,Non,Sédentaire,Kaolack,36.9,2025-10-21 21:26:39
+PAT0945,Sidy Toure,81,Homme,91.9,203.5,22.2,96,154,86,94.6,8,Marche rapide,Hypertension artérielle,Aucun,Oui,Sédentaire,Saint-Louis,38.1,2025-10-21 21:28:12
+PAT0946,Diarra Faye,17,Femme,93.6,203.8,22.5,97,130,67,94.2,0,Marche rapide,Aucune,Hydroxyurée,Oui,Actif,Kaolack,36.6,2025-10-21 21:25:19
+PAT0947,Moussa Thiam,58,Homme,103.9,164.2,38.5,82,119,83,93.1,0,Exercice léger,Anémie falciforme,Aucun,Oui,Actif,Dakar,36.2,2025-10-21 21:23:02
+PAT0948,Ndeye Fatou Cisse,80,Femme,75.3,199.6,18.9,80,155,70,92.2,6,Marche rapide,Hypertension artérielle,Salbutamol,Non,Actif,Dakar,38.1,2025-10-21 21:34:08
+PAT0949,Omar Sall,81,Homme,79.2,165.2,29.0,92,114,87,94.3,8,Marche rapide,Malaria,Amlodipine,Non,Actif,Kaolack,37.3,2025-10-21 21:29:34
+PAT0950,Rokhaya Ka,52,Femme,108.8,190.8,29.9,62,130,78,91.8,3,Travail physique,Hypertension artérielle,Paracétamol,Oui,Actif,Dakar,37.3,2025-10-21 21:29:35
+PAT0951,Maimouna Toure,30,Femme,63.7,199.8,16.0,65,107,69,92.6,5,Sommeil,Malaria,Hydroxyurée,Oui,Actif,Kaolack,36.2,2025-10-21 21:22:57
+PAT0952,Awa Dieng,42,Femme,66.2,192.8,17.8,77,124,68,92.5,8,Repos,Aucune,Artemether,Oui,Très actif,Thiès,37.7,2025-10-21 21:20:51
+PAT0953,Modou Lo,70,Homme,91.2,150.6,40.2,62,136,95,98.1,8,Marche rapide,Malaria,Salbutamol,Oui,Sédentaire,Saint-Louis,38.3,2025-10-21 21:30:12
+PAT0954,Sidy Mbaye,52,Homme,64.4,145.2,30.5,75,101,78,95.1,2,Exercice léger,Aucune,Aucun,Occasionnel,Très actif,Thiès,37.4,2025-10-21 21:18:19
+PAT0955,Malick Camara,48,Homme,90.9,200.2,22.7,64,142,88,94.6,0,Sommeil,Diabète de type 2,Paracétamol,Occasionnel,Très actif,Fatick,37.7,2025-10-21 21:34:27
+PAT0956,Lamine Lo,77,Homme,81.4,190.6,22.4,99,159,79,98.6,8,Exercice léger,Hypertension artérielle,Paracétamol,Occasionnel,Sédentaire,Dakar,36.7,2025-10-21 21:24:41
+PAT0957,Diarra Ka,45,Femme,98.4,199.6,24.7,80,124,87,94.7,4,Exercice léger,Diabète de type 2,Hydroxyurée,Non,Actif,Thiès,36.5,2025-10-21 21:24:13
+PAT0958,Abdoulaye Lo,31,Homme,93.2,185.9,27.0,94,118,60,98.9,4,Repos,Hypertension artérielle,Insuline,Occasionnel,Sédentaire,Saint-Louis,38.5,2025-10-21 21:25:26
+PAT0959,Moussa Camara,22,Homme,62.5,199.3,15.7,72,136,83,89.7,1,Exercice léger,Malaria,Aucun,Non,Actif,Thiès,36.5,2025-10-21 21:23:09
+PAT0960,Diarra Lo,51,Femme,60.9,171.7,20.7,67,105,79,88.2,5,Sommeil,Insuffisance rénale,Artemether,Non,Actif,Saint-Louis,38.1,2025-10-21 21:32:01
+PAT0961,Bouna Camara,84,Homme,49.8,162.5,18.9,80,157,72,88.1,5,Sommeil,Hypertension artérielle,Amlodipine,Occasionnel,Actif,Thiès,36.9,2025-10-21 21:28:55
+PAT0962,Modou Lo,67,Homme,92.3,170.2,31.9,77,122,95,92.7,5,Exercice léger,Anémie falciforme,Paracétamol,Occasionnel,Très actif,Saint-Louis,37.8,2025-10-21 21:25:10
+PAT0963,Maimouna Sall,85,Femme,57.5,165.5,21.0,98,126,83,88.2,8,Travail physique,Aucune,Insuline,Occasionnel,Sédentaire,Ziguinchor,37.8,2025-10-21 21:18:42
+PAT0964,Bineta Dieng,48,Femme,88.0,172.3,29.6,68,142,78,92.9,2,Travail physique,Bronchite,Artemether,Oui,Actif,Saint-Louis,37.0,2025-10-21 21:33:52
+PAT0965,Moussa Lo,75,Homme,99.1,145.2,47.0,74,135,73,89.0,4,Sommeil,Malaria,Amlodipine,Oui,Sédentaire,Fatick,36.3,2025-10-21 21:28:42
+PAT0966,Malick Mbaye,26,Homme,92.8,189.9,25.7,69,110,60,92.3,8,Repos,Anémie falciforme,Paracétamol,Oui,Sédentaire,Kaolack,37.7,2025-10-21 21:21:15
+PAT0967,Bouna Lo,65,Homme,52.0,149.3,23.3,69,147,91,93.4,3,Sommeil,Malaria,Aucun,Oui,Très actif,Dakar,36.5,2025-10-21 21:33:51
+PAT0968,Maimouna Mbaye,18,Femme,86.1,192.0,23.4,66,134,74,89.8,7,Travail physique,Insuffisance rénale,Amlodipine,Non,Très actif,Fatick,37.1,2025-10-21 21:30:44
+PAT0969,Mame Faye,71,Femme,86.3,188.8,24.2,90,154,76,98.5,5,Sommeil,Bronchite,Insuline,Occasionnel,Actif,Ziguinchor,37.1,2025-10-21 21:21:22
+PAT0970,Abdoulaye Cisse,31,Homme,61.5,183.2,18.3,97,118,87,92.6,4,Repos,Bronchite,Salbutamol,Oui,Sédentaire,Thiès,36.9,2025-10-21 21:29:30
+PAT0971,Modou Cisse,76,Homme,106.7,149.5,47.7,93,156,75,95.9,6,Exercice léger,Diabète de type 2,Artemether,Non,Très actif,Fatick,36.3,2025-10-21 21:32:59
+PAT0972,Lamine Lo,75,Homme,56.0,156.8,22.8,69,110,70,89.5,5,Repos,Anémie falciforme,Aucun,Occasionnel,Très actif,Kaolack,36.5,2025-10-21 21:31:00
+PAT0973,Malick Dieng,59,Homme,73.7,169.6,25.6,78,134,66,90.0,5,Travail physique,Aucune,Amlodipine,Oui,Très actif,Saint-Louis,36.4,2025-10-21 21:30:34
+PAT0974,Pape Lo,46,Homme,92.6,204.9,22.1,55,126,75,98.7,6,Exercice léger,Anémie falciforme,Paracétamol,Oui,Actif,Saint-Louis,36.1,2025-10-21 21:31:03
+PAT0975,Mame Lo,52,Femme,58.6,179.7,18.1,73,116,75,95.7,5,Marche rapide,Insuffisance rénale,Artemether,Occasionnel,Très actif,Thiès,37.3,2025-10-21 21:22:45
+PAT0976,Modou Thiam,23,Homme,69.6,162.0,26.5,69,140,90,92.7,1,Marche rapide,Aucune,Hydroxyurée,Occasionnel,Très actif,Dakar,36.9,2025-10-21 21:19:03
+PAT0977,Fama Faye,30,Femme,75.5,192.7,20.3,61,114,65,94.3,1,Exercice léger,Diabète de type 2,Artemether,Occasionnel,Actif,Thiès,37.3,2025-10-21 21:30:51
+PAT0978,Samba Dieng,33,Homme,71.6,170.3,24.7,103,105,69,90.4,4,Exercice léger,Malaria,Hydroxyurée,Occasionnel,Sédentaire,Dakar,37.7,2025-10-21 21:26:15
+PAT0979,Samba Lo,84,Homme,92.2,160.0,36.0,65,137,74,93.0,8,Sommeil,Aucune,Paracétamol,Occasionnel,Très actif,Saint-Louis,37.5,2025-10-21 21:23:49
+PAT0980,Omar Toure,40,Homme,63.2,170.4,21.8,60,135,72,98.9,5,Marche rapide,Hypertension artérielle,Artemether,Non,Très actif,Kaolack,38.3,2025-10-21 21:33:00
+PAT0981,Lamine Lo,49,Homme,45.7,162.0,17.4,89,130,66,98.6,5,Exercice léger,Hypertension artérielle,Paracétamol,Non,Actif,Kaolack,37.9,2025-10-21 21:20:11
+PAT0982,Omar Ka,47,Homme,83.1,162.8,31.4,58,143,60,98.7,2,Sommeil,Malaria,Aucun,Occasionnel,Actif,Dakar,37.1,2025-10-21 21:35:14
+PAT0983,Mame Ka,76,Femme,103.4,182.1,31.2,73,148,92,88.4,3,Marche rapide,Insuffisance rénale,Artemether,Occasionnel,Sédentaire,Fatick,37.9,2025-10-21 21:20:55
+PAT0984,Seynabou Mbaye,77,Femme,86.4,146.1,40.5,81,121,87,96.3,1,Exercice léger,Bronchite,Artemether,Non,Très actif,Saint-Louis,36.2,2025-10-21 21:27:53
+PAT0985,Rokhaya Ka,81,Femme,47.2,170.1,16.3,71,140,94,93.0,3,Travail physique,Anémie falciforme,Paracétamol,Non,Actif,Thiès,36.6,2025-10-21 21:26:43
+PAT0986,Fama Ka,81,Femme,67.2,186.0,19.4,75,123,82,88.2,5,Repos,Diabète de type 2,Paracétamol,Oui,Sédentaire,Ziguinchor,38.3,2025-10-21 21:28:44
+PAT0987,Bineta Dieng,66,Femme,46.2,154.1,19.5,80,120,71,92.1,2,Repos,Insuffisance rénale,Amlodipine,Non,Actif,Dakar,38.4,2025-10-21 21:25:30
+PAT0988,Moussa Camara,76,Homme,70.3,187.4,20.0,60,124,71,96.6,5,Repos,Diabète de type 2,Hydroxyurée,Non,Très actif,Thiès,36.6,2025-10-21 21:24:42
+PAT0989,Lamine Dieng,69,Homme,51.4,168.1,18.2,66,115,85,90.1,6,Sommeil,Aucune,Amlodipine,Non,Sédentaire,Dakar,38.3,2025-10-21 21:23:53
+PAT0990,Ndeye Fatou Toure,48,Femme,104.4,194.1,27.7,82,121,63,95.1,7,Repos,Diabète de type 2,Artemether,Occasionnel,Sédentaire,Fatick,36.5,2025-10-21 21:23:17
+PAT0991,Moussa Toure,67,Homme,96.1,187.3,27.4,63,139,73,98.3,3,Travail physique,Anémie falciforme,Amlodipine,Non,Très actif,Thiès,37.7,2025-10-21 21:18:59
+PAT0992,Mame Camara,66,Femme,64.4,155.4,26.7,81,150,81,95.2,3,Marche rapide,Hypertension artérielle,Artemether,Occasionnel,Actif,Thiès,37.7,2025-10-21 21:28:13
+PAT0993,Bineta Thiam,53,Femme,60.2,183.7,17.8,81,104,64,96.7,7,Exercice léger,Insuffisance rénale,Salbutamol,Occasionnel,Très actif,Ziguinchor,36.6,2025-10-21 21:22:51
+PAT0994,Diarra Ka,49,Femme,77.3,164.3,28.6,106,121,64,96.0,6,Marche rapide,Bronchite,Insuline,Occasionnel,Actif,Dakar,36.4,2025-10-21 21:25:32
+PAT0995,Kine Toure,66,Femme,101.2,163.6,37.8,73,152,84,96.9,0,Marche rapide,Aucune,Paracétamol,Occasionnel,Très actif,Ziguinchor,36.2,2025-10-21 21:19:02
+PAT0996,Rokhaya Faye,67,Femme,103.8,146.4,48.4,61,120,84,88.3,0,Exercice léger,Malaria,Aucun,Oui,Sédentaire,Saint-Louis,37.2,2025-10-21 21:27:59
+PAT0997,Omar Thiam,28,Homme,50.7,193.8,13.5,104,136,60,88.6,1,Travail physique,Aucune,Aucun,Oui,Actif,Fatick,37.5,2025-10-21 21:28:38
+PAT0998,Abdoulaye Sall,69,Homme,88.2,195.4,23.1,68,128,73,96.1,6,Exercice léger,Aucune,Salbutamol,Occasionnel,Sédentaire,Saint-Louis,37.3,2025-10-21 21:22:23
+PAT0999,Sidy Sall,74,Homme,90.6,198.6,23.0,83,122,92,95.1,1,Travail physique,Malaria,Amlodipine,Occasionnel,Actif,Ziguinchor,38.2,2025-10-21 21:21:40
+PAT1000,Moussa Toure,68,Homme,71.8,179.7,22.2,98,147,77,89.9,0,Repos,Insuffisance rénale,Aucun,Non,Sédentaire,Ziguinchor,36.9,2025-10-21 21:27:36
+PAT1001,Malick Camara,61,Homme,52.2,155.9,21.5,100,138,72,94.3,8,Sommeil,Anémie falciforme,Paracétamol,Occasionnel,Sédentaire,Fatick,38.5,2025-10-21 21:29:40
+PAT1002,Kine Ka,15,Femme,74.1,177.3,23.6,85,110,65,98.2,7,Repos,Hypertension artérielle,Paracétamol,Non,Sédentaire,Ziguinchor,36.2,2025-10-21 21:33:53
+PAT1003,Rokhaya Dieng,61,Femme,79.4,176.0,25.6,69,150,87,88.7,1,Sommeil,Bronchite,Artemether,Occasionnel,Actif,Thiès,37.2,2025-10-21 21:31:14
+PAT1004,Omar Cisse,84,Homme,69.9,150.0,31.1,91,134,91,90.8,6,Marche rapide,Bronchite,Hydroxyurée,Oui,Actif,Ziguinchor,37.6,2025-10-21 21:27:20
+PAT1005,Pape Mbaye,62,Homme,101.7,173.7,33.7,87,158,75,89.5,4,Travail physique,Insuffisance rénale,Amlodipine,Occasionnel,Actif,Saint-Louis,36.7,2025-10-21 21:24:22
+PAT1006,Maimouna Ka,30,Femme,73.5,182.2,22.1,104,135,78,96.9,0,Sommeil,Bronchite,Paracétamol,Occasionnel,Sédentaire,Thiès,36.3,2025-10-21 21:30:25
+PAT1007,Awa Ka,15,Femme,69.6,165.5,25.4,81,141,65,97.8,0,Marche rapide,Diabète de type 2,Insuline,Oui,Sédentaire,Kaolack,37.8,2025-10-21 21:31:53
+PAT1008,Omar Mbaye,47,Homme,49.4,194.5,13.1,85,127,89,94.7,8,Exercice léger,Hypertension artérielle,Salbutamol,Occasionnel,Sédentaire,Fatick,36.6,2025-10-21 21:20:22
+PAT1009,Modou Faye,82,Homme,65.7,204.2,15.8,62,137,71,96.4,1,Marche rapide,Malaria,Artemether,Non,Actif,Ziguinchor,36.3,2025-10-21 21:29:30
+PAT1010,Maimouna Dieng,64,Femme,96.2,179.7,29.8,76,127,93,96.2,3,Marche rapide,Malaria,Amlodipine,Oui,Sédentaire,Kaolack,36.5,2025-10-21 21:33:41
+PAT1011,Diarra Cisse,45,Femme,92.9,154.2,39.1,74,133,67,96.0,6,Marche rapide,Aucune,Insuline,Oui,Actif,Thiès,36.7,2025-10-21 21:28:47
+PAT1012,Maimouna Mbaye,29,Femme,90.1,189.6,25.1,102,117,72,95.1,2,Travail physique,Malaria,Hydroxyurée,Non,Actif,Dakar,38.3,2025-10-21 21:20:13
+PAT1013,Abdoulaye Thiam,77,Homme,52.2,187.1,14.9,84,135,77,96.3,8,Repos,Anémie falciforme,Paracétamol,Occasionnel,Sédentaire,Fatick,38.2,2025-10-21 21:30:12
+PAT1014,Bouna Faye,20,Homme,100.1,173.1,33.4,106,133,84,91.2,8,Travail physique,Diabète de type 2,Hydroxyurée,Occasionnel,Sédentaire,Saint-Louis,38.1,2025-10-21 21:28:39
+PAT1015,Bineta Thiam,72,Femme,77.0,166.3,27.8,67,124,81,96.5,3,Travail physique,Aucune,Salbutamol,Occasionnel,Sédentaire,Dakar,38.3,2025-10-21 21:29:58
+PAT1016,Modou Camara,36,Homme,50.2,203.3,12.1,83,134,72,93.0,2,Exercice léger,Anémie falciforme,Aucun,Oui,Sédentaire,Saint-Louis,37.3,2025-10-21 21:35:08
+PAT1017,Abdoulaye Mbaye,61,Homme,61.7,188.8,17.3,94,137,78,94.4,0,Repos,Bronchite,Aucun,Oui,Actif,Thiès,37.7,2025-10-21 21:26:14
+PAT1018,Mame Ka,68,Femme,61.1,183.7,18.1,67,130,88,89.3,6,Marche rapide,Hypertension artérielle,Insuline,Oui,Sédentaire,Saint-Louis,37.4,2025-10-21 21:30:53
+PAT1019,Pape Camara,27,Homme,57.4,191.6,15.6,98,107,84,96.7,8,Repos,Bronchite,Aucun,Oui,Actif,Dakar,36.2,2025-10-21 21:26:52
+PAT1020,Abdoulaye Mbaye,37,Homme,85.9,167.6,30.6,82,133,68,88.4,2,Sommeil,Hypertension artérielle,Amlodipine,Non,Sédentaire,Ziguinchor,37.9,2025-10-21 21:18:32
+PAT1021,Moussa Mbaye,84,Homme,72.0,178.2,22.7,79,127,82,91.1,6,Travail physique,Insuffisance rénale,Insuline,Occasionnel,Sédentaire,Ziguinchor,37.4,2025-10-21 21:27:48
+PAT1022,Samba Ka,21,Homme,77.4,191.1,21.2,65,103,82,94.9,0,Sommeil,Diabète de type 2,Aucun,Oui,Actif,Thiès,36.5,2025-10-21 21:29:53
+PAT1023,Pape Ka,33,Homme,54.0,149.0,24.3,86,133,63,95.9,3,Repos,Insuffisance rénale,Salbutamol,Occasionnel,Très actif,Kaolack,37.2,2025-10-21 21:25:36
+PAT1024,Rokhaya Toure,50,Femme,46.0,194.6,12.1,93,141,62,93.8,5,Sommeil,Bronchite,Artemether,Occasionnel,Sédentaire,Fatick,38.3,2025-10-21 21:24:42
+PAT1025,Samba Lo,79,Homme,101.7,148.6,46.1,63,110,94,98.5,8,Travail physique,Diabète de type 2,Hydroxyurée,Non,Actif,Saint-Louis,37.3,2025-10-21 21:22:11
+PAT1026,Maimouna Faye,56,Femme,95.1,163.5,35.6,94,110,73,94.3,5,Exercice léger,Diabète de type 2,Amlodipine,Occasionnel,Très actif,Fatick,36.9,2025-10-21 21:24:26
+PAT1027,Awa Thiam,56,Femme,93.7,166.4,33.8,101,126,63,98.3,0,Travail physique,Anémie falciforme,Paracétamol,Non,Très actif,Dakar,36.5,2025-10-21 21:18:56
+PAT1028,Bouna Camara,72,Homme,74.2,199.6,18.6,67,135,71,96.6,5,Repos,Diabète de type 2,Salbutamol,Oui,Actif,Kaolack,38.0,2025-10-21 21:32:35
+PAT1029,Bouna Faye,54,Homme,45.9,170.1,15.9,70,143,90,89.9,8,Repos,Bronchite,Artemether,Occasionnel,Sédentaire,Ziguinchor,36.7,2025-10-21 21:34:11
+PAT1030,Awa Toure,38,Femme,62.3,157.3,25.2,57,115,70,88.1,3,Exercice léger,Hypertension artérielle,Hydroxyurée,Non,Très actif,Fatick,36.2,2025-10-21 21:19:18
+PAT1031,Bineta Lo,43,Femme,65.6,166.1,23.8,101,108,80,93.7,2,Sommeil,Aucune,Insuline,Oui,Très actif,Thiès,37.3,2025-10-21 21:32:16
+PAT1032,Maimouna Lo,43,Femme,94.0,145.7,44.3,69,128,69,89.9,7,Travail physique,Hypertension artérielle,Aucun,Occasionnel,Très actif,Dakar,37.1,2025-10-21 21:23:23
+PAT1033,Seynabou Thiam,67,Femme,83.2,200.4,20.7,83,118,93,94.4,5,Repos,Diabète de type 2,Hydroxyurée,Non,Très actif,Kaolack,38.5,2025-10-21 21:25:20
+PAT1034,Seynabou Ka,28,Femme,85.6,190.6,23.6,102,135,78,92.2,1,Travail physique,Aucune,Paracétamol,Non,Actif,Thiès,36.5,2025-10-21 21:32:52
+PAT1035,Mame Dieng,73,Femme,61.8,158.5,24.6,64,126,86,90.5,0,Marche rapide,Bronchite,Artemether,Oui,Très actif,Fatick,36.3,2025-10-21 21:24:54
+PAT1036,Malick Thiam,41,Homme,85.4,182.3,25.7,102,106,72,92.2,3,Exercice léger,Hypertension artérielle,Artemether,Occasionnel,Très actif,Dakar,37.8,2025-10-21 21:33:05
+PAT1037,Seynabou Dieng,24,Femme,50.3,176.4,16.2,59,106,61,98.2,5,Repos,Malaria,Artemether,Oui,Sédentaire,Kaolack,36.7,2025-10-21 21:28:13
+PAT1038,Bineta Camara,58,Femme,89.6,183.9,26.5,73,142,86,98.0,7,Travail physique,Hypertension artérielle,Insuline,Occasionnel,Actif,Fatick,36.0,2025-10-21 21:31:12
+PAT1039,Diarra Dieng,45,Femme,83.1,189.5,23.1,104,114,62,97.8,0,Exercice léger,Aucune,Insuline,Oui,Très actif,Thiès,37.6,2025-10-21 21:29:00
+PAT1040,Omar Cisse,77,Homme,83.8,185.9,24.2,79,119,89,94.9,1,Marche rapide,Hypertension artérielle,Salbutamol,Occasionnel,Très actif,Fatick,37.5,2025-10-21 21:33:59
+PAT1041,Diarra Dieng,72,Femme,70.7,179.8,21.9,84,129,73,97.3,4,Marche rapide,Insuffisance rénale,Salbutamol,Non,Actif,Dakar,38.5,2025-10-21 21:22:47
+PAT1042,Awa Sall,28,Femme,59.4,178.8,18.6,95,130,77,89.0,5,Exercice léger,Anémie falciforme,Salbutamol,Non,Actif,Fatick,38.2,2025-10-21 21:20:10
+PAT1043,Mame Cisse,34,Femme,80.3,175.0,26.2,96,142,75,94.0,8,Exercice léger,Anémie falciforme,Aucun,Non,Sédentaire,Kaolack,37.2,2025-10-21 21:34:26
+PAT1044,Maimouna Cisse,36,Femme,94.1,193.8,25.1,96,121,70,90.0,1,Travail physique,Aucune,Insuline,Occasionnel,Très actif,Dakar,36.1,2025-10-21 21:29:35
+PAT1045,Diarra Camara,67,Femme,96.6,195.0,25.4,79,141,86,95.0,6,Marche rapide,Aucune,Aucun,Oui,Sédentaire,Dakar,38.4,2025-10-21 21:26:59
+PAT1046,Sidy Toure,22,Homme,92.3,161.6,35.3,59,135,83,97.7,7,Repos,Diabète de type 2,Salbutamol,Oui,Très actif,Thiès,36.3,2025-10-21 21:26:43
+PAT1047,Abdoulaye Sall,30,Homme,71.6,170.4,24.7,75,106,66,91.1,2,Marche rapide,Diabète de type 2,Aucun,Non,Très actif,Saint-Louis,38.3,2025-10-21 21:31:07
+PAT1048,Moussa Camara,45,Homme,105.9,146.8,49.1,108,131,61,88.5,5,Sommeil,Anémie falciforme,Amlodipine,Non,Actif,Ziguinchor,38.1,2025-10-21 21:20:23
+PAT1049,Fama Sall,69,Femme,85.5,147.0,39.6,73,130,88,92.3,2,Sommeil,Diabète de type 2,Hydroxyurée,Oui,Très actif,Dakar,37.1,2025-10-21 21:32:04
+PAT1050,Omar Camara,21,Homme,106.2,183.4,31.6,108,135,90,88.7,0,Sommeil,Bronchite,Amlodipine,Occasionnel,Actif,Fatick,37.8,2025-10-21 21:33:26
+PAT1051,Mame Lo,15,Femme,95.1,164.5,35.1,70,131,73,97.4,2,Travail physique,Anémie falciforme,Salbutamol,Oui,Très actif,Fatick,37.8,2025-10-21 21:18:25
+PAT1052,Bouna Sall,18,Homme,73.3,148.7,33.1,70,120,82,90.9,2,Repos,Anémie falciforme,Salbutamol,Oui,Actif,Saint-Louis,37.9,2025-10-21 21:18:59
+PAT1053,Pape Toure,45,Homme,98.1,195.9,25.6,106,116,80,90.5,0,Travail physique,Hypertension artérielle,Paracétamol,Non,Sédentaire,Dakar,37.0,2025-10-21 21:18:18
+PAT1054,Fama Lo,40,Femme,72.5,167.6,25.8,97,122,70,89.2,0,Repos,Insuffisance rénale,Salbutamol,Occasionnel,Sédentaire,Kaolack,38.2,2025-10-21 21:32:04
+PAT1055,Mame Camara,15,Femme,85.2,165.1,31.3,97,101,86,95.5,0,Travail physique,Bronchite,Insuline,Non,Sédentaire,Ziguinchor,38.2,2025-10-21 21:31:11
+PAT1056,Abdoulaye Toure,17,Homme,101.9,148.2,46.4,75,143,78,98.6,7,Repos,Malaria,Aucun,Occasionnel,Actif,Ziguinchor,37.0,2025-10-21 21:23:20
+PAT1057,Awa Sall,66,Femme,73.8,174.3,24.3,65,149,93,90.6,0,Exercice léger,Hypertension artérielle,Paracétamol,Non,Actif,Fatick,36.5,2025-10-21 21:34:56
+PAT1058,Malick Cisse,41,Homme,90.4,182.7,27.1,97,105,71,94.7,0,Sommeil,Aucune,Salbutamol,Oui,Très actif,Thiès,38.1,2025-10-21 21:29:45
+PAT1059,Lamine Dieng,54,Homme,52.0,199.3,13.1,92,107,67,98.4,4,Sommeil,Bronchite,Artemether,Oui,Actif,Fatick,38.0,2025-10-21 21:27:15
+PAT1060,Seynabou Toure,38,Femme,103.0,184.8,30.2,99,103,73,94.4,6,Travail physique,Diabète de type 2,Hydroxyurée,Occasionnel,Sédentaire,Fatick,36.3,2025-10-21 21:22:51
+PAT1061,Abdoulaye Camara,42,Homme,96.1,156.1,39.4,85,108,68,88.3,5,Sommeil,Diabète de type 2,Hydroxyurée,Occasionnel,Très actif,Saint-Louis,37.4,2025-10-21 21:29:54
+PAT1062,Omar Sall,65,Homme,95.2,203.4,23.0,68,147,75,97.2,3,Exercice léger,Anémie falciforme,Salbutamol,Occasionnel,Très actif,Kaolack,38.4,2025-10-21 21:31:42
+PAT1063,Abdoulaye Sall,76,Homme,61.7,148.6,27.9,94,129,87,90.1,0,Repos,Anémie falciforme,Paracétamol,Occasionnel,Actif,Fatick,37.7,2025-10-21 21:23:07
+PAT1064,Abdoulaye Cisse,27,Homme,57.1,172.0,19.3,81,105,70,97.5,7,Sommeil,Bronchite,Amlodipine,Occasionnel,Actif,Dakar,37.7,2025-10-21 21:23:55
+PAT1065,Bouna Thiam,82,Homme,109.7,166.0,39.8,98,133,70,91.9,1,Marche rapide,Diabète de type 2,Insuline,Non,Sédentaire,Thiès,36.2,2025-10-21 21:19:18
+PAT1066,Modou Mbaye,36,Homme,93.2,152.8,39.9,97,140,70,93.5,4,Exercice léger,Malaria,Hydroxyurée,Occasionnel,Sédentaire,Ziguinchor,37.7,2025-10-21 21:29:03
+PAT1067,Modou Ka,63,Homme,72.0,198.0,18.4,69,114,89,92.2,5,Travail physique,Bronchite,Insuline,Non,Actif,Fatick,38.2,2025-10-21 21:18:54
+PAT1068,Fama Thiam,25,Femme,71.7,186.3,20.7,63,105,83,93.4,2,Repos,Malaria,Aucun,Occasionnel,Actif,Saint-Louis,36.8,2025-10-21 21:28:07
+PAT1069,Fama Sall,72,Femme,88.4,203.7,21.3,92,129,88,97.4,6,Travail physique,Bronchite,Hydroxyurée,Non,Sédentaire,Saint-Louis,36.2,2025-10-21 21:26:15
+PAT1070,Malick Mbaye,81,Homme,106.3,188.3,30.0,74,152,86,98.2,0,Repos,Aucune,Paracétamol,Occasionnel,Sédentaire,Saint-Louis,37.4,2025-10-21 21:24:07
+PAT1071,Kine Cisse,49,Femme,76.7,195.6,20.0,66,111,66,92.7,4,Sommeil,Insuffisance rénale,Artemether,Non,Actif,Fatick,36.9,2025-10-21 21:30:44
+PAT1072,Kine Ka,51,Femme,101.2,166.8,36.4,70,119,66,92.9,7,Sommeil,Diabète de type 2,Aucun,Non,Actif,Ziguinchor,36.9,2025-10-21 21:34:53
+PAT1073,Bouna Faye,40,Homme,76.5,182.7,22.9,79,139,83,97.0,0,Sommeil,Diabète de type 2,Aucun,Non,Très actif,Fatick,38.3,2025-10-21 21:22:45
+PAT1074,Bouna Mbaye,61,Homme,101.2,197.3,26.0,88,143,76,92.5,5,Exercice léger,Insuffisance rénale,Salbutamol,Non,Actif,Saint-Louis,36.9,2025-10-21 21:33:30
+PAT1075,Samba Mbaye,84,Homme,46.7,159.9,18.3,68,138,90,97.5,5,Travail physique,Diabète de type 2,Insuline,Non,Sédentaire,Fatick,37.9,2025-10-21 21:29:06
+PAT1076,Mame Dieng,15,Femme,51.5,156.0,21.2,61,117,90,98.9,0,Marche rapide,Anémie falciforme,Insuline,Oui,Sédentaire,Saint-Louis,37.6,2025-10-21 21:32:45
+PAT1077,Mame Faye,39,Femme,104.1,154.9,43.4,67,133,66,91.3,1,Exercice léger,Anémie falciforme,Paracétamol,Oui,Très actif,Fatick,37.3,2025-10-21 21:29:07
+PAT1078,Moussa Cisse,51,Homme,108.6,158.0,43.5,75,113,81,88.7,7,Exercice léger,Aucune,Salbutamol,Occasionnel,Sédentaire,Saint-Louis,37.7,2025-10-21 21:35:37
+PAT1079,Mame Lo,25,Femme,56.3,159.8,22.0,92,108,67,93.3,4,Sommeil,Hypertension artérielle,Artemether,Non,Sédentaire,Thiès,36.8,2025-10-21 21:28:19
+PAT1080,Rokhaya Ka,64,Femme,105.2,161.6,40.3,68,124,92,90.6,1,Marche rapide,Anémie falciforme,Hydroxyurée,Occasionnel,Actif,Kaolack,37.0,2025-10-21 21:19:41
+PAT1081,Sidy Ka,64,Homme,55.6,173.8,18.4,79,147,70,98.2,4,Travail physique,Aucune,Amlodipine,Occasionnel,Actif,Ziguinchor,38.2,2025-10-21 21:28:01
+PAT1082,Malick Faye,78,Homme,95.6,160.4,37.2,94,150,79,98.4,5,Sommeil,Hypertension artérielle,Aucun,Occasionnel,Actif,Kaolack,37.3,2025-10-21 21:17:39
+PAT1083,Pape Dieng,60,Homme,108.9,188.3,30.7,56,105,84,95.9,7,Exercice léger,Malaria,Artemether,Non,Très actif,Ziguinchor,36.1,2025-10-21 21:27:07
+PAT1084,Malick Cisse,26,Homme,65.4,175.7,21.2,104,113,87,92.1,2,Sommeil,Aucune,Aucun,Non,Actif,Ziguinchor,37.1,2025-10-21 21:25:49
+PAT1085,Modou Dieng,70,Homme,88.5,166.4,32.0,64,156,85,97.9,4,Sommeil,Bronchite,Insuline,Non,Très actif,Saint-Louis,36.9,2025-10-21 21:20:02
+PAT1086,Sidy Mbaye,55,Homme,98.3,200.3,24.5,71,111,78,95.9,8,Marche rapide,Aucune,Artemether,Oui,Sédentaire,Ziguinchor,36.4,2025-10-21 21:19:27
+PAT1087,Moussa Sall,84,Homme,102.2,146.9,47.4,67,141,75,89.1,4,Exercice léger,Insuffisance rénale,Hydroxyurée,Oui,Sédentaire,Fatick,37.7,2025-10-21 21:32:28
+PAT1088,Abdoulaye Sall,34,Homme,66.2,175.4,21.5,93,141,88,92.3,3,Marche rapide,Anémie falciforme,Hydroxyurée,Oui,Très actif,Ziguinchor,36.8,2025-10-21 21:23:05
+PAT1089,Modou Ka,73,Homme,72.6,173.0,24.3,89,112,83,94.2,6,Exercice léger,Diabète de type 2,Insuline,Oui,Sédentaire,Fatick,37.8,2025-10-21 21:24:18
+PAT1090,Kine Sall,62,Femme,104.2,163.7,38.9,60,143,71,94.4,3,Travail physique,Malaria,Hydroxyurée,Occasionnel,Actif,Kaolack,37.4,2025-10-21 21:28:29
+PAT1091,Ndeye Fatou Lo,65,Femme,79.8,157.3,32.3,83,148,77,92.8,4,Sommeil,Insuffisance rénale,Hydroxyurée,Oui,Très actif,Saint-Louis,37.3,2025-10-21 21:18:40
+PAT1092,Moussa Toure,74,Homme,49.1,155.5,20.3,89,119,86,97.0,5,Marche rapide,Diabète de type 2,Salbutamol,Occasionnel,Sédentaire,Thiès,37.4,2025-10-21 21:31:33
+PAT1093,Omar Sall,46,Homme,88.8,149.7,39.6,60,143,73,94.4,5,Marche rapide,Anémie falciforme,Amlodipine,Non,Sédentaire,Saint-Louis,38.1,2025-10-21 21:19:38
+PAT1094,Fama Sall,57,Femme,99.8,151.6,43.4,65,126,64,97.7,5,Repos,Insuffisance rénale,Aucun,Oui,Actif,Saint-Louis,37.9,2025-10-21 21:31:40
+PAT1095,Pape Mbaye,52,Homme,92.9,172.1,31.4,68,110,73,94.6,8,Marche rapide,Insuffisance rénale,Artemether,Non,Très actif,Ziguinchor,37.6,2025-10-21 21:20:17
+PAT1096,Kine Toure,29,Femme,50.0,179.8,15.5,89,116,65,91.2,5,Sommeil,Bronchite,Paracétamol,Non,Très actif,Saint-Louis,36.5,2025-10-21 21:27:43
+PAT1097,Sidy Dieng,37,Homme,72.6,147.9,33.2,75,142,69,93.9,7,Exercice léger,Hypertension artérielle,Paracétamol,Oui,Très actif,Saint-Louis,37.8,2025-10-21 21:17:44
+PAT1098,Ndeye Fatou Mbaye,39,Femme,79.9,162.4,30.3,93,129,84,91.9,3,Marche rapide,Anémie falciforme,Artemether,Oui,Très actif,Thiès,37.4,2025-10-21 21:20:05
+PAT1099,Abdoulaye Camara,50,Homme,69.2,152.0,30.0,59,136,65,94.2,0,Repos,Anémie falciforme,Hydroxyurée,Non,Sédentaire,Dakar,36.9,2025-10-21 21:26:26
+PAT1100,Seynabou Dieng,42,Femme,46.2,160.2,18.0,107,121,75,89.0,3,Travail physique,Aucune,Salbutamol,Oui,Sédentaire,Saint-Louis,37.3,2025-10-21 21:34:01
+PAT1101,Pape Lo,73,Homme,105.5,187.6,30.0,66,119,93,98.6,1,Repos,Aucune,Aucun,Oui,Très actif,Saint-Louis,36.7,2025-10-21 21:33:08
+PAT1102,Fama Sall,42,Femme,105.4,154.8,44.0,96,140,65,89.7,4,Travail physique,Hypertension artérielle,Salbutamol,Non,Sédentaire,Ziguinchor,36.5,2025-10-21 21:26:22
+PAT1103,Omar Cisse,71,Homme,97.4,155.8,40.1,89,131,77,93.2,4,Travail physique,Anémie falciforme,Amlodipine,Oui,Actif,Kaolack,36.3,2025-10-21 21:31:47
+PAT1104,Pape Camara,27,Homme,68.8,150.4,30.4,90,123,81,90.6,6,Travail physique,Hypertension artérielle,Amlodipine,Oui,Sédentaire,Thiès,37.3,2025-10-21 21:20:13
+PAT1105,Sidy Sall,25,Homme,54.3,149.2,24.4,106,117,67,96.7,8,Repos,Bronchite,Insuline,Occasionnel,Sédentaire,Kaolack,37.9,2025-10-21 21:27:16
+PAT1106,Sidy Toure,17,Homme,99.4,155.3,41.2,60,117,60,89.8,1,Travail physique,Insuffisance rénale,Artemether,Oui,Actif,Saint-Louis,37.3,2025-10-21 21:22:04
+PAT1107,Samba Faye,37,Homme,88.6,155.2,36.8,100,105,72,94.0,2,Sommeil,Hypertension artérielle,Artemether,Occasionnel,Sédentaire,Thiès,37.3,2025-10-21 21:18:21
+PAT1108,Omar Lo,18,Homme,46.9,193.0,12.6,92,135,63,90.8,7,Repos,Aucune,Paracétamol,Oui,Actif,Ziguinchor,37.4,2025-10-21 21:25:56
+PAT1109,Mame Dieng,59,Femme,71.9,178.9,22.5,68,116,89,95.5,5,Marche rapide,Anémie falciforme,Insuline,Non,Sédentaire,Saint-Louis,37.4,2025-10-21 21:29:55
+PAT1110,Awa Faye,64,Femme,54.5,180.2,16.8,83,133,83,98.9,3,Marche rapide,Anémie falciforme,Aucun,Non,Très actif,Fatick,37.6,2025-10-21 21:31:54
+PAT1111,Bouna Camara,27,Homme,108.4,184.0,32.0,86,140,90,97.0,1,Travail physique,Insuffisance rénale,Paracétamol,Non,Sédentaire,Saint-Louis,36.4,2025-10-21 21:30:49
+PAT1112,Diarra Ka,40,Femme,101.2,162.8,38.2,101,126,90,95.1,8,Travail physique,Aucune,Aucun,Occasionnel,Actif,Thiès,38.2,2025-10-21 21:29:57
+PAT1113,Omar Faye,62,Homme,66.4,160.6,25.7,86,148,95,91.3,6,Sommeil,Anémie falciforme,Artemether,Non,Très actif,Fatick,36.2,2025-10-21 21:29:25
+PAT1114,Kine Mbaye,79,Femme,98.5,148.6,44.6,62,143,70,88.8,5,Exercice léger,Insuffisance rénale,Aucun,Non,Sédentaire,Dakar,36.3,2025-10-21 21:30:27
+PAT1115,Bineta Ka,17,Femme,72.2,149.6,32.3,64,108,72,96.3,8,Sommeil,Insuffisance rénale,Paracétamol,Oui,Très actif,Thiès,36.1,2025-10-21 21:35:24
+PAT1116,Seynabou Cisse,44,Femme,103.2,198.7,26.1,67,132,89,94.1,8,Repos,Hypertension artérielle,Insuline,Non,Très actif,Fatick,38.5,2025-10-21 21:28:11
+PAT1117,Sidy Dieng,58,Homme,82.6,161.4,31.7,90,130,81,93.7,5,Marche rapide,Insuffisance rénale,Amlodipine,Non,Très actif,Thiès,36.7,2025-10-21 21:27:19
+PAT1118,Malick Ka,43,Homme,93.7,155.2,38.9,110,143,81,92.6,3,Sommeil,Malaria,Artemether,Oui,Sédentaire,Dakar,38.1,2025-10-21 21:21:09
+PAT1119,Lamine Camara,65,Homme,53.7,147.7,24.6,100,138,89,98.7,4,Sommeil,Aucune,Insuline,Non,Actif,Kaolack,37.7,2025-10-21 21:31:01
+PAT1120,Mame Cisse,19,Femme,87.0,173.7,28.8,89,101,81,97.4,3,Exercice léger,Aucune,Artemether,Occasionnel,Sédentaire,Kaolack,37.5,2025-10-21 21:31:30
+PAT1121,Modou Lo,76,Homme,51.6,180.4,15.9,88,110,86,88.4,7,Exercice léger,Malaria,Salbutamol,Oui,Sédentaire,Thiès,36.1,2025-10-21 21:33:45
+PAT1122,Modou Lo,48,Homme,80.8,201.7,19.9,80,124,81,90.0,1,Travail physique,Aucune,Amlodipine,Oui,Très actif,Dakar,38.4,2025-10-21 21:27:58
+PAT1123,Bouna Mbaye,38,Homme,66.4,186.0,19.2,62,129,79,95.6,4,Exercice léger,Insuffisance rénale,Aucun,Occasionnel,Actif,Kaolack,36.6,2025-10-21 21:30:22
+PAT1124,Pape Thiam,36,Homme,102.0,193.7,27.2,77,118,63,96.8,2,Sommeil,Aucune,Hydroxyurée,Occasionnel,Très actif,Thiès,38.3,2025-10-21 21:26:39
+PAT1125,Sidy Mbaye,68,Homme,107.0,204.7,25.5,70,128,83,95.3,1,Sommeil,Insuffisance rénale,Salbutamol,Oui,Sédentaire,Fatick,38.0,2025-10-21 21:18:01
+PAT1126,Omar Lo,36,Homme,85.5,200.9,21.2,95,142,87,94.5,7,Travail physique,Diabète de type 2,Hydroxyurée,Non,Très actif,Thiès,38.3,2025-10-21 21:25:40
+PAT1127,Seynabou Camara,73,Femme,52.4,165.2,19.2,94,135,75,88.3,2,Travail physique,Malaria,Amlodipine,Oui,Actif,Dakar,37.9,2025-10-21 21:17:49
+PAT1128,Moussa Dieng,54,Homme,69.5,190.2,19.2,110,143,62,99.0,4,Repos,Diabète de type 2,Artemether,Oui,Très actif,Dakar,36.6,2025-10-21 21:32:11
+PAT1129,Sidy Mbaye,59,Homme,109.3,159.9,42.7,108,118,68,88.0,3,Sommeil,Bronchite,Paracétamol,Non,Actif,Dakar,37.4,2025-10-21 21:28:25
+PAT1130,Omar Camara,65,Homme,72.5,203.2,17.6,89,151,82,91.3,0,Marche rapide,Diabète de type 2,Aucun,Non,Actif,Thiès,36.3,2025-10-21 21:18:14
+PAT1131,Mame Lo,50,Femme,58.2,159.0,23.0,107,115,68,93.0,2,Exercice léger,Diabète de type 2,Artemether,Oui,Sédentaire,Thiès,38.3,2025-10-21 21:29:05
+PAT1132,Modou Sall,78,Homme,73.6,198.0,18.8,72,122,84,96.9,2,Exercice léger,Anémie falciforme,Amlodipine,Occasionnel,Très actif,Saint-Louis,36.2,2025-10-21 21:23:12
+PAT1133,Malick Cisse,35,Homme,92.6,199.6,23.2,109,118,66,88.6,3,Marche rapide,Bronchite,Salbutamol,Occasionnel,Actif,Dakar,37.2,2025-10-21 21:18:29
+PAT1134,Bineta Toure,48,Femme,70.7,168.1,25.0,97,114,83,92.3,1,Exercice léger,Malaria,Salbutamol,Occasionnel,Sédentaire,Thiès,36.8,2025-10-21 21:19:40
+PAT1135,Bouna Thiam,77,Homme,97.1,172.9,32.5,66,151,77,89.1,3,Sommeil,Bronchite,Aucun,Occasionnel,Actif,Kaolack,36.2,2025-10-21 21:26:44
+PAT1136,Rokhaya Faye,83,Femme,71.6,201.7,17.6,62,122,89,97.0,7,Travail physique,Insuffisance rénale,Aucun,Oui,Sédentaire,Dakar,36.9,2025-10-21 21:25:05
+PAT1137,Kine Camara,64,Femme,104.6,183.5,31.1,61,122,73,96.5,4,Exercice léger,Bronchite,Aucun,Oui,Sédentaire,Saint-Louis,38.2,2025-10-21 21:30:59
+PAT1138,Mame Dieng,18,Femme,76.7,185.0,22.4,97,130,90,89.1,2,Repos,Hypertension artérielle,Paracétamol,Occasionnel,Très actif,Thiès,36.5,2025-10-21 21:35:00
+PAT1139,Modou Cisse,60,Homme,64.1,174.6,21.0,104,104,72,88.9,1,Sommeil,Bronchite,Hydroxyurée,Oui,Très actif,Thiès,38.2,2025-10-21 21:17:54
+PAT1140,Diarra Cisse,82,Femme,82.0,202.0,20.1,89,153,75,89.3,2,Repos,Insuffisance rénale,Amlodipine,Occasionnel,Actif,Thiès,36.5,2025-10-21 21:23:58
+PAT1141,Lamine Lo,29,Homme,109.1,172.7,36.6,59,129,81,90.5,4,Sommeil,Aucune,Insuline,Occasionnel,Sédentaire,Dakar,36.9,2025-10-21 21:24:02
+PAT1142,Ndeye Fatou Ka,37,Femme,56.4,170.3,19.4,84,139,89,97.3,4,Sommeil,Diabète de type 2,Artemether,Occasionnel,Sédentaire,Ziguinchor,38.4,2025-10-21 21:31:30
+PAT1143,Rokhaya Toure,59,Femme,89.7,152.4,38.6,70,128,83,89.5,0,Marche rapide,Hypertension artérielle,Salbutamol,Non,Sédentaire,Ziguinchor,37.0,2025-10-21 21:20:53
+PAT1144,Abdoulaye Toure,73,Homme,63.0,165.7,22.9,73,144,84,91.5,3,Marche rapide,Bronchite,Salbutamol,Oui,Très actif,Dakar,36.2,2025-10-21 21:29:29
+PAT1145,Lamine Thiam,42,Homme,59.6,179.1,18.6,97,143,81,97.1,6,Marche rapide,Anémie falciforme,Insuline,Occasionnel,Très actif,Kaolack,37.4,2025-10-21 21:21:09
+PAT1146,Bineta Thiam,46,Femme,74.3,204.0,17.9,97,135,72,90.7,6,Travail physique,Insuffisance rénale,Artemether,Non,Actif,Dakar,37.0,2025-10-21 21:20:25
+PAT1147,Lamine Cisse,63,Homme,51.4,188.7,14.4,60,146,70,89.1,2,Repos,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Saint-Louis,38.2,2025-10-21 21:34:22
+PAT1148,Rokhaya Dieng,51,Femme,56.2,197.3,14.4,98,126,85,90.8,3,Repos,Malaria,Amlodipine,Oui,Très actif,Dakar,36.6,2025-10-21 21:27:36
+PAT1149,Rokhaya Camara,67,Femme,106.8,184.4,31.4,81,158,75,96.5,2,Repos,Hypertension artérielle,Salbutamol,Non,Actif,Saint-Louis,38.1,2025-10-21 21:20:50
+PAT1150,Samba Dieng,23,Homme,56.9,181.9,17.2,85,131,66,93.8,1,Repos,Bronchite,Hydroxyurée,Occasionnel,Actif,Saint-Louis,38.4,2025-10-21 21:35:02
+PAT1151,Seynabou Thiam,33,Femme,84.8,197.2,21.8,98,143,84,98.6,5,Marche rapide,Diabète de type 2,Aucun,Occasionnel,Très actif,Ziguinchor,36.1,2025-10-21 21:24:11
+PAT1152,Abdoulaye Thiam,72,Homme,78.0,149.9,34.7,97,111,95,89.9,5,Sommeil,Insuffisance rénale,Amlodipine,Oui,Sédentaire,Ziguinchor,38.3,2025-10-21 21:32:09
+PAT1153,Abdoulaye Mbaye,19,Homme,49.9,190.4,13.8,79,139,60,95.2,8,Exercice léger,Diabète de type 2,Aucun,Occasionnel,Très actif,Dakar,38.5,2025-10-21 21:17:57
+PAT1154,Fama Ka,53,Femme,88.3,162.0,33.6,75,108,65,89.5,7,Marche rapide,Insuffisance rénale,Salbutamol,Oui,Très actif,Thiès,37.3,2025-10-21 21:33:58
+PAT1155,Bouna Thiam,81,Homme,98.5,189.9,27.3,88,152,73,91.2,2,Sommeil,Insuffisance rénale,Artemether,Non,Sédentaire,Kaolack,38.0,2025-10-21 21:21:53
+PAT1156,Ndeye Fatou Sall,38,Femme,88.2,174.5,29.0,57,135,74,97.0,6,Marche rapide,Diabète de type 2,Paracétamol,Occasionnel,Sédentaire,Thiès,37.0,2025-10-21 21:32:39
+PAT1157,Omar Cisse,76,Homme,95.2,167.8,33.8,70,121,74,98.9,6,Repos,Insuffisance rénale,Amlodipine,Oui,Actif,Ziguinchor,36.5,2025-10-21 21:22:11
+PAT1158,Samba Dieng,79,Homme,66.5,201.8,16.3,70,160,80,94.9,7,Exercice léger,Malaria,Insuline,Non,Actif,Ziguinchor,37.7,2025-10-21 21:34:26
+PAT1159,Abdoulaye Lo,60,Homme,77.0,158.9,30.5,96,131,73,98.8,1,Repos,Diabète de type 2,Paracétamol,Non,Très actif,Dakar,38.0,2025-10-21 21:22:26
+PAT1160,Seynabou Lo,40,Femme,101.7,148.3,46.2,78,140,77,92.2,3,Marche rapide,Malaria,Salbutamol,Oui,Sédentaire,Saint-Louis,36.6,2025-10-21 21:27:21
+PAT1161,Bouna Lo,26,Homme,109.1,201.4,26.9,102,105,79,89.4,5,Travail physique,Anémie falciforme,Paracétamol,Oui,Très actif,Fatick,36.3,2025-10-21 21:23:22
+PAT1162,Ndeye Fatou Dieng,45,Femme,64.4,166.4,23.3,78,102,66,98.1,8,Exercice léger,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Saint-Louis,37.1,2025-10-21 21:24:19
+PAT1163,Samba Mbaye,77,Homme,51.4,203.8,12.4,67,129,75,95.6,2,Repos,Malaria,Artemether,Occasionnel,Actif,Saint-Louis,37.8,2025-10-21 21:35:06
+PAT1164,Abdoulaye Thiam,77,Homme,66.5,167.4,23.7,73,110,88,95.5,6,Travail physique,Anémie falciforme,Insuline,Occasionnel,Très actif,Dakar,36.3,2025-10-21 21:28:37
+PAT1165,Diarra Thiam,80,Femme,75.9,194.8,20.0,71,139,78,88.2,6,Marche rapide,Malaria,Amlodipine,Non,Très actif,Ziguinchor,37.6,2025-10-21 21:29:11
+PAT1166,Bouna Sall,49,Homme,97.5,167.9,34.6,89,135,82,91.7,2,Exercice léger,Malaria,Artemether,Occasionnel,Très actif,Ziguinchor,38.3,2025-10-21 21:34:54
+PAT1167,Seynabou Cisse,83,Femme,53.4,193.0,14.3,92,146,71,94.8,0,Exercice léger,Insuffisance rénale,Salbutamol,Oui,Très actif,Ziguinchor,37.8,2025-10-21 21:33:58
+PAT1168,Diarra Toure,78,Femme,104.8,199.0,26.5,90,139,86,95.4,2,Sommeil,Anémie falciforme,Artemether,Occasionnel,Sédentaire,Fatick,38.2,2025-10-21 21:28:57
+PAT1169,Rokhaya Thiam,26,Femme,52.7,164.3,19.5,68,143,78,89.8,4,Marche rapide,Diabète de type 2,Aucun,Non,Très actif,Ziguinchor,38.0,2025-10-21 21:33:51
+PAT1170,Lamine Faye,64,Homme,47.9,180.9,14.6,63,149,74,95.3,3,Marche rapide,Diabète de type 2,Paracétamol,Oui,Très actif,Ziguinchor,36.3,2025-10-21 21:21:16
+PAT1171,Bineta Sall,38,Femme,68.9,158.5,27.4,58,117,90,95.0,2,Sommeil,Diabète de type 2,Insuline,Oui,Sédentaire,Kaolack,36.4,2025-10-21 21:17:58
+PAT1172,Lamine Sall,42,Homme,87.7,197.4,22.5,86,104,66,94.9,8,Repos,Malaria,Salbutamol,Non,Sédentaire,Dakar,36.7,2025-10-21 21:30:57
+PAT1173,Samba Sall,67,Homme,79.8,181.2,24.3,72,117,80,92.8,8,Marche rapide,Bronchite,Aucun,Non,Très actif,Thiès,36.5,2025-10-21 21:32:36
+PAT1174,Ndeye Fatou Faye,58,Femme,95.0,146.3,44.4,104,112,61,94.3,1,Repos,Insuffisance rénale,Artemether,Oui,Très actif,Thiès,38.3,2025-10-21 21:35:09
+PAT1175,Lamine Sall,27,Homme,64.6,164.9,23.8,92,144,67,98.2,1,Exercice léger,Hypertension artérielle,Amlodipine,Non,Actif,Fatick,36.5,2025-10-21 21:25:27
+PAT1176,Maimouna Toure,39,Femme,88.7,202.2,21.7,78,100,63,96.6,6,Marche rapide,Insuffisance rénale,Hydroxyurée,Non,Très actif,Fatick,36.2,2025-10-21 21:18:41
+PAT1177,Bineta Camara,57,Femme,65.8,158.7,26.1,106,109,70,97.7,6,Exercice léger,Insuffisance rénale,Hydroxyurée,Non,Sédentaire,Kaolack,36.8,2025-10-21 21:24:30
+PAT1178,Modou Faye,37,Homme,89.1,151.0,39.1,55,128,63,91.7,3,Sommeil,Diabète de type 2,Aucun,Occasionnel,Actif,Saint-Louis,37.3,2025-10-21 21:28:18
+PAT1179,Kine Mbaye,60,Femme,91.9,174.4,30.2,74,111,90,88.1,8,Travail physique,Hypertension artérielle,Hydroxyurée,Oui,Actif,Fatick,37.2,2025-10-21 21:27:23
+PAT1180,Maimouna Cisse,62,Femme,61.9,162.6,23.4,75,112,79,93.8,5,Travail physique,Insuffisance rénale,Salbutamol,Occasionnel,Très actif,Kaolack,36.5,2025-10-21 21:32:00
+PAT1181,Fama Faye,29,Femme,96.5,154.6,40.4,88,106,77,94.4,1,Exercice léger,Malaria,Salbutamol,Occasionnel,Très actif,Kaolack,38.1,2025-10-21 21:24:55
+PAT1182,Kine Faye,60,Femme,98.7,179.0,30.8,68,132,85,95.1,0,Travail physique,Diabète de type 2,Salbutamol,Occasionnel,Très actif,Thiès,37.9,2025-10-21 21:25:51
+PAT1183,Diarra Camara,65,Femme,67.6,157.6,27.2,68,128,83,90.4,3,Exercice léger,Diabète de type 2,Amlodipine,Oui,Actif,Ziguinchor,38.0,2025-10-21 21:30:18
+PAT1184,Samba Faye,26,Homme,52.8,167.9,18.7,75,122,72,92.0,8,Sommeil,Aucune,Paracétamol,Oui,Sédentaire,Ziguinchor,37.5,2025-10-21 21:35:13
+PAT1185,Modou Thiam,25,Homme,57.7,168.2,20.4,101,135,78,91.6,6,Marche rapide,Aucune,Artemether,Oui,Actif,Kaolack,37.0,2025-10-21 21:27:26
+PAT1186,Malick Dieng,66,Homme,81.7,159.9,32.0,77,148,78,88.8,2,Marche rapide,Hypertension artérielle,Hydroxyurée,Oui,Très actif,Thiès,37.7,2025-10-21 21:33:30
+PAT1187,Malick Dieng,84,Homme,97.4,152.1,42.1,71,139,72,89.2,2,Sommeil,Malaria,Insuline,Occasionnel,Très actif,Saint-Louis,38.2,2025-10-21 21:24:36
+PAT1188,Sidy Cisse,45,Homme,54.9,204.0,13.2,81,121,65,95.2,7,Sommeil,Anémie falciforme,Hydroxyurée,Occasionnel,Sédentaire,Saint-Louis,36.0,2025-10-21 21:34:55
+PAT1189,Abdoulaye Ka,22,Homme,58.9,182.2,17.7,93,145,79,92.0,1,Sommeil,Malaria,Amlodipine,Oui,Actif,Saint-Louis,36.8,2025-10-21 21:22:04
+PAT1190,Moussa Lo,63,Homme,57.2,173.5,19.0,89,158,81,92.0,8,Repos,Insuffisance rénale,Amlodipine,Non,Actif,Ziguinchor,36.9,2025-10-21 21:30:17
+PAT1191,Omar Sall,69,Homme,84.9,189.3,23.7,82,152,88,97.3,1,Travail physique,Insuffisance rénale,Hydroxyurée,Non,Sédentaire,Kaolack,36.2,2025-10-21 21:30:32
+PAT1192,Samba Ka,63,Homme,104.8,147.6,48.1,81,150,88,91.5,4,Marche rapide,Diabète de type 2,Amlodipine,Occasionnel,Sédentaire,Kaolack,36.7,2025-10-21 21:21:07
+PAT1193,Bouna Lo,25,Homme,82.5,178.2,26.0,90,143,80,92.1,0,Repos,Malaria,Aucun,Oui,Sédentaire,Thiès,37.1,2025-10-21 21:28:34
+PAT1194,Mame Lo,27,Femme,89.4,147.2,41.3,91,110,80,94.4,5,Exercice léger,Hypertension artérielle,Artemether,Non,Actif,Ziguinchor,38.1,2025-10-21 21:19:23
+PAT1195,Ndeye Fatou Dieng,25,Femme,51.1,156.6,20.8,92,107,60,94.1,8,Repos,Malaria,Insuline,Occasionnel,Sédentaire,Kaolack,37.0,2025-10-21 21:25:22
+PAT1196,Malick Lo,59,Homme,67.8,204.2,16.3,55,139,81,88.7,6,Marche rapide,Malaria,Salbutamol,Non,Actif,Thiès,36.2,2025-10-21 21:34:33
+PAT1197,Abdoulaye Thiam,84,Homme,50.4,188.9,14.1,79,151,90,94.5,6,Travail physique,Insuffisance rénale,Artemether,Oui,Sédentaire,Saint-Louis,37.4,2025-10-21 21:27:18
+PAT1198,Modou Sall,37,Homme,46.1,188.5,13.0,67,130,72,89.6,1,Exercice léger,Malaria,Aucun,Occasionnel,Sédentaire,Thiès,38.2,2025-10-21 21:26:01
+PAT1199,Omar Lo,65,Homme,98.5,191.5,26.9,78,156,84,97.7,2,Travail physique,Aucune,Salbutamol,Occasionnel,Actif,Dakar,36.4,2025-10-21 21:18:19
+PAT1200,Awa Sall,75,Femme,84.4,185.6,24.5,94,144,87,96.5,4,Sommeil,Malaria,Aucun,Occasionnel,Actif,Fatick,38.0,2025-10-21 21:19:40
