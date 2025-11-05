@@ -1,0 +1,135 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: datalake-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: Lebou09@
+      MYSQL_DATABASE: data_analyst_db
+    ports:
+      - "3308:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - datalake-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mongodb:
+    image: mongo:6.0
+    container_name: datalake-mongodb
+    ports:
+      - "27019:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - datalake-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  hadoop-namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: datalake-namenode
+    environment:
+      - CLUSTER_NAME=datalake
+      - CORE_CONF_fs_defaultFS=hdfs://hadoop-namenode:9000
+    env_file:
+      - ./hadoop.env
+    ports:
+      - "9871:9870"
+      - "9002:9000"
+    volumes:
+      - hadoop_namenode:/hadoop/dfs/name
+    networks:
+      - datalake-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9870"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  hadoop-datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datalake-datanode
+    environment:
+      - CLUSTER_NAME=datalake
+      - CORE_CONF_fs_defaultFS=hdfs://hadoop-namenode:9000
+    env_file:
+      - ./hadoop.env
+    ports:
+      - "9865:9864"
+    volumes:
+      - hadoop_datanode:/hadoop/dfs/data
+    networks:
+      - datalake-network
+    depends_on:
+      - hadoop-namenode
+
+  minio:
+    image: minio/minio:latest
+    container_name: datalake-minio
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: admin12345
+    command: server /data --console-address ":9001"
+    ports:
+      - "9007:9000"
+      - "9008:9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - datalake-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  etl-python:
+    build: ./etl
+    container_name: datalake-etl
+    depends_on:
+      mysql:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      hadoop-namenode:
+        condition: service_healthy
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=Lebou09@
+      - MYSQL_DB=data_analyst_db
+      - MONGO_URI=mongodb://mongodb:27017/
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ACCESS_KEY=admin
+      - MINIO_SECRET_KEY=admin12345
+      - HDFS_NAMENODE=hadoop-namenode
+      - HDFS_PORT=9000
+      - HDFS_USER=root
+    volumes:
+      - ./etl:/app
+      - ./data:/data
+      - ./logs:/logs
+    networks:
+      - datalake-network
+    command: python main.py
+
+volumes:
+  mysql_data:
+  mongodb_data:
+  hadoop_namenode:
+  hadoop_datanode:
+  minio_data:
+
+networks:
+  datalake-network:
+    driver: bridge
