@@ -4,7 +4,7 @@
 
 La solution ELK simplifiée fournit un système complet de logging centralisé sans nécessiter Docker. Elle utilise SQLite pour le stockage et Flask pour le dashboard web.
 
-## 📋 Prérequis
+##  Prérequis
 
 ```bash
 # Python 3.9+
@@ -14,7 +14,7 @@ python --version
 pip install -r requirements.txt
 ```
 
-## 🚀 Exécution des tests
+##  Exécution des tests
 
 ### Test 1 : Suite complète
 
@@ -23,16 +23,16 @@ pip install -r requirements.txt
 python test-elk.py
 
 # Résultat attendu
-████████████████████████████████████████████████████████████
-█              SUITE DE TESTS ELK STACK                    █
-████████████████████████████████████████████████████████████
+############################################################
+#              SUITE DE TESTS ELK STACK                    #
+############################################################
 
 ✓ TEST 1: INDEXATION DE LOGS ET MÉTRIQUES ... RÉUSSI
 ✓ TEST 2: RECHERCHE DE LOGS ET MÉTRIQUES  ... RÉUSSI
 ✓ TEST 3: STATISTIQUES GLOBALES          ... RÉUSSI
 ✓ TEST 4: GÉNÉRATION DU DASHBOARD        ... RÉUSSI
 
-🎉 TOUS LES TESTS SONT PASSÉS! (4/4)
+ TOUS LES TESTS SONT PASSÉS! (4/4)
 ```
 
 ### Test 2 : Indexation et recherche
@@ -125,7 +125,7 @@ ls -la monitoring/
 # - elk_logs.db         (base de données SQLite)
 ```
 
-## 📊 Fichiers de test
+##  Fichiers de test
 
 ### `test-elk.py`
 
@@ -145,7 +145,7 @@ python test-elk.py
 # Résultat: 4/4 PASS
 ```
 
-## 🎯 Cas de test détaillés
+
 
 ### TC1: Indexation de logs
 
@@ -213,7 +213,7 @@ python test-elk.py | grep "Dashboard généré"
 # Output: ✓ Dashboard généré: monitoring/dashboard-elk.html
 ```
 
-## 📈 Métriques de test
+##  Métriques de test
 
 ### Couverture
 
@@ -275,7 +275,7 @@ lsof -i :5000
 kill -9 <PID>
 ```
 
-## ✅ Checklist de validation
+## [OK] Checklist de validation
 
 - [ ] Python 3.9+ installé
 - [ ] `pip install -r requirements.txt` exécuté
@@ -288,7 +288,7 @@ kill -9 <PID>
 - [ ] Stats affichées correctement
 - [ ] Pas d'erreurs dans les logs
 
-## 📊 Affichage des résultats
+##  Affichage des résultats
 
 ### Après TEST 1 (Indexation)
 
@@ -335,14 +335,14 @@ kill -9 <PID>
 ✓ Ouvrir: file:///C:/Users/.../monitoring/dashboard-elk.html
 ```
 
-## 🎉 Résultat final
+##  Résultat final
 
 ```
-████████████████████████████████████████████████████████████
-█                                                          █
-█               SUITE DE TESTS ELK STACK                   █
-█                                                          █
-████████████████████████████████████████████████████████████
+############################################################
+#                                                          #
+#               SUITE DE TESTS ELK STACK                   #
+#                                                          #
+############################################################
 
 ✓ PASS   - Indexation
 ✓ PASS   - Recherche
@@ -352,7 +352,7 @@ kill -9 <PID>
 Total: 4/4 tests réussis
 Durée: 0.17s
 
-🎉 TOUS LES TESTS SONT PASSÉS!
+ TOUS LES TESTS SONT PASSÉS!
 ```
 
 ## 📚 Fichiers impliqués
@@ -370,18 +370,18 @@ test-elk.py                    # Suite de tests principale
 TEST_ELK.md                    # Ce fichier
 ```
 
-## 🚀 Prochaines étapes
 
-1. ✅ Suite de tests validée
-2. ✅ Dashboard opérationnel
-3. ✅ Indexation des logs fonctionnelle
-4. ✅ Recherche et filtrage actifs
-5. ⏳ Intégration complète avec monitoring/github_integration.py
-6. ⏳ Alertes Slack/Email
-7. ⏳ Archivage automatique des anciens logs
+
+1. [OK] Suite de tests validée
+2. [OK] Dashboard opérationnel
+3. [OK] Indexation des logs fonctionnelle
+4. [OK] Recherche et filtrage actifs
+5. [WAIT] Intégration complète avec monitoring/github_integration.py
+6. [WAIT] Alertes Slack/Email
+7. [WAIT] Archivage automatique des anciens logs
 
 ---
 
 **Version:** 1.0  
 **Date:** 17/11/2025  
-**Status:** ✅ Production Ready
+**Status:** [OK] Production Ready

@@ -1,6 +1,6 @@
-# 🔍 ELK - Monitoring et Qualité des Données
+#  ELK - Monitoring et Qualité des Données
 
-## 📊 Vue d'ensemble
+##  Vue d'ensemble
 
 Système de **logging centralisé** et **monitoring en temps réel** pour votre pipeline ETL.
 
@@ -31,7 +31,7 @@ Système de **logging centralisé** et **monitoring en temps réel** pour votre 
         └─────────────────────────┘
 ```
 
-## 🚀 Démarrage rapide
+##  Démarrage rapide
 
 ### Option 1: Dashboard Python (Recommandé)
 
@@ -61,7 +61,7 @@ chmod +x start-elk.sh
 - Kibana: http://localhost:5601
 - Logstash: localhost:5000
 
-## 📋 Intégration avec Python
+##  Intégration avec Python
 
 ### Utiliser le logger ELK
 
@@ -117,28 +117,28 @@ elk_logger.log_quality_check(
 )
 ```
 
-## 📊 Dashboard Web Features
+##  Dashboard Web Features
 
-### 🎯 Statistiques principales
+###  Statistiques principales
 
 - **Logs Total**: Nombre total de logs indexés
 - **Erreurs**: Nombre d'erreurs critiques
 - **Avertissements**: Nombre d'avertissements
 - **Métriques**: Nombre de métriques de qualité
 
-### 📋 Onglets disponibles
+###  Onglets disponibles
 
 1. **Logs** - Tous les logs avec filtrage
 2. **Métriques** - Métriques de qualité par table/source
 3. **Erreurs** - Erreurs critiques uniquement
 
-### 🔍 Filtrage
+###  Filtrage
 
 - Recherche par texte (message, logger, etc.)
 - Filtrer par niveau (INFO, WARNING, ERROR)
 - Actualisation en temps réel (10 secondes)
 
-### 📈 Affichage des logs
+###  Affichage des logs
 
 ```
 Timestamp | Level | Logger | Message
@@ -147,7 +147,7 @@ Timestamp | Level | Logger | Message
 11:38:45  |       |        |
 ```
 
-### 📊 Affichage des métriques
+###  Affichage des métriques
 
 ```
 Métrique          | Valeur | Source | Table
@@ -189,7 +189,7 @@ CREATE TABLE metrics (
 )
 ```
 
-## 💡 Exemples d'utilisation
+## [INFO] Exemples d'utilisation
 
 ### Exemple 1: Logger une extraction
 
@@ -230,7 +230,7 @@ elk_logger = ELKLogger("etl-transform")
 
 logger.info("Transformation en cours...")
 
-# Traitement
+
 completeness = count_non_null(data) / len(data) * 100
 duplicates = count_duplicates(data) / len(data) * 100
 
@@ -341,7 +341,7 @@ Index un nouveau log/métrique
 }
 ```
 
-## 📈 Visualisations disponibles
+##  Visualisations disponibles
 
 ### Dashboard principal
 - Compteurs de logs, erreurs, avertissements
@@ -363,7 +363,7 @@ Index un nouveau log/métrique
 - Mise en avant visuelle (fond rouge)
 - Filtre automatique
 
-## 🧹 Maintenance
+
 
 ### Nettoyer les old logs
 
@@ -384,7 +384,7 @@ conn.commit()
 conn.close()
 ```
 
-### Vérifier la taille de la DB
+
 
 ```python
 from pathlib import Path
@@ -402,7 +402,7 @@ print(f"Taille DB: {db_size / 1024 / 1024:.2f} MB")
 python start-dashboard.py
 ```
 
-### Logs n'apparaissent pas
+
 
 1. Vérifier que ELKLogger est utilisé dans le code
 2. Vérifier les logs console pour les erreurs
@@ -421,7 +421,7 @@ python start-dashboard.py
 - [Flask documentation](https://flask.palletsprojects.com/)
 - [SQLite documentation](https://www.sqlite.org/docs.html)
 
-## ✅ Checklist
+## [OK] Checklist
 
 - [ ] Flask installé (`pip install flask`)
 - [ ] Dashboard lancé (`python start-dashboard.py`)
@@ -432,16 +432,16 @@ python start-dashboard.py
 - [ ] Filtrage fonctionne
 - [ ] Auto-refresh actif (10 secondes)
 
-## 🎉 Résumé
+##  Résumé
 
 Vous disposez maintenant d'une solution **ELK légère et flexible** qui:
 
-✅ Centralise tous les logs du pipeline ETL
-✅ Indexe les métriques de qualité
-✅ Fournit un dashboard web interactif
-✅ Permet le filtrage et la recherche
-✅ Fonctionne sans Docker supplémentaire
-✅ Utilise une base de données SQLite locale
-✅ Offre une API REST complète
+[OK] Centralise tous les logs du pipeline ETL
+[OK] Indexe les métriques de qualité
+[OK] Fournit un dashboard web interactif
+[OK] Permet le filtrage et la recherche
+[OK] Fonctionne sans Docker supplémentaire
+[OK] Utilise une base de données SQLite locale
+[OK] Offre une API REST complète
 
 **Dashboard**: http://localhost:5000

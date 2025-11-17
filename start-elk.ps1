@@ -13,7 +13,7 @@ try {
     exit 1
 }
 
-# Creer les repertoires necessaires
+
 Write-Host "Creation des repertoires..." -ForegroundColor Blue
 New-Item -ItemType Directory -Path logs -Force > $null
 New-Item -ItemType Directory -Path logstash/config -Force > $null

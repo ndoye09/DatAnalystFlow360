@@ -2,7 +2,7 @@
 
 Data Warehouse PostgreSQL pour analyser les données du Data Lake HDFS.
 
-## 🎯 Architecture
+##  Architecture
 
 ```
 Data Lake (HDFS)
@@ -19,7 +19,7 @@ PostgreSQL Data Warehouse
 Metabase (BI Tool)
 ```
 
-## 📦 Installation
+##  Installation
 
 ### Prérequis
 
@@ -110,7 +110,7 @@ metadata.data_lineage      -- Lignage des données
 metadata.quality_checks    -- Vérifications qualité
 ```
 
-## 🔍 Utilisation
+##  Utilisation
 
 ### Se Connecter au DWH
 
@@ -169,7 +169,7 @@ SELECT COUNT(*) FROM staging.nom_de_votre_table;
 \d staging.nom_de_votre_table
 ```
 
-### Créer vos Dimensions et Faits
+
 
 #### Exemple: Dimension Client
 
@@ -191,7 +191,7 @@ ALTER TABLE dim.dim_customer ADD PRIMARY KEY (customer_key);
 CREATE INDEX idx_customer_id ON dim.dim_customer(customer_id);
 ```
 
-#### Exemple: Fait Ventes
+
 
 ```sql
 CREATE TABLE fact.fact_sales AS
@@ -233,7 +233,7 @@ GROUP BY d.year, d.month, d.month_name, c.customer_segment
 ORDER BY d.year, d.month;
 ```
 
-## 📊 Accès Metabase
+##  Accès Metabase
 
 Metabase est un outil de BI libre pour créer des dashboards.
 
@@ -306,7 +306,7 @@ TRUNCATE staging.nom_table CASCADE;
 -- Puis relancer l'ETL
 ```
 
-## 🛠️ Maintenance
+
 
 ### Backup du DWH
 
@@ -381,7 +381,7 @@ LIMIT 10;
 # Vérifier les logs
 docker-compose -f docker-compose-dwh.yml logs postgres-dwh
 
-# Recréer le container
+
 docker-compose -f docker-compose-dwh.yml down
 docker volume rm <project>_postgres_dwh_data
 docker-compose -f docker-compose-dwh.yml up -d
@@ -396,7 +396,7 @@ docker exec etl-datawarehouse curl http://hadoop-namenode:9870
 # Vérifier les fichiers HDFS
 docker exec datalake-namenode hdfs dfs -ls /datalake/raw/mysql
 
-# Voir les logs détaillés
+
 docker-compose -f docker-compose-dwh.yml logs etl-dwh
 ```
 
@@ -413,7 +413,7 @@ docker-compose -f docker-compose-dwh.yml logs etl-dwh
 - [Data Warehouse Design](https://en.wikipedia.org/wiki/Data_warehouse)
 - [Star Schema](https://en.wikipedia.org/wiki/Star_schema)
 
-## 🎯 Prochaines Étapes
+
 
 1. **Modéliser vos données métier** (dimensions et faits)
 2. **Créer des vues analytiques** pour vos besoins
@@ -423,4 +423,4 @@ docker-compose -f docker-compose-dwh.yml logs etl-dwh
 
 ---
 
-**🎉 Votre Data Warehouse est opérationnel !**
+** Votre Data Warehouse est opérationnel !**

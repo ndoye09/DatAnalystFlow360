@@ -31,7 +31,7 @@ def seed_mysql():
         cursor = conn.cursor()
         
         # Table 1: Patients
-        print("📊 Création de la table 'patients'...")
+        print(" Création de la table 'patients'...")
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS patients (
                 patient_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -69,7 +69,7 @@ def seed_mysql():
             """, (first_name, last_name, age, gender, height, weight, blood_type, reg_date))
         
         # Table 2: Medical Tests
-        print("📊 Création de la table 'medical_tests'...")
+        print(" Création de la table 'medical_tests'...")
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS medical_tests (
                 test_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -104,7 +104,7 @@ def seed_mysql():
             """, (patient_id, test_date, cholesterol, glucose, systolic_bp, diastolic_bp, heart_rate, test_type))
         
         # Table 3: Medications
-        print("📊 Création de la table 'medications'...")
+        print(" Création de la table 'medications'...")
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS medications (
                 medication_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -140,7 +140,7 @@ def seed_mysql():
             """, (patient_id, med_name, dosage, frequency, start_date, end_date))
         
         conn.commit()
-        print("✅ MySQL: Données insérées avec succès!")
+        print("[OK] MySQL: Données insérées avec succès!")
         print(f"   - 100 patients")
         print(f"   - 300 tests médicaux")
         print(f"   - 150 prescriptions")
@@ -149,7 +149,7 @@ def seed_mysql():
         conn.close()
         
     except Exception as e:
-        print(f"❌ Erreur MySQL: {e}")
+        print(f"[ERROR] Erreur MySQL: {e}")
         return False
     
     return True
@@ -163,7 +163,7 @@ def seed_mongodb():
         db = client[MONGO_DB]
         
         # Collection 1: Patient Activities
-        print("📊 Création de la collection 'patient_activities'...")
+        print(" Création de la collection 'patient_activities'...")
         activities = db['patient_activities']
         activities.delete_many({})  # Nettoyer la collection
         
@@ -186,7 +186,7 @@ def seed_mongodb():
         activities.insert_many(activity_docs)
         
         # Collection 2: Appointments
-        print("📊 Création de la collection 'appointments'...")
+        print(" Création de la collection 'appointments'...")
         appointments = db['appointments']
         appointments.delete_many({})
         
@@ -212,7 +212,7 @@ def seed_mongodb():
         appointments.insert_many(appt_docs)
         
         # Collection 3: Vital Signs Logs
-        print("📊 Création de la collection 'vital_signs_logs'...")
+        print(" Création de la collection 'vital_signs_logs'...")
         vitals = db['vital_signs_logs']
         vitals.delete_many({})
         
@@ -234,7 +234,7 @@ def seed_mongodb():
         
         vitals.insert_many(vital_docs)
         
-        print("✅ MongoDB: Données insérées avec succès!")
+        print("[OK] MongoDB: Données insérées avec succès!")
         print(f"   - 200 activités de patients")
         print(f"   - 150 rendez-vous")
         print(f"   - 500 relevés de signes vitaux")
@@ -242,7 +242,7 @@ def seed_mongodb():
         client.close()
         
     except Exception as e:
-        print(f"❌ Erreur MongoDB: {e}")
+        print(f"[ERROR] Erreur MongoDB: {e}")
         return False
     
     return True
@@ -260,12 +260,12 @@ def main():
     
     print("\n" + "=" * 60)
     if mysql_success and mongo_success:
-        print("✅ Toutes les bases de données ont été peuplées avec succès!")
+        print("[OK] Toutes les bases de données ont été peuplées avec succès!")
         print("\n📝 Prochaine étape:")
         print("   Relancez l'ETL avec: docker restart datalake-etl")
         print("   Puis vérifiez les logs: docker logs datalake-etl")
     else:
-        print("❌ Erreur lors du peuplement des bases de données")
+        print("[ERROR] Erreur lors du peuplement des bases de données")
         sys.exit(1)
     print("=" * 60)
 

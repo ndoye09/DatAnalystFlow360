@@ -37,7 +37,7 @@ if ELK_ENABLED:
             logstash_port=logstash_port,
             file_logging=True
         )
-        logger.info("✅ ELK stack connecté")
+        logger.info("[OK] ELK stack connecté")
     except Exception as e:
         logger.warning(f"⚠️  ELK non disponible: {e}")
         elk_logger = None
@@ -86,7 +86,7 @@ def generate_monitoring_report(metrics_file='monitoring/quality_report.json'):
     """Générer le rapport de monitoring"""
     
     logger.info("\n" + "="*70)
-    logger.info("🔍 RAPPORT DE MONITORING ETL - GITHUB ACTIONS")
+    logger.info(" RAPPORT DE MONITORING ETL - GITHUB ACTIONS")
     logger.info("="*70)
     
     # Charger ou créer les métriques
@@ -115,14 +115,14 @@ def generate_monitoring_report(metrics_file='monitoring/quality_report.json'):
             critical_checks += 1
     
     # Afficher le résumé
-    logger.info(f"\n📊 RÉSUMÉ DES VÉRIFICATIONS")
+    logger.info(f"\n RÉSUMÉ DES VÉRIFICATIONS")
     logger.info("-" * 70)
     logger.info(f"✓ Réussies: {passed_checks}/{total_checks}")
     logger.info(f"⚠️  Avertissements: {warning_checks}")
     logger.info(f"🔴 Critiques: {critical_checks}")
     
-    # Afficher les détails
-    logger.info(f"\n📈 DÉTAILS")
+    
+    logger.info(f"\n DÉTAILS")
     logger.info("-" * 70)
     for check_key, check_data in metrics.get('details', {}).items():
         completeness = check_data.get('completeness', {})
@@ -137,7 +137,7 @@ def generate_monitoring_report(metrics_file='monitoring/quality_report.json'):
     # Résultat final
     logger.info("\n" + "="*70)
     if critical_checks == 0 and warning_checks <= 1:
-        logger.info("✅ STATUT: SUCCÈS - Qualité des données acceptable")
+        logger.info("[OK] STATUT: SUCCÈS - Qualité des données acceptable")
         logger.info("="*70 + "\n")
         return 0
     elif critical_checks == 0:
@@ -154,7 +154,7 @@ def generate_html_report(metrics_file='monitoring/quality_report.json',
                         output_file='monitoring/dashboard.html'):
     """Générer le dashboard HTML"""
     
-    logger.info(f"\n🌐 Génération du dashboard HTML...")
+    logger.info(f"\n Génération du dashboard HTML...")
     
     html_template = """<!DOCTYPE html>
 <html>
@@ -218,7 +218,7 @@ def generate_html_report(metrics_file='monitoring/quality_report.json',
 
 def main():
     """Exécuter le monitoring complet"""
-    logger.info("\n🚀 Démarrage du monitoring...")
+    logger.info("\n Démarrage du monitoring...")
     
     # Générer le rapport
     exit_code = generate_monitoring_report()
@@ -226,7 +226,7 @@ def main():
     # Générer le dashboard HTML
     generate_html_report()
     
-    logger.info("✅ Monitoring terminé")
+    logger.info("[OK] Monitoring terminé")
     sys.exit(exit_code)
 
 

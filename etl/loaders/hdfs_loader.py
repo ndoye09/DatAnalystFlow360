@@ -56,7 +56,7 @@ class HDFSLoader:
             return response
             
         except requests.exceptions.RequestException as e:
-            logger.error(f"❌ Erreur requête WebHDFS: {e}")
+            logger.error(f"[ERROR] Erreur requête WebHDFS: {e}")
             return None
     
     def create_directory(self, path):
@@ -67,17 +67,17 @@ class HDFSLoader:
             if response and response.status_code == 200:
                 result = response.json()
                 if result.get('boolean'):
-                    logger.info(f"✅ Répertoire créé: {path}")
+                    logger.info(f"[OK] Répertoire créé: {path}")
                     return True
                 else:
                     logger.warning(f"⚠️  Répertoire existe déjà: {path}")
                     return True
             else:
-                logger.error(f"❌ Erreur création répertoire {path}: {response.status_code if response else 'No response'}")
+                logger.error(f"[ERROR] Erreur création répertoire {path}: {response.status_code if response else 'No response'}")
                 return False
                 
         except Exception as e:
-            logger.error(f"❌ Erreur création répertoire {path}: {e}")
+            logger.error(f"[ERROR] Erreur création répertoire {path}: {e}")
             return False
     
     def initialize_directories(self):
@@ -100,7 +100,7 @@ class HDFSLoader:
                 success = False
         
         if success:
-            logger.info("✅ Structure HDFS initialisée avec succès")
+            logger.info("[OK] Structure HDFS initialisée avec succès")
         else:
             logger.warning("⚠️  Certains répertoires n'ont pas pu être créés")
         
@@ -121,7 +121,7 @@ class HDFSLoader:
             elif format == 'csv':
                 data = df.to_csv(index=False).encode('utf-8')
             else:
-                logger.error(f"❌ Format non supporté: {format}")
+                logger.error(f"[ERROR] Format non supporté: {format}")
                 return False
             
             # Upload vers HDFS
@@ -135,14 +135,14 @@ class HDFSLoader:
             
             if response and response.status_code in [200, 201]:
                 size_mb = len(data) / (1024 * 1024)
-                logger.info(f"✅ Fichier uploadé: {full_path} ({size_mb:.2f} MB)")
+                logger.info(f"[OK] Fichier uploadé: {full_path} ({size_mb:.2f} MB)")
                 return True
             else:
-                logger.error(f"❌ Erreur upload {full_path}: {response.status_code if response else 'No response'}")
+                logger.error(f"[ERROR] Erreur upload {full_path}: {response.status_code if response else 'No response'}")
                 return False
                 
         except Exception as e:
-            logger.error(f"❌ Erreur upload DataFrame vers {hdfs_path}/{file_name}: {e}")
+            logger.error(f"[ERROR] Erreur upload DataFrame vers {hdfs_path}/{file_name}: {e}")
             return False
     
     def load_mysql_data(self, data_dict):
@@ -154,7 +154,7 @@ class HDFSLoader:
             if self.upload_dataframe(df, self.hdfs_paths['mysql'], table_name):
                 success_count += 1
         
-        logger.info(f"✅ MySQL: {success_count}/{len(data_dict)} tables chargées")
+        logger.info(f"[OK] MySQL: {success_count}/{len(data_dict)} tables chargées")
         return success_count == len(data_dict)
     
     def load_mongodb_data(self, data_dict):
@@ -166,7 +166,7 @@ class HDFSLoader:
             if self.upload_dataframe(df, self.hdfs_paths['mongodb'], collection_name):
                 success_count += 1
         
-        logger.info(f"✅ MongoDB: {success_count}/{len(data_dict)} collections chargées")
+        logger.info(f"[OK] MongoDB: {success_count}/{len(data_dict)} collections chargées")
         return success_count == len(data_dict)
     
     def load_csv_data(self, data_dict):
@@ -178,7 +178,7 @@ class HDFSLoader:
             if self.upload_dataframe(df, self.hdfs_paths['csv'], file_name):
                 success_count += 1
         
-        logger.info(f"✅ CSV: {success_count}/{len(data_dict)} fichiers chargés")
+        logger.info(f"[OK] CSV: {success_count}/{len(data_dict)} fichiers chargés")
         return success_count == len(data_dict)
     
     def load_excel_data(self, data_dict):
@@ -190,7 +190,7 @@ class HDFSLoader:
             if self.upload_dataframe(df, self.hdfs_paths['excel'], file_name):
                 success_count += 1
         
-        logger.info(f"✅ Excel: {success_count}/{len(data_dict)} fichiers chargés")
+        logger.info(f"[OK] Excel: {success_count}/{len(data_dict)} fichiers chargés")
         return success_count == len(data_dict)
     
     def check_hdfs_connection(self):
@@ -198,13 +198,13 @@ class HDFSLoader:
         try:
             response = self._make_request('/', 'LISTSTATUS', method='GET')
             if response and response.status_code == 200:
-                logger.info("✅ Connexion HDFS établie")
+                logger.info("[OK] Connexion HDFS établie")
                 return True
             else:
-                logger.error("❌ Impossible de se connecter à HDFS")
+                logger.error("[ERROR] Impossible de se connecter à HDFS")
                 return False
         except Exception as e:
-            logger.error(f"❌ Erreur connexion HDFS: {e}")
+            logger.error(f"[ERROR] Erreur connexion HDFS: {e}")
             return False
     
     def generate_metadata(self, source_type, data_dict):

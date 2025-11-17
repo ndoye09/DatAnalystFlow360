@@ -334,7 +334,7 @@ def test_dashboard():
     <body>
         <div class="container">
             <header>
-                <h1>📊 Dashboard ELK - Logs Centralisés</h1>
+                <h1> Dashboard ELK - Logs Centralisés</h1>
                 <p>Monitoring ETL en temps réel • {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}</p>
             </header>
             
@@ -348,17 +348,17 @@ def test_dashboard():
                     <div class="value error">{stats.get('errors', 0)}</div>
                 </div>
                 <div class="stat-card">
-                    <h3><span class="warning">⚡ Avertissements</span></h3>
+                    <h3><span class="warning"> Avertissements</span></h3>
                     <div class="value warning">{stats.get('warnings', 0)}</div>
                 </div>
                 <div class="stat-card">
-                    <h3>📈 Métriques</h3>
+                    <h3> Métriques</h3>
                     <div class="value">{stats.get('total_metrics', 0):,}</div>
                 </div>
             </div>
             
             <div class="section">
-                <h2>📋 Logs Récents</h2>
+                <h2> Logs Récents</h2>
                 <table>
                     <thead>
                         <tr>
@@ -388,7 +388,7 @@ def test_dashboard():
             </div>
             
             <div class="section">
-                <h2>📊 Métriques de Qualité</h2>
+                <h2> Métriques de Qualité</h2>
                 <table>
                     <thead>
                         <tr>
@@ -440,11 +440,11 @@ def test_dashboard():
 
 def main():
     """Exécuter tous les tests"""
-    print("\n" + "█" * 60)
-    print("█" + " " * 58 + "█")
-    print("█" + " " * 15 + "SUITE DE TESTS ELK STACK" + " " * 19 + "█")
-    print("█" + " " * 58 + "█")
-    print("█" * 60)
+    print("\n" + "#" * 60)
+    print("#" + " " * 58 + "#")
+    print("#" + " " * 15 + "SUITE DE TESTS ELK STACK" + " " * 19 + "#")
+    print("#" + " " * 58 + "#")
+    print("#" * 60)
 
     tests = [
         ("Indexation", test_indexation),
@@ -482,7 +482,7 @@ def main():
     print(f"Durée: {elapsed:.2f}s")
 
     if passed == total:
-        print("\n🎉 TOUS LES TESTS SONT PASSÉS!")
+        print("\n TOUS LES TESTS SONT PASSÉS!")
         return 0
     else:
         print(f"\n⚠️  {total - passed} test(s) en échec")

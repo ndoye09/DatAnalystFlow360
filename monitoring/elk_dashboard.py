@@ -50,7 +50,7 @@ HTML_TEMPLATE = '''
 </head>
 <body>
     <header>
-        <h1>🔍 ELK Dashboard - Logs Centralisés</h1>
+        <h1> ELK Dashboard - Logs Centralisés</h1>
         <p>Monitoring et visualisation des logs ETL</p>
     </header>
 
@@ -75,8 +75,8 @@ HTML_TEMPLATE = '''
         </div>
 
         <div class="tabs">
-            <button class="tab active" onclick="switchTab('logs-tab')">📋 Logs</button>
-            <button class="tab" onclick="switchTab('metrics-tab')">📊 Métriques</button>
+            <button class="tab active" onclick="switchTab('logs-tab')"> Logs</button>
+            <button class="tab" onclick="switchTab('metrics-tab')"> Métriques</button>
             <button class="tab" onclick="switchTab('errors-tab')">⚠️ Erreurs</button>
         </div>
 
@@ -240,6 +240,6 @@ def api_index():
 
 
 if __name__ == '__main__':
-    print("🚀 ELK Dashboard en cours d'exécution sur http://localhost:5000")
-    print("📊 Accédez au dashboard: http://localhost:5000")
+    print(" ELK Dashboard en cours d'exécution sur http://localhost:5000")
+    print(" Accédez au dashboard: http://localhost:5000")
     app.run(debug=False, host='0.0.0.0', port=5000)

@@ -1,6 +1,6 @@
-# ⚡ Quickstart - DatAnalystFlow360
+#  Quickstart - DatAnalystFlow360
 
-## 🚀 Démarrage en 5 minutes
+##  Démarrage en 5 minutes
 
 ### 1️⃣ Installation (1 min)
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 .\sync-etl-fixed.ps1
 
 # Attendez ~45 secondes...
-# ✅ SYNCHRONISATION ETL RÉUSSIE
+# [OK] SYNCHRONISATION ETL RÉUSSIE
 ```
 
 ### 3️⃣ Vérifier les données (1 min)
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 python test-elk.py
 
 # Résultat attendu:
-# 🎉 TOUS LES TESTS SONT PASSÉS! (4/4)
+#  TOUS LES TESTS SONT PASSÉS! (4/4)
 ```
 
 ### 4️⃣ Visualiser les dashboards (1 min)
@@ -45,7 +45,7 @@ start http://localhost:3000
 
 ---
 
-## 📊 Vérifier le statut
+##  Vérifier le statut
 
 ```powershell
 # Voir les services Docker
@@ -73,14 +73,14 @@ print(f'Erreurs: {stats[\"errors\"]}')
 
 ---
 
-## 🎯 Cas d'usage
+##  Cas d'usage
 
 ### 1. Exécuter l'ETL complet
 
 ```powershell
 .\sync-etl-fixed.ps1
 
-# Extrait de 4 sources différentes
+
 # Transforme et charge 72,950 lignes
 # Valide la qualité des données
 # Temps: ~45 secondes
@@ -128,7 +128,7 @@ Metabase (Dashboards):
 
 ---
 
-## 🔧 Commandes utiles
+##  Commandes utiles
 
 ```powershell
 # Arrêter tous les services
@@ -160,7 +160,7 @@ git pull origin main
 
 ---
 
-## 📈 Métriques rapides
+##  Métriques rapides
 
 ```
 Infrastructure:
@@ -183,7 +183,7 @@ Monitoring:
   
 Automatisation:
   ✓ GitHub Actions: Quotidien (2h UTC)
-  ✓ Workflow status: ✅ SUCCESS
+  ✓ Workflow status: [OK] SUCCESS
   ✓ CI/CD: Complètement automatisé
 ```
 
@@ -293,18 +293,18 @@ logger.log_quality_check(
 
 ---
 
-## 🚀 Prochaines étapes
 
-1. ✅ Infrastructure opérationnelle
-2. ✅ ETL fonctionnel
-3. ✅ Monitoring actif
-4. ⏳ Power BI finalisé
-5. ⏳ Alertes Slack/Email
-6. ⏳ Performance tuning
+
+1. [OK] Infrastructure opérationnelle
+2. [OK] ETL fonctionnel
+3. [OK] Monitoring actif
+4. [WAIT] Power BI finalisé
+5. [WAIT] Alertes Slack/Email
+6. [WAIT] Performance tuning
 
 ---
 
-## 📞 Besoin d'aide?
+
 
 - **Logs**: `./logs/etl_*.log`
 - **Status**: `docker ps`
@@ -313,6 +313,6 @@ logger.log_quality_check(
 
 ---
 
-**Status: ✅ Production Ready**
+**Status: [OK] Production Ready**
 
 Dernière mise à jour: 17/11/2025

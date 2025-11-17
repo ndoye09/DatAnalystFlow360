@@ -28,7 +28,7 @@ class DWHLoader:
             f"postgresql://{self.postgres_user}:{self.postgres_password}@"
             f"{self.postgres_host}:5432/{self.postgres_db}"
         )
-        logger.info("✅ Connexion PostgreSQL établie")
+        logger.info("[OK] Connexion PostgreSQL établie")
     
     def create_schemas(self):
         """Créer les schémas nécessaires"""
@@ -40,10 +40,10 @@ class DWHLoader:
                 conn.execute(sqlalchemy.text("CREATE SCHEMA IF NOT EXISTS analytics;"))
                 conn.execute(sqlalchemy.text("CREATE SCHEMA IF NOT EXISTS metadata;"))
                 conn.commit()
-            logger.info("✅ Schémas créés avec succès")
+            logger.info("[OK] Schémas créés avec succès")
             return True
         except Exception as e:
-            logger.error(f"❌ Erreur création schémas: {e}")
+            logger.error(f"[ERROR] Erreur création schémas: {e}")
             return False
     
     def list_hdfs_files(self, path=""):
@@ -118,16 +118,16 @@ class DWHLoader:
             df.to_sql(safe_table_name, self.engine, schema="staging", 
                      if_exists="replace", index=False)
             
-            logger.info(f"✅ Chargé {len(df):,} lignes → staging.{safe_table_name}")
+            logger.info(f"[OK] Chargé {len(df):,} lignes → staging.{safe_table_name}")
             return len(df)
         except Exception as e:
-            logger.error(f"❌ Erreur chargement {table_name}: {e}")
+            logger.error(f"[ERROR] Erreur chargement {table_name}: {e}")
             return 0
     
     def run(self):
         """Exécute le chargement complet"""
         logger.info("="*60)
-        logger.info("🚀 DÉMARRAGE ETL: HDFS → DATA WAREHOUSE")
+        logger.info(" DÉMARRAGE ETL: HDFS → DATA WAREHOUSE")
         logger.info(f"   WebHDFS: {self.webhdfs_url}")
         logger.info("="*60)
         
@@ -140,14 +140,14 @@ class DWHLoader:
         for attempt in range(max_retries):
             try:
                 requests.get(f"{self.webhdfs_url}/", params={'op': 'LISTSTATUS'}, timeout=5)
-                logger.info("✅ WebHDFS accessible")
+                logger.info("[OK] WebHDFS accessible")
                 break
             except:
                 if attempt < max_retries - 1:
-                    logger.info(f"⏳ Attente HDFS ({attempt+1}/{max_retries})...")
+                    logger.info(f"[WAIT] Attente HDFS ({attempt+1}/{max_retries})...")
                     time.sleep(3)
                 else:
-                    logger.error("❌ HDFS non accessible après 5 tentatives")
+                    logger.error("[ERROR] HDFS non accessible après 5 tentatives")
                     return False
         
         # Récupérer les fichiers Parquet
@@ -156,7 +156,7 @@ class DWHLoader:
         
         if not parquet_files:
             logger.warning("⚠️  Aucun fichier Parquet trouvé dans HDFS")
-            logger.info("💡 Assurez-vous que l'ETL Data Lake a chargé les données")
+            logger.info("[INFO] Assurez-vous que l'ETL Data Lake a chargé les données")
             return False
         
         logger.info(f"📂 {len(parquet_files)} fichiers Parquet trouvés")
@@ -175,7 +175,7 @@ class DWHLoader:
         
         # Résumé final
         logger.info("="*60)
-        logger.info(f"✅ CHARGEMENT TERMINÉ")
+        logger.info(f"[OK] CHARGEMENT TERMINÉ")
         logger.info(f"   - Fichiers chargés: {success_count}/{len(parquet_files)}")
         logger.info(f"   - Total lignes: {total_rows:,}")
         logger.info(f"   - Schéma: staging")

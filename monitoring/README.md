@@ -1,10 +1,10 @@
-# 🔍 Système de Monitoring et Qualité des Données
+#  Système de Monitoring et Qualité des Données
 
 ## Vue d'ensemble
 
 Ce système assure la qualité et la fiabilité des données à travers l'ETL.
 
-## 📊 Composants
+##  Composants
 
 ### 1. **Data Quality Check** (`data_quality_check.py`)
 
@@ -24,10 +24,10 @@ result = checker.check_completeness(df, 'patients')
 ### 2. **Monitoring Dashboard** (`monitoring_dashboard.py`)
 
 Génère un dashboard interactif avec :
-- 📈 Métriques en temps réel
+-  Métriques en temps réel
 - 🚨 Système d'alertes
-- 📊 Rapports HTML
-- 📋 Console reporting
+-  Rapports HTML
+-  Console reporting
 
 ```python
 from monitoring.monitoring_dashboard import MonitoringDashboard
@@ -43,7 +43,7 @@ Définit les seuils de qualité :
 - **Duplicate Rate** : < 1% (warning), < 5% (critical)
 - **ETL Duration** : < 600s (warning), < 1200s (critical)
 
-## 🚀 Utilisation
+##  Utilisation
 
 ### Exécuter les vérifications de qualité
 
@@ -53,7 +53,7 @@ python -c "
 from monitoring.data_quality_check import run_quality_checks
 from etl.extractors.mysql_extractor import MySQLExtractor
 
-# Extraire les données
+
 extractor = MySQLExtractor()
 data = {'mysql': extractor.extract_all()}
 
@@ -82,7 +82,7 @@ dashboard.save_dashboard(metrics)
 "
 ```
 
-## 📈 Métriques suivi
+##  Métriques suivi
 
 ### Volume des données
 ```json
@@ -114,7 +114,7 @@ dashboard.save_dashboard(metrics)
 
 | Sévérité | Seuil | Action |
 |----------|-------|--------|
-| ✅ OK | > 95% complétude | Aucune |
+| [OK] OK | > 95% complétude | Aucune |
 | ⚠️ WARNING | 90-95% complétude | Notification |
 | 🔴 CRITICAL | < 90% complétude | Alerte + Email |
 
@@ -130,7 +130,7 @@ dashboard.save_dashboard(metrics)
 }
 ```
 
-## 📊 Rapport de qualité
+##  Rapport de qualité
 
 Le rapport JSON contient :
 
@@ -152,14 +152,14 @@ Le rapport JSON contient :
 }
 ```
 
-## 📋 Rapports disponibles
+##  Rapports disponibles
 
 1. **Console Report** : Affichage texte immédiat
 2. **JSON Report** : `monitoring/quality_report.json`
 3. **HTML Dashboard** : `monitoring/dashboard.html`
 4. **CSV Export** : Export pour Excel/BI
 
-## ⚙️ Configuration avancée
+##  Configuration avancée
 
 ### Ajouter une vérification personnalisée
 
@@ -185,7 +185,7 @@ Pour des problèmes :
 2. Vérifier la configuration `sla_config.json`
 3. Consulter le dashboard HTML
 
-## 🔄 Maintenance
+
 
 ### Nettoyage des anciens rapports
 ```bash

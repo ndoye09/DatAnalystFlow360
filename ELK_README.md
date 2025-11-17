@@ -1,6 +1,6 @@
 # ELK Stack - Logs Centralisés
 
-## 📊 Vue d'ensemble
+##  Vue d'ensemble
 
 La stack ELK (Elasticsearch + Logstash + Kibana) centralise tous les logs du projet ETL pour une visualisation et analyse unifiée.
 
@@ -35,7 +35,7 @@ La stack ELK (Elasticsearch + Logstash + Kibana) centralise tous les logs du pro
         └──────────────────────┘
 ```
 
-## 🚀 Démarrage
+##  Démarrage
 
 ### Windows (PowerShell)
 
@@ -120,7 +120,7 @@ elk_logger.log_quality_check(
 )
 ```
 
-## 🎯 Configuration Logstash
+##  Configuration Logstash
 
 Le fichier `logstash/pipeline/logstash.conf` définit le pipeline de traitement:
 
@@ -139,7 +139,7 @@ Le fichier `logstash/pipeline/logstash.conf` définit le pipeline de traitement:
 - **File**: Sauvegarde les alertes critiques
 - **Console**: Affiche les logs en debug
 
-## 📊 Utilisation de Kibana
+##  Utilisation de Kibana
 
 ### 1. Créer un Index Pattern
 
@@ -236,7 +236,7 @@ def send_slack_alert(message, level):
     requests.post(webhook_url, json=payload)
 ```
 
-## 📈 Métriques suivies
+##  Métriques suivies
 
 ### Par source
 
@@ -257,7 +257,7 @@ def send_slack_alert(message, level):
 | METRIC | Valeurs numériques |
 | QUALITY_CHECK | Résultats de vérification |
 
-## 🧹 Maintenance
+
 
 ### Nettoyage des anciens logs
 
@@ -271,7 +271,7 @@ curl -X DELETE "localhost:9200/etl-logs-*" \
 ### Vérifier l'espace disque
 
 ```bash
-# Taille des index
+
 curl "localhost:9200/_cat/indices?v"
 
 # Santé du cluster
@@ -330,7 +330,7 @@ curl "localhost:9200/_cluster/health"
 - [Kibana Docs](https://www.elastic.co/guide/en/kibana/current/index.html)
 - [KQL Reference](https://www.elastic.co/guide/en/kibana/current/kuery-query.html)
 
-## 📋 Checklist intégration ELK
+##  Checklist intégration ELK
 
 - [ ] Docker et Docker Compose installés
 - [ ] Stack ELK démarrée (`start-elk.ps1` ou `start-elk.sh`)
@@ -343,7 +343,7 @@ curl "localhost:9200/_cluster/health"
 - [ ] Alertes paramétrées
 - [ ] Notifications (Slack/Email) testées
 
-## 🎉 Résultat final
+##  Résultat final
 
 Vous disposez maintenant d'une solution de logging complète et centralisée pour:
 - **Suivre** tous les processus ETL en temps réel

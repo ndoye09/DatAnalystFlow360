@@ -15,7 +15,7 @@ print("=" * 50)
 print()
 
 # Démarrer le serveur Flask
-print("📊 Démarrage du dashboard...")
+print(" Démarrage du dashboard...")
 process = subprocess.Popen(
     ["python", "monitoring/elk_dashboard.py"],
     cwd=Path(__file__).parent
@@ -25,7 +25,7 @@ process = subprocess.Popen(
 time.sleep(3)
 
 # Ouvrir le navigateur
-print("🌐 Ouverture du navigateur...")
+print(" Ouverture du navigateur...")
 webbrowser.open("http://localhost:5000")
 
 print()

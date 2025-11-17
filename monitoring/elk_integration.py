@@ -26,7 +26,7 @@ class ElasticsearchHandler(logging.Handler):
         try:
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.socket.connect((self.host, self.port))
-            logging.info(f"✅ Connecté à Logstash: {self.host}:{self.port}")
+            logging.info(f"[OK] Connecté à Logstash: {self.host}:{self.port}")
         except Exception as e:
             logging.warning(f"⚠️  Impossible de connecter à Logstash: {e}")
             self.socket = None
@@ -191,7 +191,7 @@ if __name__ == "__main__":
     logger = elk_logger.get_logger()
 
     # Exemples de logs
-    logger.info("🚀 Démarrage du monitoring ETL")
+    logger.info(" Démarrage du monitoring ETL")
     logger.debug("Configuration: DEBUG mode")
 
     # Logs de métriques
@@ -215,4 +215,4 @@ if __name__ == "__main__":
         details={"rows": 5000, "missing_fields": ["diagnosis"]}
     )
 
-    logger.info("✅ Logs envoyés à ELK")
+    logger.info("[OK] Logs envoyés à ELK")

@@ -22,10 +22,10 @@ class MongoDBExtractor:
             # Test de connexion
             self.client.admin.command('ping')
             self.db = self.client[self.db_name]
-            logger.info(f"✅ Connexion MongoDB établie: {self.uri}")
+            logger.info(f"[OK] Connexion MongoDB établie: {self.uri}")
             return True
         except ConnectionFailure as e:
-            logger.error(f"❌ Erreur connexion MongoDB: {e}")
+            logger.error(f"[ERROR] Erreur connexion MongoDB: {e}")
             return False
     
     def disconnect(self):
@@ -38,10 +38,10 @@ class MongoDBExtractor:
         """Récupérer la liste de toutes les collections"""
         try:
             collections = self.db.list_collection_names()
-            logger.info(f"📋 Collections trouvées: {collections}")
+            logger.info(f" Collections trouvées: {collections}")
             return collections
         except Exception as e:
-            logger.error(f"❌ Erreur récupération collections: {e}")
+            logger.error(f"[ERROR] Erreur récupération collections: {e}")
             return []
     
     def extract_collection(self, collection_name, query=None, projection=None):
@@ -68,11 +68,11 @@ class MongoDBExtractor:
             if '_id' in df.columns:
                 df['_id'] = df['_id'].astype(str)
             
-            logger.info(f"✅ Collection '{collection_name}' extraite: {len(df)} documents, {len(df.columns)} champs")
+            logger.info(f"[OK] Collection '{collection_name}' extraite: {len(df)} documents, {len(df.columns)} champs")
             return df
             
         except Exception as e:
-            logger.error(f"❌ Erreur extraction collection '{collection_name}': {e}")
+            logger.error(f"[ERROR] Erreur extraction collection '{collection_name}': {e}")
             return None
     
     def extract_all_collections(self):
@@ -89,7 +89,7 @@ class MongoDBExtractor:
                 extracted_data[collection] = df
         
         self.disconnect()
-        logger.info(f"📊 Total collections MongoDB extraites: {len(extracted_data)}")
+        logger.info(f" Total collections MongoDB extraites: {len(extracted_data)}")
         return extracted_data
     
     def extract_with_aggregation(self, collection_name, pipeline, result_name="aggregation"):
@@ -110,9 +110,9 @@ class MongoDBExtractor:
             if '_id' in df.columns:
                 df['_id'] = df['_id'].astype(str)
             
-            logger.info(f"✅ Agrégation '{result_name}' exécutée: {len(df)} résultats")
+            logger.info(f"[OK] Agrégation '{result_name}' exécutée: {len(df)} résultats")
             return df
             
         except Exception as e:
-            logger.error(f"❌ Erreur agrégation '{result_name}': {e}")
+            logger.error(f"[ERROR] Erreur agrégation '{result_name}': {e}")
             return None

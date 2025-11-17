@@ -1,11 +1,11 @@
 # Script de test de connexion PostgreSQL pour Power BI
 # Ce script vérifie que PostgreSQL est accessible avant de configurer Power BI
 
-Write-Host "╔════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "║  🔍 TEST DE CONNEXION PostgreSQL POUR POWER BI            ║" -ForegroundColor Cyan
-Write-Host "╚════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
+Write-Host "╔------------------------------------------------------------╗" -ForegroundColor Cyan
+Write-Host "|   TEST DE CONNEXION PostgreSQL POUR POWER BI            |" -ForegroundColor Cyan
+Write-Host "╚------------------------------------------------------------╝" -ForegroundColor Cyan
 
-Write-Host "`n📋 Paramètres de connexion" -ForegroundColor Yellow
+Write-Host "`n Paramètres de connexion" -ForegroundColor Yellow
 Write-Host "   Host: localhost"
 Write-Host "   Port: 5432"
 Write-Host "   Database: datawarehouse"
@@ -18,11 +18,11 @@ try {
     $connection.Connect("localhost", 5432)
     
     if ($connection.Connected) {
-        Write-Host "✅ Port 5432 accessible" -ForegroundColor Green
+        Write-Host "[OK] Port 5432 accessible" -ForegroundColor Green
         $connection.Close()
     }
 } catch {
-    Write-Host "❌ Port 5432 NON accessible" -ForegroundColor Red
+    Write-Host "[ERROR] Port 5432 NON accessible" -ForegroundColor Red
     Write-Host "   Assurez-vous que PostgreSQL est en cours d'exécution" -ForegroundColor Yellow
     exit 1
 }
@@ -33,7 +33,7 @@ try {
     $container = docker ps -f "name=datawarehouse" --format "{{.Names}}" 2>$null
     
     if ($container) {
-        Write-Host "✅ Conteneur PostgreSQL 'datawarehouse' est actif" -ForegroundColor Green
+        Write-Host "[OK] Conteneur PostgreSQL 'datawarehouse' est actif" -ForegroundColor Green
     } else {
         Write-Host "⚠️  Conteneur PostgreSQL non trouvé en cours d'exécution" -ForegroundColor Yellow
         Write-Host "   Pour démarrer: docker-compose -f docker-compose-dwh.yml up -d" -ForegroundColor Gray
@@ -43,7 +43,7 @@ try {
 }
 
 # Test 3 : Tester la connexion PostgreSQL avec psql (si disponible)
-Write-Host "`n📊 Test 3: Tester la connexion PostgreSQL..." -ForegroundColor Cyan
+Write-Host "`n Test 3: Tester la connexion PostgreSQL..." -ForegroundColor Cyan
 try {
     $psqlPath = "C:\Program Files\PostgreSQL\15\bin\psql.exe"
     
@@ -53,7 +53,7 @@ try {
         $result = & $psqlPath -h localhost -U dwh_user -d datawarehouse -c "SELECT COUNT(*) FROM staging.stg_patients;" 2>$null
         
         if ($result -match '\d+') {
-            Write-Host "✅ Connexion PostgreSQL réussie" -ForegroundColor Green
+            Write-Host "[OK] Connexion PostgreSQL réussie" -ForegroundColor Green
             Write-Host "   Nombre de patients: $(($result | Select-String '\d+' -AllMatches).Matches[0].Value)" -ForegroundColor Gray
         }
     } else {
@@ -70,7 +70,7 @@ try {
     $python = ".\.venv\Scripts\python.exe"
     
     if (Test-Path $python) {
-        Write-Host "✅ Environnement Python trouvé" -ForegroundColor Green
+        Write-Host "[OK] Environnement Python trouvé" -ForegroundColor Green
         Write-Host "   Python ready for Power BI configuration" -ForegroundColor Gray
     }
 } catch {

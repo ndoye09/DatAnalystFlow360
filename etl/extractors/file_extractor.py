@@ -46,12 +46,12 @@ class FileExtractor:
                         df = pd.read_csv(csv_file, encoding='cp1252')
                 
                 extracted_data[file_name] = df
-                logger.info(f"✅ CSV '{file_name}' extrait: {len(df)} lignes, {len(df.columns)} colonnes")
+                logger.info(f"[OK] CSV '{file_name}' extrait: {len(df)} lignes, {len(df.columns)} colonnes")
                 
             except Exception as e:
-                logger.error(f"❌ Erreur lecture CSV '{csv_file}': {e}")
+                logger.error(f"[ERROR] Erreur lecture CSV '{csv_file}': {e}")
         
-        logger.info(f"📊 Total fichiers CSV extraits: {len(extracted_data)}")
+        logger.info(f" Total fichiers CSV extraits: {len(extracted_data)}")
         return extracted_data
     
     def extract_excel_files(self):
@@ -86,35 +86,35 @@ class FileExtractor:
                     sheet_name = list(excel_data.keys())[0]
                     df = excel_data[sheet_name]
                     extracted_data[file_name] = df
-                    logger.info(f"✅ Excel '{file_name}' extrait: {len(df)} lignes, {len(df.columns)} colonnes")
+                    logger.info(f"[OK] Excel '{file_name}' extrait: {len(df)} lignes, {len(df.columns)} colonnes")
                 else:
                     # Plusieurs feuilles, créer une clé par feuille
                     for sheet_name, df in excel_data.items():
                         key = f"{file_name}_{sheet_name}"
                         extracted_data[key] = df
-                        logger.info(f"✅ Excel '{key}' extrait: {len(df)} lignes, {len(df.columns)} colonnes")
+                        logger.info(f"[OK] Excel '{key}' extrait: {len(df)} lignes, {len(df.columns)} colonnes")
                 
             except Exception as e:
-                logger.error(f"❌ Erreur lecture Excel '{excel_file}': {e}")
+                logger.error(f"[ERROR] Erreur lecture Excel '{excel_file}': {e}")
         
-        logger.info(f"📊 Total fichiers Excel extraits: {len(extracted_data)}")
+        logger.info(f" Total fichiers Excel extraits: {len(extracted_data)}")
         return extracted_data
     
     def extract_all_files(self):
         """Extraire tous les fichiers CSV et Excel"""
-        logger.info("🔍 Début extraction des fichiers locaux...")
+        logger.info(" Début extraction des fichiers locaux...")
         
         all_data = {}
         
-        # Extraire CSV
+        
         csv_data = self.extract_csv_files()
         all_data.update(csv_data)
         
-        # Extraire Excel
+        
         excel_data = self.extract_excel_files()
         all_data.update(excel_data)
         
-        logger.info(f"📊 Total fichiers extraits: {len(all_data)}")
+        logger.info(f" Total fichiers extraits: {len(all_data)}")
         return all_data
     
     def extract_specific_file(self, file_path):
@@ -127,12 +127,12 @@ class FileExtractor:
             elif file_ext in ['.xlsx', '.xls']:
                 df = pd.read_excel(file_path)
             else:
-                logger.error(f"❌ Type de fichier non supporté: {file_ext}")
+                logger.error(f"[ERROR] Type de fichier non supporté: {file_ext}")
                 return None
             
-            logger.info(f"✅ Fichier '{file_path}' extrait: {len(df)} lignes")
+            logger.info(f"[OK] Fichier '{file_path}' extrait: {len(df)} lignes")
             return df
             
         except Exception as e:
-            logger.error(f"❌ Erreur extraction fichier '{file_path}': {e}")
+            logger.error(f"[ERROR] Erreur extraction fichier '{file_path}': {e}")
             return None

@@ -1,6 +1,6 @@
-# 📊 Guide Power BI - Data Warehouse PostgreSQL
+#  Guide Power BI - Data Warehouse PostgreSQL
 
-## 🎯 Connexion PostgreSQL dans Power BI
+##  Connexion PostgreSQL dans Power BI
 
 ### Étape 1 : Télécharger le Driver PostgreSQL
 
@@ -33,7 +33,7 @@ Utilisateur : dwh_user
 Mot de passe : dwh_password
 ```
 
-### Détails PostgreSQL
+
 ```
 Host: localhost
 Database: datawarehouse
@@ -44,7 +44,7 @@ Port: 5432
 
 ---
 
-## 📋 Étapes de Connexion dans Power BI
+##  Étapes de Connexion dans Power BI
 
 ### 1️⃣ Lancer Power BI Desktop
 - Ouvrir **Power BI Desktop**
@@ -108,7 +108,7 @@ Power BI téléchargera les données dans le modèle.
 
 ---
 
-## 📊 Dashboards Recommandés
+##  Dashboards Recommandés
 
 ### Dashboard 1 : Vue d'ensemble Santé
 **Visualisations suggérées :**
@@ -187,7 +187,7 @@ Cardinalité : Un vers plusieurs
 
 ---
 
-## 📈 Requêtes SQL Utiles pour Power BI
+##  Requêtes SQL Utiles pour Power BI
 
 ### Patients à Haut Risque
 ```sql
@@ -253,7 +253,7 @@ ORDER BY age_group;
 
 ---
 
-## ⚙️ Configuration Avancée
+##  Configuration Avancée
 
 ### Actualisation Automatique des Données
 
@@ -345,7 +345,7 @@ DIVIDE(
 
 ---
 
-## ✅ Checklist de Configuration
+## [OK] Checklist de Configuration
 
 - [ ] Power BI Desktop installé
 - [ ] PostgreSQL Driver (psqlODBC) installé

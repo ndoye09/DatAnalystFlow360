@@ -13,41 +13,41 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 📥 Cloner le repository
+      - name:  Cloner le repository
         uses: actions/checkout@v3
       
-      - name: 🐍 Installer Python
+      - name:  Installer Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
       
-      - name: 📦 Installer les dépendances
+      - name:  Installer les dépendances
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: 🔍 Exécuter le monitoring et vérifications de qualité
+      - name:  Exécuter le monitoring et vérifications de qualité
         run: |
-          echo "🔍 Vérifications de qualité..."
+          echo " Vérifications de qualité..."
           python monitoring/github_integration.py
       
-      - name: 📊 Afficher le rapport d'exécution
+      - name:  Afficher le rapport d'exécution
         run: |
-          echo "🚀 Démarrage du processus ETL..."
+          echo " Démarrage du processus ETL..."
           echo "ℹ️  Note: Exécution en mode Cloud sans accès aux bases de données locales"
           echo "Pour une exécution complète, utilisez le script local: ./sync-etl.ps1"
           python -c "import sys; print(f'Python {sys.version}')"
           python -c "import pandas; print(f'Pandas {pandas.__version__}')"
           python -c "import pyarrow; print(f'PyArrow {pyarrow.__version__}')"
       
-      - name: 📊 Afficher le rapport d'exécution
+      - name:  Afficher le rapport d'exécution
         if: always()
         run: |
           echo "================================"
-          echo "📊 RAPPORT D'EXÉCUTION ETL"
+          echo " RAPPORT D'EXÉCUTION ETL"
           echo "================================"
-          echo "✅ Dépendances installées avec succès"
-          echo "✅ Repository cloné et validé"
+          echo "[OK] Dépendances installées avec succès"
+          echo "[OK] Repository cloné et validé"
           echo ""
           echo "ℹ️  Cette exécution en cloud vérifie:"
           echo "  - L'intégrité du repository"
@@ -58,6 +58,6 @@ jobs:
           echo "  Exécutez: ./sync-etl.ps1"
           echo "================================"
       
-      - name: ✅ Succès
+      - name: [OK] Succès
         if: success()
-        run: echo "🎉 Vérification ETL réussie !"
+        run: echo " Vérification ETL réussie !"

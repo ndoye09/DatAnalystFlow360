@@ -46,7 +46,7 @@ class DataQualityChecker:
             'status': 'PASS' if completion_rate > 95 else 'WARNING'
         }
         
-        logger.info(f"  📊 Taux de complétude : {completion_rate:.2f}%")
+        logger.info(f"   Taux de complétude : {completion_rate:.2f}%")
         return result
     
     def check_duplicates(self, df, table_name):
@@ -63,7 +63,7 @@ class DataQualityChecker:
             'status': 'PASS' if duplicate_rate < 1 else 'WARNING'
         }
         
-        logger.info(f"  🔍 Taux de doublons : {duplicate_rate:.2f}%")
+        logger.info(f"   Taux de doublons : {duplicate_rate:.2f}%")
         return result
     
     def check_data_types(self, df, table_name):
@@ -80,7 +80,7 @@ class DataQualityChecker:
             'status': 'PASS'
         }
         
-        logger.info(f"  📋 Colonnes : {len(df.columns)}")
+        logger.info(f"   Colonnes : {len(df.columns)}")
         return result
     
     def check_numeric_ranges(self, df, table_name, numeric_columns=None):
@@ -107,13 +107,13 @@ class DataQualityChecker:
             'status': 'PASS'
         }
         
-        logger.info(f"  📈 Colonnes numériques analysées : {len(numeric_columns)}")
+        logger.info(f"   Colonnes numériques analysées : {len(numeric_columns)}")
         return result
     
     def generate_report(self):
         """Générer un rapport de qualité"""
         logger.info("\n" + "="*60)
-        logger.info("📊 RAPPORT DE QUALITÉ DES DONNÉES")
+        logger.info(" RAPPORT DE QUALITÉ DES DONNÉES")
         logger.info("="*60)
         
         report = {
@@ -167,12 +167,12 @@ class DataMonitor:
             'timestamp': datetime.now().isoformat()
         }
         
-        logger.info(f"📊 Data Volume: {source}.{table_name} | Rows: {row_count} | Size: {size_mb}MB")
+        logger.info(f" Data Volume: {source}.{table_name} | Rows: {row_count} | Size: {size_mb}MB")
     
     def generate_monitoring_report(self):
         """Générer un rapport de monitoring"""
         logger.info("\n" + "="*60)
-        logger.info("🔍 RAPPORT DE MONITORING")
+        logger.info(" RAPPORT DE MONITORING")
         logger.info("="*60)
         
         if self.metrics['etl_runs']:
@@ -194,7 +194,7 @@ class DataMonitor:
 
 def run_quality_checks(data_dict):
     """Exécuter tous les contrôles de qualité"""
-    logger.info("\n🚀 Démarrage des vérifications de qualité...")
+    logger.info("\n Démarrage des vérifications de qualité...")
     
     checker = DataQualityChecker()
     
@@ -228,7 +228,7 @@ def save_quality_report(report, output_path='monitoring/quality_report.json'):
     with open(output_path, 'w') as f:
         json.dump(report, f, indent=2, default=str)
     
-    logger.info(f"✅ Rapport sauvegardé : {output_path}")
+    logger.info(f"[OK] Rapport sauvegardé : {output_path}")
 
 
 if __name__ == '__main__':

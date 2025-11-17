@@ -46,7 +46,7 @@ class MonitoringDashboard:
         for check_key, check_data in metrics.get('details', {}).items():
             completeness = check_data.get('completeness', {})
             
-            # Extraire le pourcentage
+            
             completion_str = completeness.get('completion_rate', '0%')
             completion_rate = float(completion_str.replace('%', ''))
             
@@ -230,13 +230,13 @@ class MonitoringDashboard:
 <body>
     <div class="container">
         <header>
-            <h1>🔍 Dashboard Monitoring ETL</h1>
+            <h1> Dashboard Monitoring ETL</h1>
             <p class="timestamp">Généré: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
         </header>
         
         <div class="grid">
             <div class="card">
-                <h2>📊 Résumé</h2>
+                <h2> Résumé</h2>
                 <div class="metric">
                     <div class="metric-label">Vérifications totales</div>
                     <div class="metric-value">{len(metrics.get('details', {}))}</div>
@@ -258,7 +258,7 @@ class MonitoringDashboard:
         
         {self._generate_details_html(metrics)}
         
-        {self._generate_alerts_html(alerts) if alerts else '<div class="alerts"><h2>✅ Aucune alerte</h2></div>'}
+        {self._generate_alerts_html(alerts) if alerts else '<div class="alerts"><h2>[OK] Aucune alerte</h2></div>'}
     </div>
 </body>
 </html>
@@ -268,7 +268,7 @@ class MonitoringDashboard:
     
     def _generate_details_html(self, metrics):
         """Générer le HTML des détails"""
-        html = '<div class="card"><h2>📈 Détails des vérifications</h2>'
+        html = '<div class="card"><h2> Détails des vérifications</h2>'
         
         for check_key, check_data in metrics.get('details', {}).items():
             html += f'<div class="metric"><div class="metric-label">{check_key}</div>'
@@ -320,23 +320,23 @@ class MonitoringDashboard:
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(html)
         
-        logger.info(f"✅ Dashboard sauvegardé: {output_file}")
+        logger.info(f"[OK] Dashboard sauvegardé: {output_file}")
     
     def print_console_dashboard(self, metrics):
         """Afficher le dashboard dans la console"""
         alerts = self.check_sla(metrics)
         
         print("\n" + "="*80)
-        print("🔍 DASHBOARD MONITORING ETL")
+        print(" DASHBOARD MONITORING ETL")
         print("="*80)
         
-        print("\n📊 RÉSUMÉ")
+        print("\n RÉSUMÉ")
         print("-" * 80)
         print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"Vérifications totales: {len(metrics.get('details', {}))}")
         print(f"Alertes: {len(alerts)}")
         
-        print("\n📈 DÉTAILS DES VÉRIFICATIONS")
+        print("\n DÉTAILS DES VÉRIFICATIONS")
         print("-" * 80)
         for check_key, check_data in metrics.get('details', {}).items():
             completeness = check_data.get('completeness', {})
@@ -349,7 +349,7 @@ class MonitoringDashboard:
             for alert in alerts:
                 print(f"  [{alert['severity']}] {alert['message']}")
         else:
-            print("\n✅ Aucune alerte")
+            print("\n[OK] Aucune alerte")
         
         print("\n" + "="*80 + "\n")
 

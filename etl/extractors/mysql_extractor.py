@@ -24,10 +24,10 @@ class MySQLExtractor:
         try:
             self.connection = mysql.connector.connect(**self.config)
             if self.connection.is_connected():
-                logger.info(f"✅ Connexion MySQL établie: {Config.MYSQL_HOST}:{Config.MYSQL_PORT}")
+                logger.info(f"[OK] Connexion MySQL établie: {Config.MYSQL_HOST}:{Config.MYSQL_PORT}")
                 return True
         except Error as e:
-            logger.error(f"❌ Erreur connexion MySQL: {e}")
+            logger.error(f"[ERROR] Erreur connexion MySQL: {e}")
             return False
     
     def disconnect(self):
@@ -43,10 +43,10 @@ class MySQLExtractor:
             cursor.execute("SHOW TABLES")
             tables = [table[0] for table in cursor.fetchall()]
             cursor.close()
-            logger.info(f"📋 Tables trouvées: {tables}")
+            logger.info(f" Tables trouvées: {tables}")
             return tables
         except Error as e:
-            logger.error(f"❌ Erreur récupération tables: {e}")
+            logger.error(f"[ERROR] Erreur récupération tables: {e}")
             return []
     
     def extract_table(self, table_name):
@@ -54,10 +54,10 @@ class MySQLExtractor:
         try:
             query = f"SELECT * FROM {table_name}"
             df = pd.read_sql(query, self.connection)
-            logger.info(f"✅ Table '{table_name}' extraite: {len(df)} lignes, {len(df.columns)} colonnes")
+            logger.info(f"[OK] Table '{table_name}' extraite: {len(df)} lignes, {len(df.columns)} colonnes")
             return df
         except Exception as e:
-            logger.error(f"❌ Erreur extraction table '{table_name}': {e}")
+            logger.error(f"[ERROR] Erreur extraction table '{table_name}': {e}")
             return None
     
     def extract_all_tables(self):
@@ -74,7 +74,7 @@ class MySQLExtractor:
                 extracted_data[table] = df
         
         self.disconnect()
-        logger.info(f"📊 Total tables MySQL extraites: {len(extracted_data)}")
+        logger.info(f" Total tables MySQL extraites: {len(extracted_data)}")
         return extracted_data
     
     def extract_custom_query(self, query, name="custom_query"):
@@ -84,8 +84,8 @@ class MySQLExtractor:
                 self.connect()
             
             df = pd.read_sql(query, self.connection)
-            logger.info(f"✅ Requête '{name}' exécutée: {len(df)} lignes")
+            logger.info(f"[OK] Requête '{name}' exécutée: {len(df)} lignes")
             return df
         except Exception as e:
-            logger.error(f"❌ Erreur requête '{name}': {e}")
+            logger.error(f"[ERROR] Erreur requête '{name}': {e}")
             return None

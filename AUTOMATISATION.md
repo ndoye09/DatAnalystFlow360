@@ -1,10 +1,10 @@
-# 🤖 Automatisation ETL - Guide Complet
+#  Automatisation ETL - Guide Complet
 
 Automatisez vos chargements de données pour que tout fonctionne **sans intervention manuelle** !
 
 ---
 
-## 🚀 **Option 1 : Exécution Manuelle (Locale)**
+##  **Option 1 : Exécution Manuelle (Locale)**
 
 ### **Sur Windows (PowerShell)**
 
@@ -107,7 +107,7 @@ chmod +x sync-etl.sh
 
 Modifiez `sync-etl.ps1` ou `.github/workflows/daily-etl-sync.yml` pour ajouter :
 
-#### **Email (via GitHub)**
+
 ```yaml
 - name: 📧 Envoyer une alerte email
   if: failure()
@@ -117,7 +117,7 @@ Modifiez `sync-etl.ps1` ou `.github/workflows/daily-etl-sync.yml` pour ajouter :
     server_port: 465
     username: ${{ secrets.EMAIL_USERNAME }}
     password: ${{ secrets.EMAIL_PASSWORD }}
-    subject: "❌ ETL Data Lake a échoué"
+    subject: "[ERROR] ETL Data Lake a échoué"
     to: votre-email@gmail.com
     from: etl-notifications@gmail.com
     body: "Vérifiez les logs : https://github.com/ndoye09/DatAnalystFlow360/actions"
@@ -132,7 +132,7 @@ Modifiez `sync-etl.ps1` ou `.github/workflows/daily-etl-sync.yml` pour ajouter :
     webhook-url: ${{ secrets.SLACK_WEBHOOK }}
     payload: |
       {
-        "text": "❌ ETL Data Lake a échoué",
+        "text": "[ERROR] ETL Data Lake a échoué",
         "blocks": [
           {
             "type": "section",
@@ -147,7 +147,7 @@ Modifiez `sync-etl.ps1` ou `.github/workflows/daily-etl-sync.yml` pour ajouter :
 
 ---
 
-## 📊 **Monitoring du Workflow**
+##  **Monitoring du Workflow**
 
 ### **Voir l'historique des exécutions**
 
@@ -155,14 +155,14 @@ Modifiez `sync-etl.ps1` ou `.github/workflows/daily-etl-sync.yml` pour ajouter :
    - Allez sur votre repo
    - Cliquez **Actions**
    - Sélectionnez **Data Lake ETL - Daily Sync**
-   - Vous verrez tous les exécutions avec ✅ ou ❌
+   - Vous verrez tous les exécutions avec [OK] ou [ERROR]
 
 2. **Localement** (via Windows Task Scheduler) :
    - Task Scheduler → Clic droit sur la tâche → **Afficher l'historique**
 
 ---
 
-## 🎯 **Résumé**
+##  **Résumé**
 
 | Option | Fréquence | Configuration | Effort |
 |--------|-----------|--------------|--------|
@@ -173,7 +173,7 @@ Modifiez `sync-etl.ps1` ou `.github/workflows/daily-etl-sync.yml` pour ajouter :
 
 ---
 
-## ⚙️ **Configuration Recommandée**
+##  **Configuration Recommandée**
 
 Pour **production**, utilisez :
 1. **GitHub Actions** (automatisation gratuite)
@@ -182,4 +182,4 @@ Pour **production**, utilisez :
 
 ---
 
-**Vous préférez laquelle ?** 🚀
+**Vous préférez laquelle ?** 

@@ -13,7 +13,7 @@ if ! command -v docker-compose &> /dev/null; then
     exit 1
 fi
 
-# Créer les répertoires nécessaires
+
 mkdir -p logs
 mkdir -p logstash/config
 mkdir -p logstash/pipeline

@@ -20,7 +20,7 @@ def get_query(sql):
         return pd.DataFrame()
 
 # ===== HEADER =====
-st.markdown("# Sante Cardiovasculaire - Dashboard")
+st.markdown("
 st.markdown("Analyse des donnees medicales en temps reel")
 
 # ===== SIDEBAR =====

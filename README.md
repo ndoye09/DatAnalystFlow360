@@ -1,17 +1,17 @@
-# 🚀 Data Lake ETL - Centralisation HDFS
+#  Data Lake ETL - Centralisation HDFS
 
 Projet ETL complet pour centraliser vos données MySQL, MongoDB, CSV et Excel dans un Data Lake HDFS.
 
-## 📋 Fonctionnalités
+##  Fonctionnalités
 
-- ✅ Extraction automatique depuis MySQL (toutes les tables)
-- ✅ Extraction automatique depuis MongoDB (toutes les collections)
-- ✅ Extraction automatique de fichiers CSV
-- ✅ Extraction automatique de fichiers Excel (toutes les feuilles)
-- ✅ Chargement vers HDFS au format Parquet (optimisé pour le Big Data)
-- ✅ Logs détaillés avec codes couleur
-- ✅ Gestion des erreurs robuste
-- ✅ Architecture conteneurisée avec Docker
+- [OK] Extraction automatique depuis MySQL (toutes les tables)
+- [OK] Extraction automatique depuis MongoDB (toutes les collections)
+- [OK] Extraction automatique de fichiers CSV
+- [OK] Extraction automatique de fichiers Excel (toutes les feuilles)
+- [OK] Chargement vers HDFS au format Parquet (optimisé pour le Big Data)
+- [OK] Logs détaillés avec codes couleur
+- [OK] Gestion des erreurs robuste
+- [OK] Architecture conteneurisée avec Docker
 
 ## 🏗️ Architecture
 
@@ -33,7 +33,7 @@ Fichiers Excel → Extracteur Excel →
 └── processed/         # Données transformées (futur)
 ```
 
-## 🚀 Installation et Démarrage
+##  Installation et Démarrage
 
 ### Prérequis
 - Docker et Docker Compose installés
@@ -101,7 +101,7 @@ hdfs dfs -ls /datalake/raw/csv
 hdfs dfs -ls /datalake/raw/excel
 ```
 
-## 📊 Utilisation
+##  Utilisation
 
 ### Exécution manuelle
 
@@ -124,7 +124,7 @@ docker-compose logs -f etl-python
 **Ajouter des transformations:**
 Créez vos transformations dans `etl/transformers/data_transformer.py`
 
-## 🔧 Commandes utiles
+##  Commandes utiles
 
 ### Gestion Docker
 
@@ -173,7 +173,7 @@ hdfs dfs -rm /datalake/raw/mysql/ancienne_table.parquet
 hdfs dfs -df -h /datalake
 ```
 
-## 📈 Monitoring
+##  Monitoring
 
 ### Logs applicatifs
 Les logs sont stockés dans `./logs/etl_YYYYMMDD.log`
@@ -212,7 +212,7 @@ docker-compose ps hadoop-namenode
 # Attendre que HDFS soit prêt (peut prendre 2-3 minutes)
 curl http://localhost:9870
 
-# Redémarrer HDFS si nécessaire
+
 docker-compose restart hadoop-namenode hadoop-datanode
 ```
 
@@ -222,11 +222,11 @@ docker-compose restart hadoop-namenode hadoop-datanode
 docker exec -it datalake-etl ls -la /data/csv
 docker exec -it datalake-etl ls -la /data/excel
 
-# Copier des fichiers si nécessaire
+
 docker cp mon_fichier.csv datalake-etl:/data/csv/
 ```
 
-## 🔐 Sécurité
+##  Sécurité
 
 **⚠️ IMPORTANT pour la production:**
 
