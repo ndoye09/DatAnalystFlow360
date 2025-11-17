@@ -1,0 +1,128 @@
+{
+  "powerbi_config": {
+    "name": "DatAnalystFlow360 - Data Lake Dashboard",
+    "version": "1.0.0",
+    "description": "Dashboard complet pour la visualisation des données du data lake ETL",
+    "created": "2025-11-17",
+    "author": "Data Analytics Team",
+    
+    "data_source": {
+      "type": "PostgreSQL",
+      "server": "localhost",
+      "port": 5432,
+      "database": "datawarehouse",
+      "schema": "staging",
+      "username": "dwh_user",
+      "password": "dwh_password (à configurer en Power BI)"
+    },
+    
+    "tables": [
+      {
+        "name": "stg_patients",
+        "description": "Données des patients",
+        "record_count": "200+",
+        "key_columns": ["patient_id", "age", "gender", "disease_type"]
+      },
+      {
+        "name": "stg_medical_tests",
+        "description": "Résultats des tests médicaux",
+        "record_count": "1000+",
+        "key_columns": ["test_id", "patient_id", "test_type", "result"]
+      },
+      {
+        "name": "stg_medications",
+        "description": "Médicaments prescrits",
+        "record_count": "500+",
+        "key_columns": ["medication_id", "patient_id", "drug_name", "dosage"]
+      },
+      {
+        "name": "stg_patient_activities",
+        "description": "Activités et historique des patients",
+        "record_count": "5000+",
+        "key_columns": ["activity_id", "patient_id", "activity_type", "timestamp"]
+      },
+      {
+        "name": "stg_appointments",
+        "description": "Rendez-vous médicaux",
+        "record_count": "1500+",
+        "key_columns": ["appointment_id", "patient_id", "doctor_id", "appointment_date"]
+      },
+      {
+        "name": "stg_vital_signs_logs",
+        "description": "Historique des signes vitaux",
+        "record_count": "10000+",
+        "key_columns": ["vital_id", "patient_id", "blood_pressure", "heart_rate", "timestamp"]
+      }
+    ],
+    
+    "pages": [
+      {
+        "name": "Overview",
+        "description": "Vue d'ensemble des KPIs",
+        "visualizations": [
+          "Total Patients Card",
+          "Average Age Card",
+          "Total Tests Card",
+          "Data Quality Card"
+        ]
+      },
+      {
+        "name": "Patients Analysis",
+        "description": "Analyse détaillée des patients",
+        "visualizations": [
+          "Patients List Table",
+          "Disease Type Distribution Chart",
+          "Gender Distribution Chart",
+          "Age Range Distribution Chart"
+        ]
+      },
+      {
+        "name": "Medical Tests",
+        "description": "Analyse des tests médicaux",
+        "visualizations": [
+          "Test Results Table",
+          "Tests by Patient Chart",
+          "Test Type Distribution Chart",
+          "Results Timeline Chart"
+        ]
+      },
+      {
+        "name": "Monitoring",
+        "description": "Monitoring et qualité des données",
+        "visualizations": [
+          "Data Completeness Gauge (99.87%)",
+          "Duplicate Rate Gauge (0.05%)",
+          "Recent Activities Table",
+          "Data Volume Trend Chart"
+        ]
+      }
+    ],
+    
+    "refresh_schedule": {
+      "frequency": "daily",
+      "time": "03:00 UTC",
+      "description": "Aligné avec le pipeline ETL (2h UTC)"
+    },
+    
+    "security": {
+      "rls_enabled": false,
+      "description": "Configurable selon les besoins",
+      "workspace_sharing": "Teams/Groups based"
+    },
+    
+    "metadata": {
+      "data_completeness": "99.87%",
+      "duplicate_rate": "0.05%",
+      "last_refresh": "2025-11-17T00:00:00Z",
+      "total_rows_processed": 72950,
+      "total_columns": "50+"
+    },
+    
+    "instructions": {
+      "setup": "Voir POWER_BI_SETUP.md",
+      "connection": "PostgreSQL (localhost:5432)",
+      "credentials": "À configurer dans Power BI Online",
+      "deployment": "Publier via Power BI Desktop"
+    }
+  }
+}
