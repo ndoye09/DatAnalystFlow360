@@ -12,17 +12,17 @@ Système de **logging centralisé** et **monitoring en temps réel** pour votre 
 │  • Python ETL (logging standard)                 │
 │  • Monitoring & Qualité                          │
 │  • Logs temps réel (TCP/UDP)                     │
-└────────────────┬─────────────────────────────────┘
+└────────────────-─────────────────────────────────┘
                  │
         ┌────────▼────────┐
         │  Flask/Python   │
         │  (Traitement)   │
-        └────────┬────────┘
+        └────────-────────┘
                  │
         ┌────────▼────────┐
         │  SQLite (DB)    │
         │  (Stockage)     │
-        └────────┬────────┘
+        └────────-────────┘
                  │
         ┌────────▼────────────────┐
         │   Dashboard Web         │

@@ -29,7 +29,7 @@ class FileExtractor:
             logger.warning(f"⚠️  Aucun fichier CSV trouvé dans {self.csv_path}")
             return extracted_data
         
-        logger.info(f"📂 {len(csv_files)} fichiers CSV trouvés")
+        logger.info(f" {len(csv_files)} fichiers CSV trouvés")
         
         for csv_file in csv_files:
             try:
@@ -71,7 +71,7 @@ class FileExtractor:
             logger.warning(f"⚠️  Aucun fichier Excel trouvé dans {self.excel_path}")
             return extracted_data
         
-        logger.info(f"📂 {len(excel_files)} fichiers Excel trouvés")
+        logger.info(f" {len(excel_files)} fichiers Excel trouvés")
         
         for excel_file in excel_files:
             try:

@@ -38,12 +38,12 @@ class DataLakeETL:
     def print_banner(self):
         """Afficher la bannière de démarrage"""
         banner = """
-        ╔-------------------------------------------------------╗
+        [-------------------------------------------------------]
         |           DATA LAKE ETL - HDFS INGESTION           |
         |                                                       |
         |  MySQL → HDFS  |  MongoDB → HDFS                    |
         |  CSV → HDFS    |  Excel → HDFS                      |
-        ╚-------------------------------------------------------╝
+        [-------------------------------------------------------]
         """
         print(banner)
         logger.info("Démarrage du processus ETL Data Lake")
@@ -87,7 +87,7 @@ class DataLakeETL:
     def extract_mongodb_data(self):
         """Extraire les données MongoDB"""
         logger.info("\n" + "="*60)
-        logger.info("🍃 PHASE 2: Extraction MongoDB")
+        logger.info(" PHASE 2: Extraction MongoDB")
         logger.info("="*60)
         
         try:
@@ -157,7 +157,7 @@ class DataLakeETL:
         duration = (self.stats['end_time'] - self.stats['start_time']).total_seconds()
         
         summary = f"""
-        ╔-------------------------------------------------------╗
+        [-------------------------------------------------------]
         |                   RÉSUMÉ ETL                       |
         ╠-------------------------------------------------------╣
         | Durée totale: {duration:.2f} secondes                     
@@ -184,7 +184,7 @@ class DataLakeETL:
         if self.stats['errors']:
             summary += f"| Erreurs: {len(self.stats['errors']):>3}                                    |\n"
         
-        summary += "╚-------------------------------------------------------╝"
+        summary += "[-------------------------------------------------------]"
         
         print(summary)
         logger.info("Processus ETL terminé")

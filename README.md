@@ -25,10 +25,10 @@ Fichiers Excel → Extracteur Excel →
 ### Structure HDFS
 ```
 /datalake/
-├── raw/
-│   ├── mysql/         # Tables MySQL au format Parquet
-│   ├── mongodb/       # Collections MongoDB au format Parquet
-│   ├── csv/           # Fichiers CSV convertis en Parquet
+|── raw/
+│   |── mysql/         # Tables MySQL au format Parquet
+│   |── mongodb/       # Collections MongoDB au format Parquet
+│   |── csv/           # Fichiers CSV convertis en Parquet
 │   └── excel/         # Fichiers Excel convertis en Parquet
 └── processed/         # Données transformées (futur)
 ```

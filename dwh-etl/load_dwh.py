@@ -151,7 +151,7 @@ class DWHLoader:
                     return False
         
         # Récupérer les fichiers Parquet
-        logger.info(f"📂 Recherche fichiers Parquet dans {self.hdfs_raw_path}...")
+        logger.info(f" Recherche fichiers Parquet dans {self.hdfs_raw_path}...")
         parquet_files = self.list_hdfs_files()
         
         if not parquet_files:
@@ -159,7 +159,7 @@ class DWHLoader:
             logger.info("[INFO] Assurez-vous que l'ETL Data Lake a chargé les données")
             return False
         
-        logger.info(f"📂 {len(parquet_files)} fichiers Parquet trouvés")
+        logger.info(f" {len(parquet_files)} fichiers Parquet trouvés")
         
         # Charger chaque fichier
         total_rows = 0

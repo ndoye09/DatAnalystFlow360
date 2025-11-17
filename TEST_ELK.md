@@ -219,8 +219,8 @@ python test-elk.py | grep "Dashboard généré"
 
 ```
 Code coverage:
-├── simple_elasticsearch.py    ✓ 100%
-├── elk_integration.py         ✓ 95%
+|── simple_elasticsearch.py    ✓ 100%
+|── elk_integration.py         ✓ 95%
 └── github_integration.py      ✓ 90%
 ```
 
@@ -238,9 +238,9 @@ Dashboard:            ~0.02s
 
 ```
 Après test:
-├── Total logs:         3
-├── Total métriques:    4
-├── Taille BD:          16 KB
+|── Total logs:         3
+|── Total métriques:    4
+|── Taille BD:          16 KB
 └── Requêtes réussies:  10/10
 ```
 
@@ -359,11 +359,11 @@ Durée: 0.17s
 
 ```
 monitoring/
-├── simple_elasticsearch.py    # Moteur d'indexation SQLite
-├── elk_integration.py          # Logger Python ELK-compatible
-├── dashboard_server.py         # Dashboard web Flask
-├── github_integration.py       # Intégration GitHub Actions
-├── dashboard-elk.html         # Dashboard statique généré
+|── simple_elasticsearch.py    # Moteur d'indexation SQLite
+|── elk_integration.py          # Logger Python ELK-compatible
+|── dashboard_server.py         # Dashboard web Flask
+|── github_integration.py       # Intégration GitHub Actions
+|── dashboard-elk.html         # Dashboard statique généré
 └── elk_logs.db               # Base de données
 
 test-elk.py                    # Suite de tests principale

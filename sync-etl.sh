@@ -12,7 +12,7 @@ echo "📅 Début : $(date)"
 cd "$(dirname "$0")"
 
 echo ""
-echo "📂 Vérification de la structure..."
+echo " Vérification de la structure..."
 if [ ! -f "docker-compose.yml" ]; then
   echo "[ERROR] Erreur: docker-compose.yml non trouvé"
   exit 1

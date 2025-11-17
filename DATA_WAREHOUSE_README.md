@@ -10,10 +10,10 @@ Data Lake (HDFS)
 ETL Loader (Python)
     ↓
 PostgreSQL Data Warehouse
-├── staging.*     → Données brutes depuis HDFS
-├── dim.*         → Dimensions
-├── fact.*        → Faits
-├── analytics.*   → Vues analytiques
+|── staging.*     → Données brutes depuis HDFS
+|── dim.*         → Dimensions
+|── fact.*        → Faits
+|── analytics.*   → Vues analytiques
 └── metadata.*    → Métadonnées et lineage
     ↓
 Metabase (BI Tool)
@@ -29,13 +29,13 @@ Vous devez avoir le Data Lake déjà configuré et fonctionnel avec des données
 
 ```bash
 .
-├── docker-compose-dwh.yml          # Config Docker Warehouse
-├── dwh/
+|── docker-compose-dwh.yml          # Config Docker Warehouse
+|── dwh/
 │   └── init-scripts/
 │       └── 01_init_schema.sql     # Script initialisation
-├── dwh-etl/
-│   ├── Dockerfile
-│   ├── requirements.txt
+|── dwh-etl/
+│   |── Dockerfile
+│   |── requirements.txt
 │   └── load_dwh.py                # Script ETL
 └── DATA_WAREHOUSE_README.md       # Ce fichier
 ```

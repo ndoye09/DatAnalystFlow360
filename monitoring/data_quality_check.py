@@ -199,7 +199,7 @@ def run_quality_checks(data_dict):
     checker = DataQualityChecker()
     
     for source, tables in data_dict.items():
-        logger.info(f"\n📂 Vérification de {source}...")
+        logger.info(f"\n Vérification de {source}...")
         
         for table_name, df in tables.items():
             if isinstance(df, pd.DataFrame) and len(df) > 0:

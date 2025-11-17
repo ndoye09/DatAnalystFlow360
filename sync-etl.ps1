@@ -7,7 +7,7 @@ Write-Host "📅 Début : $(Get-Date)" -ForegroundColor Yellow
 Write-Host ""
 
 # ===== VÉRIFICATIONS PRÉALABLES =====
-Write-Host "📂 Vérification de la structure..." -ForegroundColor Blue
+Write-Host " Vérification de la structure..." -ForegroundColor Blue
 
 if (-Not (Test-Path "docker-compose.yml")) {
     Write-Host "[ERROR] Erreur: docker-compose.yml non trouvé" -ForegroundColor Red

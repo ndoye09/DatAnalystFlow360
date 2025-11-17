@@ -12,16 +12,16 @@
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    SOURCES DE DONNÉES                        │
-├─────────────────────────────────────────────────────────────┤
+|─────────────────────────────────────────────────────────────|
 │  Excel  │  CSV  │  MySQL  │  MongoDB  │  Autres formats    │
-└────────────────┬────────────────────────────────────────────┘
+└────────────────-────────────────────────────────────────────┘
                  │
         ┌────────▼────────┐
         │   ETL Pipeline  │ (Python)
         │   Orchestration │ (GitHub Actions)
-        └────────┬────────┘
+        └────────-────────┘
                  │
-    ┌────────────┼────────────┐
+    ┌────────────+────────────┐
     │            │            │
     ▼            ▼            ▼
 ┌────────┐ ┌──────────┐ ┌──────────────┐
@@ -30,14 +30,14 @@
 │ Lake)  │ │          │ │              │
 └────────┘ └──────────┘ └──────────────┘
     │            │            │
-    └────────────┼────────────┘
+    └────────────+────────────┘
                  │
         ┌────────▼────────┐
         │  Monitoring &   │ (ELK-like)
         │  Quality Checks │ (SQLite)
-        └────────┬────────┘
+        └────────-────────┘
                  │
-    ┌────────────┼────────────┐
+    ┌────────────+────────────┐
     │            │            │
     ▼            ▼            ▼
 ┌─────────┐ ┌─────────┐ ┌──────────┐
@@ -127,47 +127,47 @@ Statut global:         99.87%        0.05%       ✓ EXCELLENT
 
 ```
 data-lake-etl/
-├── etl/                              # Pipeline ETL
-│   ├── main.py                      # Orchestration
-│   ├── extractors/                  # Extraction multi-sources
-│   │   ├── mysql_extractor.py
-│   │   ├── mongodb_extractor.py
+|── etl/                              # Pipeline ETL
+│   |── main.py                      # Orchestration
+│   |── extractors/                  # Extraction multi-sources
+│   │   |── mysql_extractor.py
+│   │   |── mongodb_extractor.py
 │   │   └── file_extractor.py
-│   ├── transformers/                # Transformation
-│   ├── loaders/                     # Chargement
+│   |── transformers/                # Transformation
+│   |── loaders/                     # Chargement
 │   └── config/
 │
-├── dwh/                              # Data Warehouse
+|── dwh/                              # Data Warehouse
 │   └── init-scripts/
 │       └── 01_init_schema.sql       # Schéma staging
 │
-├── dwh-etl/                          # ETL Data Warehouse
-│   ├── load_dwh.py
+|── dwh-etl/                          # ETL Data Warehouse
+│   |── load_dwh.py
 │   └── requirements.txt
 │
-├── monitoring/                       # Monitoring & Qualité
-│   ├── data_quality_check.py        # Vérifications
-│   ├── monitoring_dashboard.py      # Génération dashboards
-│   ├── github_integration.py        # Intégration CI/CD
-│   ├── elk_integration.py           # Logger centralisé
-│   ├── simple_elasticsearch.py      # Index logs SQLite
-│   ├── sla_config.json              # Thresholds SLA
-│   ├── dashboard.html               # Dashboard HTML
-│   ├── dashboard-elk.html           # Dashboard ELK
+|── monitoring/                       # Monitoring & Qualité
+│   |── data_quality_check.py        # Vérifications
+│   |── monitoring_dashboard.py      # Génération dashboards
+│   |── github_integration.py        # Intégration CI/CD
+│   |── elk_integration.py           # Logger centralisé
+│   |── simple_elasticsearch.py      # Index logs SQLite
+│   |── sla_config.json              # Thresholds SLA
+│   |── dashboard.html               # Dashboard HTML
+│   |── dashboard-elk.html           # Dashboard ELK
 │   └── README.md
 │
-├── .github/workflows/               # GitHub Actions
+|── .github/workflows/               # GitHub Actions
 │   └── daily-etl-sync.yml           # Workflow quotidien
 │
-├── docker-compose.yml               # Services
-├── docker-compose-dwh.yml           # DWH
-├── docker-compose-elk.yml           # ELK Stack
-├── sync-etl-fixed.ps1               # Orchestration locale
-├── start-elk.ps1                    # Démarrage ELK
-├── test-elk.py                      # Tests ELK
-├── TEST_ELK.md                      # Guide de test
-├── ELK_README.md                    # Doc ELK
-├── README.md                        # Documentation
+|── docker-compose.yml               # Services
+|── docker-compose-dwh.yml           # DWH
+|── docker-compose-elk.yml           # ELK Stack
+|── sync-etl-fixed.ps1               # Orchestration locale
+|── start-elk.ps1                    # Démarrage ELK
+|── test-elk.py                      # Tests ELK
+|── TEST_ELK.md                      # Guide de test
+|── ELK_README.md                    # Doc ELK
+|── README.md                        # Documentation
 └── requirements.txt                 # Dépendances Python
 ```
 
@@ -202,12 +202,12 @@ data-lake-etl/
 ### Production (GitHub)
 ```
 GitHub Actions (Daily 2h UTC)
-  ├── Checkout code
-  ├── Setup Python 3.9
-  ├── Install dependencies
-  ├── Run monitoring checks ✓
-  ├── Generate dashboards ✓
-  ├── Push results
+  |── Checkout code
+  |── Setup Python 3.9
+  |── Install dependencies
+  |── Run monitoring checks ✓
+  |── Generate dashboards ✓
+  |── Push results
   └── Status: SUCCESS ✓
 ```
 

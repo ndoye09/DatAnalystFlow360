@@ -1,9 +1,9 @@
 # Script de test de connexion PostgreSQL pour Power BI
 # Ce script vérifie que PostgreSQL est accessible avant de configurer Power BI
 
-Write-Host "╔------------------------------------------------------------╗" -ForegroundColor Cyan
+Write-Host "[------------------------------------------------------------]" -ForegroundColor Cyan
 Write-Host "|   TEST DE CONNEXION PostgreSQL POUR POWER BI            |" -ForegroundColor Cyan
-Write-Host "╚------------------------------------------------------------╝" -ForegroundColor Cyan
+Write-Host "[------------------------------------------------------------]" -ForegroundColor Cyan
 
 Write-Host "`n Paramètres de connexion" -ForegroundColor Yellow
 Write-Host "   Host: localhost"
