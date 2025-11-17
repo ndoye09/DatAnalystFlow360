@@ -1,0 +1,117 @@
+CONFIGURATION POWER BI - GUIDE RAPIDE
+
+==================================================
+PARAMETRES DE CONNEXION POSTGRESQL
+==================================================
+
+Serveur : localhost
+Port : 5432
+Base de donnees : datawarehouse
+Utilisateur : dwh_user
+Mot de passe : dwh_password
+
+==================================================
+ETAPES POUR CONFIGURER POWER BI DESKTOP
+==================================================
+
+1. Ouvrir Power BI Desktop
+
+2. Cliquer : Obtenir les donnees
+
+3. Chercher : PostgreSQL
+
+4. Saisir les parametres :
+   - Serveur : localhost
+   - Base de donnees : datawarehouse
+   
+5. Cliquer : Connecter
+
+6. Authentification :
+   - Utilisateur : dwh_user
+   - Mot de passe : dwh_password
+   - Cliquer : Connecter
+
+7. Selectionner les tables a charger :
+   
+   RECOMMANDE (Vues Analytics) :
+   - analytics.v_patient_health_summary
+   - analytics.v_health_metrics
+   
+   OU Tables Brutes :
+   - staging.stg_patients
+   - staging.stg_medical_tests
+   - staging.stg_medications
+   - staging.stg_appointments
+   
+   OU Tables Dimensionnelles :
+   - dim.dim_patient
+   - dim.dim_doctor
+   - dim.dim_date
+   
+   OU Tables Factuelles :
+   - fact.fact_medical_tests
+   - fact.fact_appointments
+
+8. Cliquer : Charger
+
+9. Dans Power BI, creer les relations entre tables
+
+10. Creer les visualisations et dashboards
+
+==================================================
+DASHBOARDS A CREER
+==================================================
+
+Dashboard 1 : Vue d'ensemble
+- KPI : Nombre de patients
+- KPI : Nombre de tests
+- KPI : Cholesterol moyen
+- Graphique circulaire : Distribution genre
+- Graphique barres : Distribution age
+- Tableau : Top 10 patients
+
+Dashboard 2 : Tests Medicaux
+- Jauge : Cholesterol moyen
+- Jauge : Tension systolique
+- Graphique barres : Types de tests
+- Graphique circulaire : Niveaux cholesterol
+- Tableau : Derniers tests
+
+Dashboard 3 : Rendez-vous
+- Graphique barres : RDV par specialite
+- Jauge : Taux completion RDV
+- Tableau : RDV a venir
+- Slicer : Filtre specialite
+
+Dashboard 4 : Patients a Risque
+- Tableau : Patients a risque
+- Jauge : % population risque
+- Graphique dispersal : Cholesterol vs Glucose
+- Slicer : Groupe age
+
+==================================================
+FICHIERS UTILES
+==================================================
+
+POWER_BI.md - Documentation complete
+POWER_BI_CONFIG.txt - Configuration detaillee
+
+==================================================
+ASSISTANCE
+==================================================
+
+Si vous avez des problemes :
+1. Verifier que PostgreSQL est en cours d'execution
+   docker-compose -f docker-compose-dwh.yml ps
+   
+2. Tester la connexion au port 5432
+   Test-NetConnection localhost -Port 5432
+   
+3. Verifier les identifiants
+   User: dwh_user
+   Password: dwh_password
+   Database: datawarehouse
+
+==================================================
+FIN DU GUIDE CONFIGURATION POWER BI
+==================================================

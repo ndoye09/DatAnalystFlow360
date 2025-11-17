@@ -1,0 +1,123 @@
+# Configuration Power BI - Data Warehouse PostgreSQL
+
+## Paramètres de Connexion Rapide
+
+### Informations PostgreSQL
+```
+Type : PostgreSQL
+Serveur : localhost
+Port : 5432
+Base de données : datawarehouse
+Utilisateur : dwh_user
+Mot de passe : dwh_password
+```
+
+### Chaîne de Connexion (si nécessaire)
+```
+postgresql://dwh_user:dwh_password@localhost:5432/datawarehouse
+```
+
+---
+
+## Tables à Importer
+
+### Données Brutes (Staging)
+1. `staging.stg_patients` - 200 patients
+2. `staging.stg_medical_tests` - 600 tests
+3. `staging.stg_medications` - 300 médicaments
+4. `staging.stg_appointments` - 150 rendez-vous
+5. `staging.stg_patient_activities` - Activités patients
+6. `staging.stg_vital_signs_logs` - Signes vitaux
+
+### Données Dimensionnelles
+1. `dim.dim_patient` - Dimensions patient
+2. `dim.dim_doctor` - Dimensions médecin
+3. `dim.dim_date` - Dimension date
+
+### Données Factuelles
+1. `fact.fact_medical_tests` - 600 tests factuels
+2. `fact.fact_appointments` - 600 rendez-vous factuels
+
+### Vues Analytics (RECOMMANDÉ)
+1. `analytics.v_patient_health_summary` - Résumé santé par patient
+2. `analytics.v_health_metrics` - Métriques de santé globales
+
+---
+
+## Relations à Créer
+
+| De | À | Type |
+|----|----|------|
+| dim.dim_patient.patient_key | fact.fact_medical_tests.patient_key | 1:N |
+| dim.dim_patient.patient_key | fact.fact_appointments.patient_key | 1:N |
+| dim.dim_doctor.doctor_key | fact.fact_appointments.doctor_key | 1:N |
+| dim.dim_date.date_key | fact.fact_medical_tests.test_date_key | 1:N |
+
+---
+
+## Mesures DAX à Créer
+
+### Mesures Simples
+- `Nombre Patients` = COUNTA(dim_patient[patient_key])
+- `Nombre Tests` = COUNTA(fact_medical_tests[test_id])
+- `Nombre RDV` = COUNTA(fact_appointments[appointment_id])
+
+### Mesures Calculées
+- `Cholestérol Moyen` = AVERAGE(fact_medical_tests[cholesterol])
+- `Tension Systolique Moy` = AVERAGE(fact_medical_tests[systolic_bp])
+- `Glucose Moyen` = AVERAGE(fact_medical_tests[glucose])
+
+### Mesures de Pourcentage
+- `% Cholestérol Élevé` = DIVIDE(COUNTIF(fact_medical_tests[cholesterol] > 240), COUNTA(fact_medical_tests[test_id])) * 100
+- `% Tension Élevée` = DIVIDE(COUNTIF(fact_medical_tests[systolic_bp] > 140), COUNTA(fact_medical_tests[test_id])) * 100
+
+---
+
+## Dashboards Suggérés
+
+### Dashboard 1 : Vue d'ensemble
+- 4 KPIs (patients, tests, médicaments, RDV)
+- 2 graphiques circulaires (genre, cholestérol)
+- 1 graphique barres (âge)
+- 1 tableau (top 10 patients)
+
+### Dashboard 2 : Analyse Médicale
+- Jauge cholestérol moyen
+- Jauge tension systolique
+- Graphique barres : types de tests
+- Graphique ligne : évolution cholestérol
+
+### Dashboard 3 : Suivi Rendez-vous
+- Graphique barres : RDV par spécialité
+- Jauge : taux complétude
+- Tableau : RDV à venir
+- Matrice : RDV par patient
+
+### Dashboard 4 : Patients à Risque
+- Tableau filtrable : patients risque
+- Jauge : % population risque
+- Graphique dispersé : cholestérol vs glucose
+- Slicer : groupe d'âge
+
+---
+
+## Notes Importantes
+
+### Performance
+- Utiliser les vues `analytics.*` pour les dashboards
+- Appliquer des filtres dans Power Query si possible
+- Configurer l'actualisation en heures creuses
+
+### Sécurité
+- Ne pas partager les identifiants PostgreSQL
+- Utiliser l'authentification Single Sign-On si possible
+- Chiffrer les connexions si accès distant
+
+### Maintenance
+- Actualiser les données quotidiennement (02:00 UTC)
+- Vérifier la intégrité des données mensuellement
+- Archiver les anciens rapports trimestriellement
+
+---
+
+**Créé le 16/11/2025 - Data Warehouse PostgreSQL**

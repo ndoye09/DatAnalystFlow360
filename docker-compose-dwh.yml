@@ -1,0 +1,80 @@
+services:
+  # ========== DATA WAREHOUSE ==========
+  postgres-dwh:
+    image: postgres:15
+    container_name: datawarehouse
+    environment:
+      POSTGRES_USER: dwh_user
+      POSTGRES_PASSWORD: dwh_password
+      POSTGRES_DB: datawarehouse
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_dwh_data:/var/lib/postgresql/data
+      - ./dwh/init-scripts:/docker-entrypoint-initdb.d
+    networks:
+      - datalake-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dwh_user -d datawarehouse"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ========== ETL HDFS TO DWH ==========
+  etl-dwh:
+    build: ./dwh-etl
+    container_name: etl-dwh
+    depends_on:
+      postgres-dwh:
+        condition: service_healthy
+    environment:
+      HDFS_NAMENODE: hadoop-namenode
+      HDFS_PORT: 9870
+      POSTGRES_HOST: postgres-dwh
+      POSTGRES_USER: dwh_user
+      POSTGRES_PASSWORD: dwh_password
+      POSTGRES_DB: datawarehouse
+    volumes:
+      - ./dwh-etl:/app
+      - ./logs:/logs
+    networks:
+      - datalake-network
+    command: python load_dwh.py
+
+  # ========== METABASE ==========
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase
+    ports:
+      - "3000:3000"
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: metabase
+      MB_DB_PORT: 5432
+      MB_DB_USER: metabase
+      MB_DB_PASS: metabase
+      MB_DB_HOST: metabase-db
+    networks:
+      - datalake-network
+    depends_on:
+      - metabase-db
+
+  metabase-db:
+    image: postgres:15
+    container_name: metabase-db
+    environment:
+      POSTGRES_USER: metabase
+      POSTGRES_PASSWORD: metabase
+      POSTGRES_DB: metabase
+    volumes:
+      - metabase_data:/var/lib/postgresql/data
+    networks:
+      - datalake-network
+
+volumes:
+  postgres_dwh_data:
+  metabase_data:
+
+networks:
+  datalake-network:
+    external: true

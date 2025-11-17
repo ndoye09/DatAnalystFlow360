@@ -132,4 +132,5 @@ volumes:
 
 networks:
   datalake-network:
+    name: datalake-network
     driver: bridge

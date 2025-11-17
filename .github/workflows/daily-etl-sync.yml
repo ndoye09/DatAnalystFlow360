@@ -1,0 +1,67 @@
+name: Data Lake ETL - Daily Sync
+
+on:
+  schedule:
+    # Tous les jours à 2h du matin UTC (3h du matin CET)
+    - cron: '0 2 * * *'
+  
+  # Permet de déclencher manuellement depuis GitHub
+  workflow_dispatch:
+
+jobs:
+  etl-sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Cloner le repository
+        uses: actions/checkout@v3
+      
+      - name: 🐳 Démarrer Docker Compose
+        run: |
+          docker-compose up -d
+          docker-compose -f docker-compose-dwh.yml up -d
+      
+      - name: ⏳ Attendre que HDFS soit prêt
+        run: |
+          for i in {1..30}; do
+            if docker exec datalake-namenode curl -s http://localhost:9870 > /dev/null; then
+              echo "✅ HDFS accessible"
+              exit 0
+            fi
+            echo "⏳ Tentative $i/30..."
+            sleep 10
+          done
+          echo "❌ HDFS non accessible"
+          exit 1
+      
+      - name: 🔄 Relancer ETL Data Lake
+        run: |
+          docker restart datalake-etl
+          sleep 40
+          docker logs datalake-etl --tail 20
+      
+      - name: 🔄 Relancer ETL Data Warehouse
+        run: |
+          docker restart etl-dwh
+          sleep 10
+          docker logs etl-dwh --tail 20
+      
+      - name: 📊 Vérifier les données
+        run: |
+          docker exec datawarehouse psql -U dwh_user -d datawarehouse -c "SELECT COUNT(*) as total_rows FROM staging.stg_patients;"
+          docker exec datawarehouse psql -U dwh_user -d datawarehouse -c "SELECT COUNT(*) as total_rows FROM staging.stg_medical_tests;"
+      
+      - name: 📧 Notifier en cas d'erreur
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ ETL Daily Sync a échoué. Vérifiez les logs.'
+            })
+      
+      - name: ✅ Succès
+        run: echo "🎉 Synchronisation ETL réussie !"

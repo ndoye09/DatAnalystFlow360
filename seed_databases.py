@@ -222,10 +222,8 @@ def seed_mongodb():
             doc = {
                 'patient_id': random.randint(1, 100),
                 'timestamp': (datetime.now() - timedelta(hours=random.randint(0, 720))).isoformat(),
-                'blood_pressure': {
-                    'systolic': random.randint(90, 180),
-                    'diastolic': random.randint(60, 120)
-                },
+                'systolic_bp': random.randint(90, 180),
+                'diastolic_bp': random.randint(60, 120),
                 'heart_rate': random.randint(55, 110),
                 'temperature': round(random.uniform(36.0, 38.5), 1),
                 'oxygen_saturation': random.randint(92, 100),
@@ -273,3 +271,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
