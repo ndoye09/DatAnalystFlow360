@@ -18,8 +18,8 @@ jobs:
       
       - name: 🐳 Démarrer Docker Compose
         run: |
-          docker-compose up -d
-          docker-compose -f docker-compose-dwh.yml up -d
+          docker compose up -d
+          docker compose -f docker-compose-dwh.yml up -d
       
       - name: ⏳ Attendre que HDFS soit prêt
         run: |
@@ -53,15 +53,10 @@ jobs:
       
       - name: 📧 Notifier en cas d'erreur
         if: failure()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: '❌ ETL Daily Sync a échoué. Vérifiez les logs.'
-            })
+        run: |
+          echo "❌ ETL Daily Sync a échoué"
+          echo "Pour vérifier les logs, consultez les GitHub Actions"
+          exit 1
       
       - name: ✅ Succès
         run: echo "🎉 Synchronisation ETL réussie !"
