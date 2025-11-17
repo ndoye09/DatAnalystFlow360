@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ETL Monitoring Report</title>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        .success { color: green; }
+        .warning { color: orange; }
+        .error { color: red; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>ETL Monitoring Dashboard</h1>
+    <p>Generated: 2025-11-17T11:30:35.491768</p>
+    <h2>Quality Metrics</h2>
+    <table>
+        <tr><th>Data Source</th><th>Completeness</th><th>Duplicates</th></tr>
+                <tr>
+            <td>mysql_patients</td>
+            <td class="success">100%</td>
+            <td>0%</td>
+        </tr>
+        <tr>
+            <td>mysql_medical_tests</td>
+            <td class="success">99.97%</td>
+            <td>0.17%</td>
+        </tr>
+
+    </table>
+</body>
+</html>

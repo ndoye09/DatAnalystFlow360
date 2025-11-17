@@ -130,31 +130,29 @@ def generate_html_report(metrics_file='monitoring/quality_report.json',
     
     logger.info(f"\n🌐 Génération du dashboard HTML...")
     
-    html_template = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>ETL Monitoring Report</title>
-        <style>
-            body { font-family: Arial; margin: 20px; }
-            .success { color: green; }
-            .warning { color: orange; }
-            .error { color: red; }
-            table { width: 100%; border-collapse: collapse; }
-            th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
-        </style>
-    </head>
-    <body>
-        <h1>🔍 ETL Monitoring Dashboard</h1>
-        <p>Generated: {timestamp}</p>
-        <h2>Quality Metrics</h2>
-        <table>
-            <tr><th>Data Source</th><th>Completeness</th><th>Duplicates</th></tr>
-            {rows}
-        </table>
-    </body>
-    </html>
-    """
+    html_template = """<!DOCTYPE html>
+<html>
+<head>
+    <title>ETL Monitoring Report</title>
+    <style>
+        body {{ font-family: Arial; margin: 20px; }}
+        .success {{ color: green; }}
+        .warning {{ color: orange; }}
+        .error {{ color: red; }}
+        table {{ width: 100%; border-collapse: collapse; }}
+        th, td {{ padding: 10px; border: 1px solid #ddd; text-align: left; }}
+    </style>
+</head>
+<body>
+    <h1>ETL Monitoring Dashboard</h1>
+    <p>Generated: {timestamp}</p>
+    <h2>Quality Metrics</h2>
+    <table>
+        <tr><th>Data Source</th><th>Completeness</th><th>Duplicates</th></tr>
+        {rows}
+    </table>
+</body>
+</html>"""
     
     # Charger les métriques
     if Path(metrics_file).exists():
@@ -171,13 +169,12 @@ def generate_html_report(metrics_file='monitoring/quality_report.json',
         duplicates = check_data.get('duplicates', {})
         dup_rate = duplicates.get('duplicate_rate', 'N/A')
         
-        rows += f"""
-        <tr>
+        rows += f"""        <tr>
             <td>{check_key}</td>
             <td class="success">{completion_rate}</td>
             <td>{dup_rate}</td>
         </tr>
-        """
+"""
     
     # Générer le HTML
     html = html_template.format(
