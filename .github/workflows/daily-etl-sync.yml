@@ -16,47 +16,37 @@ jobs:
       - name: 📥 Cloner le repository
         uses: actions/checkout@v3
       
-      - name: 🐳 Démarrer Docker Compose
-        run: |
-          docker compose up -d
-          docker compose -f docker-compose-dwh.yml up -d
+      - name: 🐍 Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
       
-      - name: ⏳ Attendre que HDFS soit prêt
+      - name: 📦 Installer les dépendances
         run: |
-          for i in {1..30}; do
-            if docker exec datalake-namenode curl -s http://localhost:9870 > /dev/null; then
-              echo "✅ HDFS accessible"
-              exit 0
-            fi
-            echo "⏳ Tentative $i/30..."
-            sleep 10
-          done
-          echo "❌ HDFS non accessible"
-          exit 1
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
       
-      - name: 🔄 Relancer ETL Data Lake
+      - name: 🔄 Exécuter l'ETL
         run: |
-          docker restart datalake-etl
-          sleep 40
-          docker logs datalake-etl --tail 20
+          echo "🚀 Démarrage du processus ETL..."
+          python etl/main.py
       
-      - name: 🔄 Relancer ETL Data Warehouse
+      - name: 📊 Vérifier les logs
+        if: always()
         run: |
-          docker restart etl-dwh
-          sleep 10
-          docker logs etl-dwh --tail 20
+          if [ -d "logs" ]; then
+            echo "📋 Logs ETL:"
+            ls -la logs/
+            tail -50 logs/etl_*.log 2>/dev/null || echo "Aucun log trouvé"
+          fi
       
-      - name: 📊 Vérifier les données
-        run: |
-          docker exec datawarehouse psql -U dwh_user -d datawarehouse -c "SELECT COUNT(*) as total_rows FROM staging.stg_patients;"
-          docker exec datawarehouse psql -U dwh_user -d datawarehouse -c "SELECT COUNT(*) as total_rows FROM staging.stg_medical_tests;"
+      - name: ✅ Succès
+        if: success()
+        run: echo "🎉 Synchronisation ETL réussie !"
       
-      - name: 📧 Notifier en cas d'erreur
+      - name: ❌ Rapport d'erreur
         if: failure()
         run: |
           echo "❌ ETL Daily Sync a échoué"
-          echo "Pour vérifier les logs, consultez les GitHub Actions"
+          echo "Consultez les logs ci-dessus pour plus de détails"
           exit 1
-      
-      - name: ✅ Succès
-        run: echo "🎉 Synchronisation ETL réussie !"
