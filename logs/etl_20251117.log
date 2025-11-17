@@ -1,0 +1,176 @@
+2025-11-17 10:45:24 - __main__ - INFO - Démarrage du processus ETL Data Lake
+2025-11-17 10:45:24 - __main__ - INFO - 🔍 Vérification des prérequis...
+2025-11-17 10:45:24 - loaders.hdfs_loader - INFO - ✅ Connexion HDFS établie
+2025-11-17 10:45:24 - loaders.hdfs_loader - INFO - 📁 Initialisation de la structure HDFS...
+2025-11-17 10:45:24 - loaders.hdfs_loader - ERROR - ❌ Erreur création répertoire /datalake: No response
+2025-11-17 10:45:24 - loaders.hdfs_loader - ERROR - ❌ Erreur création répertoire /datalake/raw: No response
+2025-11-17 10:45:24 - loaders.hdfs_loader - ERROR - ❌ Erreur création répertoire /datalake/processed: No response
+2025-11-17 10:45:24 - loaders.hdfs_loader - ERROR - ❌ Erreur création répertoire /datalake/raw/mysql: No response
+2025-11-17 10:45:24 - loaders.hdfs_loader - ERROR - ❌ Erreur création répertoire /datalake/raw/mongodb: No response
+2025-11-17 10:45:24 - loaders.hdfs_loader - ERROR - ❌ Erreur création répertoire /datalake/raw/csv: No response
+2025-11-17 10:45:24 - loaders.hdfs_loader - ERROR - ❌ Erreur création répertoire /datalake/raw/excel: No response
+2025-11-17 10:45:24 - loaders.hdfs_loader - WARNING - ⚠️  Certains répertoires n'ont pas pu être créés
+2025-11-17 10:45:24 - __main__ - WARNING - ⚠️  Problème lors de l'initialisation des répertoires HDFS
+2025-11-17 10:45:24 - __main__ - INFO - ✅ Prérequis validés
+2025-11-17 10:45:24 - __main__ - INFO - 
+============================================================
+2025-11-17 10:45:24 - __main__ - INFO - 📊 PHASE 1: Extraction MySQL
+2025-11-17 10:45:24 - __main__ - INFO - ============================================================
+2025-11-17 10:45:24 - extractors.mysql_extractor - INFO - ✅ Connexion MySQL établie: mysql:3306
+2025-11-17 10:45:24 - extractors.mysql_extractor - INFO - 📋 Tables trouvées: ['medical_tests', 'medications', 'patients']
+2025-11-17 10:45:24 - extractors.mysql_extractor - INFO - ✅ Table 'medical_tests' extraite: 600 lignes, 9 colonnes
+2025-11-17 10:45:24 - extractors.mysql_extractor - INFO - ✅ Table 'medications' extraite: 300 lignes, 7 colonnes
+2025-11-17 10:45:24 - extractors.mysql_extractor - INFO - ✅ Table 'patients' extraite: 200 lignes, 9 colonnes
+2025-11-17 10:45:24 - extractors.mysql_extractor - INFO - Connexion MySQL fermée
+2025-11-17 10:45:24 - extractors.mysql_extractor - INFO - 📊 Total tables MySQL extraites: 3
+2025-11-17 10:45:24 - __main__ - INFO - 
+============================================================
+2025-11-17 10:45:24 - __main__ - INFO - 🍃 PHASE 2: Extraction MongoDB
+2025-11-17 10:45:24 - __main__ - INFO - ============================================================
+2025-11-17 10:45:25 - extractors.mongodb_extractor - INFO - ✅ Connexion MongoDB établie: mongodb://mongodb:27017/
+2025-11-17 10:45:25 - extractors.mongodb_extractor - INFO - 📋 Collections trouvées: ['appointments', 'patient_activities', 'vital_signs_logs']
+2025-11-17 10:45:25 - extractors.mongodb_extractor - INFO - ✅ Collection 'appointments' extraite: 150 documents, 9 champs
+2025-11-17 10:45:25 - extractors.mongodb_extractor - INFO - ✅ Collection 'patient_activities' extraite: 200 documents, 8 champs
+2025-11-17 10:45:25 - extractors.mongodb_extractor - INFO - ✅ Collection 'vital_signs_logs' extraite: 500 documents, 10 champs
+2025-11-17 10:45:25 - extractors.mongodb_extractor - INFO - Connexion MongoDB fermée
+2025-11-17 10:45:25 - extractors.mongodb_extractor - INFO - 📊 Total collections MongoDB extraites: 3
+2025-11-17 10:45:25 - __main__ - INFO - 
+============================================================
+2025-11-17 10:45:25 - __main__ - INFO - 📁 PHASE 3: Extraction Fichiers (CSV & Excel)
+2025-11-17 10:45:25 - __main__ - INFO - ============================================================
+2025-11-17 10:45:25 - extractors.file_extractor - INFO - 📂 1 fichiers CSV trouvés
+2025-11-17 10:45:25 - extractors.file_extractor - INFO - ✅ CSV 'Cardiovascular_Disease_Dataset' extrait: 1000 lignes, 14 colonnes
+2025-11-17 10:45:25 - extractors.file_extractor - INFO - 📊 Total fichiers CSV extraits: 1
+2025-11-17 10:45:25 - extractors.file_extractor - INFO - 📂 1 fichiers Excel trouvés
+2025-11-17 10:45:39 - extractors.file_extractor - INFO - ✅ Excel 'cardio_train' extrait: 70000 lignes, 13 colonnes
+2025-11-17 10:45:39 - extractors.file_extractor - INFO - 📊 Total fichiers Excel extraits: 1
+2025-11-17 10:45:39 - __main__ - INFO - 
+============================================================
+2025-11-17 10:45:39 - __main__ - INFO - 💾 PHASE 4: Chargement vers HDFS
+2025-11-17 10:45:39 - __main__ - INFO - ============================================================
+2025-11-17 10:45:39 - loaders.hdfs_loader - INFO - 📤 Chargement données MySQL vers HDFS...
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mysql/medical_tests.parquet (0.02 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mysql/medications.parquet (0.01 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mysql/patients.parquet (0.01 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ MySQL: 3/3 tables chargées
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - 📤 Chargement données MongoDB vers HDFS...
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mongodb/appointments.parquet (0.01 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mongodb/patient_activities.parquet (0.01 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mongodb/vital_signs_logs.parquet (0.02 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ MongoDB: 3/3 collections chargées
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - 📤 Chargement fichiers CSV vers HDFS...
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/csv/Cardiovascular_Disease_Dataset.parquet (0.02 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ CSV: 1/1 fichiers chargés
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - 📤 Chargement fichiers Excel vers HDFS...
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/excel/cardio_train.parquet (0.85 MB)
+2025-11-17 10:45:40 - loaders.hdfs_loader - INFO - ✅ Excel: 1/1 fichiers chargés
+2025-11-17 10:45:40 - __main__ - INFO - Processus ETL terminé
+2025-11-17 11:38:38 - __main__ - INFO - Démarrage du processus ETL Data Lake
+2025-11-17 11:38:38 - __main__ - INFO - 🔍 Vérification des prérequis...
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Connexion HDFS établie
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - 📁 Initialisation de la structure HDFS...
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/processed
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/mysql
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/mongodb
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/csv
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/excel
+2025-11-17 11:38:39 - loaders.hdfs_loader - INFO - ✅ Structure HDFS initialisée avec succès
+2025-11-17 11:38:39 - __main__ - INFO - ✅ Prérequis validés
+2025-11-17 11:38:39 - __main__ - INFO - 
+============================================================
+2025-11-17 11:38:39 - __main__ - INFO - 📊 PHASE 1: Extraction MySQL
+2025-11-17 11:38:39 - __main__ - INFO - ============================================================
+2025-11-17 11:38:39 - extractors.mysql_extractor - INFO - ✅ Connexion MySQL établie: mysql:3306
+2025-11-17 11:38:39 - extractors.mysql_extractor - INFO - 📋 Tables trouvées: ['medical_tests', 'medications', 'patients']
+2025-11-17 11:38:39 - extractors.mysql_extractor - INFO - ✅ Table 'medical_tests' extraite: 600 lignes, 9 colonnes
+2025-11-17 11:38:39 - extractors.mysql_extractor - INFO - ✅ Table 'medications' extraite: 300 lignes, 7 colonnes
+2025-11-17 11:38:39 - extractors.mysql_extractor - INFO - ✅ Table 'patients' extraite: 200 lignes, 9 colonnes
+2025-11-17 11:38:39 - extractors.mysql_extractor - INFO - Connexion MySQL fermée
+2025-11-17 11:38:39 - extractors.mysql_extractor - INFO - 📊 Total tables MySQL extraites: 3
+2025-11-17 11:38:39 - __main__ - INFO - 
+============================================================
+2025-11-17 11:38:39 - __main__ - INFO - 🍃 PHASE 2: Extraction MongoDB
+2025-11-17 11:38:39 - __main__ - INFO - ============================================================
+2025-11-17 11:38:39 - extractors.mongodb_extractor - INFO - ✅ Connexion MongoDB établie: mongodb://mongodb:27017/
+2025-11-17 11:38:39 - extractors.mongodb_extractor - INFO - 📋 Collections trouvées: ['appointments', 'patient_activities', 'vital_signs_logs']
+2025-11-17 11:38:39 - extractors.mongodb_extractor - INFO - ✅ Collection 'appointments' extraite: 150 documents, 9 champs
+2025-11-17 11:38:39 - extractors.mongodb_extractor - INFO - ✅ Collection 'patient_activities' extraite: 200 documents, 8 champs
+2025-11-17 11:38:39 - extractors.mongodb_extractor - INFO - ✅ Collection 'vital_signs_logs' extraite: 500 documents, 10 champs
+2025-11-17 11:38:39 - extractors.mongodb_extractor - INFO - Connexion MongoDB fermée
+2025-11-17 11:38:39 - extractors.mongodb_extractor - INFO - 📊 Total collections MongoDB extraites: 3
+2025-11-17 11:38:39 - __main__ - INFO - 
+============================================================
+2025-11-17 11:38:39 - __main__ - INFO - 📁 PHASE 3: Extraction Fichiers (CSV & Excel)
+2025-11-17 11:38:39 - __main__ - INFO - ============================================================
+2025-11-17 11:38:39 - extractors.file_extractor - INFO - 📂 1 fichiers CSV trouvés
+2025-11-17 11:38:39 - extractors.file_extractor - INFO - ✅ CSV 'Cardiovascular_Disease_Dataset' extrait: 1000 lignes, 14 colonnes
+2025-11-17 11:38:39 - extractors.file_extractor - INFO - 📊 Total fichiers CSV extraits: 1
+2025-11-17 11:38:39 - extractors.file_extractor - INFO - 📂 1 fichiers Excel trouvés
+2025-11-17 11:38:44 - __main__ - INFO - Démarrage du processus ETL Data Lake
+2025-11-17 11:38:44 - __main__ - INFO - 🔍 Vérification des prérequis...
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Connexion HDFS établie
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - 📁 Initialisation de la structure HDFS...
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/processed
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/mysql
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/mongodb
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/csv
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Répertoire créé: /datalake/raw/excel
+2025-11-17 11:38:44 - loaders.hdfs_loader - INFO - ✅ Structure HDFS initialisée avec succès
+2025-11-17 11:38:44 - __main__ - INFO - ✅ Prérequis validés
+2025-11-17 11:38:44 - __main__ - INFO - 
+============================================================
+2025-11-17 11:38:44 - __main__ - INFO - 📊 PHASE 1: Extraction MySQL
+2025-11-17 11:38:44 - __main__ - INFO - ============================================================
+2025-11-17 11:38:44 - extractors.mysql_extractor - INFO - ✅ Connexion MySQL établie: mysql:3306
+2025-11-17 11:38:44 - extractors.mysql_extractor - INFO - 📋 Tables trouvées: ['medical_tests', 'medications', 'patients']
+2025-11-17 11:38:44 - extractors.mysql_extractor - INFO - ✅ Table 'medical_tests' extraite: 600 lignes, 9 colonnes
+2025-11-17 11:38:44 - extractors.mysql_extractor - INFO - ✅ Table 'medications' extraite: 300 lignes, 7 colonnes
+2025-11-17 11:38:44 - extractors.mysql_extractor - INFO - ✅ Table 'patients' extraite: 200 lignes, 9 colonnes
+2025-11-17 11:38:44 - extractors.mysql_extractor - INFO - Connexion MySQL fermée
+2025-11-17 11:38:44 - extractors.mysql_extractor - INFO - 📊 Total tables MySQL extraites: 3
+2025-11-17 11:38:44 - __main__ - INFO - 
+============================================================
+2025-11-17 11:38:44 - __main__ - INFO - 🍃 PHASE 2: Extraction MongoDB
+2025-11-17 11:38:44 - __main__ - INFO - ============================================================
+2025-11-17 11:38:44 - extractors.mongodb_extractor - INFO - ✅ Connexion MongoDB établie: mongodb://mongodb:27017/
+2025-11-17 11:38:44 - extractors.mongodb_extractor - INFO - 📋 Collections trouvées: ['appointments', 'patient_activities', 'vital_signs_logs']
+2025-11-17 11:38:44 - extractors.mongodb_extractor - INFO - ✅ Collection 'appointments' extraite: 150 documents, 9 champs
+2025-11-17 11:38:44 - extractors.mongodb_extractor - INFO - ✅ Collection 'patient_activities' extraite: 200 documents, 8 champs
+2025-11-17 11:38:44 - extractors.mongodb_extractor - INFO - ✅ Collection 'vital_signs_logs' extraite: 500 documents, 10 champs
+2025-11-17 11:38:44 - extractors.mongodb_extractor - INFO - Connexion MongoDB fermée
+2025-11-17 11:38:44 - extractors.mongodb_extractor - INFO - 📊 Total collections MongoDB extraites: 3
+2025-11-17 11:38:44 - __main__ - INFO - 
+============================================================
+2025-11-17 11:38:44 - __main__ - INFO - 📁 PHASE 3: Extraction Fichiers (CSV & Excel)
+2025-11-17 11:38:44 - __main__ - INFO - ============================================================
+2025-11-17 11:38:44 - extractors.file_extractor - INFO - 📂 1 fichiers CSV trouvés
+2025-11-17 11:38:44 - extractors.file_extractor - INFO - ✅ CSV 'Cardiovascular_Disease_Dataset' extrait: 1000 lignes, 14 colonnes
+2025-11-17 11:38:44 - extractors.file_extractor - INFO - 📊 Total fichiers CSV extraits: 1
+2025-11-17 11:38:44 - extractors.file_extractor - INFO - 📂 1 fichiers Excel trouvés
+2025-11-17 11:38:51 - extractors.file_extractor - INFO - ✅ Excel 'cardio_train' extrait: 70000 lignes, 13 colonnes
+2025-11-17 11:38:51 - extractors.file_extractor - INFO - 📊 Total fichiers Excel extraits: 1
+2025-11-17 11:38:51 - __main__ - INFO - 
+============================================================
+2025-11-17 11:38:51 - __main__ - INFO - 💾 PHASE 4: Chargement vers HDFS
+2025-11-17 11:38:51 - __main__ - INFO - ============================================================
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - 📤 Chargement données MySQL vers HDFS...
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mysql/medical_tests.parquet (0.02 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mysql/medications.parquet (0.01 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mysql/patients.parquet (0.01 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ MySQL: 3/3 tables chargées
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - 📤 Chargement données MongoDB vers HDFS...
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mongodb/appointments.parquet (0.01 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mongodb/patient_activities.parquet (0.01 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/mongodb/vital_signs_logs.parquet (0.02 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ MongoDB: 3/3 collections chargées
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - 📤 Chargement fichiers CSV vers HDFS...
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/csv/Cardiovascular_Disease_Dataset.parquet (0.02 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ CSV: 1/1 fichiers chargés
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - 📤 Chargement fichiers Excel vers HDFS...
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Fichier uploadé: /datalake/raw/excel/cardio_train.parquet (0.85 MB)
+2025-11-17 11:38:51 - loaders.hdfs_loader - INFO - ✅ Excel: 1/1 fichiers chargés
+2025-11-17 11:38:51 - __main__ - INFO - Processus ETL terminé

@@ -2,6 +2,7 @@
 """
 Script d'intégration du monitoring dans le workflow GitHub
 Exécute les vérifications de qualité et génère les rapports
+Intégré avec ELK stack pour logs centralisés
 """
 
 import sys
@@ -9,12 +10,37 @@ import json
 import logging
 from datetime import datetime
 from pathlib import Path
+import os
+
+# Importer le module ELK
+try:
+    from elk_integration import ELKLogger
+    ELK_ENABLED = True
+except ImportError:
+    ELK_ENABLED = False
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+# Initialiser ELK si disponible
+elk_logger = None
+if ELK_ENABLED:
+    try:
+        logstash_host = os.getenv("LOGSTASH_HOST", "localhost")
+        logstash_port = int(os.getenv("LOGSTASH_PORT", "5000"))
+        elk_logger = ELKLogger(
+            name="etl-monitoring",
+            logstash_host=logstash_host,
+            logstash_port=logstash_port,
+            file_logging=True
+        )
+        logger.info("✅ ELK stack connecté")
+    except Exception as e:
+        logger.warning(f"⚠️  ELK non disponible: {e}")
+        elk_logger = None
 
 
 def create_sample_metrics():
