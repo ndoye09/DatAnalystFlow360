@@ -26,13 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: 🔄 Vérifier la structure du projet
+      - name: 🔍 Exécuter le monitoring et vérifications de qualité
         run: |
-          echo "✅ Structure du projet validée"
-          ls -la etl/
-          ls -la
+          echo "🔍 Vérifications de qualité..."
+          python monitoring/github_integration.py
       
-      - name: 🔄 Exécuter l'ETL (Mode Test)
+      - name: 📊 Afficher le rapport d'exécution
         run: |
           echo "🚀 Démarrage du processus ETL..."
           echo "ℹ️  Note: Exécution en mode Cloud sans accès aux bases de données locales"

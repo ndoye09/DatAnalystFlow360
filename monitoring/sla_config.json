@@ -1,0 +1,39 @@
+{
+  "sla": {
+    "data_completeness": {
+      "warning_threshold": 95,
+      "critical_threshold": 90,
+      "description": "Taux de complétude des données (absence de valeurs nulles)"
+    },
+    "duplicate_rate": {
+      "warning_threshold": 1,
+      "critical_threshold": 5,
+      "description": "Taux de doublons acceptables (%)"
+    },
+    "etl_duration": {
+      "warning_threshold": 600,
+      "critical_threshold": 1200,
+      "description": "Durée maximale d'exécution ETL (secondes)"
+    }
+  },
+  "monitoring": {
+    "check_interval": 3600,
+    "retention_days": 30,
+    "notification_email": "admin@example.com",
+    "enable_alerts": true
+  },
+  "data_sources": {
+    "mysql": {
+      "enabled": true,
+      "critical_tables": ["patients", "medical_tests", "medications"]
+    },
+    "mongodb": {
+      "enabled": true,
+      "critical_collections": ["appointments", "vital_signs_logs"]
+    },
+    "csv": {
+      "enabled": true,
+      "required_columns": ["id", "name", "date"]
+    }
+  }
+}
